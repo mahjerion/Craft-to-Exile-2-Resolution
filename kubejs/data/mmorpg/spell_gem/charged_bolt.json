@@ -1,0 +1,18 @@
+{
+  "identifier": "charged_bolt",
+  "mana_multi": 1.0,
+  "spell_id": "charged_bolt",
+  "weight": 1000,
+  "type": "SKILL_GEM",
+  "req": {
+    "base_req": {
+      "dexterity": 20.0
+    },
+    "scaling_req": {
+      "dexterity": 0.5
+    }
+  },
+  "attribute": "DEX",
+  "stats": [],
+  "tags": []
+}

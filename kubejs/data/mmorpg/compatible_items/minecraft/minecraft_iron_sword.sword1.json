@@ -1,0 +1,14 @@
+{
+  "item_type": "sword1",
+  "item_id": "minecraft:iron_sword",
+  "id": "minecraft:iron_sword.sword1",
+  "rarities": "up_to_rare",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

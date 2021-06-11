@@ -1,0 +1,22 @@
+{
+  "identifier": "all_knowing",
+  "stats": [
+    {
+      "min1": 0.05,
+      "max1": 0.1,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "all_attributes",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "eno",
+    "har",
+    "xer"
+  ],
+  "family": "NONE",
+  "gear_slots": [
+    "helmet"
+  ]
+}

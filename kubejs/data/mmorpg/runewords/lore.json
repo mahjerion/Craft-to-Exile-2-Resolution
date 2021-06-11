@@ -1,0 +1,29 @@
+{
+  "identifier": "lore",
+  "stats": [
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "cdr",
+      "type": "FLAT"
+    },
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "spell_damage",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "xer",
+    "nos"
+  ],
+  "family": "NONE",
+  "gear_slots": [
+	"helmet"
+  ]
+}

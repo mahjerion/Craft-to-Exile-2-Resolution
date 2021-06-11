@@ -1,0 +1,18 @@
+{
+  "identifier": "water_breath",
+  "mana_multi": 1.0,
+  "spell_id": "water_breath",
+  "weight": 1000,
+  "type": "SKILL_GEM",
+  "req": {
+    "base_req": {
+      "intelligence": 20.0
+    },
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "attribute": "INT",
+  "stats": [],
+  "tags": []
+}

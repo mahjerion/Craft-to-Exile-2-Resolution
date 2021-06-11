@@ -1,0 +1,37 @@
+{
+  "identifier": "nature_dmg",
+  "mana_multi": 1.1,
+  "spell_id": "",
+  "weight": 1000,
+  "type": "SUPPORT_GEM",
+  "req": {
+    "base_req": {
+      "strength": 20.0
+    },
+    "scaling_req": {
+      "strength": 0.2
+    }
+  },
+  "attribute": "STR",
+  "stats": [
+    {
+      "min1": 5.0,
+      "max1": 30.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "all_nature_damage",
+      "type": "FLAT"
+    },
+    {
+      "min1": 10.0,
+      "max1": 10.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "mana_cost",
+      "type": "FLAT"
+    }
+  ],
+  "tags": [
+    "damage"
+  ]
+}

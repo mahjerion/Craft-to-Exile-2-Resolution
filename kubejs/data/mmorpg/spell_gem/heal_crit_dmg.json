@@ -1,0 +1,38 @@
+{
+  "identifier": "heal_crit_dmg",
+  "mana_multi": 1.2,
+  "spell_id": "",
+  "weight": 1000,
+  "type": "SUPPORT_GEM",
+  "req": {
+    "base_req": {
+      "intelligence": 20.0
+    },
+    "scaling_req": {
+      "intelligence": 0.2
+    }
+  },
+  "attribute": "INT",
+  "stats": [
+    {
+      "min1": 10.0,
+      "max1": 40.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "crit_heal_chance",
+      "type": "FLAT"
+    },
+    {
+      "min1": 20.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "mana_cost",
+      "type": "FLAT"
+    }
+  ],
+  "tags": [
+    "heal",
+    "spell"
+  ]
+}

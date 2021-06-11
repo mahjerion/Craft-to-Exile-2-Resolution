@@ -1,0 +1,14 @@
+{
+  "item_type": "leather_pants1",
+  "item_id": "minecraft:iron_leggings",
+  "id": "minecraft:iron_leggings.leather_pants1",
+  "rarities": "up_to_rare",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

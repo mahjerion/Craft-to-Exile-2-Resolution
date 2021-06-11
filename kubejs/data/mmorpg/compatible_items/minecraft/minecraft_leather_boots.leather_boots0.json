@@ -1,0 +1,14 @@
+{
+  "item_type": "leather_boots0",
+  "item_id": "minecraft:leather_boots",
+  "id": "minecraft:leather_boots.leather_boots0",
+  "rarities": "up_to_rare",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

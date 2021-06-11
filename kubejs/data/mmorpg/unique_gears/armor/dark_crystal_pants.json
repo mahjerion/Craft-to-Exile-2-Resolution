@@ -1,0 +1,79 @@
+{
+  "id": "dark_crystal_pants",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "stat": "spell_light_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "stat": "mana",
+      "type": "local_increase"
+    },
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "wisdom",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "vitality",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 12.0,
+      "max1": 28.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 6.4,
+      "max1": 16.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": 15.0,
+      "max1": 25.0,
+      "stat": "light_resist",
+      "type": "flat"
+    },
+    {
+      "min1": 15.0,
+      "max1": 25.0,
+      "stat": "dark_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_pants3",
+  "item_id": "mmorpg:uniques/armor/dark_crystal_pants",
+  "set": "dark_crystal_set",
+  "replaces_name": false,
+  "gear_types": [
+    "plate_pants4",
+    "plate_pants2",
+    "plate_pants0",
+    "plate_pants1",
+    "plate_pants3"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.4,
+      "intelligence": 0.4
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

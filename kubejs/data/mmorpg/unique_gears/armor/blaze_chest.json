@@ -1,0 +1,79 @@
+{
+  "id": "blaze_chest",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 5.0,
+      "max1": 10.0,
+      "stat": "accuracy",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "spell_critical_hit",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "vitality",
+      "type": "flat"
+    },
+    {
+      "min1": 1.0,
+      "max1": 10.0,
+      "stat": "wisdom",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 12.0,
+      "max1": 28.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 5.6,
+      "max1": 14.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": -10.0,
+      "max1": -10.0,
+      "stat": "water_resist",
+      "type": "flat"
+    },
+    {
+      "min1": 20.0,
+      "max1": 30.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_chest3",
+  "item_id": "mmorpg:uniques/armor/blaze_chest",
+  "set": "blaze_set",
+  "replaces_name": false,
+  "gear_types": [
+    "cloth_chest4",
+    "cloth_chest2",
+    "cloth_chest0",
+    "cloth_chest1",
+    "cloth_chest3"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.25,
+      "wisdom": 0.8
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "identifier": "scholar",
+  "stats": [
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "bonus_exp",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "ita",
+    "mos"
+  ],
+  "family": "Jewelry",
+  "gear_slots": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "beneficial/16",
+  "one_of_a_kind_id": "",
+  "type": "beneficial",
+  "max_stacks": 10,
+  "tags": [
+    "positive"
+  ],
+  "mc_stats": [],
+  "stats": [
+    {
+      "v1": 2.0,
+      "v2": 2.0,
+      "stat": "lifesteal",
+      "type": "FLAT",
+      "scale_to_lvl": false
+    },
+    {
+      "v1": 2.0,
+      "v2": 2.0,
+      "stat": "move_speed",
+      "type": "FLAT",
+      "scale_to_lvl": false
+    }
+  ]
+}

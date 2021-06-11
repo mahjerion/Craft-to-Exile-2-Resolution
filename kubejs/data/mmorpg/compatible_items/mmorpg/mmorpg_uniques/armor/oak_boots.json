@@ -1,0 +1,14 @@
+{
+  "item_type": "plate_boots4",
+  "item_id": "mmorpg:uniques/armor/oak_boots",
+  "id": "mmorpg:uniques/armor/oak_boots",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 100.0,
+    "unique_id": "oak_boots"
+  }
+}

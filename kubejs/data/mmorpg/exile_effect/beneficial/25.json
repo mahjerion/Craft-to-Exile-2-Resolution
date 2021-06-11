@@ -1,0 +1,33 @@
+{
+  "id": "beneficial/25",
+  "one_of_a_kind_id": "",
+  "type": "beneficial",
+  "max_stacks": 3,
+  "tags": [
+    "positive"
+  ],
+  "mc_stats": [],
+  "stats": [
+    {
+      "v1": 5.0,
+      "v2": 5.0,
+      "stat": "total_damage",
+      "type": "FLAT",
+      "scale_to_lvl": false
+    },
+    {
+      "v1": 5.0,
+      "v2": 5.0,
+      "stat": "dmg_received",
+      "type": "FLAT",
+      "scale_to_lvl": false
+    },
+    {
+      "v1": 1.0,
+      "v2": 1.0,
+      "stat": "lifesteal",
+      "type": "FLAT",
+      "scale_to_lvl": false
+    }
+  ]
+}

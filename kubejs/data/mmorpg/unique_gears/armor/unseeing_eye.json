@@ -1,0 +1,98 @@
+{
+  "id": "unseeing_eye",
+  "weight": 100,
+  "rarity": "fabled",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 5.0,
+      "max1": 10.0,
+      "stat": "all_physical_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "stat": "armor_penetration",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 15.0,
+      "stat": "critical_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 3.0,
+      "max1": 6.0,
+      "stat": "melee_dmg",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "dexterity",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "agility",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 10.0,
+      "stat": "void_eye",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 6.75,
+      "max1": 15.75,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 4.0,
+      "max1": 10.0,
+      "stat": "dodge",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 25.0,
+      "stat": "dark_resist",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 25.0,
+      "stat": "light_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "leather_helmet3",
+  "item_id": "mmorpg:uniques/armor/unseeing_eye",
+  "set": "",
+  "replaces_name": true,
+  "gear_types": [
+    "leather_helmet4",
+    "leather_helmet2",
+    "leather_helmet0",
+    "leather_helmet1",
+    "leather_helmet3"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.5,
+      "strength": 0.5,
+      "agility": 0.75
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

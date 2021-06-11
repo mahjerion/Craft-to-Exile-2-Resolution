@@ -1,0 +1,14 @@
+{
+  "item_type": "spear2",
+  "item_id": "mmorpg:weapon/spear/spear2",
+  "id": "mmorpg:weapon/spear/spear2",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

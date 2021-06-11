@@ -1,0 +1,83 @@
+{
+  "id": "azuna_ring",
+  "weight": 100,
+  "rarity": "fabled",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 10.0,
+      "max1": 25.0,
+      "stat": "magic_find",
+      "type": "flat"
+    },
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "stat": "crit_heal_chance",
+      "type": "flat"
+    },
+    {
+      "min1": 3.0,
+      "max1": 6.0,
+      "stat": "intelligence",
+      "type": "flat"
+    },
+    {
+      "min1": 3.0,
+      "max1": 6.0,
+      "stat": "agility",
+      "type": "flat"
+    },
+    {
+      "min1": 5.0,
+      "max1": 5.0,
+      "stat": "global_critical_hit_per_25_magic_find",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 10.0,
+      "stat": "global_critical_damage_per_25_increased_quantity",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 10.0,
+      "max1": 25.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 25.0,
+      "stat": "nature_resist",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 25.0,
+      "stat": "light_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "mana_reg_ring_low",
+  "item_id": "mmorpg:uniques/jewelry/azuna_ring",
+  "set": "",
+  "replaces_name": true,
+  "gear_types": [
+    "mana_reg_ring_end",
+    "mana_reg_ring_low"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "vitality": 0.5,
+      "intelligence": 0.5,
+      "wisdom": 0.8
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

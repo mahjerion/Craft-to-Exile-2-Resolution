@@ -1,0 +1,19 @@
+{
+  "id": "beneficial/3",
+  "one_of_a_kind_id": "",
+  "type": "beneficial",
+  "max_stacks": 1,
+  "tags": [
+    "positive"
+  ],
+  "mc_stats": [],
+  "stats": [
+    {
+      "v1": 20.0,
+      "v2": 20.0,
+      "stat": "mana_regen",
+      "type": "LOCAL_INCREASE",
+      "scale_to_lvl": true
+    }
+  ]
+}

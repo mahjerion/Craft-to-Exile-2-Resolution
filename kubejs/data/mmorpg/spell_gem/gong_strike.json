@@ -1,0 +1,18 @@
+{
+  "identifier": "gong_strike",
+  "mana_multi": 1.0,
+  "spell_id": "gong_strike",
+  "weight": 1000,
+  "type": "SKILL_GEM",
+  "req": {
+    "base_req": {
+      "strength": 20.0
+    },
+    "scaling_req": {
+      "strength": 0.5
+    }
+  },
+  "attribute": "STR",
+  "stats": [],
+  "tags": []
+}

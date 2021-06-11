@@ -1,0 +1,36 @@
+{
+  "identifier": "ancients_pledge",
+  "stats": [
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "fire_resist",
+      "type": "FLAT"
+    },
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "thunder_resist",
+      "type": "FLAT"
+    },
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "water_resist",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "ano",
+    "cen",
+    "toq"
+  ],
+  "family": "OffHand",
+  "gear_slots": []
+}

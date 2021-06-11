@@ -1,0 +1,30 @@
+{
+  "reward": "ward_blocks:health_ward_block",
+  "loottable": "",
+  "waves": [
+    {
+      "entities": [
+        "minecraft:spider"
+      ],
+      "minMobCount": 5,
+      "maxMobCount": 9
+    },
+    {
+      "entities": [
+        "minecraft:spider",
+        "minecraft:zombie"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    },
+    {
+      "entities": [
+        "minecraft:cave_spider",
+        "minecraft:zombie",
+        "minecraft:spider"
+      ],
+      "minMobCount": 9,
+      "maxMobCount": 13
+    }
+  ]
+}

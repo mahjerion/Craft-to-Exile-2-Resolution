@@ -1,0 +1,46 @@
+{
+  "identifier": "enigma",
+  "stats": [
+	{
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "cdr",
+      "type": "FLAT"
+    },
+    {
+      "min1": 60.0,
+      "max1": 80.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "armor",
+      "type": "FLAT"
+    },
+    {
+      "min1": 1.0,
+      "max1": 1.0,
+      "min2": 1.0,
+      "max2": 1.0,
+      "stat": "unlock_teleport",
+      "type": "FLAT"
+    },
+    {
+      "min1": 1.0,
+      "max1": 2.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "mana_per_sec",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "har",
+    "wir",
+    "ita"
+  ],
+  "family": "NONE",
+  "gear_slots": [
+	"chest"
+  ]
+}

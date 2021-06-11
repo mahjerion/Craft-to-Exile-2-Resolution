@@ -1,0 +1,66 @@
+{
+  "weight": 1000,
+  "identifier": "unwavering_stance",
+  "attached": {
+    "on_cast": [],
+    "entity_components": {}
+  },
+  "config": {
+    "swing_arm": false,
+    "castingWeapon": "ANY_WEAPON",
+    "mana_cost": 0,
+    "times_to_cast": 1,
+    "charges": 0,
+    "charge_regen": 0,
+    "charge_name": "",
+    "cast_time_ticks": 0,
+    "cooldown_ticks": 5,
+    "style": "melee",
+    "tags": [
+      "aura"
+    ],
+    "cast_type": "NORMAL",
+    "actions_needed": [],
+    "scale_mana_cost_to_player_lvl": false
+  },
+  "manual_tip": false,
+  "disabled_dims": [],
+  "effect_tip": "",
+  "aura_data": {
+    "mana_reserved": 0.2,
+    "stats": [
+      {
+        "min1": -10.0,
+        "max1": -25.0,
+        "min2": 0.0,
+        "max2": 0.0,
+        "stat": "melee_dmg_received",
+        "type": "FLAT"
+      },
+      {
+        "min1": -10.0,
+        "max1": -20.0,
+        "min2": 0.0,
+        "max2": 0.0,
+        "stat": "ranged_dmg_received",
+        "type": "FLAT"
+      },
+      {
+        "min1": -10.0,
+        "max1": -15.0,
+        "min2": 0.0,
+        "max2": 0.0,
+        "stat": "magic_dmg_received",
+        "type": "FLAT"
+      },
+      {
+        "min1": -10.0,
+        "max1": -10.0,
+        "min2": 0.0,
+        "max2": 0.0,
+        "stat": "move_speed",
+        "type": "FLAT"
+      }
+    ]
+  }
+}

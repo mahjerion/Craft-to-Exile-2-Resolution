@@ -1,0 +1,14 @@
+{
+  "item_type": "axe0",
+  "item_id": "minecraft:wooden_axe",
+  "id": "minecraft:wooden_axe.axe0",
+  "rarities": "up_to_magical",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

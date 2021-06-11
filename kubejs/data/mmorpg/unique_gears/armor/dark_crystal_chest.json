@@ -1,0 +1,79 @@
+{
+  "id": "dark_crystal_chest",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 5.0,
+      "max1": 20.0,
+      "stat": "increase_healing",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "spell_critical_hit",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "dexterity",
+      "type": "flat"
+    },
+    {
+      "min1": 1.0,
+      "max1": 10.0,
+      "stat": "wisdom",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 15.0,
+      "max1": 35.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 8.0,
+      "max1": 20.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": 15.0,
+      "max1": 25.0,
+      "stat": "light_resist",
+      "type": "flat"
+    },
+    {
+      "min1": 15.0,
+      "max1": 25.0,
+      "stat": "dark_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_chest3",
+  "item_id": "mmorpg:uniques/armor/dark_crystal_chest",
+  "set": "dark_crystal_set",
+  "replaces_name": false,
+  "gear_types": [
+    "plate_chest4",
+    "plate_chest2",
+    "plate_chest0",
+    "plate_chest1",
+    "plate_chest3"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.4,
+      "intelligence": 0.4
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

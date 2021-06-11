@@ -1,0 +1,44 @@
+{
+  "id": "dagger2",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 0.7,
+      "max1": 2.1,
+      "min2": 2.1,
+      "max2": 4.2,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.4,
+    "end": 0.6
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "warrior_casting_weapon",
+      "dagger",
+      "weapon_family",
+      "melee_weapon"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.2,
+      "agility": 0.5
+    }
+  },
+  "item_id": "mmorpg:weapon/dagger/dagger2",
+  "gear_slot": "dagger",
+  "weapon_offhand_stat_util": 25,
+  "rar_group": "non_unique",
+  "weapon_type": "dagger",
+  "attack_style": "melee",
+  "atk_speed": 1.8
+}

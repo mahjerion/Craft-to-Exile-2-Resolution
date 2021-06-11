@@ -1,0 +1,34 @@
+{
+  "id": "beneficial/7",
+  "one_of_a_kind_id": "",
+  "type": "beneficial",
+  "max_stacks": 1,
+  "tags": [
+    "positive",
+    "offensive"
+  ],
+  "mc_stats": [
+    {
+      "val": 0.15,
+      "uuid": "7107de5e-5ce8-4030-940e-514c1f160890",
+      "id": "minecraft:generic.movement_speed",
+      "type": "GLOBAL_INCREASE"
+    }
+  ],
+  "stats": [
+    {
+      "v1": 15.0,
+      "v2": 15.0,
+      "stat": "critical_hit",
+      "type": "FLAT",
+      "scale_to_lvl": true
+    },
+    {
+      "v1": 20.0,
+      "v2": 20.0,
+      "stat": "critical_damage",
+      "type": "FLAT",
+      "scale_to_lvl": true
+    }
+  ]
+}

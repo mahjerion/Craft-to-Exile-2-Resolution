@@ -1,0 +1,18 @@
+{
+  "identifier": "shadow_ball",
+  "mana_multi": 1.0,
+  "spell_id": "shadow_ball",
+  "weight": 1000,
+  "type": "SKILL_GEM",
+  "req": {
+    "base_req": {
+      "intelligence": 20.0
+    },
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "attribute": "INT",
+  "stats": [],
+  "tags": []
+}

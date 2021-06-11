@@ -1,0 +1,10 @@
+{
+  "rarities": [
+    "common",
+    "magical",
+    "rare",
+    "epic",
+    "legendary"
+  ],
+  "id": "non_aoe"
+}

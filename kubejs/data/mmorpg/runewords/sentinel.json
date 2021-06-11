@@ -1,0 +1,31 @@
+{
+  "identifier": "sentinel",
+  "stats": [
+    {
+      "min1": -5.0,
+      "max1": -5.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "max_elemental_resist",
+      "type": "FLAT"
+    },
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "elemental_resist",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "cen",
+    "dos",
+    "ano",
+    "toq"
+  ],
+  "family": "NONE",
+  "gear_slots": [
+    "chest"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "identifier": "static",
+  "stats": [
+    {
+      "min1": 15.0,
+      "max1": 25.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "spell_thunder_damage",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "chance_of_static",
+      "type": "FLAT"
+    },
+    {
+      "min1": 10.0,
+      "max1": 15.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "faster_cast_rate",
+      "type": "FLAT"
+    },
+    {
+      "min1": 25.0,
+      "max1": 35.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "critical_hit",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "runes_needed": [
+    "cen",
+    "har",
+    "eno"
+  ],
+  "family": "Weapon",
+  "gear_slots": []
+}

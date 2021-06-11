@@ -1,0 +1,5 @@
+{
+  "require_op_for_formatting": true,
+  "require_op_for_colors": false,
+  "require_op_for_item_hover": false
+}

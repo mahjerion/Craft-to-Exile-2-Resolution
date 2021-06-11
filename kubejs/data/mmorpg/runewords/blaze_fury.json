@@ -1,0 +1,28 @@
+{
+  "identifier": "blaze_fury",
+  "stats": [
+    {
+      "min1": 1.0,
+      "max1": 2.0,
+      "min2": 2.0,
+      "max2": 3.0,
+      "stat": "fire_weapon_damage",
+      "type": "FLAT"
+    },
+    {
+      "min1": 4.0,
+      "max1": 15.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "chance_of_burn",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "ano",
+    "ita",
+    "nos"
+  ],
+  "family": "Weapon",
+  "gear_slots": []
+}

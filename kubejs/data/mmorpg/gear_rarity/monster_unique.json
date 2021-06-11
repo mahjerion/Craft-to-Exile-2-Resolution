@@ -1,0 +1,47 @@
+{
+  "affixes": {
+    "min_amount": 1,
+    "max_amount": 2,
+    "chance_for_more": 50
+  },
+  "max_worn_at_once": -1,
+  "drops_after_tier": -1,
+  "default_stat_percents": {
+    "min": 40,
+    "max": 100
+  },
+  "affix_stat_percents": {
+    "min": 80,
+    "max": 100
+  },
+  "unique_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "base_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "essence_per_sal": {
+    "min": 2,
+    "max": 3
+  },
+  "item_tier": 5,
+  "item_tier_power": 1.5,
+  "item_value_multi": 1.5,
+  "stat_req_multi": 1.0,
+  "unidentified_chance": 100,
+  "spawn_durability_hit": {
+    "min": 60,
+    "max": 80
+  },
+  "announce_in_chat": false,
+  "is_unique_item": true,
+  "special_spawn_chance": 2.0,
+  "special_spawn_chest_bonus_chance": 0.0,
+  "rarity_type": "GEAR",
+  "weight": 0,
+  "text_format": "RED",
+  "higher_rar": "",
+  "guid": "monster_unique"
+}

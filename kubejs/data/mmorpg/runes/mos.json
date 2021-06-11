@@ -1,0 +1,37 @@
+{
+  "on_armor_stats": [
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "dodge",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "min1": 5.0,
+      "max1": 10.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "min1": 2.0,
+      "max1": 6.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "critical_hit",
+      "type": "FLAT"
+    }
+  ],
+  "item_id": "mmorpg:runes/mos",
+  "identifier": "mos",
+  "required_item_level": 0.2,
+  "weight": 1000,
+  "effective_level": 0.2
+}

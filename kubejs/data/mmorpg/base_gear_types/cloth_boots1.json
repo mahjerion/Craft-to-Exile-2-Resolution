@@ -1,0 +1,54 @@
+{
+  "id": "cloth_boots1",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [
+    {
+      "min1": 4.0,
+      "max1": 8.0,
+      "stat": "spell_damage",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 6.0,
+      "max1": 14.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 2.8,
+      "max1": 7.0,
+      "stat": "armor",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.2,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "boots",
+      "magic_shield_stat",
+      "cloth",
+      "intelligence"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "item_id": "mmorpg:armor/cloth/boots/cloth_boots1",
+  "gear_slot": "boots",
+  "weapon_offhand_stat_util": 0,
+  "rar_group": "non_unique",
+  "weapon_type": "none",
+  "attack_style": "melee",
+  "atk_speed": 1.0
+}

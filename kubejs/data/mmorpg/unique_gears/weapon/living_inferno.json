@@ -1,0 +1,69 @@
+{
+  "id": "living_inferno",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "stat": "critical_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "stat": "all_fire_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 4.0,
+      "stat": "health_on_attack_hit",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 4.0,
+      "stat": "mana_on_attack_hit",
+      "type": "flat"
+    },
+    {
+      "min1": 20.0,
+      "max1": 30.0,
+      "stat": "chance_to_give_living_inferno_to_self",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 0.8,
+      "max1": 2.4,
+      "min2": 2.4,
+      "max2": 4.8,
+      "stat": "fire_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "glove3",
+  "item_id": "mmorpg:uniques/weapon/living_inferno",
+  "set": "",
+  "replaces_name": true,
+  "gear_types": [
+    "glove4",
+    "glove2",
+    "glove0",
+    "glove1",
+    "glove3"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.4,
+      "agility": 0.6
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

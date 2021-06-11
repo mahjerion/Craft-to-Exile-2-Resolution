@@ -1,0 +1,44 @@
+{
+  "identifier": "white",
+  "stats": [
+    {
+      "min1": 5.0,
+      "max1": 10.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "health",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "min1": 20.0,
+      "max1": 35.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "spell_nature_damage",
+      "type": "FLAT"
+    },
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "faster_cast_rate",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "min1": 13.0,
+      "max1": 13.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "mana",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "dos",
+    "xer",
+    "ita"
+  ],
+  "family": "Weapon",
+  "gear_slots": []
+}

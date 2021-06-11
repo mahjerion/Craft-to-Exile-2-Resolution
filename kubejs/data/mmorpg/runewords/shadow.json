@@ -1,0 +1,29 @@
+{
+  "identifier": "shadow",
+  "stats": [
+    {
+      "min1": 2.0,
+      "max1": 6.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "dodge",
+      "type": "FLAT"
+    },
+    {
+      "min1": 20.0,
+      "max1": 60.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "dodge",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "runes_needed": [
+    "xer",
+    "cen",
+    "oru",
+    "mos"
+  ],
+  "family": "Armor",
+  "gear_slots": []
+}

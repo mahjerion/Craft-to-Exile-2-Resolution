@@ -1,0 +1,14 @@
+{
+  "item_type": "buckler_shield0",
+  "item_id": "minecraft:shield",
+  "id": "minecraft:shield.buckler_shield0",
+  "rarities": "up_to_magical",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

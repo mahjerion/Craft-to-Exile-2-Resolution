@@ -1,0 +1,45 @@
+{
+  "identifier": "faster_proj",
+  "mana_multi": 1.2,
+  "spell_id": "",
+  "weight": 1000,
+  "type": "SUPPORT_GEM",
+  "req": {
+    "base_req": {
+      "dexterity": 20.0
+    },
+    "scaling_req": {
+      "dexterity": 0.2
+    }
+  },
+  "attribute": "DEX",
+  "stats": [
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "faster_projectiles",
+      "type": "FLAT"
+    },
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "projectile_damage",
+      "type": "FLAT"
+    },
+    {
+      "min1": 20.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "mana_cost",
+      "type": "FLAT"
+    }
+  ],
+  "tags": [
+    "projectile"
+  ]
+}

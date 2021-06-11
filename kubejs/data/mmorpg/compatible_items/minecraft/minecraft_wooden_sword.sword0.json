@@ -1,0 +1,14 @@
+{
+  "item_type": "sword0",
+  "item_id": "minecraft:wooden_sword",
+  "id": "minecraft:wooden_sword.sword0",
+  "rarities": "up_to_magical",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

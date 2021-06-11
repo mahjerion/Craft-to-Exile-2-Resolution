@@ -1,0 +1,20 @@
+{
+  "id": "beneficial/29",
+  "one_of_a_kind_id": "",
+  "type": "beneficial",
+  "max_stacks": 3,
+  "tags": [
+    "positive",
+    "offensive"
+  ],
+  "mc_stats": [],
+  "stats": [
+    {
+      "v1": 10.0,
+      "v2": 10.0,
+      "stat": "accuracy",
+      "type": "FLAT",
+      "scale_to_lvl": true
+    }
+  ]
+}

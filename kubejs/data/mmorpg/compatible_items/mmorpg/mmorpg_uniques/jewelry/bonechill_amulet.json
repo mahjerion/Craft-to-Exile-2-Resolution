@@ -1,0 +1,14 @@
+{
+  "item_type": "all_res_necklace_low",
+  "item_id": "mmorpg:uniques/jewelry/bonechill_amulet",
+  "id": "mmorpg:uniques/jewelry/bonechill_amulet",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 100.0,
+    "unique_id": "bonechill_amulet"
+  }
+}

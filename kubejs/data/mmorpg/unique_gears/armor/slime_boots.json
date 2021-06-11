@@ -1,0 +1,80 @@
+{
+  "id": "slime_boots",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 10.0,
+      "max1": 25.0,
+      "stat": "critical_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 1.0,
+      "max1": 10.0,
+      "stat": "spell_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "vitality",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 6.0,
+      "max1": 14.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 2.8,
+      "max1": 7.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 15.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 15.0,
+      "stat": "water_resist",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 15.0,
+      "stat": "nature_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_boots3",
+  "item_id": "mmorpg:uniques/armor/slime_boots",
+  "set": "slime_set",
+  "replaces_name": false,
+  "gear_types": [
+    "cloth_boots4",
+    "cloth_boots2",
+    "cloth_boots0",
+    "cloth_boots1",
+    "cloth_boots3"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "dexterity": 0.25,
+      "strength": 0.25,
+      "intelligence": 0.25
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

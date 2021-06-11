@@ -1,0 +1,46 @@
+{
+  "identifier": "last_wish",
+  "stats": [
+    {
+      "min1": 30.0,
+      "max1": 60.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "min1": 4.0,
+      "max1": 8.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "lifesteal",
+      "type": "FLAT"
+    },
+    {
+      "min1": 20.0,
+      "max1": 20.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "chance_of_static",
+      "type": "FLAT"
+    },
+    {
+      "min1": 300.0,
+      "max1": 500.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "armor_penetration",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "mos",
+    "ita",
+    "har",
+    "cen",
+	"oru"
+  ],
+  "family": "Weapon",
+  "gear_slots": []
+}

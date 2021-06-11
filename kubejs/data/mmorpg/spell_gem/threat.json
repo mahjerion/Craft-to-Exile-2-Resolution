@@ -1,0 +1,36 @@
+{
+  "identifier": "threat",
+  "mana_multi": 1.1,
+  "spell_id": "",
+  "weight": 1000,
+  "type": "SUPPORT_GEM",
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "vitality": 0.25
+    }
+  },
+  "attribute": "STR",
+  "stats": [
+    {
+      "min1": 25.0,
+      "max1": 50.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "threat_generated",
+      "type": "FLAT"
+    },
+    {
+      "min1": 10.0,
+      "max1": 10.0,
+      "min2": 0.0,
+      "max2": 0.0,
+      "stat": "mana_cost",
+      "type": "FLAT"
+    }
+  ],
+  "tags": [
+    "damage",
+    "aggro"
+  ]
+}

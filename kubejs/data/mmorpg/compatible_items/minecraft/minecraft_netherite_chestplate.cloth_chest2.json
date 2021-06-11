@@ -1,0 +1,14 @@
+{
+  "item_type": "cloth_chest2",
+  "item_id": "minecraft:netherite_chestplate",
+  "id": "minecraft:netherite_chestplate.cloth_chest2",
+  "rarities": "up_to_epic",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

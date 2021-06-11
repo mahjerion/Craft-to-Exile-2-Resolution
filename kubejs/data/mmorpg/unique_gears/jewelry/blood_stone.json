@@ -1,0 +1,70 @@
+{
+  "id": "blood_stone",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 25.0,
+      "max1": 25.0,
+      "stat": "chance_to_get_bloodlust_on_kill",
+      "type": "flat"
+    },
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "stat": "attack_speed",
+      "type": "flat"
+    },
+    {
+      "min1": 3.0,
+      "max1": 5.0,
+      "stat": "lifesteal",
+      "type": "flat"
+    },
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "stat": "health",
+      "type": "local_increase"
+    },
+    {
+      "min1": 2.0,
+      "max1": 6.0,
+      "stat": "vitality",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 10.0,
+      "max1": 15.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 15.0,
+      "max1": 35.0,
+      "stat": "dark_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "life_necklace_low",
+  "item_id": "mmorpg:uniques/jewelry/blood_stone",
+  "set": "",
+  "replaces_name": true,
+  "gear_types": [
+    "life_necklace_end",
+    "life_necklace_low"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5,
+      "vitality": 0.8
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

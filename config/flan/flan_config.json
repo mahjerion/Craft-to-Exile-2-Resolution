@@ -1,0 +1,28 @@
+{
+  "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
+  "startingBlocks": 500,
+  "maxClaimBlocks": 10000,
+  "ticksForNextBlock": 600,
+  "minClaimsize": 100,
+  "defaultClaimDepth": 10,
+  "ignoredBlocks": [
+    "minecraft:white_shulker_box"
+  ],
+  "lenientBlockEntityCheck": false,
+  "blacklistedWorlds": [],
+  "worldWhitelist": false,
+  "allowMobSpawnToggle": false,
+  "claimingItem": "minecraft:golden_hoe",
+  "inspectionItem": "minecraft:stick",
+  "claimDisplayTime": 1000,
+  "permissionLevel": 2,
+  "defaultGroups": {},
+  "globalDefaultPerms": {
+    "minecraft:overworld": {
+      "ANIMALINTERACT": true
+    }
+  },
+  "enableLogs": false,
+  "sellPrice": -1,
+  "buyPrice": -1
+}

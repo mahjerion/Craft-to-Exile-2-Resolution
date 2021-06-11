@@ -1,0 +1,14 @@
+{
+  "item_type": "bow0",
+  "item_id": "minecraft:bow",
+  "id": "minecraft:bow.bow0",
+  "rarities": "up_to_magical",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": false
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

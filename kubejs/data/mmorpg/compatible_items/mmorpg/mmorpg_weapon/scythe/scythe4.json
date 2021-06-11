@@ -1,0 +1,14 @@
+{
+  "item_type": "scythe4",
+  "item_id": "mmorpg:weapon/scythe/scythe4",
+  "id": "mmorpg:weapon/scythe/scythe4",
+  "rarities": "non_unique",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

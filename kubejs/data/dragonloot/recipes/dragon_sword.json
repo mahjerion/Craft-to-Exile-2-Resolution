@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:netherite_sword"
+        },
+        {
+            "item": "dragonloot:dragon_scale"
+        },
+        {
+            "item": "adventurez:gilded_netherite_fragment"
+        }
+    ],
+    "result": {
+		"item": "dragonloot:dragon_sword"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "rarities": [
+    "common",
+    "magical",
+    "rare",
+    "epic"
+  ],
+  "id": "up_to_epic"
+}

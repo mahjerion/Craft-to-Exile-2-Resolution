@@ -1,0 +1,18 @@
+{
+  "identifier": "nature_balm",
+  "mana_multi": 1.0,
+  "spell_id": "nature_balm",
+  "weight": 1000,
+  "type": "SKILL_GEM",
+  "req": {
+    "base_req": {
+      "intelligence": 20.0
+    },
+    "scaling_req": {
+      "intelligence": 0.5
+    }
+  },
+  "attribute": "INT",
+  "stats": [],
+  "tags": []
+}

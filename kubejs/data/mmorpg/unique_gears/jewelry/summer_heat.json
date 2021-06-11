@@ -1,0 +1,64 @@
+{
+  "id": "summer_heat",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 10.0,
+      "max1": 10.0,
+      "stat": "chance_of_burn",
+      "type": "flat"
+    },
+    {
+      "min1": 10.0,
+      "max1": 20.0,
+      "stat": "all_fire_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "stat": "mana",
+      "type": "local_increase"
+    },
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "stat": "spell_critical_damage",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 5.0,
+      "max1": 10.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 20.0,
+      "max1": 40.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "mana_reg_ring_low",
+  "item_id": "mmorpg:uniques/jewelry/summer_heat",
+  "set": "seasons_set",
+  "replaces_name": true,
+  "gear_types": [
+    "mana_reg_ring_end",
+    "mana_reg_ring_low"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "intelligence": 0.6,
+      "wisdom": 0.3
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

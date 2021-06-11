@@ -1,0 +1,36 @@
+{
+  "id": "life_necklace_low",
+  "weight": 1000,
+  "rarity": "common",
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "min1": 2.0,
+      "max1": 6.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.0,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "jewelry_family",
+      "necklace"
+    ]
+  },
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {}
+  },
+  "item_id": "mmorpg:jewelry/necklace/life_necklace_low",
+  "gear_slot": "necklace",
+  "weapon_offhand_stat_util": 0,
+  "rar_group": "non_unique",
+  "weapon_type": "none",
+  "attack_style": "melee",
+  "atk_speed": 1.0
+}

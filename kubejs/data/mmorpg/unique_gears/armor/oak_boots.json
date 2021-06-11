@@ -1,0 +1,79 @@
+{
+  "id": "oak_boots",
+  "weight": 1000,
+  "rarity": "unique",
+  "tier": 0,
+  "unique_stats": [
+    {
+      "min1": 10.0,
+      "max1": 25.0,
+      "stat": "all_nature_damage",
+      "type": "flat"
+    },
+    {
+      "min1": 5.0,
+      "max1": 15.0,
+      "stat": "attack_speed",
+      "type": "flat"
+    },
+    {
+      "min1": 5.0,
+      "max1": 10.0,
+      "stat": "cdr",
+      "type": "flat"
+    },
+    {
+      "min1": 2.0,
+      "max1": 5.0,
+      "stat": "agility",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min1": 7.5,
+      "max1": 17.5,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "min1": 4.0,
+      "max1": 10.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "min1": 20.0,
+      "max1": 40.0,
+      "stat": "light_resist",
+      "type": "flat"
+    },
+    {
+      "min1": -20.0,
+      "max1": -20.0,
+      "stat": "dark_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_boots3",
+  "item_id": "mmorpg:uniques/armor/oak_boots",
+  "set": "oak_set",
+  "replaces_name": false,
+  "gear_types": [
+    "plate_boots4",
+    "plate_boots2",
+    "plate_boots0",
+    "plate_boots1",
+    "plate_boots3"
+  ],
+  "stat_req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5,
+      "vitality": 0.3
+    }
+  },
+  "filters": {
+    "list": []
+  }
+}

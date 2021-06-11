@@ -1,0 +1,327 @@
+{
+	"version": 10,
+	"thornsDamage": 1.0,
+	"generation": {
+		"largeCaveChance": 0.2,
+		"stoneSpeleothemCount": 128,
+		"stoneSpeleothemMaxLength": 4,
+		"sandstoneSpeleothemCount": 128,
+		"sandstoneSpeleothemMaxLength": 4,
+		"sandReplacementPercentage": 0.75,
+		"iceReplacementPercentage": 0.5,
+		"icicleCount": 128,
+		"skullCount": 3,
+		"cobwebCount": 40,
+		"spiderDenChance": 1,
+		"vineCount": 50,
+		"vineMaxHeight": 64,
+		"greenGlowshroomCount": 24,
+		"blueGlowshroomCount": 48,
+		"tallGreenGlowshroomCount": 6,
+		"tallGreenGlowshroomMaxHeight": 48,
+		"leafPileCount": 50,
+		"wildWheatCount": 2,
+		"wildPotatoeCount": 1,
+		"wildCarrotCount": 1,
+		"wildBeetrootCount": 2,
+		"netherThornCount": 16,
+		"endThornCount": 1,
+		"biomeGroups": [
+			{
+				"categories": [],
+				"includedBiomes": [],
+				"excludedBiomes": [],
+				"config": {
+					"largeCaves": false,
+					"stoneSpeleothems": true,
+					"sandstoneSpeleothems": false,
+					"sandReplacement": false,
+					"iceReplacement": false,
+					"icicles": false,
+					"skulls": true,
+					"cobwebs": true,
+					"spiderDens": true,
+					"vines": false,
+					"greenGlowshrooms": false,
+					"blueGlowshrooms": false,
+					"tallGreenGlowshrooms": false,
+					"leafPiles": true,
+					"wildWheat": false,
+					"wildPotatoes": false,
+					"wildCarrots": false,
+					"wildBeetroot": false,
+					"netherThorns": false,
+					"endThorns": false
+				}
+			},
+			{
+				"categories": [
+					"desert",
+					"mesa"
+				],
+				"includedBiomes": [],
+				"excludedBiomes": [],
+				"config": {
+					"largeCaves": false,
+					"stoneSpeleothems": true,
+					"sandstoneSpeleothems": true,
+					"sandReplacement": true,
+					"iceReplacement": false,
+					"icicles": false,
+					"skulls": true,
+					"cobwebs": true,
+					"spiderDens": true,
+					"vines": false,
+					"greenGlowshrooms": false,
+					"blueGlowshrooms": false,
+					"tallGreenGlowshrooms": false,
+					"leafPiles": true,
+					"wildWheat": false,
+					"wildPotatoes": false,
+					"wildCarrots": false,
+					"wildBeetroot": false,
+					"netherThorns": false,
+					"endThorns": false
+				}
+			},
+			{
+				"categories": [
+					"icy",
+					"taiga"
+				],
+				"includedBiomes": [],
+				"excludedBiomes": [],
+				"config": {
+					"largeCaves": false,
+					"stoneSpeleothems": true,
+					"sandstoneSpeleothems": false,
+					"sandReplacement": false,
+					"iceReplacement": true,
+					"icicles": true,
+					"skulls": true,
+					"cobwebs": true,
+					"spiderDens": true,
+					"vines": false,
+					"greenGlowshrooms": false,
+					"blueGlowshrooms": true,
+					"tallGreenGlowshrooms": false,
+					"leafPiles": true,
+					"wildWheat": false,
+					"wildPotatoes": false,
+					"wildCarrots": false,
+					"wildBeetroot": false,
+					"netherThorns": false,
+					"endThorns": false
+				}
+			},
+			{
+				"categories": [
+					"jungle"
+				],
+				"includedBiomes": [],
+				"excludedBiomes": [],
+				"config": {
+					"largeCaves": true,
+					"stoneSpeleothems": true,
+					"sandstoneSpeleothems": false,
+					"sandReplacement": false,
+					"iceReplacement": false,
+					"icicles": false,
+					"skulls": true,
+					"cobwebs": true,
+					"spiderDens": true,
+					"vines": true,
+					"greenGlowshrooms": true,
+					"blueGlowshrooms": false,
+					"tallGreenGlowshrooms": true,
+					"leafPiles": true,
+					"wildWheat": false,
+					"wildPotatoes": false,
+					"wildCarrots": false,
+					"wildBeetroot": false,
+					"netherThorns": false,
+					"endThorns": false
+				}
+			},
+			{
+				"categories": [
+					"forest"
+				],
+				"includedBiomes": [],
+				"excludedBiomes": [],
+				"config": {
+					"largeCaves": false,
+					"stoneSpeleothems": true,
+					"sandstoneSpeleothems": false,
+					"sandReplacement": false,
+					"iceReplacement": false,
+					"icicles": false,
+					"skulls": true,
+					"cobwebs": true,
+					"spiderDens": true,
+					"vines": false,
+					"greenGlowshrooms": false,
+					"blueGlowshrooms": false,
+					"tallGreenGlowshrooms": false,
+					"leafPiles": true,
+					"wildWheat": false,
+					"wildPotatoes": false,
+					"wildCarrots": false,
+					"wildBeetroot": true,
+					"netherThorns": false,
+					"endThorns": false
+				}
+			},
+			{
+				"categories": [
+					"plains"
+				],
+				"includedBiomes": [],
+				"excludedBiomes": [],
+				"config": {
+					"largeCaves": false,
+					"stoneSpeleothems": true,
+					"sandstoneSpeleothems": false,
+					"sandReplacement": false,
+					"iceReplacement": false,
+					"icicles": false,
+					"skulls": true,
+					"cobwebs": true,
+					"spiderDens": true,
+					"vines": false,
+					"greenGlowshrooms": false,
+					"blueGlowshrooms": false,
+					"tallGreenGlowshrooms": false,
+					"leafPiles": true,
+					"wildWheat": true,
+					"wildPotatoes": true,
+					"wildCarrots": true,
+					"wildBeetroot": false,
+					"netherThorns": false,
+					"endThorns": false
+				}
+			},
+			{
+				"categories": [
+					"extreme_hills"
+				],
+				"includedBiomes": [
+					"minecraft:badlands_plateau",
+					"minecraft:modified_badlands_plateau",
+					"minecraft:wooded_badlands_plateau",
+					"minecraft:modified_wooded_badlands_plateau"
+				],
+				"excludedBiomes": [],
+				"config": {
+					"largeCaves": true,
+					"stoneSpeleothems": true,
+					"sandstoneSpeleothems": false,
+					"sandReplacement": false,
+					"iceReplacement": false,
+					"icicles": false,
+					"skulls": true,
+					"cobwebs": true,
+					"spiderDens": true,
+					"vines": false,
+					"greenGlowshrooms": false,
+					"blueGlowshrooms": false,
+					"tallGreenGlowshrooms": false,
+					"leafPiles": true,
+					"wildWheat": false,
+					"wildPotatoes": false,
+					"wildCarrots": false,
+					"wildBeetroot": false,
+					"netherThorns": false,
+					"endThorns": false
+				}
+			},
+			{
+				"categories": [
+					"swamp"
+				],
+				"includedBiomes": [],
+				"excludedBiomes": [],
+				"config": {
+					"largeCaves": false,
+					"stoneSpeleothems": true,
+					"sandstoneSpeleothems": false,
+					"sandReplacement": false,
+					"iceReplacement": false,
+					"icicles": false,
+					"skulls": true,
+					"cobwebs": true,
+					"spiderDens": true,
+					"vines": false,
+					"greenGlowshrooms": true,
+					"blueGlowshrooms": false,
+					"tallGreenGlowshrooms": true,
+					"leafPiles": true,
+					"wildWheat": false,
+					"wildPotatoes": false,
+					"wildCarrots": false,
+					"wildBeetroot": false,
+					"netherThorns": false,
+					"endThorns": false
+				}
+			},
+			{
+				"categories": [
+					"nether"
+				],
+				"includedBiomes": [],
+				"excludedBiomes": [],
+				"config": {
+					"largeCaves": false,
+					"stoneSpeleothems": false,
+					"sandstoneSpeleothems": false,
+					"sandReplacement": false,
+					"iceReplacement": false,
+					"icicles": false,
+					"skulls": false,
+					"cobwebs": false,
+					"spiderDens": false,
+					"vines": false,
+					"greenGlowshrooms": false,
+					"blueGlowshrooms": false,
+					"tallGreenGlowshrooms": false,
+					"leafPiles": false,
+					"wildWheat": false,
+					"wildPotatoes": false,
+					"wildCarrots": false,
+					"wildBeetroot": false,
+					"netherThorns": true,
+					"endThorns": false
+				}
+			},
+			{
+				"categories": [
+					"the_end"
+				],
+				"includedBiomes": [],
+				"excludedBiomes": [],
+				"config": {
+					"largeCaves": false,
+					"stoneSpeleothems": false,
+					"sandstoneSpeleothems": false,
+					"sandReplacement": false,
+					"iceReplacement": false,
+					"icicles": false,
+					"skulls": false,
+					"cobwebs": false,
+					"spiderDens": false,
+					"vines": false,
+					"greenGlowshrooms": false,
+					"blueGlowshrooms": false,
+					"tallGreenGlowshrooms": false,
+					"leafPiles": false,
+					"wildWheat": false,
+					"wildPotatoes": false,
+					"wildCarrots": false,
+					"wildBeetroot": false,
+					"netherThorns": false,
+					"endThorns": true
+				}
+			}
+		]
+	}
+}
