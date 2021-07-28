@@ -2,6 +2,7 @@
 	"ENABLE_MOD": true,
 	"ENABLE_DUNGEON": true,
 	"AUTO_DESTROY_TOWERS": true,
+	"ENABLE_BLOCK_BREAK_GOLEM_SPAWNS": true,
 	"DUNGEON": { 
 		"PER_DIM": { 
 			"blackOrWhiteList": "WHITELIST",

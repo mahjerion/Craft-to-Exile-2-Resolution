@@ -1,0 +1,44 @@
+{
+  "id": "berserkers",
+  "stats": {
+    "2": [
+     {
+        "v1": 1.0,
+        "v2": 2.0,
+        "stat": "dexterity",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      }, 
+      {
+        "v1": 0.5,
+        "v2": 1.0,
+        "stat": "strength",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      }
+    ],
+    "3": [
+      {
+        "v1": 2.0,
+        "v2": 0.0,
+        "stat": "attack_speed",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      },
+      {
+        "v1": 4.0,
+        "v2": 0.0,
+        "stat": "critical_damage_per_10_attack_speed",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      },
+      {
+        "v1": 10.0,
+        "v2": 0.0,
+        "stat": "all_physical_damage",
+        "type": "FLAT",
+        "scale_to_lvl": false
+      },
+    ]
+  }
+}

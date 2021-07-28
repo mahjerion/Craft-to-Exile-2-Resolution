@@ -1,0 +1,73 @@
+{
+  "id": "cathans_traps",
+  "stats": {
+    "2": [
+      {
+        "v1": 1.0,
+        "v2": 0.0,
+        "stat": "intellect",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      },
+      {
+        "v1": 2.0,
+        "v2": 5.0,
+        "stat": "mana",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      }
+    ],
+    "3": [
+      {
+        "v1": 15.0,
+        "v2": 0.0,
+        "stat": "spell_elemental_damage",
+        "type": "FLAT",
+        "scale_to_lvl": true
+      }
+    ],
+    "4": [
+      {
+        "v1": 25.0,
+        "v2": 0.00,
+        "stat": "cast_speed",
+        "type": "FLAT",
+        "scale_to_lvl": true
+     },
+     {
+        "v1": 100.0,
+        "v2": 0.00,
+        "stat": "magic_find",
+        "type": "FLAT",
+     },
+     {
+        "v1": 2.0,
+        "v2": 4.0,
+        "stat": "melee_dmg_received",
+        "type": "FLAT",
+        "scale_to_lvl": true
+     },
+     {
+        "v1": 25.0,
+        "v2": 0.0,
+        "stat": "elemental_resist",
+        "type": "FLAT",
+        "scale_to_lvl": true
+     },
+     {
+        "v1": 10.0,
+        "v2": 0.0,
+        "stat": "all_all_damage",
+        "type": "FLAT",
+        "scale_to_lvl": true
+     },
+     {
+        "v1": 8.0,
+        "v2": 10.0,
+        "stat": "mana",
+        "type": "FLAT",
+        "scale_to_lvl": true
+     }
+   ]
+ }
+}

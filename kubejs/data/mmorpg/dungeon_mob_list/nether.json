@@ -12,6 +12,22 @@
     {
       "weight": 50,
       "id": "minecraft:magma_cube"
+    },
+    {
+      "weight": 50,
+      "id": "adventurez:piglin_beast"
+    },
+    {
+      "weight": 50,
+      "id": "adventurez:blaze_guardian"
+    },
+    {
+      "weight": 100,
+      "id": "mobz:frost_entity"
+    },
+    {
+      "weight": 25,
+      "id": "betternether:naga"
     }
   ],
   "bosses": [

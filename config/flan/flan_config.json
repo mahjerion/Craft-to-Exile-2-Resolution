@@ -1,5 +1,6 @@
 {
   "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
+  "configVersion": 1,
   "startingBlocks": 500,
   "maxClaimBlocks": 10000,
   "ticksForNextBlock": 600,
@@ -26,6 +27,7 @@
       "BED": true,
       "ENCHANTMENT": true,
       "FENCEGATE": true,
+      "ANIMALINTERACT": true,
       "PRESSUREPLATE": true,
       "ITEMFRAMEROTATE": true,
       "ENDERCHEST": true,
@@ -33,8 +35,7 @@
       "TRADING": true,
       "DOOR": true,
       "TRAPDOOR": true,
-      "PORTAL": true,
-      "ANIMALINTERACT": true
+      "PORTAL": true
     },
     "Co-Owner": {
       "WATERBORDER": true,

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gofish:ender_eel"
+    },
+    {
+      "item": "eymbra:prehistoric_ammonite_shell"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ender_eye"
+  }
+}

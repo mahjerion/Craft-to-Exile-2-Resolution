@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " A ",
+    " C "
+  ],
+  "key": {  
+	"C": {
+      "item": "minecraft:nether_star"
+    }, 
+	"A": {
+      "item": "minecraft:obsidian"
+    } , 
+	"B": {
+      "item": "minecraft:netherrack"
+    } 
+  },
+  "result": {
+    "item": "world_of_exile:hell_portal"
+  }
+}

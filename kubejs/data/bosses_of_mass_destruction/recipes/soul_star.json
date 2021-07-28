@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" R ",
+		"RLR",
+		" R "
+	],
+	"key": {
+		"R": {
+			"item": "world_of_exile:hell_stone"
+		},
+		"L": {
+			"item": "minecraft:soul_lantern"
+		}
+	},
+	"result": {
+		"item": "bosses_of_mass_destruction:soul_star"
+	}
+}

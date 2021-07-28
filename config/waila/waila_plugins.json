@@ -21,6 +21,6 @@
     "show_entity_hp": false,
     "show_states": false,
     "show_item": true,
-    "show_entities": true
+    "show_entities": false
   }
 }

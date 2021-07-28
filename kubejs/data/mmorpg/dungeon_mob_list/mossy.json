@@ -18,8 +18,20 @@
       "id": "minecraft:stray"
     },
     {
-      "weight": 50,
+      "weight": 100,
       "id": "minecraft:witch"
+    },
+    {
+      "weight": 100,
+      "id": "adventurez:orc"
+    },
+    {
+      "weight": 50,
+      "id": "mobz:knight2_entity"
+    },
+    {
+      "weight": 50,
+      "id": "mobz:archer2_entity"
     }
   ],
   "bosses": [
