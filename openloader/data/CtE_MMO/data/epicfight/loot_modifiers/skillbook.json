@@ -1,0 +1,11 @@
+{
+	"conditions": [
+		{
+			"condition": "minecraft:killed_by_player"
+		},
+		{
+		  "type": "forge:mod_loaded",
+		  "modid": "powah"
+		}
+	]
+}
