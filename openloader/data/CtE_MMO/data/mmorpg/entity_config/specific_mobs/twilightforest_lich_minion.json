@@ -1,0 +1,38 @@
+{
+  "identifier": "twilightforest:lich_minion",
+  "stats": {
+    "stats": [
+		{
+		  "min": 3.0,
+		  "max": 3.0,
+		  "stat": "lifesteal",
+		  "type": "flat"
+		},
+		{
+		  "min": 25.0,
+		  "max": 25.0,
+		  "stat": "chance_of_chill",
+		  "type": "flat"
+		},
+		{
+		  "min": 35.0,
+		  "max": 35.0,
+		  "stat": "convert_water_to_phys",
+		  "type": "flat"
+		},
+		{
+		  "min": 25.0,
+		  "max": 25.0,
+		  "stat": "elemental_resist",
+		  "type": "flat"
+		}
+	]
+  },
+  "loot_multi": 0.5,
+  "exp_multi": 0.5,
+  "min_lvl": 1,
+  "max_lvl": 1000000,
+  "dmg_multi": 1.0,
+  "hp_multi": 1.5,
+  "stat_multi": 1.0
+}

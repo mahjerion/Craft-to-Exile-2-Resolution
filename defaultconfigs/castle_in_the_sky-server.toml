@@ -1,0 +1,4 @@
+#the minimum distance between castle and 0,0
+#Range: 0 ~ 99999999
+castle_spawn_proof = 10000
+

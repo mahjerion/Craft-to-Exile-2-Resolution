@@ -3,3 +3,12 @@ type = customizablemenus
 net.minecraft.class_442 {
 }
 
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+

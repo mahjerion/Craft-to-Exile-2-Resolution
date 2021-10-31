@@ -1,0 +1,16 @@
+#556 minecraft:beach
+#7AC environmental:blossom_highlands
+#3DE minecraft:deep_ocean
+#112 biomesoplenty:dense_woodland
+#008 minecraft:desert
+#010 minecraft:forest
+#4B0 minecraft:jungle
+#181 minecraft:jungle_edge
+#79A minecraft:lukewarm_ocean
+#4F1 minecraft:ocean
+#4FE biomesoplenty:prairie
+#5FF minecraft:river
+#76B terraforged:savanna_scrub
+#3A4 terraforged:shattered_savanna_scrub
+#4D3 minecraft:swamp
+#7F2 biomesoplenty:woodland

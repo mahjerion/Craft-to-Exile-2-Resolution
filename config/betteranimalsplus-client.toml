@@ -1,0 +1,12 @@
+
+#This is the CLIENT SIDE configuration for betteranimalsplus.
+#To configure SERVER values (spawning, behavior, etc), go to:
+#saves/(world)/serverconfig/betteranimalsplus-server.toml
+#or, on a dedicated server:
+#(world)/serverconfig/betteranimalsplus-server.toml
+[entities]
+
+	[entities.reindeer]
+		#Generates snow particles around reindeer.
+		create_snow = true
+

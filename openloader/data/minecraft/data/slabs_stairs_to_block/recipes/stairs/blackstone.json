@@ -1,0 +1,23 @@
+
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:blackstone_stairs"
+        },
+        {
+            "item": "minecraft:blackstone_stairs"
+        },
+        {
+            "item": "minecraft:blackstone_stairs"
+        },
+        {
+            "item": "minecraft:blackstone_stairs"
+        }
+    ],
+    "result": {
+        "item": "minecraft:blackstone",
+        "count": 3
+    },
+    "group": "stairs_to_block"
+}

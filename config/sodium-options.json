@@ -18,7 +18,10 @@
     "allow_direct_memory_access": true,
     "ignore_driver_blacklist": false
   },
+  "experimental": {
+    "display_fps": true
+  },
   "notifications": {
-    "hide_donation_button": false
+    "hide_donation_button": true
   }
 }

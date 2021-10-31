@@ -1,0 +1,14 @@
+# 
+#-----------------------------------------------------
+#
+# Rate for how often a bee will have an LGBT+ coat!
+#
+"lgbt+ bee rates" = 0.01
+# 
+#-----------------------------------------------------
+#
+# Enable replacing the bee renderer for LGBT+ skins.
+# Set this to false if the render is messing with other mod's bee renderers.
+#
+"Enable lgbt+ bee renderer" = true
+

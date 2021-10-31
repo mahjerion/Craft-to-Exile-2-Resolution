@@ -1,0 +1,7 @@
+#556 minecraft:beach
+#3DE minecraft:deep_ocean
+#008 minecraft:desert
+#19B minecraft:desert_hills
+#70E atmospheric:dunes
+#4F1 minecraft:ocean
+#5FF minecraft:river

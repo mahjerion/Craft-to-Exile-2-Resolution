@@ -1,0 +1,45 @@
+{
+	newbie: {
+		name: "Newbie"
+		power: 1
+		condition: "always_active"
+		command.team: true
+		ftbranks.name_format: "<{name}>"
+		ftbchunks.max_claimed: 16
+	}
+	adept: {
+		name: "Adept"
+		power: 2
+		condition: {
+			type: "playtime"
+			time: 1
+			time_unit: "days"
+		}
+		command.team: true
+		ftbranks.name_format: "<{name}>"
+		ftbchunks.max_claimed: 64
+	}
+	veteran: {
+		name: "Veteran"
+		power: 3
+		condition: {
+			type: "playtime"
+			time: 1
+			time_unit: "weeks"
+		}
+		command.team: true
+		ftbranks.name_format: "<{name}>"
+		ftbchunks.max_claimed: 256
+	}
+	vip: {
+		name: "VIP"
+		power: 50
+		ftbranks.name_format: "<&bVIP {name}&r>"
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "<&2{name}&r>"
+	}
+}

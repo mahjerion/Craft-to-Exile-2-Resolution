@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "result": {
+        "item": "minecraft:dispenser",
+        "count": 1
+    },
+    "pattern": [
+        " S/",
+        "S#/",
+        " S/"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:string"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "#": {
+            "item": "minecraft:dropper"
+        }
+    },
+	"group": "dispenser"
+}

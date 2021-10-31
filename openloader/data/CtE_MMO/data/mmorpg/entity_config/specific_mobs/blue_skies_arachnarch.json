@@ -1,0 +1,44 @@
+{
+  "identifier": "blue_skies:arachnarch",
+  "stats": {
+    "stats": [
+		{
+		  "min": 30.0,
+		  "max": 30.0,
+		  "stat": "chance_of_poison",
+		  "type": "flat"
+		},
+		{
+		  "min": 100.0,
+		  "max": 100.0,
+		  "stat": "convert_earth_to_phys",
+		  "type": "flat"
+		},
+		{
+		  "min": 50.0,
+		  "max": 50.0,
+		  "stat": "earth_resist",
+		  "type": "flat"
+		},
+		{
+		  "min": 25.0,
+		  "max": 25.0,
+		  "stat": "elemental_resist",
+		  "type": "flat"
+		},
+		{
+		  "min": 50.0,
+		  "max": 50.0,
+		  "stat": "extra_mob_drops",
+		  "type": "flat"
+		}
+	]
+  },
+  "loot_multi": 1.5,
+  "exp_multi": 1.5,
+  "min_lvl": 1,
+  "max_lvl": 1000000,
+  "dmg_multi": 1.25,
+  "hp_multi": 1.5,
+  "stat_multi": 1.0
+}

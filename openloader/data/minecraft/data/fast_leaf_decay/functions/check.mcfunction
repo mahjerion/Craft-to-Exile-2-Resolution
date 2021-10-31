@@ -1,0 +1,1 @@
+execute align xyz run function fast_leaf_decay:try_to_create_markers

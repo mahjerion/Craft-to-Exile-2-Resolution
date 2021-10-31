@@ -1,0 +1,23 @@
+
+#To configure the dimension type please create a data pack and add a dimension type in this resource location: data/overworldmirror/dimension_type/overworld_mirror.json
+[information]
+	information = ""
+
+#Seed settings
+[seed]
+	#If you have set this to "SEED" then the seedValue value will be treated as new seed, else if its set to "ADDITION" the value will be added to the main world seed.
+	#Allowed Values: SEED, ADDITION
+	seedType = "ADDITION"
+	#The seed value. See seedType for more information.
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	seedValue = 100000
+
+#Portal settings
+[portal]
+	#How many blocks the portal can be from the normal spawn location to not create a new one.
+	#Range: 1.0 ~ 1.0E10
+	portalSearchDistanceOverworld = 30.0
+	#How many blocks the portal can be from the normal spawn location to not create a new one.
+	#Range: 1.0 ~ 1.0E10
+	portalSearchDistanceOverworldMirror = 30.0
+

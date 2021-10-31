@@ -1,0 +1,16 @@
+
+[ingame]
+	#Range: 1 ~ 10
+	long_press_count = 2
+	show_health_indicator = false
+	show_target_indicator = true
+	filter_animation = false
+	#Range: 0.0 ~ 1.0
+	laser_pointer_color = 0.328125
+	enable_laser_pointer = true
+	camera_auto_switch = false
+	auto_preparation = true
+	off_gore = false
+	battle_autoswitch_items = []
+	mining_autoswitch_items = []
+

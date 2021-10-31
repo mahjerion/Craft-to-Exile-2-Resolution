@@ -1,0 +1,7 @@
+{
+  "id": "hammer",
+  "weight": 750,
+  "energy_cost": 6,
+  "model_num": 16,
+  "fam": "Weapon"
+}

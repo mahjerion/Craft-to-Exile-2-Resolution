@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dark_prismarine"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dark_prismarine_slab",
+        "count": 2
+    },
+    "group": "block_to_2_slabs"
+}

@@ -1,0 +1,72 @@
+
+#General Configs
+[general]
+	enable_favor = false
+	all_players_are_allied = false
+	start_items = false
+	scale_mob_to_nearby_player_lvl = false
+	loot_announcements = true
+	require_team_for_dungeons = true
+	dont_sync_ambient_mob_data = true
+	#Range: 0 ~ 100000
+	starting_favor = 200
+	#Range: 0 ~ 20
+	max_uniques_worn = 20
+	#Range: 0.0 ~ 1000.0
+	favor_per_chest = 20.0
+	#Set this to 0 if there is a way to create spawners in the modpack.
+	#Range: 0.0 ~ 1000.0
+	favor_per_spawner_destroyed = 0.0
+	#Range: 0.0 ~ 1000.0
+	regen_hunger_cost = 10.0
+	#Range: 0.0 ~ 1.0
+	death_exp_penalty = 0.25
+	#Range: 0.0 ~ 1000.0
+	exp_gain_multi = 1.0
+	#Range: 0.0 ~ 1000.0
+	party_radius = 200.0
+	#Range: 0.0 ~ 1.0E7
+	max_instability = 5000.0
+	#Range: 0.0 ~ 1.0
+	lvl_distance_penalty_per_tier = 0.5
+	#Range: 0.0 ~ 1.0
+	min_loot_chance = 0.01
+	#Range: 0.0 ~ 1000.0
+	extra_mob_stats_per_lvl = 0.03
+	#Range: 0.0 ~ 1000.0
+	vanilla_mob_dmg_as_exile_dmg = 1.0
+	#Range: 0.0 ~ 1000.0
+	vanilla_mob_dmg_as_exile_dmg_at_max_lvl = 1.0
+	#Range: 0.0 ~ 1000.0
+	pvp_dmg_multi = 0.5
+	#Range: 0.0 ~ 1000.0
+	gear_drop_rate = 7.0
+	#Range: 0.0 ~ 1000.0
+	gem_drop_rate = 0.5
+	#Range: 0.0 ~ 1000.0
+	ingredient_drop_rate = 5.0
+	#Range: 0.0 ~ 1000.0
+	rune_drop_rate = 0.05
+	#Range: 0.0 ~ 1000.0
+	currency_drop_rate = 0.2
+	#This is for modded gear that can't be automatically recognized by the mod. If there's say a weapon like a staff in another mod, but this mod doesn't recognize it. Put it here. The usage is: modid:path:gear_slot_id. Example: minecraft:diamond_sword:sword
+	gear_compatibility = ["aquaculture:wooden_fillet_knife:dagger", "aquaculture:stone_fillet_knife:dagger", "aquaculture:iron_fillet_knife:dagger", "aquaculture:gold_fillet_knife:dagger", "aquaculture:diamond_fillet_knife:dagger", "aquaculture:neptunium_fillet_knife:dagger", "atum:nebu_hammer:hammer", "atum:iron_dagger:dagger", "atum:dagger_poison:dagger", "atum:iron_greatsword:greatsword", "atum:iron_club:hammer", "atum:stoneguard_greatsword:greatsword", "atum:stoneguard_club:hammer", "immersiveengineering:shield:shield", "botania:cosmetic_lusitanic_shield:shield", "atum:gebs_might:axe", "atum:gebs_toil:hammer", "atum:tefnuts_call:trident", "betterendforge:iron_hammer:hammer", "betterendforge:gold_hammer:hammer", "betterendforge:diamond_hammer:hammer", "betterendforge:netherite_hammer:hammer", "betterendforge:thallasium_hammer:hammer", "betterendforge:terminite_hammer:hammer", "betterendforge:aeternium_hammer:hammer", "blue_skies:soulbound_spear:spear", "blue_skies:crushing_hammer:hammer", "blue_skies:frostbright_spear:spear", "blue_skies:maple_spear:spear", "blue_skies:cherry_spear:spear", "blue_skies:dusk_spear:spear", "blue_skies:lunar_spear:spear", "blue_skies:bluebright_spear:spear", "create:overcharged_hammer:hammer", "dynamictrees:staff:staff", "farmersdelight:flint_knife:dagger", "farmersdelight:iron_knife:dagger", "farmersdelight:gold_knife:dagger", "farmersdelight:diamond_knife:dagger", "farmersdelight:netherite_knife:dagger", "minecolonies:pharaoscepter:scepter", "mowziesmobs:spear:spear", "mowziesmobs:naga_fang_dagger:dagger", "savageandravage:wand_of_freezing:staff"]
+	#Range: -1000.0 ~ 1000.0
+	DIFFICULTY_PER_SECOND = 0.0
+	#Range: -1000.0 ~ 1000.0
+	DIFFICULTY_PER_HOSTILE_KILL = 0.0
+	#Range: -1000.0 ~ 1000.0
+	DIFFICULTY_PER_DEATH = 0.0
+	#Range: -1000.0 ~ 1000.0
+	DIFFICULTY_PER_INCREASE_ITEM = 0.0
+	#Range: -1000.0 ~ 1000.0
+	DIFFICULTY_PER_DECREASE_ITEM = 0.0
+	#Range: -1000.0 ~ 1000.0
+	MAX_DIFFICULTY = 100.0
+	#Range: 0.0 ~ 100000.0
+	DEATH_DIFFICULTY_COOLDOWN = 72000.0
+	#Range: 0.0 ~ 100000.0
+	MOB_HP_MULTI_PER_DIFFICULTY = 0.0
+	#Range: 0.0 ~ 100000.0
+	MOB_DMG_MULTI_PER_DIFFICULTY = 0.0
+

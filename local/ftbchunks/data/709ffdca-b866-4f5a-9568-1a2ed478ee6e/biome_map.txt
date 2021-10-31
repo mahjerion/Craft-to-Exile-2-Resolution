@@ -1,0 +1,14 @@
+#556 minecraft:beach
+#4F9 minecraft:dark_forest
+#34D minecraft:deep_lukewarm_ocean
+#400 terraforged:flower_plains
+#010 minecraft:forest
+#79A minecraft:lukewarm_ocean
+#251 terraforged:marshland
+#379 minecraft:mountains
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#5FF minecraft:river
+#76B terraforged:savanna_scrub
+#452 minecraft:wooded_hills
+#306 minecraft:wooded_mountains

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {  
+	"A": {
+      "item": "minecraft:cobblestone"
+    }, 
+	"B": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "mmorpg:salvage_station"
+  }
+}

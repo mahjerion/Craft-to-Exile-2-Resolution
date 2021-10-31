@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LPL",
+    "PIP",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "waystones:warp_stone"
+    },
+    "I": {
+      "item": "mmorpg:mat/crystallized_essence"
+    }
+  },
+  "result": {
+    "item": "mining_dimension:teleporter",
+    "count": 1
+  }
+}

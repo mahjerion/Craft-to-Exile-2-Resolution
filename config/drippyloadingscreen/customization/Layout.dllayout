@@ -1,0 +1,34 @@
+type = hud
+
+customization-meta {
+  backgroundimage = config/drippyloadingscreen/backgrounds/background.png
+  autoscale_baseheight = 1024
+  renderorder = background
+  autoscale_basewidth = 1280
+  scale = 2
+  backgroundcolor = 000000
+}
+
+customization {
+  visible = false
+  action = editlogo
+  y = 2
+}
+
+customization {
+  visible = false
+  action = editforgestatustext
+}
+
+customization {
+  visible = false
+  action = editforgememoryinfo
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  action = editprogressbar
+  y = 0
+}
+

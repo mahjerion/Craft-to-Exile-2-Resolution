@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:compass"
+		},
+		"title": "Nether Portal Coords         ",
+		"description": ["",{"text":"Adds a trigger that calculates where a nether portal must be placed in the other dimension. Useful for syncing up nether portals.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger nc_inNether","color":"yellow"},{"text":" when you are in the Nether.\n","color":"gold"},{"text":"Enter","color":"green"},{"text":" ","color":"gold"},{"text":"/trigger nc_inOverworld","color":"yellow"},{"text":" when you are in the Overworld.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

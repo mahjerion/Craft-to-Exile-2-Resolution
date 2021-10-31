@@ -1,0 +1,11 @@
+#47F minecraft:birch_forest
+#7AC environmental:blossom_highlands
+#4F9 minecraft:dark_forest
+#010 minecraft:forest
+#351 biomesoplenty:highland_moor
+#21B biomesoplenty:mystic_plains
+#5A5 biomesoplenty:orchard
+#3DC minecraft:plains
+#4FE biomesoplenty:prairie
+#278 biomesoplenty:redwood_forest_edge
+#5FF minecraft:river

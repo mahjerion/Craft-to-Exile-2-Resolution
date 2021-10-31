@@ -1,0 +1,12 @@
+{
+  "dimension_id": "dimdungeons:dungeon_dimension",
+  "mob_tier": 5,
+  "exp_multi": 4.0,
+  "all_drop_multi": 4.0,
+  "mob_lvl_per_distance": 100,
+  "unique_gear_drop_multi": 4.0,
+  "mob_strength_multi": 8.0,
+  "min_lvl": 61,
+  "max_lvl": 100,
+  "scale_to_nearest_player": true
+}

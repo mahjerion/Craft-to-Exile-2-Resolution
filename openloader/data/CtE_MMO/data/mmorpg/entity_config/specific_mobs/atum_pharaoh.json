@@ -1,0 +1,38 @@
+{
+  "identifier": "atum:pharaoh",
+  "stats": {
+    "stats": [
+		{
+		  "min": 25.0,
+		  "max": 25.0,
+		  "stat": "chance_of_poison",
+		  "type": "flat"
+		},
+		{
+		  "min": 75.0,
+		  "max": 75.0,
+		  "stat": "convert_earth_to_phys",
+		  "type": "flat"
+		},
+		{
+		  "min": 50.0,
+		  "max": 50.0,
+		  "stat": "elemental_resist",
+		  "type": "flat"
+		},
+		{
+		  "min": 50.0,
+		  "max": 50.0,
+		  "stat": "extra_mob_drops",
+		  "type": "flat"
+		}
+	]
+  },
+  "loot_multi": 2.0,
+  "exp_multi": 2.0,
+  "min_lvl": 1,
+  "max_lvl": 1000000,
+  "dmg_multi": 1.2,
+  "hp_multi": 1.5,
+  "stat_multi": 1.0
+}

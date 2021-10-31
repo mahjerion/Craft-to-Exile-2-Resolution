@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "waystones:waystone"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " W ",
+    " D "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "D": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "powah"
+    }
+  ]
+}

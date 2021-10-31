@@ -1,0 +1,20 @@
+
+#General settings
+[general]
+	#Use a different color for every player
+	name_based = true
+	#Show seconds
+	show_seconds = true
+	#Show timestamp before text. (false: show after)
+	show_before = true
+	#24 hour or 12 hour format. (true: 24, false: 12)
+	time_format = true
+	#Show AM/PM
+	#Requires TIME_FORMAT to be false
+	show_period = false
+	#Decimal color code
+	#https://www.mathsisfun.com/hexadecimal-decimal-colors.html
+	#Default: 11184810 (gray)
+	#Range: 0 ~ 16777215
+	color_code = 11184810
+

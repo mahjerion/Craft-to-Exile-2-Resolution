@@ -1,0 +1,38 @@
+{
+  "identifier": "mowziesmobs:ferrous_wroughtnaut",
+  "stats": {
+    "stats": [
+		{
+		  "min": 15.0,
+		  "max": 15.0,
+		  "stat": "chance_of_bleed",
+		  "type": "flat"
+		},
+		{
+		  "min": 5.0,
+		  "max": 5.0,
+		  "stat": "lifesteal",
+		  "type": "flat"
+		},
+		{
+		  "min": 25.0,
+		  "max": 25.0,
+		  "stat": "elemental_resist",
+		  "type": "flat"
+		},
+		{
+		  "min": 25.0,
+		  "max": 25.0,
+		  "stat": "extra_mob_drops",
+		  "type": "flat"
+		}
+	]
+  },
+  "loot_multi": 1.5,
+  "exp_multi": 1.5,
+  "min_lvl": 1,
+  "max_lvl": 1000000,
+  "dmg_multi": 1.2,
+  "hp_multi": 1.2,
+  "stat_multi": 1.0
+}

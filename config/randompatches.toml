@@ -87,12 +87,23 @@
 		# This fixes MC-68453: https://bugs.mojang.com/browse/MC-68453
 		# Default: true
 		double_tap_sprinting_while_flying = true
+		# Makes standalone modifier keys not conflict with key combinations with that modifier key, which seems to be intended Forge behavior.
+		# Default: true
+		standalone_modifiers_do_not_conflict_with_combinations = true
 
 	# Options related to the Minecraft window.
 	[client.window]
 		# Enables custom Minecraft window titles.
 		# Default: true
 		custom_title = false
+		# The simple Minecraft window title.
+		# The current activity, the number of mods loaded and mod versions are not available.
+		# Variables:
+		#  - ${mcversion}: The Minecraft version
+		#  - ${username}: The username.
+		# '$' can be escaped by using an extra '$'.
+		# Default: "Minecraft ${mcversion}"
+		simple_title = "Minecraft ${mcversion}"
 		# The Minecraft window title.
 		# The current activity is not available.
 		# Variables:
@@ -235,49 +246,42 @@
 	disable_data_fixer_upper = false
 	# A list of mixins that should not be applied.
 	# These are the mixins that are not automatically disabled when the features that depend on them are:
-	# - AbstractClientPlayerEntity, PlayerEntityRendererContributorCapes, PlayerListEntry: Required for contributor capes.
+	# - AbstractOption: Required for modifying the framerate limit slider step size.
 	# - AnimalEntity: Required for fixing animal breeding hearts.
 	# - BoatEntity: Required for modifying boat options.
-	# - ChannelInitializer: Required for changing the read timeout.
+	# - CCustomPayloadPacket: Required for setting the maximum client custom payload packet size.
 	# - ClientPlayerEntity: Required for the secondary sprint and dismount key bindings.
-	# - ClientPlayNetworkHandler: Required for making the dismount overlay message show the correct key when the dismount key binding is enabled.
-	# - CommandManager: Required for the server-sided configuration reload command.
-	# - CompoundTag: Required for fixing player head stacking.
-	# - CustomPayloadC2SPacket: Required for setting the maximum client custom payload packet size.
+	# - ClientPlayNetHandler: Required for making the dismount overlay message show the correct key when the dismount key binding is enabled.
+	# - CompoundNBT: Required for fixing player head stacking.
 	# - EnchantedBookItem: Required for removing the glowing effect from enchanted books.
-	# - EndPortalBlockEntityRenderer: Required for fixing end portal rendering.
+	# - EndPortalTileEntityRenderer: Required for fixing end portal rendering.
 	# - Entity:
 	#   - Required for fixing MC-2025.
 	#   - Required for fixing entities not being considered wet in cauldrons filled with water.
-	# - FinishQuit: Required for making Minecraft show the main menu screen after disconnecting rather than the Realms or multiplayer screen if Seamless Loading Screen is installed.
-	# - GameMenuScreen:
-	#   - Required for making Minecraft show the main menu screen after disconnecting rather than the Realms or multiplayer screen.
-	#   - If Seamless Loading Screen is installed, this is disabled, and FinishQuit is used instead.
-	# - GameOptions: Required for all key bindings added by RandomPatches.
-	# - InputSlotFiller: Required for fixing the recipe book not moving ingredients with tags.
+	# - IngameMenuScreen: Required for making Minecraft show the main menu screen after disconnecting rather than the Realms or multiplayer screen.
 	# - KeyBinding:
-	#   - Required for the secondary sprint key.
+	#   - Required for making the forward movement key not conflict with the secondary sprint key.
 	#   - Required for making the sneak key not conflict with the dismount key.
-	# - Keyboard: Required for the narrator toggle, pause, GUI toggle and debug key bindings.
-	# - LandPathNodeMaker: Required for fixing mobs not being able to cross rails.
-	# - MinecraftClient:
+	#   - Required for making standalone modifier keys not conflict with key combinations with that modifier key.
+	# - KeyboardListener: Required for the narrator toggle, pause, GUI toggle and debug key bindings.
+	# - Minecraft:
 	#   - Required for changing Minecraft window options.
 	#   - Required for disabling the warning that displays when loading a world that uses experimental settings.
-	# - Mouse: Required for using mouse buttons for the narrator toggle, pause, GUI toggle and debug key bindings.
-	# - Option: Required for modifying the framerate limit slider step size.
-	# - PacketByteBuf: Required for setting the maximum NBT compound tag packet size.
-	# - PacketInflater: Required for setting the maximum compressed packet size.
-	# - PlayerInputC2SPacket: Required for the dismount key binding.
+	# - MouseHelper: Required for using mouse buttons for the narrator toggle, pause, GUI toggle and debug key bindings.
+	# - NettyCompressionDecoder: Required for setting the maximum compressed packet size.
+	# - PacketBuffer: Required for setting the maximum NBT compound tag packet size.
 	# - PotionItem: Required for removing the glowing effect from potions.
-	# - RenderLayers: Required for fixing water in cauldrons rendering as opaque.
-	# - ServerLoginNetworkHandler: Required for changing the login timeout.
-	# - ServerPlayNetworkHandlerKeepAlive: Required for changing KeepAlive packet settings.
-	# - ServerPlayNetworkHandlerPlayerSpeedLimits: Required for changing player speed limits.
-	# - ThreadedAnvilChunkStorage: Required for fixing duplicate entity UUIDs.
+	# - ReadTimeoutHandler: Required for changing the read timeout.
+	# - ServerLoginNetHandler: Required for changing the login timeout.
+	# - ServerPlayNetHandlerKeepAlive: Required for changing KeepAlive packet settings.
+	# - ServerPlayNetHandlerPlayerSpeedLimits: Required for changing player speed limits.
+	# - ServerRecipePlacer: Required for fixing the recipe book not moving ingredients with tags.
+	# - ToggleableKeyBinding: Required for the secondary sprint key binding.
+	# - WalkNodeProcessor: Required for fixing mobs not being able to cross rails.
 	# This option is both client and server-sided.
 	# Changes to this option are applied after a game restart.
 	# Default: []
-	mixin_blacklist = []
+	mixin_blacklist = ["ServerPlayNetHandlerKeepAlive"]
 
 	# Miscellaneous bug fixes.
 	[misc.bug_fixes]
@@ -322,3 +326,6 @@
 		# This bug is reported as MC-129057: https://bugs.mojang.com/browse/MC-129057
 		# Default: true
 		fix_recipe_book_not_moving_ingredients_with_tags = true
+		# Fixes MC-149777, which can cause crashes when loading worlds on Java 11 or newer: https://bugs.mojang.com/browse/MC-149777
+		# Default: true
+		fix_mc-149777 = true

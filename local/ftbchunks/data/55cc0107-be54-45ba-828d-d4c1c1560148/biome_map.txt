@@ -1,0 +1,11 @@
+#008 minecraft:desert
+#321 biomesoplenty:flower_meadow
+#467 biomesoplenty:highland
+#121 biomesoplenty:highland_crag
+#36F biomesoplenty:lavender_forest
+#4BD biomesoplenty:meadow
+#3DC minecraft:plains
+#4FE biomesoplenty:prairie
+#774 terraforged:steppe
+#240 biomesoplenty:tundra
+#43B biomesoplenty:tundra_bog

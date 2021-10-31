@@ -1,0 +1,6 @@
+execute positioned ~ ~-1 ~ if block ~ ~ ~ #minecraft:leaves[persistent=false,distance=7] unless entity @e[type=minecraft:area_effect_cloud,tag=leafDec.new,distance=..0.01] run function fast_leaf_decay:create_front_marker
+execute positioned ~ ~1 ~ if block ~ ~ ~ #minecraft:leaves[persistent=false,distance=7] unless entity @e[type=minecraft:area_effect_cloud,tag=leafDec.new,distance=..0.01] run function fast_leaf_decay:create_front_marker
+execute positioned ~-1 ~ ~ if block ~ ~ ~ #minecraft:leaves[persistent=false,distance=7] unless entity @e[type=minecraft:area_effect_cloud,tag=leafDec.new,distance=..0.01] run function fast_leaf_decay:create_front_marker
+execute positioned ~1 ~ ~ if block ~ ~ ~ #minecraft:leaves[persistent=false,distance=7] unless entity @e[type=minecraft:area_effect_cloud,tag=leafDec.new,distance=..0.01] run function fast_leaf_decay:create_front_marker
+execute positioned ~ ~ ~-1 if block ~ ~ ~ #minecraft:leaves[persistent=false,distance=7] unless entity @e[type=minecraft:area_effect_cloud,tag=leafDec.new,distance=..0.01] run function fast_leaf_decay:create_front_marker
+execute positioned ~ ~ ~1 if block ~ ~ ~ #minecraft:leaves[persistent=false,distance=7] unless entity @e[type=minecraft:area_effect_cloud,tag=leafDec.new,distance=..0.01] run function fast_leaf_decay:create_front_marker

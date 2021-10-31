@@ -1,0 +1,102 @@
+
+#Seed Settings
+[seeds]
+	#The rate at which seeds voluntarily drop from branches
+	#Range: 0.0 ~ 1.0
+	seedDropRate = 0.01
+	#The rate at which seeds voluntarily plant themselves in their ideal biomes
+	#Range: 0.0 ~ 1.0
+	seedPlantRate = 0.1666666716337204
+	#Ticks before a seed in the world attempts to plant itself or despawn. 1200 = 1 minute
+	#Range: 0 ~ 6000
+	timeToLive = 1200
+	#If enabled then seeds will only voluntarily plant themselves in forest-like biomes.
+	seedOnlyForest = true
+	#The minimum forestness that non-forest-like biomes can have. 0 = is not at all a forest, 1 = may as well be a forest. Can be fractional.
+	#Range: 0.0 ~ 1.0
+	seedMinForestness = 0.0
+
+#Tree Settings
+[trees]
+	#Factor that multiplies the rate at which trees grow. Use at own risk
+	#Range: 0.0 ~ 16.0
+	growthMultiplier = 0.5
+	#Factor that multiplies the wood returned from harvesting a tree.  You cheat.
+	#Range: 0.0 ~ 128.0
+	harvestMultiplier = 1.0
+	#Maximum harvesting hardness that can be calculated. Regardless of tree thickness.
+	#Range: 1.0 ~ 200.0
+	maxTreeHardness = 20.0
+	#Do X growth cycles at once while ignoring (X-1)/X attempts.  Higher numbers can improve client side performance but too high can make trees grow wierd.
+	#Range: 1 ~ 8
+	growthFolding = 2
+	#If enabled then sticks will be dropped for partial logs
+	dropSticks = true
+	#Scales the growth for the environment.  0.5f is nominal. 0.0 trees only grow in their native biome. 1.0 trees grow anywhere like they are in their native biome
+	#Range: 0.0 ~ 1.0
+	scaleBiomeGrowthRate = 0.5
+	#The chance of a tree on depleted soil to die. 1/256(~0.004) averages to about 1 death every 16 minecraft days
+	#Range: 0.0 ~ 1.0
+	diseaseChance = 0.0
+	#The maximum radius of a branch that is allowed to postRot away. 8 = Full block size. 24 = Full 3x3 thick size. Set to 0 to prevent rotting
+	#Range: 0 ~ 24
+	maxBranchRotRadius = 7
+	#How much harder it is to destroy a rooty block compared to its non-rooty state
+	#Range: 0.0 ~ 128.0
+	rootyBlockHardnessMultiplier = 40.0
+	#Options for how oak trees generate in swamps. ROOTED: Swamp oak trees will generate on shallow water with mangrove-like roots. SUNK: Swamp oak trees will generate on shallow water one block under the surface. DISABLED: Swamp oaks will not generate on water.
+	#Allowed Values: ROOTED, SUNK, DISABLED
+	swampOaksInWater = "ROOTED"
+	#The amount of growth pulses to send when bone meal is applied to a tree. Warning: setting values higher than 64 is not recommended other than for testing purposes. 
+	#Range: 1 ~ 512
+	boneMealGrowthPulses = 1
+
+#Interaction Settings
+[interaction]
+	#If enabled all leaves will be passable
+	isLeavesPassable = false
+	#If enabled player movement on leaves will not be enhanced
+	vanillaLeavesCollision = false
+	#If enabled then thinner branches can be climbed
+	enableBranchClimbling = true
+	#If enabled players receive reduced fall damage on leaves at the expense of the block(s) destruction
+	canopyCrash = true
+	#Damage dealt to the axe item when cutting a tree down. VANILLA: Standard 1 Damage. THICKNESS: By Branch/Trunk Thickness. VOLUME: By Tree Volume.
+	#Allowed Values: VANILLA, THICKNESS, VOLUME
+	axeDamageMode = "THICKNESS"
+	#If enabled then trees will fall over when harvested
+	enableFallingTrees = true
+	#If enabled then trees will harm living entities when falling
+	enableFallingTreeDamage = true
+	#Multiplier for damage incurred by a falling tree
+	#Range: 0.0 ~ 100.0
+	fallingTreeDamageMultiplier = 1.0
+	#If enabled the Dirt Bucket will place a dirt block on right-click
+	dirtBucketPlacesDirt = true
+	#If enabled then improperly broken trees(not by an entity) will still drop wood.
+	sloppyBreakDrops = false
+	#The minimum radius a branch must have before its able to be stripped. 8 = Full block size. Set to 0 to disable stripping trees
+	#Range: 0 ~ 24
+	minRadiusForStrip = 6
+	#If enabled, stripping a branch will decrease its radius by one
+	enableStripRadiusReduction = true
+	#If enabled, an apple fruit can be bone mealed.
+	canBoneMealApple = false
+	#If enabled, dynamic sapling blocks will drop their seed when broken.
+	dynamicSaplingDrops = true
+
+#World Generation Settings
+[world]
+	#Randomly generate podzol under select trees like spruce.
+	podzolGen = true
+
+#Miscellaneous Settings
+[misc]
+	#If enabled, dirt bucket recipes will be automatically generated.
+	generateDirtBucketRecipes = true
+
+#Debug Settings
+[debug]
+	#Enable to mark tree spawn locations with concrete circles.
+	debug = false
+

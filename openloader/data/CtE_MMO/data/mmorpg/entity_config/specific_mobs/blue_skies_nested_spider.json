@@ -1,0 +1,20 @@
+{
+  "identifier": "blue_skies:nested_spider",
+  "stats": {
+    "stats": [
+		{
+		  "min": 15.0,
+		  "max": 15.0,
+		  "stat": "chance_of_poison",
+		  "type": "flat"
+		}
+	]
+  },
+  "loot_multi": 1.0,
+  "exp_multi": 1.0,
+  "min_lvl": 1,
+  "max_lvl": 1000000,
+  "dmg_multi": 1.0,
+  "hp_multi": 1.0,
+  "stat_multi": 1.0
+}

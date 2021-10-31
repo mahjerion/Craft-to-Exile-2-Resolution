@@ -1,0 +1,83 @@
+#Disable crop trampling
+disable_crop_trampling = false
+#Disable placing a Wither Rose when a mob dies from a wither
+disable_wither_rose_placing = false
+#Disable egg trampling
+disable_egg_trampling = false
+
+[creeper]
+	#Disable Creeper block griefing
+	disable_explosion_block_damage = true
+	#Disable Creeper damage
+	disable_damage = false
+
+	[creeper.firework]
+		enabled = false
+		#The colors that the firework contains
+		colors = ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"]
+
+	[creeper.lingering_effects]
+		#If creepers should spawn a lingering effect cloud upon exploding
+		enabled = false
+		#The potion effects that the creeper spawns upon exploding
+		effects = ["{Ambient:0b,CurativeItems:[{id:\"minecraft:milk_bucket\",Count:1b}],ShowIcon:1b,ShowParticles:1b,Duration:200,Id:9b,Amplifier:1b}"]
+
+	[creeper.knockback]
+		#If players should be knocked back when a Creeper explodes
+		enabled = false
+		#The amount of speed applied to the player when knocked back
+		#Range: 0.0 ~ 5.0
+		factor = 2.5
+
+[enderman]
+	#Disable Endermen picking up blocks
+	disable_block_pickup = true
+
+[ravager]
+	#Disable Ravager breaking blocks
+	disable_block_breaking = true
+
+[silverfish]
+	#Disable Silverfishes getting into blocks and destroying blocks
+	disable_block_merging = false
+
+[fox]
+	#Disable Foxes harvesting berries
+	disable_berry_harvesting = false
+
+[rabbit]
+	#Disable Rabbits breaking carrot crops
+	disable_carrot_harvesting = false
+
+[zombie]
+	#Disable Zombies breaking doors
+	disable_door_breaking = false
+
+[wither]
+	#Disable Withers breaking blocks
+	disable_block_damage = true
+
+[snow_golem]
+	#Disable Snow Golems placing snow layers
+	disable_snow_placing = false
+
+[blaze]
+	#Disable Blazes creating fire with fireballs
+	disable_fire = false
+
+[ghast]
+	#Disable Ghast fireball block damage
+	disable_fireball_block_damage = true
+
+[villager]
+	#Disable Villager crop farming
+	disable_crop_farming = false
+
+[sheep]
+	#Disable Sheep grass eating
+	disable_grass_eating = false
+
+[evoker]
+	#Disable Evoker Sheep color converting
+	disable_sheep_converting = false
+

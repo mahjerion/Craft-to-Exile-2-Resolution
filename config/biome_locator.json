@@ -1,8 +1,0 @@
-{
-  "client": {
-    "uiLocation": "BOTTOM_RIGHT"
-  },
-  "server": {
-    "maxBiomeDistance": 6400
-  }
-}

@@ -1,0 +1,12 @@
+{
+  "dimension_id": "mining_dimension:mining",
+  "mob_tier": 1,
+  "exp_multi": 0.8,
+  "all_drop_multi": 0.8,
+  "mob_lvl_per_distance": 100,
+  "unique_gear_drop_multi": 0.8,
+  "mob_strength_multi": 1.0,
+  "min_lvl": 21,
+  "max_lvl": 30,
+  "scale_to_nearest_player": false
+}
