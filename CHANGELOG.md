@@ -8,7 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Changed default world type to Biomes O' Plenty.
+- Exploding towers no longer explode.
 
 ### Mod Updates
+- Removed Distant Horizons.
+- Removed Terraforged.
 
 ### Fixes
