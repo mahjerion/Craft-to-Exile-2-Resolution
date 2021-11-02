@@ -2,7 +2,7 @@
 [ingame]
 	#Range: 1 ~ 10
 	long_press_count = 2
-	show_health_indicator = false
+	show_health_indicator = true
 	show_target_indicator = true
 	filter_animation = false
 	#Range: 0.0 ~ 1.0
