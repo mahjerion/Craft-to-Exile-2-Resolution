@@ -1,0 +1,13 @@
+{
+  "id": "call_to_arms",
+  "uniq_id": "call_to_arms",
+  "runes": [
+    "toq",
+    "oru",
+    "cen",
+	"ita"
+  ],
+  "slots": [
+    "hammer"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" S ",
+		"GGG",
+		"GPG"
+	],
+	"key": {
+		"G": { "tag": "forge:ingots/gold" },
+		"P": { "item": "meetyourfight:phantoplasm" },
+		"S": { "tag": "forge:string" }
+	},
+	"result": { "item": "meetyourfight:passages_toll" },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "powah"
+        }
+    ]
+}

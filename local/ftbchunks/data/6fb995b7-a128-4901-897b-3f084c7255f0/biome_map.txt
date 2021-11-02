@@ -1,7 +1,0 @@
-#6F6 minecraft:badlands
-#481 minecraft:badlands_plateau
-#008 minecraft:desert
-#614 minecraft:eroded_badlands
-#0DE minecraft:modified_wooded_badlands_plateau
-#0C3 atmospheric:rocky_dunes
-#454 minecraft:wooded_badlands_plateau

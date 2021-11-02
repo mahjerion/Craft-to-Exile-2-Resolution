@@ -1,0 +1,44 @@
+{
+  "id": "karui_ward",
+  "weight": 1000,
+  "unique_stats": [
+    {
+      "min": 3.0,
+      "max": 7.0,
+      "stat": "accuracy",
+      "type": "flat"
+    },
+    {
+      "min": 10.0,
+      "max": 15.0,
+      "stat": "projectile_speed",
+      "type": "flat"
+    },
+    {
+      "min": 3.0,
+      "max": 5.0,
+      "stat": "move_speed",
+      "type": "flat"
+    },
+    {
+      "min": 10.0,
+      "max": 15.0,
+      "stat": "projectile_damage",
+      "type": "flat"
+    },
+    {
+      "min": 1.0,
+      "max": 3.0,
+      "stat": "agility",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [],
+  "rarity": "unique",
+  "set": "",
+  "replaces_name": true,
+  "base_gear": "necklace",
+  "filters": {
+    "list": []
+  }
+}

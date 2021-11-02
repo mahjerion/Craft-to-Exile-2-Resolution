@@ -1,5 +1,0 @@
-#148 biomesoplenty:alps
-#68C biomesoplenty:snowy_coniferous_forest
-#4C8 biomesoplenty:snowy_fir_clearing
-#7EA biomesoplenty:snowy_maple_forest
-#162 minecraft:snowy_tundra

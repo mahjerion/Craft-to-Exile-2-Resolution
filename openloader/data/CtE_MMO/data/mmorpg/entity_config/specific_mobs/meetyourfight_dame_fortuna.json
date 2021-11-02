@@ -1,0 +1,32 @@
+{
+  "identifier": "meetyourfight:dame_fortuna",
+  "stats": {
+    "stats": [
+		{
+		  "min": 75.0,
+		  "max": 75.0,
+		  "stat": "armor",
+		  "type": "percent"
+		},
+		{
+		  "min": 75.0,
+		  "max": 75.0,
+		  "stat": "elemental_resist",
+		  "type": "flat"
+		},
+		{
+		  "min": 25.0,
+		  "max": 25.0,
+		  "stat": "extra_mob_drops",
+		  "type": "flat"
+		}
+	]
+  },
+  "loot_multi": 1.5,
+  "exp_multi": 1.5,
+  "min_lvl": 35,
+  "max_lvl": 35,
+  "dmg_multi": 1.25,
+  "hp_multi": 1.5,
+  "stat_multi": 1.0
+}

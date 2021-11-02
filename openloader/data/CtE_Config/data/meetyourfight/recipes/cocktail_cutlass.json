@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"DG",
+		"DG",
+		"F "
+	],
+	"key": {
+		"D": { "tag": "forge:gems/diamond" },
+		"G": { "tag": "forge:glass" },
+		"F": { "item": "meetyourfight:fortunes_favor" }
+	},
+	"result": { "item": "meetyourfight:cocktail_cutlass" },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "powah"
+        }
+    ]
+}

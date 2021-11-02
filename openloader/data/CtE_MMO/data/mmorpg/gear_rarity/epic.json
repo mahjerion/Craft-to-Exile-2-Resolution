@@ -1,7 +1,7 @@
 {
   "affixes": {
-    "min_amount": 5,
-    "max_amount": 5,
+    "min_amount": 4,
+    "max_amount": 4,
     "chance_for_more": 0
   },
   "item_model_data_num": 4,

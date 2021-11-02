@@ -1,0 +1,26 @@
+
+[hud]
+	#Set this to true to unlock HUD from the experience bar and move it to a custom position.
+	#If you notice my mod preventing another Mod's HUD displaying, enable this option to bypass the error.
+	#There is nothing I can do about it myself as it is an issue with how they are rendering their HUD by not following standard Forge conventions.
+	unlock = false
+	#How far away from the default position the bar is horizontally when unlocked.
+	#Increase this value to go right, decrease it to go left.
+	#Range: > -2147483648
+	x = 0
+	#How far away from the default position the bar is vertically when unlocked.
+	#Increase this value to go down, decrease it to go up.
+	#Range: > -2147483648
+	y = 0
+
+[audio]
+	#Set this to false to disable the ding heard when the cooldown meter has emptied.
+	enableSound = true
+
+[controls]
+	#Set to 0 to disable.
+	#Set to 1 to make dodging left, right or backwards require a double tap, and forwards requiring a tap of the dodge button.
+	#Set to 2 to allow dodging in all directions by a double tap, however double tapping forwards will make you sprint.
+	#Range: 0 ~ 2
+	double_tap_mode = 0
+

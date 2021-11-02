@@ -38,7 +38,7 @@
   "is_unique_item": false,
   "rarity_type": "GEAR",
   "weight": 2000,
-  "text_format": "GREEN",
+  "text_format": "BLUE",
   "higher_rar": "rare",
   "guid": "uncommon"
 }

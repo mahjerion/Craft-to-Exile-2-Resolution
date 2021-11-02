@@ -1,0 +1,11 @@
+{
+	id: "3F64D4BEFD337EC7"
+	group: "63F22A0DBD292CDC"
+	order_index: 5
+	filename: "act_vi"
+	title: "Act VI"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -38,7 +38,7 @@
   "is_unique_item": false,
   "rarity_type": "GEAR",
   "weight": 300,
-  "text_format": "AQUA",
+  "text_format": "YELLOW",
   "higher_rar": "epic",
   "guid": "rare"
 }

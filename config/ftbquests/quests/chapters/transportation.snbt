@@ -1,0 +1,11 @@
+{
+	id: "54979C4143D9081C"
+	group: "18BCB208814EFED7"
+	order_index: 2
+	filename: "transportation"
+	title: "Transportation"
+	icon: "waystones:sandy_waystone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,9 +1,0 @@
-#481 minecraft:badlands_plateau
-#008 minecraft:desert
-#7F0 biomesoplenty:dryland
-#70E atmospheric:dunes
-#67B minecraft:savanna
-#76B terraforged:savanna_scrub
-#274 biomesoplenty:scrubland
-#454 minecraft:wooded_badlands_plateau
-#201 biomesoplenty:wooded_scrubland

@@ -1,0 +1,11 @@
+{
+	id: "7C1016ACF94B0146"
+	group: "63F22A0DBD292CDC"
+	order_index: 4
+	filename: "act_v"
+	title: "Act V"
+	icon: "blue_skies:sunstone_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

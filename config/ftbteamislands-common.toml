@@ -4,7 +4,7 @@
 	creationTimeout = true
 	enableSingleplayer = false
 	enableMultiplayer = true
-	clearInvWhenTeamLeft = true
+	clearInvWhenTeamLeft = false
 	enableMyIslandCommand = true
 	targetIslandLevel = "minecraft:overworld"
 

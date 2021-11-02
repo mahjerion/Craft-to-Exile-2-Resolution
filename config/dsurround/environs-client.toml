@@ -47,7 +47,7 @@
 #Options that control the various fog effects in the client
 ["Fog Options"]
 	#Enable/disable fog processing
-	"Enable Fog Processing" = false
+	"Enable Fog Processing" = true
 	#Enable biome specific fog density and color
 	"Biome Fog" = true
 	#Higher the player elevation the more haze that is experienced

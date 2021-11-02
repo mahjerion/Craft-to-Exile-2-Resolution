@@ -10,7 +10,7 @@
   "name_add": "★",
   "rarity_type": "MOB",
   "weight": 10,
-  "text_format": "GOLD",
+  "text_format": "YELLOW",
   "higher_rar": "boss",
   "guid": "rare"
 }

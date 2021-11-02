@@ -1,0 +1,11 @@
+{
+	id: "78F9D5242FCC3D91"
+	group: "63F22A0DBD292CDC"
+	order_index: 3
+	filename: "act_iv"
+	title: "Act IV"
+	icon: "atum:scarab"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

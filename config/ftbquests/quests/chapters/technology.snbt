@@ -1,0 +1,11 @@
+{
+	id: "191734E4DDE33592"
+	group: "18BCB208814EFED7"
+	order_index: 4
+	filename: "technology"
+	title: "Technology"
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

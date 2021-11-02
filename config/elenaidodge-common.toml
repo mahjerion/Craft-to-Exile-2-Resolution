@@ -1,0 +1,29 @@
+
+[balance]
+	#How powerful each player's dodge is. Defaults at 1 which is just under 3 blocks.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	power = 1.0
+	#How many half drumsticks the player needs to dodge. Set this to -1 to disable this feature. By default it's the same as sprinting, 6.
+	#Range: -1 ~ 20
+	hungerRequirement = 6
+	#How much exhaustion is added when dodging. Exhaustion is a value that decreases your hunger. For reference, sprinting adds 0.01 exhaustion per meter, and the Hunger effect adds 0.1 per second.
+	#Range: 0.0 ~ 40.0
+	exhaustion = 0.0
+	#Set this to true to allow the player to dodge whilst in midair. Note the player always has this ability in creative mode , and if disabled can be over-ruled with conditions set in the modpacks section of the config!
+	allowDodgeWhileAirborne = true
+
+[cooldown]
+	#Set this to false to disable the cooldown bar completely.
+	enabled = true
+	#"How long the cooldown bar takes to deplete in Ticks. This value can be increased or decreased by other mods, so view this as the standard time for all players on the server. Anything above 180 will never decrease because numbers are evil.
+	#Range: 1 ~ 180
+	duration = 60
+
+[particles]
+	#Set this to false to disable the particles emitted when a player dodges
+	enableParticles = true
+
+[modpacks]
+	#Toggles whether you need the potion effect 'can_dodge' to dodge.
+	dodgingRequiresPotionEffect = false
+

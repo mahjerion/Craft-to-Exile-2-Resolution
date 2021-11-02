@@ -1,0 +1,51 @@
+{
+  "id": "skin_of_the_vipermagi",
+  "weight": 1000,
+  "unique_stats": [
+    {
+      "min": 15.0,
+      "max": 15.0,
+      "stat": "armor",
+      "type": "percent"
+    },
+    {
+      "min": 5.0,
+      "max": 15.0,
+      "stat": "cdr",
+      "type": "flat"
+    },
+    {
+      "min": 10.0,
+      "max": 20.0,
+      "stat": "cast_speed",
+      "type": "flat"
+    },
+    {
+      "min": 10.0,
+      "max": 20.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min": 4.0,
+      "max": 12.0,
+      "stat": "health",
+      "type": "FLAT"
+    },
+    {
+      "min": 6.0,
+      "max": 15.0,
+      "stat": "armor",
+      "type": "FLAT"
+    }
+  ],
+  "rarity": "unique",
+  "set": "",
+  "replaces_name": true,
+  "base_gear": "chest",
+  "filters": {
+    "list": []
+  }
+}

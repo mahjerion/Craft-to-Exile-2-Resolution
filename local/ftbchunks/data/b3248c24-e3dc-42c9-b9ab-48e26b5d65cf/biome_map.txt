@@ -1,7 +1,0 @@
-#6F6 minecraft:badlands
-#481 minecraft:badlands_plateau
-#1FE terraforged:bryce
-#614 minecraft:eroded_badlands
-#76B terraforged:savanna_scrub
-#274 biomesoplenty:scrubland
-#454 minecraft:wooded_badlands_plateau

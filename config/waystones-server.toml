@@ -57,7 +57,7 @@
 		#Range: 0.0 ~ Infinity
 		globalWaystoneCooldownMultiplier = 1.0
 		#Set to false to allow non-creative players to make waystones globally activated for all players.
-		globalWaystoneRequiresCreative = true
+		globalWaystoneRequiresCreative = false
 
 	#These options apply to teleporting using the Warp Stone item.
 	[server.warpStone]
@@ -81,7 +81,7 @@
 	[server.dimensionalWarp]
 		#Set to 'ALLOW' to allow dimensional warp in general. Set to 'GLOBAL_ONLY' to restrict dimensional warp to global waystones. Set to 'DENY' to disallow all dimensional warps.
 		#Allowed Values: ALLOW, GLOBAL_ONLY, DENY
-		dimensionalWarp = "ALLOW"
+		dimensionalWarp = "GLOBAL_ONLY"
 		#The base xp level cost when travelling between dimensions. Ignores block distance.
 		#Range: > 0
 		dimensionalWarpXpCost = 3
@@ -101,9 +101,9 @@
 	#These options define restrictions when managing waystones.
 	[server.restrictions]
 		#If enabled, only the owner of a waystone (the one who placed it) can rename it.
-		restrictRenameToOwner = false
+		restrictRenameToOwner = true
 		#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
 		restrictToCreative = false
 		#If enabled, waystones generated in worldgen are unbreakable.
-		generatedWaystonesUnbreakable = false
+		generatedWaystonesUnbreakable = true
 

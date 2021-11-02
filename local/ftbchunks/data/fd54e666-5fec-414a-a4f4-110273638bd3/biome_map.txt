@@ -1,5 +1,0 @@
-#5EC biomesoplenty:dry_boneyard
-#4B0 minecraft:jungle
-#68B biomesoplenty:rainforest
-#6B4 biomesoplenty:rainforest_floodplain
-#67B minecraft:savanna

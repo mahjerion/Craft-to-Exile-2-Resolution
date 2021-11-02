@@ -1,0 +1,11 @@
+{
+	id: "22E9F9645AEB5B4A"
+	group: "18BCB208814EFED7"
+	order_index: 3
+	filename: "colonization"
+	title: "Colonization"
+	icon: "minecolonies:blockhuttownhall"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

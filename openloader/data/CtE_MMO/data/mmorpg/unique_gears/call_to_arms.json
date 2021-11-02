@@ -1,0 +1,57 @@
+{
+  "id": "call_to_arms",
+  "weight": 0,
+  "unique_stats": [
+    {
+      "min": 1.0,
+      "max": 2.0,
+      "stat": "plus_to_divine",
+      "type": "flat"
+    },
+    {
+      "min": 10.0,
+      "max": 20.0,
+      "stat": "inc_effect_of_song_buff_given",
+      "type": "flat"
+    },
+    {
+      "min": 5.0,
+      "max": 15.0,
+      "stat": "attack_speed",
+      "type": "flat"
+    },
+    {
+      "min": 3.0,
+      "max": 6.0,
+      "stat": "lifesteal",
+      "type": "flat"
+    },
+    {
+      "min": 5.0,
+      "max": 10.0,
+      "stat": "magic_find",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "min": 1.5,
+      "max": 4.0,
+      "stat": "physical_weapon_damage",
+      "type": "FLAT"
+    },
+    {
+      "min": 2.0,
+      "max": 4.0,
+      "stat": "spell_power",
+      "type": "flat"
+    }
+  ],
+  "rarity": "runeword",
+  "set": "",
+  "replaces_name": true,
+  "base_gear": "hammer",
+  "filters": {
+    "list": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+	id: "55CB56AB5D1A90F6"
+	group: "18BCB208814EFED7"
+	order_index: 0
+	filename: "foodstuffs"
+	title: "Foodstuffs"
+	icon: "minecraft:apple"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

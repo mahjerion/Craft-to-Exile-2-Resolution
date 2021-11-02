@@ -1,0 +1,11 @@
+{
+	id: "2245CF37A471ADF0"
+	group: "63F22A0DBD292CDC"
+	order_index: 1
+	filename: "act_ii"
+	title: "Act II"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

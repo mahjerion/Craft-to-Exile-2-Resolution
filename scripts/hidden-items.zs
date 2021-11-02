@@ -173,6 +173,20 @@ mods.jei.JEI.hideItem(<item:curios:amulet>);
 mods.jei.JEI.hideItem(<item:curios:crown>);
 mods.jei.JEI.hideItem(<item:curios:knuckles>);
 
+//Meet Your Fight
+mods.jei.JEI.hideItem(<item:meetyourfight:bellringer_spawn_egg>);
+mods.jei.JEI.hideItem(<item:meetyourfight:dame_fortuna_spawn_egg>);
+mods.jei.JEI.hideItem(<item:meetyourfight:swampjaw_spawn_egg>);
+mods.jei.JEI.hideItem(<item:meetyourfight:passages_toll>);
+mods.jei.JEI.hideItem(<item:meetyourfight:spectres_eye>);
+mods.jei.JEI.hideItem(<item:meetyourfight:spectres_grasp>);
+mods.jei.JEI.hideItem(<item:meetyourfight:slicers_dice>);
+mods.jei.JEI.hideItem(<item:meetyourfight:ace_of_iron>);
+mods.jei.JEI.hideItem(<item:meetyourfight:cocktail_cutlass>);
+mods.jei.JEI.hideItem(<item:meetyourfight:bone_raker>);
+mods.jei.JEI.hideItem(<item:meetyourfight:depth_star>);
+mods.jei.JEI.hideItem(<item:meetyourfight:caged_heart>);
+
 //Minecolonies
 mods.jei.JEI.hideItem(<item:minecolonies:barbarianegg>);
 mods.jei.JEI.hideItem(<item:minecolonies:barbarcheregg>);

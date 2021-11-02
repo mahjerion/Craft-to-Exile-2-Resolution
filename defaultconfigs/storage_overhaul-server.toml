@@ -1,0 +1,4 @@
+#The amount of items that can be stored in a storage barrel
+#Range: > 1
+storage_barrel_size = 1024
+

@@ -1,0 +1,11 @@
+{
+	id: "26524CFCA6C3A4B1"
+	group: "63F22A0DBD292CDC"
+	order_index: 0
+	filename: "act_i"
+	title: "Act I"
+	icon: "biomesoplenty:origin_grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -12,11 +12,11 @@
 	#The prefix of the message whenever a player enters an area.
 	joinPrefix = "Entering "
 	#The suffix of the message whenever a player enters an area.
-	joinSuffix = "."
+	joinSuffix = ""
 	#The prefix of the message whenever a player leaves an area.
 	leavePrefix = "Leaving "
 	#The suffix of the message whenever a player leaves an area.
-	leaveSuffix = "."
+	leaveSuffix = ""
 
 [Hud]
 	#When enabled, only shows the areaname in the HUD. When disabled, the prefixes and suffices will also be used.
@@ -26,7 +26,7 @@
 	HUDMessageFadeDelayMs = 4000
 	#The vertical offset (y coord) for the HUD message. This determines how far down the message should be on the screen. Can be changed to prevent GUIs from overlapping.
 	#Range: 0 ~ 3000
-	HUDMessageHeightOffset = 10
+	HUDMessageHeightOffset = 30
 	#Increases the font size of the text in the HUD message. If you change this value, make sure to test the different GUI scale settings in-game. 6.0 is considered large.
 	#Range: 0.0 ~ 10.0
 	HUD_FontModifier = 1.0

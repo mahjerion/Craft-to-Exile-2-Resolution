@@ -17,7 +17,7 @@ deathpoints:true
 oldDeathpoints:true
 distance:1
 showCoords:true
-lockNorth:false
+lockNorth:true
 zoom:0
 minimapSize:0
 chunkGrid:-1
@@ -40,13 +40,13 @@ keepWaypointNames:true
 waypointsDistanceExp:0
 waypointsDistanceMin:0.0
 waypointTPCommand:/tp @s
-arrowScale:1.5
-arrowColour:0
+arrowScale:1.0
+arrowColour:5
 smoothDots:true
 worldMap:true
 terrainDepth:true
 terrainSlopes:2
-mainEntityAs:0
+mainEntityAs:1
 blockTransparency:true
 waypointOpacityIngame:80
 waypointOpacityMap:90
@@ -87,6 +87,8 @@ showDimensionName:false
 displayMultipleWaypointInfo:1
 entityRadar:true
 adjustHeightForCarpetLikeBlocks:true
+autoConvertWaypointDistanceToKmThreshold:10000
+waypointDistancePrecision:1
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

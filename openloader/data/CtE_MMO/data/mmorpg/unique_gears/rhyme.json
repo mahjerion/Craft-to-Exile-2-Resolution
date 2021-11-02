@@ -1,0 +1,26 @@
+{
+  "id": "rhyme",
+  "weight": 0,
+  "unique_stats": [
+    {
+      "min": 5.0,
+      "max": 15.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    },
+    {
+      "min": 15.0,
+      "max": 25.0,
+      "stat": "magic_find",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [],
+  "rarity": "runeword",
+  "set": "",
+  "replaces_name": true,
+  "base_gear": "shield",
+  "filters": {
+    "list": []
+  }
+}
