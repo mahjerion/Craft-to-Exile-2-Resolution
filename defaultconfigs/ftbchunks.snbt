@@ -23,7 +23,7 @@
 	
 	# Minimap for clients connecting to this server will be disabled
 	# Default: false
-	force_disable_minimap: false
+	force_disable_minimap: true
 	
 	# Max claimed chunks.
 	# You can override this with FTB Ranks 'ftbchunks.max_claimed' permission
