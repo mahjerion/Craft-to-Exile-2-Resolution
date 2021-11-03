@@ -1,0 +1,11 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"impact":1.2,
+			"max_strikes":1
+		}
+	},
+	"type":"axe"
+}

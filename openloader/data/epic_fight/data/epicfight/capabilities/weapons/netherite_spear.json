@@ -1,0 +1,16 @@
+{
+	"attributes":
+	{
+		"one_hand":
+		{
+			"impact":2.9,
+			"max_strikes":1
+		},
+		"two_hand":
+		{
+			"impact":2.4,
+			"max_strikes":3
+		}
+	},
+	"type":"spear"
+}

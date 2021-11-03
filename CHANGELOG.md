@@ -26,10 +26,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added 4 new uniques: Karui Ward, Skin of the Vipermagi, Shaftstop, Manald Heal.
 - Setup the infrastructure for quests.
 - Generated waystones are no longer breakable, and can only be named by the owners. On servers, they can only be set to global on creative mode.
+- Disabled Epic Fight knuckles (for now).
+- Lowered the weightings on some of the Pandora's Creatures creatures.
+- You can no longer attack the vanilla way.
+- Improved the configuration of Epic Fight and modded items.
 
 ### Mod Updates
-- Updated Repurposed Structures, AppleSkin, Xaero's, Serene Seasons.
-- Added Performant <-- TESTING.
+- Updated Repurposed Structures, AppleSkin, Xaero's, Serene Seasons, BetterEnd Reforked, BetterNether Reforged.
+- Added Performant. <-- TESTING
 - Added Storage Overhaul.
 - Added Meet Your Fight.
 - Added Log Protection.
@@ -43,3 +47,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed a datapack error regarding M&S entities.
 - Added some missing localization for Mine and Slash gears.
 - Joining an FTB island SHOULD no longer empty your inventory.
+- Fixed greatswords, daggers, and spears not being the correct type.
+- Fixed some compat configs.

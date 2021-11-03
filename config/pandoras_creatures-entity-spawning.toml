@@ -72,7 +72,7 @@ isDebugModeEnabled = false
 
 		[Advanced.Arachnon.Dictionary]
 			#Range: 1 ~ 1000
-			arachnonDictionaryWeight = 20
+			arachnonDictionaryWeight = 5
 			#Range: 1 ~ 100
 			arachnonDictionaryMinSpawns = 1
 			#Range: 1 ~ 100
@@ -85,7 +85,7 @@ isDebugModeEnabled = false
 
 		[Advanced.Hellhound.Dictionary]
 			#Range: 1 ~ 1000
-			hellhoundDictionaryWeight = 30
+			hellhoundDictionaryWeight = 5
 			#Range: 1 ~ 100
 			hellhoundDictionaryMinSpawns = 3
 			#Range: 1 ~ 100
@@ -98,11 +98,11 @@ isDebugModeEnabled = false
 
 		[Advanced.Crab.Dictionary]
 			#Range: 1 ~ 1000
-			crabDictionaryWeight = 400
+			crabDictionaryWeight = 200
 			#Range: 1 ~ 100
-			crabDictionaryMinSpawns = 2
+			crabDictionaryMinSpawns = 1
 			#Range: 1 ~ 100
-			crabDictionaryMaxSpawns = 5
+			crabDictionaryMaxSpawns = 4
 
 	[Advanced.Seahorse]
 		seahorseSpawnBiomes = "minecraft:warm_ocean/25/3/6,minecraft:deep_warm_ocean/25/3/6,minecraft:ocean/10/2/3,minecraft:lukewarm_ocean/10/2/3,minecraft:deep_ocean/10/2/3,minecraft:deep_lukewarm_ocean/10/2/3"
@@ -111,7 +111,7 @@ isDebugModeEnabled = false
 
 		[Advanced.Seahorse.Dictionary]
 			#Range: 1 ~ 1000
-			seahorseDictionaryWeight = 10
+			seahorseDictionaryWeight = 5
 			#Range: 1 ~ 100
 			seahorseDictionaryMinSpawns = 2
 			#Range: 1 ~ 100
@@ -124,7 +124,7 @@ isDebugModeEnabled = false
 
 		[Advanced."Acidic Archvine".Dictionary]
 			#Range: 1 ~ 1000
-			acidicArchvineDictionaryWeight = 10
+			acidicArchvineDictionaryWeight = 5
 			#Range: 1 ~ 100
 			acidicArchvineDictionaryMinSpawns = 1
 			#Range: 1 ~ 100
