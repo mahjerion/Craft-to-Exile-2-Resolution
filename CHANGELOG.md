@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2021-11-XX
+
 ### Updates
 - Meet Your Fight adds 3 new bosses. These can be summoned via their summon items. Currently, Swampjaw is a level 10 boss, Bellringer is a level 20 boss, and Dame Fortuna is a level 35 boss.
 - Disabled some Meet Your Fight items.
@@ -29,10 +31,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disabled Epic Fight knuckles (for now).
 - Lowered the weightings on some of the Pandora's Creatures creatures.
 - You can no longer attack the vanilla way.
-- Improved the configuration of Epic Fight and modded items.
+- Improved the configuration of Epic Fight and modded items. 
+- You no longer automatically enter combat mode upon taking damage (you need to press X).
 
 ### Mod Updates
-- Updated Repurposed Structures, AppleSkin, Xaero's, Serene Seasons, BetterEnd Reforked, BetterNether Reforged.
+- Updated Repurposed Structures, AppleSkin, Xaero's, Serene Seasons, BetterEnd Reforked, BetterNether Reforged, Anti Mob Farm.
 - Added Performant. <-- TESTING
 - Added Storage Overhaul.
 - Added Meet Your Fight.
@@ -49,3 +52,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Joining an FTB island SHOULD no longer empty your inventory.
 - Fixed greatswords, daggers, and spears not being the correct type.
 - Fixed some compat configs.
+- Fixed an issue where players were receiving too large of a penalty from mobs regarding EXP and drops.
+- Disabled Umbra Valley Biome in The End.
