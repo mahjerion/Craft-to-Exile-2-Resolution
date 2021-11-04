@@ -1,0 +1,53 @@
+{
+	id: "1C612C0CE3563C83"
+	order_index: 3
+	title: "Soul Gear Bag II"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 14
+					stat_soul: {
+						rar: "common"
+						slot: "dagger"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 17
+					stat_soul: {
+						rar: "common"
+						slot: "greatsword"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 15
+					stat_soul: {
+						rar: "common"
+						slot: "spear"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+	]
+}

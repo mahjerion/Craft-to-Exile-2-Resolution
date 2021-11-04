@@ -9,7 +9,7 @@
   "key": {
     "s": { "item": "minecraft:string" },
     "l": { "item": "minecraft:leather" },
-    "g": { "item": "mmorpg:mat/golden_orb" }
+    "g": { "item": "mmorpg:mat/crystallized_essence" }
   },
   "result": {
     "item": "toolbelt:pouch"

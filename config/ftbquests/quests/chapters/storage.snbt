@@ -7,5 +7,303 @@
 	icon: "minecraft:chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Getting That Mess Under Control"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Chests?"
+			description: [
+				"In this modpack, there are a variety of storage solutions. Walk through these quests to see what option are available to you!"
+				""
+				"The storage mods have been configured to use parts from each other. For instance, Storage Drawers require barrels from Storage Overhaul. Similarly, some of the storage solutions present in the pack will require some investment into the technology tree."
+			]
+			id: "28348820E2AAFAAB"
+			tasks: [{
+				id: "42937B0D7D7D1EDC"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "55E8E58CF46B2C14"
+				type: "command"
+				title: "500 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 500"
+				player_command: false
+			}]
+		}
+		{
+			title: "A Necessity"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Useful Backpacks"
+			description: [
+				"Backpacks are a great solution to a nomad's storage issue. Craft a small backpack to hold additional items for you on the go!"
+				""
+				"If you're having trouble finding Leather, you can smelt Rotten Flesh into Leather!"
+			]
+			dependencies: ["28348820E2AAFAAB"]
+			id: "3F3B126F16EE4EE4"
+			tasks: [{
+				id: "7783828D7268ED3A"
+				type: "item"
+				item: "usefulbackpacks:backpack_small"
+			}]
+			rewards: [{
+				id: "7A7193D4C6B943AD"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 1000"
+				player_command: false
+			}]
+		}
+		{
+			title: "A Necessary Upgrade"
+			x: 3.0d
+			y: -1.5d
+			subtitle: "An Even More Useful Backpack"
+			description: ["You can upgrade your backpack easily with additional materials. Once upgraded, your backpack will be able to store many more items, so do it soon!"]
+			dependencies: ["3F3B126F16EE4EE4"]
+			id: "710FB82CD97500AD"
+			tasks: [{
+				id: "7C411909B04A965D"
+				type: "item"
+				item: "usefulbackpacks:backpack_medium"
+			}]
+			rewards: [{
+				id: "799E01032AA7EF9F"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 1000"
+				player_command: false
+			}]
+		}
+		{
+			title: "The Trusty Bag"
+			x: 1.5d
+			y: -3.0d
+			subtitle: "Mine and Slash's Backpack"
+			description: [
+				"Mine and Slash also has a backpack. This one can be upgraded with various items and can eventually do things such as automatically salvage items as they're picked up."
+				""
+				"Craft this bag and slowly upgrade it on your travels to help with storage."
+				""
+				"Note that you can only have one of each upgrade on your backpack."
+			]
+			dependencies: ["3F3B126F16EE4EE4"]
+			id: "249E089D0B520CE7"
+			tasks: [{
+				id: "2CD70A8D57F63D66"
+				type: "item"
+				item: {
+					id: "mmorpg:backpack/normal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2267FA707BCE5664"
+					type: "item"
+					item: "mmorpg:mat/infused_iron"
+				}
+				{
+					id: "4865190A846E9976"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "The Material Pouch"
+			x: 3.0d
+			y: -4.5d
+			subtitle: "Materials Galore"
+			description: ["The Material Pouch from Mine and Slash does as the name implies - it stores crafting materials! You can find these materials from killing mobs, and use them to upgrade your equipment."]
+			dependencies: ["249E089D0B520CE7"]
+			id: "051BBA5950748121"
+			tasks: [{
+				id: "625E4EFC113972DE"
+				type: "item"
+				item: "mmorpg:backpack/material_pouch"
+			}]
+			rewards: [{
+				id: "0B0D624C45D38F38"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 1000"
+				player_command: false
+			}]
+		}
+		{
+			title: "More Space Please!"
+			x: 1.5d
+			y: -4.5d
+			subtitle: "Space Upgrade"
+			description: [
+				"This upgrade will increase the capacity of your Adventurer's Backpack. You cannot have two of the same upgrade!"
+				""
+				"See the JEI for what other upgrades are available!"
+			]
+			dependencies: ["249E089D0B520CE7"]
+			id: "5C31958A75103A68"
+			tasks: [{
+				id: "036ED07F7BF499BB"
+				type: "item"
+				item: "mmorpg:backpack/upgrade/size0"
+			}]
+			rewards: [{
+				id: "4D7928D7019F1FAA"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 1000"
+				player_command: false
+			}]
+		}
+		{
+			title: "Common Rarity? No Thanks"
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Salvage Upgrade"
+			description: [
+				"Upgrading your Adventurer's Backpack with this will allow it to automatically salvage items of common rarity!"
+				""
+				"See the JEI for what other upgrades are available!"
+			]
+			dependencies: ["249E089D0B520CE7"]
+			id: "6776E8AA8DFC0617"
+			tasks: [{
+				id: "6270231BAB10F52F"
+				type: "item"
+				item: "mmorpg:backpack/upgrade/auto_sal0"
+			}]
+			rewards: [{
+				id: "03AE98FCD3D7CEDA"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 1000"
+				player_command: false
+			}]
+		}
+		{
+			title: "Salvage For Loot"
+			x: 3.0d
+			y: -3.0d
+			subtitle: "Reduce, Reuse, Recycle"
+			description: ["Using the Salvage Hammer, you can salvage old gear into resources used for crafting."]
+			dependencies: ["249E089D0B520CE7"]
+			id: "627F0CE5EBD1F913"
+			tasks: [{
+				id: "1C1392CAEF10F116"
+				type: "item"
+				item: "mmorpg:salvage_hammer"
+			}]
+			rewards: [
+				{
+					id: "7B88C52DBBEB6731"
+					type: "item"
+					item: "mmorpg:mat/salvage/salvage0"
+					count: 4
+				}
+				{
+					id: "099CCFDCC89825D9"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["28348820E2AAFAAB"]
+			id: "145C9D56AE81763C"
+			tasks: [{
+				id: "62AD2CB68C038D84"
+				type: "item"
+				item: "storage_overhaul:oak_chest"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "4096A218A2A616EB"
+			tasks: [{
+				id: "1A3842EDF72ABE13"
+				type: "item"
+				item: "storage_overhaul:oak_chest_tier_1"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			id: "67AE4E630B695F67"
+			tasks: [{
+				id: "15971ECD6151D027"
+				type: "item"
+				item: "storage_overhaul:oak_chest_tier_2"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "2490E82E032504C9"
+			tasks: [{
+				id: "4792A36F7C4438BB"
+				type: "item"
+				item: "storage_overhaul:oak_chest_tier_3"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			id: "1FB3AF920A1BB79A"
+			tasks: [{
+				id: "5AF439EE3B073255"
+				type: "item"
+				item: "storage_overhaul:oak_barrel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			id: "07CF4D9FA1B904C2"
+			tasks: [{
+				id: "21CEB2B9F0DEAD6E"
+				type: "item"
+				item: "storage_overhaul:oak_barrel_tier_1"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			id: "4D21A09EB417D218"
+			tasks: [{
+				id: "1BFB7A99CC0DFB6D"
+				type: "item"
+				item: "storage_overhaul:oak_barrel_tier_2"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			id: "6A3D395B517F6D49"
+			tasks: [{
+				id: "52FC7F4B5F4784F9"
+				type: "item"
+				item: "storage_overhaul:oak_barrel_tier_3"
+			}]
+		}
+	]
 }

@@ -7,10 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.0] - 2021-11-XX
+## [0.1.1] - 2021-11-04
 
 ### Updates
+- NOTE: you will need to make a new world (probably).
 - Meet Your Fight adds 3 new bosses. These can be summoned via their summon items. Currently, Swampjaw is a level 10 boss, Bellringer is a level 20 boss, and Dame Fortuna is a level 35 boss.
+- Added just a few quests to help testers understand how to play.
 - Disabled some Meet Your Fight items.
 - Changed default world type to Biomes O' Plenty.
 - Exploding towers no longer explode.
@@ -33,19 +35,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - You can no longer attack the vanilla way.
 - Improved the configuration of Epic Fight and modded items. 
 - You no longer automatically enter combat mode upon taking damage (you need to press X).
+- Reduced Meerkat burrow rate.
+- Core stats have been reworked.
+- Salvaging Station no longer exists and hammers have replaced it.
+- Mine and Slash backpack now requires Useful Backpacks.
+- Disabled Botania's magnets.
+- Gave Storage Overhaul's barrels appropriate tags.
+- Storage Drawers requires Storage Overhaul's barrels.
+- Storage Overhaull's barrels have a lower maximum capacity of 256 now.
+- Mine and Slash GUI is now bottom and centered.
 
 ### Mod Updates
-- Updated Repurposed Structures, AppleSkin, Xaero's, Serene Seasons, BetterEnd Reforked, BetterNether Reforged, Anti Mob Farm.
+- Updated Repurposed Structures, AppleSkin, Xaero's, Serene Seasons, BetterEnd Reforked, BetterNether Reforged, Anti Mob Farm, Mine and Slash, Adaptive Performance Tweaks, JEI, FTB Library, Polymorph.
 - Added Performant. <-- TESTING
 - Added Storage Overhaul.
 - Added Meet Your Fight.
 - Added Log Protection.
 - Replaced Elenai Dodge 2 with Elenai Dodge.
+- Temporarily removed BetterEnd Reforked due to a crash.
 - Removed Distant Horizons.
 - Removed Terraforged.
 - Removed Magnesium, it's a great mod but has some visual aritifacts. Also I realize some players may want to use OptiFine, so I'll leave it up to the players to decide which to use.
 
 ### Fixes
+- Temporarily set keepInventory to true until the double kill --> lose all items is fixed.
 - Properly disabled FTB Chunk's minimap.
 - Fixed a datapack error regarding M&S entities.
 - Added some missing localization for Mine and Slash gears.
@@ -53,4 +66,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed greatswords, daggers, and spears not being the correct type.
 - Fixed some compat configs.
 - Fixed an issue where players were receiving too large of a penalty from mobs regarding EXP and drops.
+- Mobs not doing damage has been fixed.
 - Disabled Umbra Valley Biome in The End.

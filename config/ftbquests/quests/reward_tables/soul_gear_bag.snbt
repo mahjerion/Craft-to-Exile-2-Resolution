@@ -1,0 +1,83 @@
+{
+	id: "08C7A89467EE0617"
+	order_index: 1
+	title: "Soul Gear Bag"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 1
+					stat_soul: {
+						rar: "common"
+						slot: "sword"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 4
+					stat_soul: {
+						rar: "common"
+						slot: "axe"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 3
+					stat_soul: {
+						rar: "common"
+						slot: "staff"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 2
+					stat_soul: {
+						rar: "common"
+						slot: "scepter"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 5
+					stat_soul: {
+						rar: "common"
+						slot: "bow"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+	]
+}

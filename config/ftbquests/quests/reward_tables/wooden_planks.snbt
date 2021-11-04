@@ -1,0 +1,15 @@
+{
+	id: "3382D62605D207BF"
+	order_index: 4
+	title: "Wooden Planks"
+	icon: "minecraft:oak_planks"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:oak_planks", count: 64 }
+		{ item: "minecraft:spruce_planks", count: 64 }
+		{ item: "minecraft:birch_planks", count: 64 }
+		{ item: "minecraft:jungle_planks", count: 64 }
+		{ item: "minecraft:acacia_planks", count: 64 }
+		{ item: "minecraft:dark_oak_planks", count: 64 }
+	]
+}

@@ -141,16 +141,16 @@
 	offPosY = 80
 	#Arrows position (X)
 	#Range: -9999 ~ 9999
-	arrPosX = -102
+	arrPosX = 0
 	#Arrows position (Y)
 	#Range: -9999 ~ 9999
-	arrPosY = 19
+	arrPosY = 16
 	#InvIcon position (X)
 	#Range: -9999 ~ 9999
-	invPosX = 210
+	invPosX = 0
 	#InvIcon position (Y)
 	#Range: -9999 ~ 9999
-	invPosY = 19
+	invPosY = 32
 	#Helmet horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	helmHal = "RIGHT"
@@ -189,13 +189,13 @@
 	offVal = "BOTTOM"
 	#Arrows horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	arrHal = "MIDDLE"
+	arrHal = "LEFT"
 	#Arrows vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	arrVal = "BOTTOM"
 	#InvIcon horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	invHal = "RIGHT"
+	invHal = "LEFT"
 	#InvIcon vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	invVal = "BOTTOM"

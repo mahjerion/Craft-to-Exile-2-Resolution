@@ -7,5 +7,101 @@
 	icon: "minecraft:apple"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Puhtayto Puhtahto"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Spice of Life: Potato Edition"
+			description: ["Craft to Exile 2 has plenty of new foods to cook and find! In addition, by keeping you diet diverse, you can gain an addition bonus to health. Check out the Spice of Life: Potato Edition book to see which foods you've eaten recently."]
+			id: "20C757FA6F3E2011"
+			tasks: [{
+				id: "2B6DF4675D943503"
+				type: "item"
+				item: "solpotato:food_book"
+			}]
+			rewards: [
+				{
+					id: "143614FB021E2475"
+					type: "item"
+					item: "farmersdelight:fried_rice"
+				}
+				{
+					id: "4219C4A714552F6E"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Performance Enhancing"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Mine and Slash Professions"
+			description: [
+				"Mine and Slash comes with its own set of professions such as Cooking, Alchemy, Weapon Crafting, and more. Using the appopriate tool (such as the Cook's Pot), you can open the crafting menu and craft items to provide bonuses. To craft an item, you will need crafting materials. Some materials will be usable in multiple professions."
+				""
+				"Note that some professions will require a \"base\" material. This does not include Cooking, Alchemy, and Inscribing."
+				""
+				"Crafting an item will provide you with profession experience, which will allow you to use higher tier materials, and even provide you additional combat stats based on your profession level!"
+			]
+			dependencies: ["20C757FA6F3E2011"]
+			id: "7A04C306718E88D2"
+			tasks: [
+				{
+					id: "76635E8836D733B2"
+					type: "item"
+					item: "mmorpg:craft_tools/cooking"
+				}
+				{
+					id: "27AABDAE72DDB556"
+					type: "item"
+					item: "mmorpg:craft_tools/alchemy"
+				}
+			]
+			rewards: [
+				{
+					id: "70B9623F79C4DE4B"
+					type: "item"
+					item: {
+						id: "mmorpg:ingredient/red_coral"
+						Count: 1b
+						tag: {
+							ingredient: {
+								tier: 1
+								id: "red_coral"
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "38037BA8EB7E290E"
+					type: "item"
+					item: {
+						id: "mmorpg:ingredient/ectoplasm"
+						Count: 1b
+						tag: {
+							ingredient: {
+								tier: 1
+								id: "ectoplasm"
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "45927C7A5B05372A"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+	]
 }

@@ -364,6 +364,21 @@
 		#Range: 1 ~ 512
 		modWhisperwoodsMaxBossesPerWorld = 4
 
+	[Mod.Twist]
+		modTwistEnabled = true
+		#Range: 1 ~ 64
+		modTwistMaxPassiveMobsPerPlayer = 2
+		#Range: 1 ~ 512
+		modTwistMaxPassiveMobsPerWorld = 16
+		#Range: 1 ~ 64
+		modTwistMaxNeutralMobsPerPlayer = 2
+		#Range: 1 ~ 512
+		modTwistMaxNeutralMobsPerWorld = 16
+		#Range: 1 ~ 64
+		modTwistMaxHostileMobsPerPlayer = 2
+		#Range: 1 ~ 512
+		modTwistMaxHostileMobsPerWorld = 16
+
 [Experimental]
 	#Burn Crepper during day light.
 	burnCreeperDuringDaylight = false

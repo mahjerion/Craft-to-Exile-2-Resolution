@@ -45,7 +45,7 @@
     },
     "meerkat": {
       "spawn": true,
-      "burrowRate": 40,
+      "burrowRate": 10,
       "biomes": [
         "#desert"
       ],

@@ -7,5 +7,117 @@
 	icon: "minecolonies:blockhuttownhall"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Land Ho!"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Minecolonies"
+			description: [
+				"Welcome to Minecolonies, the ultimate time sink. Minecolonies is a mod that turns your game into a sim city. Hire citizens to perform menial tasks for you, such as building, farming, mining, and more! Expand your colony to unlock new buildings such as the university, which will allow you to research skills for your colonists. But beware for barbarian and pirate raids..."
+				""
+				"Start by crafting a Supply Camp. You can place the camp down by using it. You can choose which style your camp will be, but choose wisely as some woods are harder to come by than others..."
+			]
+			id: "48776686795B6C41"
+			tasks: [{
+				id: "0856E28222261F7F"
+				type: "item"
+				item: "minecolonies:supplycampdeployer"
+			}]
+			rewards: [
+				{
+					id: "469B24110CA616E5"
+					type: "choice"
+					title: "Choose Your Planks"
+					icon: "minecraft:oak_planks"
+					table_id: 3711764501701461951L
+				}
+				{
+					id: "7106A2A4E5E430C2"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "The Town Hall"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Initial Colony"
+			description: [
+				"The central hub, the Town Hall will be available to you in a chest once you've placed your Supply Camp (or Supply Ship). Placing the Town Hall will require the Build Tool."
+				""
+				"Use the Build Tool with the Town Hall in your inventory, and similar to placing the Supply Camp, you will be able to place the Town Hall. Note that upon building the Town Hall, you will receive 4 colonists. The Town Hall will need to be built first, unlike the Supply Camp."
+			]
+			dependencies: ["48776686795B6C41"]
+			id: "5559D27994780545"
+			tasks: [
+				{
+					id: "40FDDC00868BC757"
+					type: "item"
+					item: "structurize:sceptergold"
+				}
+				{
+					id: "5EB77AA712101EBA"
+					type: "item"
+					item: "minecolonies:blockhuttownhall"
+				}
+			]
+			rewards: [
+				{
+					id: "55882513FAB5E783"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32
+				}
+				{
+					id: "75CDB0C480200E5E"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Work, Work"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Building From Ground Up"
+			description: ["In order to build any buildings with your colonists (including the Town Hall), you will first need to construct a Builder's Hut and assign one of your colonists to be a builder. They will then build the Builder's Hut, as long as you provide them with enough resources. Once finished, you can assign your builder to other unfinished buildings!"]
+			dependencies: ["5559D27994780545"]
+			id: "6FAFD7A84BFEB342"
+			tasks: [{
+				id: "0E39ABAAD6EB5288"
+				type: "item"
+				item: "minecolonies:blockhutbuilder"
+			}]
+			rewards: [
+				{
+					id: "205F3252079E72FC"
+					type: "choice"
+					title: "Choose Your Planks"
+					table_id: 3711764501701461951L
+				}
+				{
+					id: "7194BB4B14DE6E77"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32
+				}
+				{
+					id: "1B7AF1FAB839CA13"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+	]
 }

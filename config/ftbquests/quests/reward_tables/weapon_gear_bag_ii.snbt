@@ -1,0 +1,35 @@
+{
+	id: "3281A1DBB18D78DE"
+	order_index: 2
+	title: "Weapon Gear Bag II"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "epicfight:iron_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "epicfight:iron_greatsword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "epicfight:iron_spear"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}

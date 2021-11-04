@@ -7,5 +7,597 @@
 	icon: "biomesoplenty:origin_grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Welcome to Craft to Exile 2!"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Getting Started"
+			description: [
+				"Welcome, and thank you for choosing Craft to Exile 2 [Resolution]. The quest guide is separated into 2 sections: the main quests, and the Homestead chapter, which covers non-combat oriented things like farming, cooking, technology, Minecolonies, etc."
+				""
+				"The main quest line is further divided into \"acts\", which generally cover a different dimension and offer new mobs, dungeons, and bosses to encounter. For now, you're probably going to need to follow the quest line to get a basic understanding of the modpack's mechanics, as many things have changed."
+			]
+			id: "067E5F9D4BCC2407"
+			tasks: [{
+				id: "49A8C0D2183824E8"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "693D567724A13DCC"
+				type: "command"
+				title: "500 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 500"
+				player_command: false
+			}]
+		}
+		{
+			title: "Overhauled Combat"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Mine and Slash"
+			description: [
+				"Getting this far means you've noticed the Newbie Gear Bag in your inventory. In Craft to Exile 2, all weapons are compatible with Mine and Slash's overhauled damage system. But in order to turn them into Mine and Slash weapons, you will need to find the appropriate weapon \"soul\". You can get these from killing mobs. The Newbie Gear Bag should have provided you with a Common Staff Soul already. Click it, and click your new staff to give it the Mine and Slash stats!"
+				""
+				"To start you off, you can choose from this quest rewards' different weapon types and their associated souls."
+				""
+				"Then, open the Mine and Slash hub (Default: H) to access your player menu. You can allocate stat points on the main screen, view details on the left, and set your skills on the right. Mine and Slash also has its own crafting leveling system, but we'll touch on that another time."
+				""
+				"Note that staves can have Scepter Souls AND Staff Souls applied to them. Scepters give a bonus to healing, while staves give a larger bonus to spell damage."
+			]
+			dependencies: ["067E5F9D4BCC2407"]
+			id: "76A7F1F0CA824DB4"
+			tasks: [{
+				id: "4D408EBF325F0161"
+				type: "item"
+				item: {
+					id: "mmorpg:weapon/staff/iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6AF1EE347A041E1C"
+					type: "choice"
+					title: "Pick Your Weapon"
+					icon: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					table_id: 2531917738813411159L
+				}
+				{
+					id: "592D8AD8D498E33C"
+					type: "choice"
+					title: "Pick A Soul"
+					icon: {
+						id: "mmorpg:stat_soul/stat_soul"
+						Count: 1b
+						tag: {
+							CustomModelData: 1
+							stat_soul: {
+								rar: "common"
+								slot: "sword"
+								tier: 1
+								uniq: ""
+							}
+						}
+					}
+					table_id: 632659628021122583L
+				}
+				{
+					id: "216C9776545033A0"
+					type: "command"
+					title: "750 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 750"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Overhauled Combat II"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Epic Fight, Elenai Dodge"
+			description: [
+				"Epic Fight is a mod that also transforms and enriches Minecraft combat system. In Craft to Exile 2, you cannot damage enemies with you weapons without first entering \"combat mode\". You can do this by pressing the combat key (Default: X)."
+				""
+				"This will also put you in third person view, which has been improved with the mod, Better Third Person. While in this mode, you can perform combo attacks. On the bottom-right, you will see a special skill meter, where after dealing enough damage will fill up. To use it, hold the attack key. For instance, the sword will perform a sweeping motion and hit all nearby enemies."
+				""
+				"Epic Fight and Mine and Slash have been configured to work together. Performing attacks will still consume Mine and Slash energy, and you can cast spells (if holding the correct weapon type) using your Mine and Slash spell hotkeys. Additionally, you can dash around thanks to Elenai Dodge. You can even dodge in the air!"
+			]
+			dependencies: ["76A7F1F0CA824DB4"]
+			id: "4F9241AA3A4EFA6A"
+			tasks: [{
+				id: "039BD72A39B3842B"
+				type: "item"
+				item: {
+					id: "epicfight:stone_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "13E91D1D2EEC2061"
+					type: "choice"
+					title: "Pick Your Weapon"
+					icon: {
+						id: "epicfight:iron_spear"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					table_id: 3639367938840819934L
+				}
+				{
+					id: "50DC9B1706B57A4A"
+					type: "choice"
+					title: "Pick A Soul"
+					icon: {
+						id: "mmorpg:stat_soul/stat_soul"
+						Count: 1b
+						tag: {
+							CustomModelData: 15
+							stat_soul: {
+								rar: "common"
+								slot: "spear"
+								tier: 1
+								uniq: ""
+							}
+						}
+					}
+					table_id: 2044964139668225155L
+				}
+				{
+					id: "6B2E1BD220F420B2"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Don't Forget The Armors, Too!"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "Mine and Slash's Rarity and Tiers"
+			description: [
+				"Armors also require Armor Souls in CtE2."
+				""
+				"As a quest reward for this quest, you will receive an \"Uncommon\", \"Tier I\" Chest Soul. The rarities in Mine and Slash generally determine how powerful that gear can be. You can find common, uncommon, rare, epic, and even unique Armor/Weapon Souls!"
+				""
+				"The tier associated with the soul also determines how powerful the item will be. However, unlike rarity, the tier is locked to a level range. For example, tier I souls range from level 1-20, tier 2 from 21-40, etc. Make sure to apply the correct tier to your gear, otherwise you won't be able to use it."
+			]
+			dependencies: ["76A7F1F0CA824DB4"]
+			id: "48E4F4958AF2F2A9"
+			tasks: [{
+				id: "203A6FA4DF3E60BC"
+				type: "item"
+				item: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "47276E9C36B0D083"
+					type: "item"
+					item: {
+						id: "mmorpg:stat_soul/stat_soul"
+						Count: 1b
+						tag: {
+							CustomModelData: 9
+							stat_soul: {
+								rar: "uncommon"
+								slot: "chest"
+								tier: 1
+								uniq: ""
+							}
+						}
+					}
+				}
+				{
+					id: "64B0C5399F6AB1D7"
+					type: "command"
+					title: "750 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 750"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Training Arc"
+			x: 4.5d
+			y: 0.0d
+			subtitle: "Gain Merit!"
+			description: [
+				"Test your newfound skills against some familiar mobs! Killing mobs will grant you experience. Check out the Mine and Slash hub for information on how much experience is required until the next level up."
+				""
+				"Leveling up will grant you 2 stat points and 1 skill point. You can eventually reset your points, but for now, allocate them wisely!"
+			]
+			dependencies: ["4F9241AA3A4EFA6A"]
+			id: "642936300B74F77E"
+			tasks: [
+				{
+					id: "0FB1F5E88B55D2C5"
+					type: "kill"
+					icon: "minecraft:zombie_head"
+					entity: "minecraft:zombie"
+					value: 3L
+				}
+				{
+					id: "671B038EB3EC4693"
+					type: "kill"
+					icon: "minecraft:skeleton_skull"
+					entity: "minecraft:skeleton"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "47FFAE91F737604B"
+				type: "command"
+				title: "2000 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 2000"
+				player_command: false
+			}]
+		}
+		{
+			title: "Overworld Terror"
+			x: 6.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Meet Your Fight"
+			description: [
+				"You've heard rumours of a killer fish floating around..."
+				""
+				"The Swampjaw is a level 10 boss that can be summoned. Craft the summon item, Fossil Bait, and use it to summon the Swampjaw. Be careful as this creature is pretty fast!"
+			]
+			dependencies: ["642936300B74F77E"]
+			id: "0795A79014EE269C"
+			tasks: [
+				{
+					id: "3D3A8EF396F3A5B7"
+					type: "item"
+					item: "meetyourfight:fossil_bait"
+				}
+				{
+					id: "0A1BBD38695D6330"
+					type: "kill"
+					icon: "aquaculture:fish_bones"
+					entity: "meetyourfight:swampjaw"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0BE4D497696E0E94"
+					type: "random"
+					title: "Random Tier II Armor Soul"
+					icon: {
+						id: "mmorpg:stat_soul/stat_soul"
+						Count: 1b
+						tag: {
+							CustomModelData: 9
+							stat_soul: {
+								rar: "rare"
+								slot: "chest"
+								tier: 2
+								uniq: ""
+							}
+						}
+					}
+					table_id: 5939922219038205091L
+				}
+				{
+					id: "05599ED6FABA2DE9"
+					type: "command"
+					title: "15000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 15000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Dwarven Techniques"
+			x: 1.5d
+			y: 4.5d
+			subtitle: "Weapon Crafting"
+			description: [
+				"Craft your own weapons as a Weapon Crafter. Using the hammer, slot in crafting materials that can be used in weapon crafting with a base gear item."
+				""
+				"Remember that the item cannot already have Mine and Slash stats on it!"
+			]
+			dependencies: ["5FBA446BCF805981"]
+			id: "320BCB7037563477"
+			tasks: [{
+				id: "4473C48D39E1ACF6"
+				type: "item"
+				item: "mmorpg:craft_tools/wep_craft"
+			}]
+			rewards: [
+				{
+					id: "1B12DD79EEDA70A5"
+					type: "item"
+					item: {
+						id: "mmorpg:ingredient/fire_stone"
+						Count: 1b
+						tag: {
+							ingredient: {
+								tier: 1
+								id: "fire_stone"
+							}
+						}
+					}
+				}
+				{
+					id: "40CEB2250D9814BC"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2846011C2D69097D"
+					type: "command"
+					title: "1250 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1250"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Suit Up"
+			x: 1.5d
+			y: 3.0d
+			subtitle: "Armor Crafting"
+			description: [
+				"Mine and Slash introduces a fun level-based profession system. There are 6 professions: Cooking, Alchemy, Inscribing, Weapon Crafting, Armor Crafting, and Jewelry Crafting. By engaging in these professions, you can enhance and gear up your character in a non-randomized way. For example, eating crafted food can provide bonus stats for a short duration, or using a scroll from Inscribing can provide you and nearby allies extra stats."
+				""
+				"To being, you will need the crafting tool for that profession. The armor crafter's tool is the Armorer's Cloth. Using it will open the crafting menu. On the top-right, you can put in a piece of equipment and crafting materials. You will see the potential item pop up, with the success chance and possible stats."
+				""
+				"It is important to note, the gear that will be crafted CANNOT have any Mine and Slash stats on it already. So don't apply any souls to it!"
+			]
+			dependencies: ["48E4F4958AF2F2A9"]
+			id: "5FBA446BCF805981"
+			tasks: [{
+				id: "24A0BBD0A4982FAB"
+				type: "item"
+				item: "mmorpg:craft_tools/armor_craft"
+			}]
+			rewards: [
+				{
+					id: "2CA0FAF0D04DF936"
+					type: "item"
+					item: {
+						id: "mmorpg:ingredient/ender_crystal"
+						Count: 1b
+						tag: {
+							ingredient: {
+								tier: 1
+								id: "ender_crystal"
+							}
+						}
+					}
+				}
+				{
+					id: "4C2A54AB61551A11"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "365C32E414CA0514"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Uncut Sapphires"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Jewelry Crafting"
+			description: ["Just like armor and weapon crafting, jewelry can be crafted. Use the Jeweler's Tools to open the crafting menu. Slot in a piece of jewelry (without Mine and Slash stats) and the correct crafting materials."]
+			dependencies: ["5FBA446BCF805981"]
+			id: "3D88F6210D16C569"
+			tasks: [{
+				id: "0F4A4CC278720451"
+				type: "item"
+				item: "mmorpg:craft_tools/jewel_craft"
+			}]
+			rewards: [
+				{
+					id: "42D048C6B30E56F1"
+					type: "item"
+					item: {
+						id: "mmorpg:ingredient/crystal_beryl"
+						Count: 1b
+						tag: {
+							ingredient: {
+								tier: 1
+								id: "crystal_beryl"
+							}
+						}
+					}
+				}
+				{
+					id: "6AEBF58F9DD7C8B5"
+					type: "item"
+					item: {
+						id: "mmorpg:jewelry/ring/iron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3005CDC1A30DE2E1"
+					type: "command"
+					title: "1250 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 1250"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Wait, Take This!"
+			x: 4.5d
+			y: 3.0d
+			subtitle: "Scroll Crafting"
+			description: [
+				"Using Mine and Slash's profession system, it's possible to craft consumable scrolls that buff you and your nearby allies. This can be done with the Inscribing profession."
+				""
+				"Sometimes, you'll find interesting materials that have effects other than applying stats. The Bone Figurine included as a reward for this quest improves materials further away."
+			]
+			dependencies: [
+				"642936300B74F77E"
+				"3D88F6210D16C569"
+			]
+			id: "252C744973C1126E"
+			tasks: [{
+				id: "0F2B464DFCB10797"
+				type: "item"
+				item: "mmorpg:craft_tools/inscribing"
+			}]
+			rewards: [
+				{
+					id: "365185822AB8A93F"
+					type: "item"
+					item: {
+						id: "mmorpg:ingredient/ender_heart"
+						Count: 1b
+						tag: {
+							ingredient: {
+								tier: 1
+								id: "ender_heart"
+							}
+						}
+					}
+				}
+				{
+					id: "0E3A07742EDD0D03"
+					type: "item"
+					item: {
+						id: "mmorpg:ingredient/bone_figurine"
+						Count: 1b
+						tag: {
+							ingredient: {
+								tier: 1
+								id: "bone_figurine"
+							}
+						}
+					}
+				}
+				{
+					id: "189004C455C154D0"
+					type: "command"
+					title: "2500 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 2500"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Bee A Bee"
+			x: 6.0d
+			y: -1.5d
+			subtitle: "The Bumblezone"
+			description: [
+				"The Bumblezone is a level 1-20 optional dimension. To get there, throw an Ender Pearl at a bee hive. This will shrink you to the size of a bee (but not actually shrink you) and you'll enter The Bumblezone!"
+				""
+				"You'll find many bees of different types in The Bumblezone, such as Beehemoths and resources bees. You might even find some unwanted pests... While there isn't much to do during your stay, it's a great place to find bees and bee-related resources!"
+				""
+				"To leave The Bumblezone, simply go to the bottom or top of the world. This will \"eject\" you out of the hive, returning you to your original position."
+			]
+			dependencies: ["0795A79014EE269C"]
+			id: "666AF4DCE3684923"
+			tasks: [{
+				id: "096BEC9DE9B0E279"
+				type: "dimension"
+				icon: "minecraft:honeycomb"
+				dimension: "the_bumblezone:the_bumblezone"
+			}]
+			rewards: [
+				{
+					id: "5A1055A225941171"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 4
+				}
+				{
+					id: "4D1258B8814822C7"
+					type: "command"
+					title: "10000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 10000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Wait For Me!"
+			x: 3.0d
+			y: -1.5d
+			subtitle: "Telepass"
+			description: [
+				"If you're looking to teleport to a friend, look no further. The craftable Telepasses can be given to a friend. Then, your friend will be able to use the Telepass to teleport back to you!"
+				""
+				"The Gold Telepass has only 3 uses, while the Diamond Telepass has a whopping 30 uses!"
+				""
+				"For more transportation methods, you can check out the Transportation quest tab under Homestead."
+			]
+			dependencies: ["4F9241AA3A4EFA6A"]
+			id: "0908A7A57B7F31F8"
+			tasks: [{
+				id: "6F513A9ED8020251"
+				type: "item"
+				item: "telepass:gold_telepass"
+			}]
+			rewards: [{
+				id: "3C1C05ECC6D9F0B1"
+				type: "command"
+				title: "1500 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 1500"
+				player_command: false
+			}]
+		}
+	]
 }
