@@ -168,6 +168,7 @@ mods.jei.JEI.hideItem(<item:betteranimalsplus:squid_colossal_spawn_egg>);
 mods.jei.JEI.hideItem(<item:botania:lens_magnet>);
 mods.jei.JEI.hideItem(<item:botania:magnet_ring>);
 mods.jei.JEI.hideItem(<item:botania:magnet_ring_greater>);
+mods.jei.JEI.hideItem(<item:botania:flight_tiara>);
 
 //Bountiful
 mods.jei.JEI.hideItem(<item:bountiful:bounty>);

@@ -48,7 +48,7 @@ displayTooLargePackets = true
 	adaptiveSpeed = true
 	#Entity spawn interval setting, determines how frequently entities are spawned overall. 1 = Vanilla default, default = 10
 	#Range: 1 ~ 1000
-	spawnInterval = 10
+	spawnInterval = 1
 	#Fix leash lag from entities on a leash, default = true
 	fixLeash = true
 	#Enables improved entity collision and movement calculations for any non item entity, default = true

@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Disabled auto third-person camera upon entering battle mode.
+- Disabled the Flight Tiara from Botania.
+- Disabled Experience Orb clustering from Adaptive Performance Tweaks - we get it from Clumps now.
+- Spawners are now super tough to discourage breaking them. I don't want to make them unbreakable however.
+
+### Mod Updates
+- Updated Waystones.
+- Added Clumps.
+- Added Stronger Spawners.
+- Removed Variable Spawner Hardness.
+
+### Fixes
+- Disabled Meerkats for now as they're causing crashes.
+- Fixed the crazy mob spawns.
+
 ## [0.1.1] - 2021-11-04
 
 ### Updates

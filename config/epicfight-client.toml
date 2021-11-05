@@ -8,7 +8,7 @@
 	#Range: 0.0 ~ 1.0
 	laser_pointer_color = 0.328125
 	enable_laser_pointer = true
-	camera_auto_switch = true
+	camera_auto_switch = false
 	auto_preparation = false
 	off_gore = false
 	battle_autoswitch_items = []

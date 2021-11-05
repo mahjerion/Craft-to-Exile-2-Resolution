@@ -44,7 +44,7 @@
       "health": 40.0
     },
     "meerkat": {
-      "spawn": true,
+      "spawn": false,
       "burrowRate": 10,
       "biomes": [
         "#desert"

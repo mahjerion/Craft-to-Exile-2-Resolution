@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "ILI",
+    "FEF"
+  ],
+  "key": {
+    "E": {
+      "item": "botania:ender_air_bottle"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "I": {
+      "tag": "forge:ingots/elementium"
+    },
+    "L": {
+      "item": "botania:life_essence"
+    }
+  },
+  "result": {
+    "item": "botania:flight_tiara"
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

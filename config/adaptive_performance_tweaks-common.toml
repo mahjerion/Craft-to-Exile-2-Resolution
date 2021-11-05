@@ -25,14 +25,14 @@
 	maxNumberOfItems = 64
 	#Defines the radius in which items will be clustered together.
 	#Range: 1 ~ 16
-	itemsClusterRange = 4
+	itemsClusterRange = 3
 
 ["Experience Orbs"]
 	#Enable/Disable experience orbs optimization.
-	optimizeExperienceOrbs = true
+	optimizeExperienceOrbs = false
 	#Defines the radius in which experience orbs will be clustered together.
 	#Range: 1 ~ 16
-	experienceOrbsClusterRange = 4
+	experienceOrbsClusterRange = 3
 
 #View area optimization, should be only adjusted if really needed!
 ["View Area"]

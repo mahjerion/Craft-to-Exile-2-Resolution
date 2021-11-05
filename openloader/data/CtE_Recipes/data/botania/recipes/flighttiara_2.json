@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "botania:flight_tiara_wings",
+  "ingredients": [
+    {
+      "item": "botania:flight_tiara"
+    },
+    {
+      "item": "botania:quartz_dark"
+    }
+  ],
+  "result": {
+    "item": "botania:flight_tiara",
+    "nbt": "{variant:2}"
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}
