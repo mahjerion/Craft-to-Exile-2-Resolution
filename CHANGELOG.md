@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disabled the Flight Tiara from Botania.
 - Disabled Experience Orb clustering from Adaptive Performance Tweaks - we get it from Clumps now.
 - Spawners are now super tough to discourage breaking them. I don't want to make them unbreakable however.
+- Bumped up Pandora's Creatures mob spawns again since I fixed the crazy spawns.
 
 ### Mod Updates
 - Updated Waystones.
@@ -21,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixes
 - Disabled Meerkats for now as they're causing crashes.
-- Fixed the crazy mob spawns.
+- Fixed the crazy spawn rates of mobs.
 
 ## [0.1.1] - 2021-11-04
 

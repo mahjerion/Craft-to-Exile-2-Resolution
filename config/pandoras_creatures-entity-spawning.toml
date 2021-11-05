@@ -72,7 +72,7 @@ isDebugModeEnabled = false
 
 		[Advanced.Arachnon.Dictionary]
 			#Range: 1 ~ 1000
-			arachnonDictionaryWeight = 5
+			arachnonDictionaryWeight = 10
 			#Range: 1 ~ 100
 			arachnonDictionaryMinSpawns = 1
 			#Range: 1 ~ 100
@@ -85,7 +85,7 @@ isDebugModeEnabled = false
 
 		[Advanced.Hellhound.Dictionary]
 			#Range: 1 ~ 1000
-			hellhoundDictionaryWeight = 5
+			hellhoundDictionaryWeight = 10
 			#Range: 1 ~ 100
 			hellhoundDictionaryMinSpawns = 3
 			#Range: 1 ~ 100
@@ -98,7 +98,7 @@ isDebugModeEnabled = false
 
 		[Advanced.Crab.Dictionary]
 			#Range: 1 ~ 1000
-			crabDictionaryWeight = 200
+			crabDictionaryWeight = 300
 			#Range: 1 ~ 100
 			crabDictionaryMinSpawns = 1
 			#Range: 1 ~ 100
@@ -111,7 +111,7 @@ isDebugModeEnabled = false
 
 		[Advanced.Seahorse.Dictionary]
 			#Range: 1 ~ 1000
-			seahorseDictionaryWeight = 5
+			seahorseDictionaryWeight = 8
 			#Range: 1 ~ 100
 			seahorseDictionaryMinSpawns = 2
 			#Range: 1 ~ 100
@@ -124,7 +124,7 @@ isDebugModeEnabled = false
 
 		[Advanced."Acidic Archvine".Dictionary]
 			#Range: 1 ~ 1000
-			acidicArchvineDictionaryWeight = 5
+			acidicArchvineDictionaryWeight = 8
 			#Range: 1 ~ 100
 			acidicArchvineDictionaryMinSpawns = 1
 			#Range: 1 ~ 100
