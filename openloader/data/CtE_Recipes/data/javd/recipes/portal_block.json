@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OEO",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "tag": "minecraft:logs"
+    },
+    "E": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "javd:portal_block"
+  }
+}

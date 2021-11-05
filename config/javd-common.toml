@@ -1,0 +1,4 @@
+#The range of how many blocks out to build the platform
+#Range: 1 ~ 10
+platformRange = 3
+

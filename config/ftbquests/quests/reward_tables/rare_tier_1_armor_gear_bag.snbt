@@ -1,0 +1,68 @@
+{
+	id: "0A63A06DB68753EE"
+	order_index: 7
+	title: "Rare Tier 1 Armor Gear Bag"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 10
+					stat_soul: {
+						rar: "rare"
+						slot: "helmet"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 9
+					stat_soul: {
+						rar: "rare"
+						slot: "chest"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 8
+					stat_soul: {
+						rar: "rare"
+						slot: "pants"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 7
+					stat_soul: {
+						rar: "rare"
+						slot: "boots"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+	]
+}

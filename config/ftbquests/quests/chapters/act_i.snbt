@@ -292,7 +292,7 @@
 				{
 					id: "0BE4D497696E0E94"
 					type: "random"
-					title: "Random Tier II Armor Soul"
+					title: "Random Tier I Rare Armor Soul"
 					icon: {
 						id: "mmorpg:stat_soul/stat_soul"
 						Count: 1b
@@ -306,7 +306,7 @@
 							}
 						}
 					}
-					table_id: 5939922219038205091L
+					table_id: 748618356147835886L
 				}
 				{
 					id: "05599ED6FABA2DE9"
@@ -538,6 +538,7 @@
 			title: "Bee A Bee"
 			x: 6.0d
 			y: -1.5d
+			shape: "hexagon"
 			subtitle: "The Bumblezone"
 			description: [
 				"The Bumblezone is a level 1-20 optional dimension. To get there, throw an Ender Pearl at a bee hive. This will shrink you to the size of a bee (but not actually shrink you) and you'll enter The Bumblezone!"
@@ -551,6 +552,7 @@
 			tasks: [{
 				id: "096BEC9DE9B0E279"
 				type: "dimension"
+				title: "Visit The Bumblezone"
 				icon: "minecraft:honeycomb"
 				dimension: "the_bumblezone:the_bumblezone"
 			}]
@@ -598,6 +600,102 @@
 				command: "/age_of_exile give exp @p 1500"
 				player_command: false
 			}]
+		}
+		{
+			title: "Frost Behemoth"
+			x: 6.0d
+			y: 1.5d
+			subtitle: "Mowzie's Mobs"
+			description: [
+				"The Frostmaw can sometimes be found sleeping in snowy biomes... You best be ready if you plan on waking it up!"
+				""
+				"The Frostmaw has natural resistances to frost damage, and deals frost damage. It also has a chance to chill on hit."
+			]
+			dependencies: ["0795A79014EE269C"]
+			id: "33D64871CB10D3C6"
+			tasks: [{
+				id: "64A8936BC85308DE"
+				type: "kill"
+				icon: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5E74FC11A7ACA5F1"
+					type: "choice"
+					title: "Pick A Soul"
+					icon: {
+						id: "mmorpg:stat_soul/stat_soul"
+						Count: 1b
+						tag: {
+							CustomModelData: 13
+							stat_soul: {
+								rar: "rare"
+								slot: "necklace"
+								tier: 1
+								uniq: ""
+							}
+						}
+					}
+					table_id: 5753307161579157777L
+				}
+				{
+					id: "1317CF8AF780880F"
+					type: "command"
+					title: "13000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 13000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Training Arc II"
+			x: 7.5d
+			y: 0.0d
+			subtitle: "Double Double, Toil and Trouble!"
+			description: ["If you ever find yourself having trouble locating mobs, you can try finding dungeons instead. Dungeons in Craft to Exile 2 contain INSTANCED loot and nearly indestructible spawners. You can leave dungeon the way you found them, and let your friends enjoy them!"]
+			dependencies: ["0795A79014EE269C"]
+			id: "6E7160B616122AB1"
+			tasks: [
+				{
+					id: "624B904CFF355859"
+					type: "kill"
+					icon: "minecraft:cauldron"
+					entity: "minecraft:witch"
+					value: 3L
+				}
+				{
+					id: "40F830A6ADC305E0"
+					type: "kill"
+					icon: "minecraft:spider_eye"
+					entity: "minecraft:cave_spider"
+					value: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "5D7BF961A8E534F4"
+					type: "item"
+					item: "minecraft:bread"
+					count: 4
+				}
+				{
+					id: "4B6C5D7D97EB2EB8"
+					type: "command"
+					title: "14500 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 14500"
+					player_command: false
+				}
+			]
 		}
 	]
 }

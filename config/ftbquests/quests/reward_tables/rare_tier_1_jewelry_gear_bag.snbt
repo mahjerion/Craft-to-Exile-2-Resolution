@@ -1,0 +1,38 @@
+{
+	id: "4FD7DA6191A2F911"
+	order_index: 6
+	title: "Rare Tier 1 Jewelry Gear Bag"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 13
+					stat_soul: {
+						rar: "rare"
+						slot: "necklace"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mmorpg:stat_soul/stat_soul"
+				Count: 1b
+				tag: {
+					CustomModelData: 12
+					stat_soul: {
+						rar: "rare"
+						slot: "ring"
+						tier: 1
+						uniq: ""
+					}
+				}
+			}
+		}
+	]
+}

@@ -8,11 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Added some more quests.
+- Changed item rarity glint to border instead of full to be less intrusive.
+- Made the question mark on stat souls more transparent to be less intrusive.
 - Disabled auto third-person camera upon entering battle mode.
 - Disabled the Flight Tiara from Botania.
 - Disabled Experience Orb clustering from Adaptive Performance Tweaks - we get it from Clumps now.
 - Spawners are now super tough to discourage breaking them. I don't want to make them unbreakable however.
 - Bumped up Pandora's Creatures mob spawns again since I fixed the crazy spawns.
+- FTB Islands initial claim size is smaller now.
+- You now get sent to the Void Dimension for FTB Islands.
+- Colonies can now be made in any dimension (but you should really stick to the Void Dimension).
 
 ### Mod Updates
 - Updated Waystones.
@@ -23,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixes
 - Disabled Meerkats for now as they're causing crashes.
 - Fixed the crazy spawn rates of mobs.
+- Fixed rarity glints being the wrong colour.
 
 ## [0.1.1] - 2021-11-04
 
