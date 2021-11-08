@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - You can now see the GUI of other players.
 - Performance near tile entities should be improved.
 - Reduced difficulty of mobs at higher levels.
+- Mobs now do much less damage than previously, 75% less at level 1, 25% less at level 100. Please let me know how this change feels!
 - Increased item drop rates from Mine and Slash by about 30-50%.
 - Disabled Immersive Engineering copper ore generation.
 
