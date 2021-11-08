@@ -156,5 +156,33 @@
 				}
 			]
 		}
+		{
+			title: "Open For Business"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "Simple Shops"
+			description: [
+				"With Simple Shops, you can set up a player-owned store! Place the shop and place it on the ground. Right-click it with an item to set the price, and then right-click it again to insert some items to sell."
+				""
+				"Collect your profits with left-click. If you ever want to remove the shop, you can left-click it while sneaking."
+				""
+				"You can leave the shop anywhere, as they should be unbreakable byu other players."
+			]
+			dependencies: ["5559D27994780545"]
+			id: "76D313CC808B23C7"
+			tasks: [{
+				id: "5D531A71472A9464"
+				type: "item"
+				item: "simpleshops:simple_shop"
+			}]
+			rewards: [{
+				id: "344CC4D24F87E3C9"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 1000"
+				player_command: false
+			}]
+		}
 	]
 }

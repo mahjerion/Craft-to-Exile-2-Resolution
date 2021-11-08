@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2021-11-08
+
 ### Updates
-- Added some more quests.
+- Added some more quests up until Act II.
+- Energy cost of weapons has been reduced by 25-33%.
 - Changed item rarity glint to border instead of full to be less intrusive.
 - Made the question mark on stat souls more transparent to be less intrusive.
 - Disabled auto third-person camera upon entering battle mode.
@@ -19,17 +22,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - FTB Islands initial claim size is smaller now.
 - You now get sent to the Void Dimension for FTB Islands.
 - Colonies can now be made in any dimension (but you should really stick to the Void Dimension).
+- You can now see the GUI of other players.
+- Performance near tile entities should be improved.
+- Reduced difficulty of mobs at higher levels.
+- Increased item drop rates from Mine and Slash by about 30-50%.
+- Disabled Immersive Engineering copper ore generation.
 
 ### Mod Updates
-- Updated Waystones.
+- Updated Waystones, AmbientSounds 4, Repurposed Structures, Minecolonies, Performant, Drippy Loading Screen, Polymorph, Mine and Slash, FTB Chunks, JEI.
+- Added Dynamic View.
+- Added Out of Sight.
+- Added Public Gui Announcement.
 - Added Clumps.
 - Added Stronger Spawners.
+- Added Morpheus.
 - Removed Variable Spawner Hardness.
+- Removed Adaptable Performance Tweaks.
 
 ### Fixes
 - Disabled Meerkats for now as they're causing crashes.
 - Fixed the crazy spawn rates of mobs.
 - Fixed rarity glints being the wrong colour.
+- Item tiers being incorrect while salvaging has been fixed.
+- Archers/arrow spells should be fixed server-side.
+- Epic Fight skills should be disabled properly now.
+- Added a temporary fix for favor somehow being enabled. I've set it so the favor "rewards" are just consistent from 0-5000. Means that players struggling to level at 10 or so should no longer have that issue. Also items will drop at a normal rate too. This was compounded by the fact that Lootr chests seem to not provide favor also, so players would quickly run out of favor early on and have no way to regain it.
+- Fixed tiers not being in the correct level range.
 
 ## [0.1.1] - 2021-11-04
 

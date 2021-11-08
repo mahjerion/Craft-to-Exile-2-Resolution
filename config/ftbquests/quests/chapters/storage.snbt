@@ -24,14 +24,22 @@
 				type: "item"
 				item: "minecraft:chest"
 			}]
-			rewards: [{
-				id: "55E8E58CF46B2C14"
-				type: "command"
-				title: "500 EXP"
-				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 500"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "439E7F25D1AB79D1"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 32
+				}
+				{
+					id: "736C185FD3170E6A"
+					type: "command"
+					title: "500 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 500"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "A Necessity"
@@ -238,6 +246,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
+			dependencies: ["145C9D56AE81763C"]
 			id: "4096A218A2A616EB"
 			tasks: [{
 				id: "1A3842EDF72ABE13"
@@ -247,7 +256,8 @@
 		}
 		{
 			x: 4.5d
-			y: 0.0d
+			y: -1.5d
+			dependencies: ["4096A218A2A616EB"]
 			id: "67AE4E630B695F67"
 			tasks: [{
 				id: "15971ECD6151D027"
@@ -257,7 +267,8 @@
 		}
 		{
 			x: 6.0d
-			y: 0.0d
+			y: -1.5d
+			dependencies: ["67AE4E630B695F67"]
 			id: "2490E82E032504C9"
 			tasks: [{
 				id: "4792A36F7C4438BB"
@@ -268,6 +279,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
+			dependencies: ["145C9D56AE81763C"]
 			id: "1FB3AF920A1BB79A"
 			tasks: [{
 				id: "5AF439EE3B073255"
@@ -278,6 +290,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
+			dependencies: ["1FB3AF920A1BB79A"]
 			id: "07CF4D9FA1B904C2"
 			tasks: [{
 				id: "21CEB2B9F0DEAD6E"
@@ -287,7 +300,8 @@
 		}
 		{
 			x: 4.5d
-			y: 1.5d
+			y: 3.0d
+			dependencies: ["07CF4D9FA1B904C2"]
 			id: "4D21A09EB417D218"
 			tasks: [{
 				id: "1BFB7A99CC0DFB6D"
@@ -297,12 +311,78 @@
 		}
 		{
 			x: 6.0d
-			y: 1.5d
+			y: 3.0d
+			dependencies: ["4D21A09EB417D218"]
 			id: "6A3D395B517F6D49"
 			tasks: [{
 				id: "52FC7F4B5F4784F9"
 				type: "item"
 				item: "storage_overhaul:oak_barrel_tier_3"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: [
+				"07CF4D9FA1B904C2"
+				"4096A218A2A616EB"
+			]
+			id: "5BEBF7495973EA24"
+			tasks: [{
+				id: "74AB069F6DE60DAC"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["5BEBF7495973EA24"]
+			id: "12BB3835931F2EEC"
+			tasks: [{
+				id: "5778F4BFDEBF6D51"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_4"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["12BB3835931F2EEC"]
+			id: "38B0C0A5F1F19FBF"
+			tasks: [
+				{
+					id: "571C5CA63A2BD8EE"
+					type: "item"
+					item: "storagedrawers:controller"
+				}
+				{
+					id: "6A1ADBE62D1AD0BB"
+					type: "item"
+					item: "storagedrawers:controller_slave"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["5BEBF7495973EA24"]
+			id: "7DCBC17B1DE8CDE4"
+			tasks: [{
+				id: "3821374081902590"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["12BB3835931F2EEC"]
+			id: "37EDCBEF0D9E0904"
+			tasks: [{
+				id: "247964E5F55FF72A"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
 			}]
 		}
 	]

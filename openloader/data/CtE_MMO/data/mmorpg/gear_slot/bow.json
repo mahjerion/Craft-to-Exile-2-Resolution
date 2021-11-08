@@ -1,7 +1,7 @@
 {
   "id": "bow",
   "weight": 750,
-  "energy_cost": 8,
+  "energy_cost": 6,
   "model_num": 5,
   "fam": "Weapon"
 }

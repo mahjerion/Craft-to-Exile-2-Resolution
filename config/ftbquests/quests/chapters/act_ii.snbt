@@ -7,5 +7,33 @@
 	icon: "minecraft:nether_star"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["3DAFD456907D35E5"]
+			hide: true
+			id: "1BB590C100DF5E29"
+			tasks: [{
+				id: "700ABCA9F1D699DD"
+				type: "kill"
+				icon: "minecraft:porkchop"
+				entity: "minecraft:piglin"
+				value: 4L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["1BB590C100DF5E29"]
+			id: "4BD5AAD4EE869928"
+			tasks: [{
+				id: "58770D7E2D690C36"
+				type: "kill"
+				icon: "minecraft:blaze_powder"
+				entity: "minecraft:blaze"
+				value: 4L
+			}]
+		}
+	]
 }

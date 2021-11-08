@@ -649,9 +649,9 @@
 				{
 					id: "1317CF8AF780880F"
 					type: "command"
-					title: "13000 EXP"
+					title: "11000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 13000"
+					command: "/age_of_exile give exp @p 11000"
 					player_command: false
 				}
 			]
@@ -690,12 +690,564 @@
 				{
 					id: "4B6C5D7D97EB2EB8"
 					type: "command"
-					title: "14500 EXP"
+					title: "10500 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 14500"
+					command: "/age_of_exile give exp @p 10500"
 					player_command: false
 				}
 			]
+		}
+		{
+			title: "Honey Manifestation"
+			x: 6.0d
+			y: -3.0d
+			subtitle: "Honey Slimes"
+			description: ["In The Bumblelzone, you'll find a variety of new mobs. The Honey Slime is a mob that can be found near the sugar water of the dimension, towards the bottom."]
+			dependencies: ["666AF4DCE3684923"]
+			id: "6B8074CD37283E75"
+			tasks: [{
+				id: "570E27D7694664A7"
+				type: "kill"
+				icon: "minecraft:honey_block"
+				entity: "the_bumblezone:honey_slime"
+				value: 2L
+			}]
+			rewards: [
+				{
+					id: "522EFCCDAA90B5DF"
+					type: "item"
+					item: "vanillacookbook:honey_pancake"
+				}
+				{
+					id: "021057124CD94FB6"
+					type: "command"
+					title: "8000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 8000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Illager Invasion"
+			x: 9.0d
+			y: 0.0d
+			subtitle: "Illagers Arc"
+			description: [
+				"Illagers have been significantly diversified in Craft to Exile. Thanks to Illagers+ there are many different types of Illagers. Be careful of Illager raids that will attack nearby villages!"
+				""
+				"To find Illagers and to cull the Overworld of their evil, you can find new Illager structures such as the Illager Tower, Illager Centre, Illager Mine, Illager Fort, and the Ice Castle."
+				""
+				"These structures are home to many powerful Illagers... You may even encounter the Illager King!"
+			]
+			dependencies: ["6E7160B616122AB1"]
+			id: "3D476743C3E83650"
+			tasks: [
+				{
+					id: "6C5ACFF55092E562"
+					type: "kill"
+					icon: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecraft:pillager"
+					value: 4L
+				}
+				{
+					id: "47DD18B7E5A0C0FE"
+					type: "kill"
+					icon: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecraft:vindicator"
+					value: 2L
+				}
+				{
+					id: "1193A1535FD876F3"
+					type: "kill"
+					icon: {
+						id: "epicfight:knuckle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "illagers_plus:berserker"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5FF3A516A05088FF"
+					type: "random"
+					table_id: 2531917738813411159L
+				}
+				{
+					id: "1C2C2B1669611582"
+					type: "command"
+					title: "11000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 11000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Animal Farm"
+			x: 4.5d
+			y: -1.5d
+			subtitle: "Vanilla Animals"
+			description: ["You'll probably want to find some vanilla mobs to get basic resources like wool and food. You can find these mobs like you would normally - anywhere in the Overworld!"]
+			dependencies: ["642936300B74F77E"]
+			id: "267D0608E7799EEB"
+			tasks: [
+				{
+					id: "7417742B8FDE952F"
+					type: "kill"
+					icon: "minecraft:milk_bucket"
+					entity: "minecraft:cow"
+					value: 4L
+				}
+				{
+					id: "4CF4AC7DB3D84EBB"
+					type: "kill"
+					icon: "minecraft:egg"
+					entity: "minecraft:chicken"
+					value: 8L
+				}
+				{
+					id: "2EFFC46BB52BBD7B"
+					type: "kill"
+					icon: "minecraft:white_wool"
+					entity: "minecraft:sheep"
+					value: 4L
+				}
+				{
+					id: "480F8BD993B3287D"
+					type: "kill"
+					icon: "minecraft:porkchop"
+					entity: "minecraft:pig"
+					value: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "01AE63C8F55CF1D7"
+					type: "item"
+					item: "farmersdelight:beef_stew"
+				}
+				{
+					id: "6F8D16E5721E7567"
+					type: "command"
+					title: "2500 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 2500"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Outpost Snipers"
+			x: 9.0d
+			y: -1.5d
+			subtitle: "Illagers+"
+			description: ["Found in Illager structures, these archers will usually line the walls and fire at nearby players."]
+			dependencies: ["3D476743C3E83650"]
+			id: "3F9FE587FF0EB4F5"
+			tasks: [{
+				id: "30E353B570839953"
+				type: "kill"
+				icon: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "illagers_plus:archer"
+				value: 4L
+			}]
+			rewards: [
+				{
+					id: "0DDF388FBD3C48FD"
+					type: "item"
+					item: {
+						id: "mmorpg:stat_soul/stat_soul"
+						Count: 1b
+						tag: {
+							CustomModelData: 5
+							stat_soul: {
+								rar: "rare"
+								slot: "bow"
+								tier: 1
+								uniq: ""
+							}
+						}
+					}
+				}
+				{
+					id: "7640F5132B0B95F7"
+					type: "item"
+					item: {
+						id: "mmorpg:stat_soul/stat_soul"
+						Count: 1b
+						tag: {
+							CustomModelData: 6
+							stat_soul: {
+								rar: "rare"
+								slot: "crossbow"
+								tier: 1
+								uniq: ""
+							}
+						}
+					}
+				}
+				{
+					id: "122882A1E4D8CE88"
+					type: "command"
+					title: "11500 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 11500"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "The Big Ones"
+			x: 9.0d
+			y: 1.5d
+			subtitle: "Illagers+"
+			description: [
+				"Illagers+ adds a whole bunch of new Illagers."
+				""
+				"The Furantur will steal the player's active potion effect upon hitting them."
+				""
+				"The Necromancer will summon zombies to aid in battle."
+				""
+				"The Frostmancer uses ice attacks to slow, pull in, and even damage enemies!"
+				""
+				"You'll find these mobs in various Illager forts. Be careful when you encounter them!"
+			]
+			dependencies: ["3D476743C3E83650"]
+			id: "723646C24FD6AA76"
+			tasks: [
+				{
+					id: "09D073A5D69F2E10"
+					type: "kill"
+					icon: "environmental:ice_chain"
+					entity: "illagers_plus:frostmancer"
+					value: 1L
+				}
+				{
+					id: "08CDE709738FC0F4"
+					type: "kill"
+					icon: "botania:virus_necrodermal"
+					entity: "illagers_plus:necromancer"
+					value: 1L
+				}
+				{
+					id: "4211A9FF5EF65969"
+					type: "kill"
+					icon: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+					}
+					entity: "illagers_plus:furantur"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "05637AFED25279DA"
+					type: "item"
+					item: {
+						id: "mmorpg:stat_soul/stat_soul"
+						Count: 1b
+						tag: {
+							CustomModelData: 3
+							stat_soul: {
+								rar: "rare"
+								slot: "staff"
+								tier: 1
+								uniq: ""
+							}
+						}
+					}
+				}
+				{
+					id: "5E7A50EA092AF831"
+					type: "command"
+					title: "12000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 12000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Song of Strength"
+			x: 10.5d
+			y: -1.5d
+			subtitle: "Illagers+"
+			description: ["Enchanters empower nearby Illagers by providing them with a short-duration strength boost. Simultaneously, nearby players will receive slowness, so be sure to get rid of these mobs first!"]
+			dependencies: ["3D476743C3E83650"]
+			id: "32A0463AF728C896"
+			tasks: [{
+				id: "65B63AA18E9DFC54"
+				type: "kill"
+				icon: "minecraft:experience_bottle"
+				entity: "illagers_plus:enchanter"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "6F85D44EDAA5BF38"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 8
+				}
+				{
+					id: "79B7EEBF99E50AB8"
+					type: "random"
+					table_id: 5753307161579157777L
+				}
+				{
+					id: "071440E1FF8847F8"
+					type: "command"
+					title: "12000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 12000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Assist Me!"
+			x: 10.5d
+			y: 0.0d
+			subtitle: "Illagers+"
+			description: ["The Illager General is not necessarily strong in combat, but is able to place support columns that spawn in Pillagers. The General is definitely a mob to kill-on-sight!"]
+			dependencies: ["3D476743C3E83650"]
+			id: "575127BAA843A504"
+			tasks: [{
+				id: "1A1F8CEC1CCC3174"
+				type: "kill"
+				icon: "minecraft:black_banner"
+				entity: "illagers_plus:illager_general"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2709ABF9A7EF6EEB"
+					type: "item"
+					item: {
+						id: "mmorpg:stat_soul/stat_soul"
+						Count: 1b
+						tag: {
+							CustomModelData: 11
+							stat_soul: {
+								rar: "rare"
+								slot: "shield"
+								tier: 1
+								uniq: ""
+							}
+						}
+					}
+				}
+				{
+					id: "08FE4837D094536C"
+					type: "command"
+					title: "13000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 13000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Illager Ruler"
+			x: 12.0d
+			y: 0.0d
+			subtitle: "Illagers+"
+			description: ["The Illager King is the big bad boss of all Illagers. You can find them in the castles. But be warned, as they're hardly ever alone..."]
+			dependencies: ["575127BAA843A504"]
+			id: "2BC9DB029A989EFF"
+			tasks: [{
+				id: "60453ACBEA1A18DC"
+				type: "kill"
+				icon: {
+					id: "curios:crown"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "illagers_plus:illager_king"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "29748C5DDB0F7BEB"
+					type: "random"
+					table_id: 748618356147835886L
+				}
+				{
+					id: "0562CE88CE756534"
+					type: "random"
+					table_id: 5753307161579157777L
+				}
+				{
+					id: "7E5A3259FD8AB504"
+					type: "command"
+					title: "15000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 15000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Opening The Nether"
+			x: 13.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Meet Your Fight"
+			description: [
+				"In order to access The Nether, you must first slay the Bellringer who guards the way."
+				""
+				"Summon the Bellringer using the Haunted Bell, and defeat it!"
+				""
+				"WIP: This will unlock the gamestage that allows you to access The Nether."
+			]
+			dependencies: ["2BC9DB029A989EFF"]
+			id: "0A6D366726F10DF3"
+			tasks: [
+				{
+					id: "1233CD2990F39C29"
+					type: "item"
+					item: "meetyourfight:haunted_bell"
+				}
+				{
+					id: "796EFC3F8B0314D6"
+					type: "kill"
+					icon: "meetyourfight:haunted_bell"
+					entity: "meetyourfight:bellringer"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "29B3919BAF9F9A81"
+					type: "random"
+					table_id: 5939922219038205091L
+				}
+				{
+					id: "6AD9A6A9F5559D57"
+					type: "command"
+					title: "25000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 25000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Animal Farm II"
+			x: 7.5d
+			y: 1.5d
+			subtitle: "Better Animals Plus"
+			description: [
+				"Better Animals Plus is a mod that adds plenty of new animals in the Overworld. It's not the only mod that does this though!"
+				""
+				"You'll find these mobs scattered across the Overworld. Good luck and happy hunting!"
+			]
+			dependencies: ["6E7160B616122AB1"]
+			id: "4741BEB66DC84B6E"
+			tasks: [
+				{
+					id: "70827A1E5D7CE3F0"
+					type: "kill"
+					icon: "blue_skies:fox_pelt"
+					entity: "minecraft:fox"
+					value: 2L
+				}
+				{
+					id: "4510A5C8BE0C3464"
+					type: "kill"
+					icon: "betteranimalsplus:feralwolfhead_brown"
+					entity: "minecraft:wolf"
+					value: 4L
+				}
+				{
+					id: "20E94B1F08BE2152"
+					type: "kill"
+					icon: "betteranimalsplus:boarhead_1"
+					entity: "betteranimalsplus:boar"
+					value: 2L
+				}
+				{
+					id: "5FA6F6804A6977FD"
+					type: "kill"
+					icon: "minecraft:dirt"
+					entity: "betteranimalsplus:badger"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3DC98EEAADE88EA3"
+					type: "item"
+					item: "vanillacookbook:pizza"
+				}
+				{
+					id: "384A2EBF59782121"
+					type: "command"
+					title: "10000 EXP"
+					icon: "minecraft:book"
+					command: "/age_of_exile give exp @p 10000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Nether Regions"
+			x: 15.0d
+			y: 0.0d
+			subtitle: "Act II - Prelude"
+			description: [
+				"Congratulations, you've slain the Bellringer! You've officially completed Act I."
+				""
+				"You should now be able to see the Act II chapter in your quest book."
+				""
+				"You can now move onto Act II by entering The Nether. To do so, craft a Nether portal and light it with Flint \\& Steel. The vertical portal consists of Obsidian, and should have a 2x3 empty center."
+			]
+			dependencies: ["0A6D366726F10DF3"]
+			id: "3DAFD456907D35E5"
+			tasks: [{
+				id: "54B3D4601DBC5F1D"
+				type: "dimension"
+				title: "Visit The Nether"
+				icon: "minecraft:netherrack"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "016330E4185AA749"
+				type: "command"
+				title: "17500 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 17500"
+				player_command: false
+			}]
 		}
 	]
 }

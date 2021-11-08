@@ -6,5 +6,6 @@ CTEventManager.register<crafttweaker.api.event.entity.player.MCPlayerLoggedInEve
 	val player = event.player;
 	val world = player.world;
 	world.asServerWorld().server.executeCommand("gamerule doVanillaAttack false");
+	world.asServerWorld().server.executeCommand("gamerule keepSkills true");
 	world.asServerWorld().server.executeCommand("gamerule keepInventory true");
 });

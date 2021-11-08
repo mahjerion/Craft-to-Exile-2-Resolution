@@ -1,7 +1,7 @@
 {
   "id": "dagger",
   "weight": 750,
-  "energy_cost": 3,
+  "energy_cost": 2,
   "model_num": 14,
   "fam": "Weapon"
 }

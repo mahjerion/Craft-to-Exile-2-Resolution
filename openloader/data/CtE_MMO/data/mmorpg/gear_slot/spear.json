@@ -1,7 +1,7 @@
 {
   "id": "spear",
   "weight": 750,
-  "energy_cost": 5,
+  "energy_cost": 4,
   "model_num": 15,
   "fam": "Weapon"
 }

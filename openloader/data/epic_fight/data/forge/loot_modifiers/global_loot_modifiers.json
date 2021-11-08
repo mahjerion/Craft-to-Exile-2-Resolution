@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"entries": [
+		"epicfight:skillbook"
+	],
+	"conditions": [
+		{
+		  "type": "forge:mod_loaded",
+		  "modid": "powah"
+		}
+	]
+}

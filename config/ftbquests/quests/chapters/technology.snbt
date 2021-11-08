@@ -7,5 +7,55 @@
 	icon: "create:wrench"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "4A2AACA5332D6A18"
+			tasks: [
+				{
+					id: "10949676CD9F9F46"
+					type: "item"
+					item: "create:zinc_ingot"
+					count: 16L
+				}
+				{
+					id: "2626F7E6B8940319"
+					type: "item"
+					item: "create:copper_ingot"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "1E17BEB04E646036"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 1000"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "172A111CF4672D5A"
+			tasks: [{
+				id: "145F3F829B90D457"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7948685B0A59B587"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/age_of_exile give exp @p 1000"
+				player_command: false
+			}]
+		}
+	]
 }

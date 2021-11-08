@@ -1,7 +1,7 @@
 {
   "id": "staff",
   "weight": 500,
-  "energy_cost": 4,
+  "energy_cost": 3,
   "model_num": 18,
   "fam": "Weapon"
 }
