@@ -52,7 +52,7 @@
 	holidayfeatures = true
 	#AI Update rate. Increase this to improve performance. This throttles citizen updates. [Default: 1, min: 1, max: 100]
 	#Range: 1 ~ 100
-	updaterate = 4
+	updaterate = 1
 	#Quantity of dirt per compost filling. [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
 	dirtfromcompost = 1

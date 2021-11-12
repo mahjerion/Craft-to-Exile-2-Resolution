@@ -13,7 +13,7 @@
 					stat_soul: {
 						rar: "rare"
 						slot: "necklace"
-						tier: 1
+						tier: 0
 						uniq: ""
 					}
 				}
@@ -28,7 +28,7 @@
 					stat_soul: {
 						rar: "rare"
 						slot: "ring"
-						tier: 1
+						tier: 0
 						uniq: ""
 					}
 				}

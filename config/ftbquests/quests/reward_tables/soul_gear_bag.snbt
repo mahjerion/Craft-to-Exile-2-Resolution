@@ -13,7 +13,7 @@
 					stat_soul: {
 						rar: "common"
 						slot: "sword"
-						tier: 1
+						tier: 0
 						uniq: ""
 					}
 				}
@@ -28,7 +28,7 @@
 					stat_soul: {
 						rar: "common"
 						slot: "axe"
-						tier: 1
+						tier: 0
 						uniq: ""
 					}
 				}
@@ -43,7 +43,7 @@
 					stat_soul: {
 						rar: "common"
 						slot: "staff"
-						tier: 1
+						tier: 0
 						uniq: ""
 					}
 				}
@@ -58,7 +58,7 @@
 					stat_soul: {
 						rar: "common"
 						slot: "scepter"
-						tier: 1
+						tier: 0
 						uniq: ""
 					}
 				}
@@ -73,7 +73,7 @@
 					stat_soul: {
 						rar: "common"
 						slot: "bow"
-						tier: 1
+						tier: 0
 						uniq: ""
 					}
 				}

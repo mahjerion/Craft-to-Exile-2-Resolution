@@ -3,6 +3,7 @@
 #
 # Rate for how often a bee will have an LGBT+ coat!
 #
+#Range: 0.0 ~ 1.0
 "lgbt+ bee rates" = 0.01
 # 
 #-----------------------------------------------------

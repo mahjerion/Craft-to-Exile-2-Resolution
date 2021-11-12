@@ -10,7 +10,7 @@
 
 [lobby]
 	#Auto-teleports player to their island once they join a team.
-	autoTeleportToIsland = true
+	autoTeleportToIsland = false
 	#The lobby island spawned automatically on servers.
 	#Must be resource location and within the structures folder of data
 	lobbyStructureFile = "ftbteamislands:default_lobby"

@@ -13,7 +13,7 @@
 					stat_soul: {
 						rar: "common"
 						slot: "dagger"
-						tier: 1
+						tier: 0
 						uniq: ""
 					}
 				}
@@ -28,7 +28,7 @@
 					stat_soul: {
 						rar: "common"
 						slot: "greatsword"
-						tier: 1
+						tier: 0
 						uniq: ""
 					}
 				}
@@ -43,7 +43,7 @@
 					stat_soul: {
 						rar: "common"
 						slot: "spear"
-						tier: 1
+						tier: 0
 						uniq: ""
 					}
 				}

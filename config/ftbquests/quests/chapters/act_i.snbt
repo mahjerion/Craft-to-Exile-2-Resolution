@@ -208,7 +208,7 @@
 							stat_soul: {
 								rar: "uncommon"
 								slot: "chest"
-								tier: 1
+								tier: 0
 								uniq: ""
 							}
 						}
@@ -886,7 +886,7 @@
 							stat_soul: {
 								rar: "rare"
 								slot: "bow"
-								tier: 1
+								tier: 0
 								uniq: ""
 							}
 						}
@@ -903,7 +903,7 @@
 							stat_soul: {
 								rar: "rare"
 								slot: "crossbow"
-								tier: 1
+								tier: 0
 								uniq: ""
 							}
 						}
@@ -978,7 +978,7 @@
 							stat_soul: {
 								rar: "rare"
 								slot: "staff"
-								tier: 1
+								tier: 0
 								uniq: ""
 							}
 						}
@@ -1058,7 +1058,7 @@
 							stat_soul: {
 								rar: "rare"
 								slot: "shield"
-								tier: 1
+								tier: 0
 								uniq: ""
 							}
 						}

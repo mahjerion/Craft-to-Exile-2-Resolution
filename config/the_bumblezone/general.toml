@@ -5,6 +5,7 @@
 	#
 	# Base speed for the Beehemoth when being rode by a player.
 	#
+	#Range: 0.0 ~ 100.0
 	beeheemothSpeed = 0.95
 
 ["General Mechanics Options"]

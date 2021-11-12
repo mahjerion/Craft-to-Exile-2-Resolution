@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Changed the Void Dimension portal recipe.
+
+### Mod Updates
+- Updated The Bumblezone, Veinmining.
+- Added Chocolate Fix.
+
+### Fixes
+- Fixed quest rewards being a tier too high.
+- You should now spawn in the Overworld again.
+
 ## [0.1.2] - 2021-11-08
 
 ### Updates
