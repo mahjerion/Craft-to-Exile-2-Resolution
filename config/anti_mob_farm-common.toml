@@ -9,13 +9,13 @@
 	#Range: 0.0 ~ 1.0
 	min_player_dmg_for_loot = 0.3
 	#Range: 0.0 ~ 1.0
-	mob_kill_chunk_penalty = 1.0
+	mob_kill_chunk_penalty = 0.25
 	#Range: 0.0 ~ 1.0
-	penalty_regen_per_minute = 0.05
+	penalty_regen_per_minute = 0.1
 	excluded_dimensions = ["mmorpg:dungeon", "dimdungeons:dungeon_dimension"]
 	excluded_entities = []
 	#Range: 0 ~ 1000
-	one_time_free_kills_per_chunk = 15
+	one_time_free_kills_per_chunk = 25
 	#Range: 0 ~ 1000
-	added_free_kills_on_chest_looted = 5
+	added_free_kills_on_chest_looted = 15
 

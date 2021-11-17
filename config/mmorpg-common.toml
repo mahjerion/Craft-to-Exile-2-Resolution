@@ -34,9 +34,9 @@
 	#Range: 0.0 ~ 1000.0
 	extra_mob_stats_per_lvl = 0.02
 	#Range: 0.0 ~ 1000.0
-	vanilla_mob_dmg_as_exile_dmg = 0.25
+	vanilla_mob_dmg_as_exile_dmg = 0.5
 	#Range: 0.0 ~ 1000.0
-	vanilla_mob_dmg_as_exile_dmg_at_max_lvl = 0.75
+	vanilla_mob_dmg_as_exile_dmg_at_max_lvl = 1.0
 	#Range: 0.0 ~ 1000.0
 	pvp_dmg_multi = 0.5
 	#Range: 0.0 ~ 1000.0

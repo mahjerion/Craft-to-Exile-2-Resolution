@@ -33,22 +33,15 @@
       "maxEnchants": 5
     },
     "barnacle": {
-      "spawn": true,
+      "spawn": false,
       "rate": 2,
-      "biomes": [
-        "minecraft:deep_warm_ocean",
-        "minecraft:deep_ocean",
-        "minecraft:deep_cold_ocean",
-        "minecraft:deep_lukewarm_ocean"
-      ],
+      "biomes": [],
       "health": 40.0
     },
     "meerkat": {
       "spawn": false,
-      "burrowRate": 10,
-      "biomes": [
-        "#desert"
-      ],
+      "burrowRate": 0,
+      "biomes": [],
       "health": 10.0
     },
     "ostrich": {

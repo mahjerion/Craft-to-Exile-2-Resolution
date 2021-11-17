@@ -8,15 +8,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
-- Changed the Void Dimension portal recipe.
+- You will need to reset your world for this update (but not necessarily your characters).
+- Xaero's Update Alert: if you choose to not reset your world for whatever reason, back up your Xaero's Waypoints and WorldMap folders!
+- Minecolonies now must be in the Overworld again. We're going back to the original Overworld + Overworld Mirror combo.
+- Claims have been changed. You now use FLAN for claims rather than FTB Chunks. Type /flan to view the commands. At present, you start with 512 claim blocks. Claims must be at least 64 blocks. Every few seconds you play, you'll earn 1 block, up to a maximum of ~10000 blocks. After 30 days of inactivity, if your claim is under a certain size (around 2000 blocks), it will be deleted.
+- Spawners are now indestructible. They SHOULD go on a 15 minute cooldown after being active for 5 minutes (please let me know if this doesn't work).
+- Disabled Botania's Life Aggregator (Spawner Mover).
+- Foliaath's no longer give a lot of EXP.
+- Mobs at lower levels do more damage again.
+- Enchantment max levels have been toned down drastically to either their vanilla values, or below (for modded enchants).
+- Disabled Life Mending, Occult Aversion enchants.
+- Equipment durability is higher the higher rarity it is.
+- I removed FTB mods in favour of more modular and configurable mods (ThutPerms/FLAN). The problem with Ranks/Chunks is that they were unable to be configured for shipment with modpacks.
+- Team command should be enabled by default now when playing on servers.
+- Witches can now spawn in the Exile towers.
+- With the addition of Temporary Spawners, Anti Mob Farm penalties have been reduced immensely. They still exist, but not even close to what it used to be before.
 
 ### Mod Updates
-- Updated The Bumblezone, Veinmining.
+- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin.
+- Re-added BetterEnd Reforked.
 - Added Chocolate Fix.
+- Added Sophisticated Backpacks.
+- Added ThutPerms.
+- Added FLAN.
+- Added Temporary Spawners.
+- Removed Just Another Void Dimension.
+- Removed FTB Team Islands - not really what I wanted. Couldn't configure certain aspects.
+- Removed FTB Ranks.
+- Removed FTB Chunks.
+- Removed Useful Backpacks.
+- Removed Stronger Spawners.
 
 ### Fixes
 - Fixed quest rewards being a tier too high.
 - You should now spawn in the Overworld again.
+- Create can no longer move spawners.
+- Fixed paintings being invisible.
+- Disabled Barnacle spawns as they are undefeatable.
+- You no longer lose your weapon upon opening the chest at the top of the Exile towers.
 
 ## [0.1.2] - 2021-11-08
 

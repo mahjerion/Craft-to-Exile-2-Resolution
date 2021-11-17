@@ -8,6 +8,6 @@
 	#Range: > 0
 	TOWER_SEED = 270951955
 	AUTO_DESTROY_TOWERS = false
-	ALLOWED_MOBS_FOR_SPAWNERS = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton", "minecraft:stray", "minecraft:husk"]
+	ALLOWED_MOBS_FOR_SPAWNERS = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:skeleton", "minecraft:stray", "minecraft:husk", "minecraft:witch"]
 	ALLOWED_BOSSES = ["minecraft:wither_skeleton", "minecraft:iron_golem"]
 
