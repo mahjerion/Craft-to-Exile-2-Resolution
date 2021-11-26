@@ -12,8 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Xaero's Update Alert: if you choose to not reset your world for whatever reason, back up your Xaero's Waypoints and WorldMap folders!
 - Minecolonies now must be in the Overworld again. We're going back to the original Overworld + Overworld Mirror combo.
 - Claims have been changed. You now use FLAN for claims rather than FTB Chunks. Type /flan to view the commands. At present, you start with 512 claim blocks. Claims must be at least 64 blocks. Every few seconds you play, you'll earn 1 block, up to a maximum of ~10000 blocks. After 30 days of inactivity, if your claim is under a certain size (around 2000 blocks), it will be deleted.
+- Sophisticated Backpacks has replaced Useful Backpacks. These backpacks can be upgraded and use components from other parts of the pack.
 - Spawners are now indestructible. They SHOULD go on a 15 minute cooldown after being active for 5 minutes (please let me know if this doesn't work).
 - Disabled Botania's Life Aggregator (Spawner Mover).
+- Increased spawn rate of some dungeons.
 - Foliaath's no longer give a lot of EXP.
 - Mobs at lower levels do more damage again.
 - Enchantment max levels have been toned down drastically to either their vanilla values, or below (for modded enchants).
@@ -23,15 +25,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Team command should be enabled by default now when playing on servers.
 - Witches can now spawn in the Exile towers.
 - With the addition of Temporary Spawners, Anti Mob Farm penalties have been reduced immensely. They still exist, but not even close to what it used to be before.
+- Added some more menu items like the Akliz/Wiki (no wiki yet tho) links, etc.
+- Added some quests for Sophisticated Backpacks, FLAN, and Overworld Mirror dimension.
+- Added a quest showing the new Common Gear Soul Stone.
+- XX Added a quest showing some of the Mine and Slash currencies.
+- XX Added a quest explaining Identification in Mine and Slash.
+- XX Added quests explaining Divine Missions.
+- XX Chests should now contain some loot from Mine and Slash.
+- Favor has been reenabled and reconfigured so that you no longer receive any "penalties" for having no favor, only bonuses at higher favor counts.
 
 ### Mod Updates
-- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin.
+- Updated to Forge 36.2.19.
+- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin, Apotheosis, Fast Workbench, Fast Furnace, Controlling, DungeonCrawl, Create Additions, Drippy Loading Screen, AI Improvements, Placebo, Meet Your Fight, Lootr, FTB Teams, Dungeons Arise, Create, Architectuary.
 - Re-added BetterEnd Reforked.
 - Added Chocolate Fix.
 - Added Sophisticated Backpacks.
 - Added ThutPerms.
 - Added FLAN.
 - Added Temporary Spawners.
+- Added Falling Leaves.
 - Removed Just Another Void Dimension.
 - Removed FTB Team Islands - not really what I wanted. Couldn't configure certain aspects.
 - Removed FTB Ranks.
@@ -46,6 +58,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed paintings being invisible.
 - Disabled Barnacle spawns as they are undefeatable.
 - You no longer lose your weapon upon opening the chest at the top of the Exile towers.
+- Favor should now be properly disabled.
+- Gear compatibility with Mine and Slash should now properly work on servers.
+- Fixing M&S Gem localization in creative tab.
 
 ## [0.1.2] - 2021-11-08
 

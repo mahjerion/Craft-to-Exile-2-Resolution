@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.class_442 {
-}
-
 net.minecraft.client.gui.screen.WorldLoadProgressScreen {
 }
 

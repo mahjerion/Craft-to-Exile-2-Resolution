@@ -112,3 +112,73 @@ customization {
   height = 100
 }
 
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\images\akliz_hover.png
+  description = Get 20% off with this affiliate link!
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = -140
+  width = 93
+  actionid = 512952e3-eabe-4baa-8900-ea51903643791637954277804
+  action = addbutton
+  y = -31
+  backgroundnormal = config\fancymenu\images\akliz.png
+  value = https://www.akliz.net/crafttoexile
+  height = 30
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\images\patreon_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 44
+  width = 80
+  actionid = 9c294ff9-314b-4d7e-a64e-7f5ed43d44d41637954277827
+  action = addbutton
+  y = -21
+  backgroundnormal = config\fancymenu\images\patreon.png
+  value = https://www.patreon.com/crafttoexile
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\images\disc_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -46
+  width = 93
+  actionid = 191422de-72ac-4d3e-b975-79b0cb3906711637954277842
+  action = addbutton
+  y = -31
+  backgroundnormal = config\fancymenu\images\disc.png
+  value = https://discord.gg/cJS6ZHs
+  height = 30
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\images\wiki_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 48
+  width = 93
+  actionid = 14ef38cd-3d99-464e-82e7-734a73f6e4651637954277857
+  action = addbutton
+  y = -31
+  backgroundnormal = config\fancymenu\images\wiki.png
+  value = https://github.com/mahjerion/Craft-to-Exile-Harmony/wiki
+  height = 30
+}
+

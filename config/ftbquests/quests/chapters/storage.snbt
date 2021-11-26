@@ -36,7 +36,7 @@
 					type: "command"
 					title: "500 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 500"
+					command: "/mine_and_slash give exp @p 500"
 					player_command: false
 				}
 			]
@@ -45,7 +45,7 @@
 			title: "A Necessity"
 			x: 1.5d
 			y: -1.5d
-			subtitle: "Useful Backpacks"
+			subtitle: "Sophisticated Backpacks"
 			description: [
 				"Backpacks are a great solution to a nomad's storage issue. Craft a small backpack to hold additional items for you on the go!"
 				""
@@ -56,14 +56,14 @@
 			tasks: [{
 				id: "7783828D7268ED3A"
 				type: "item"
-				item: "usefulbackpacks:backpack_small"
+				item: "sophisticatedbackpacks:backpack"
 			}]
 			rewards: [{
 				id: "7A7193D4C6B943AD"
 				type: "command"
 				title: "1000 EXP"
 				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 1000"
+				command: "/mine_and_slash give exp @p 1000"
 				player_command: false
 			}]
 		}
@@ -71,21 +71,21 @@
 			title: "A Necessary Upgrade"
 			x: 3.0d
 			y: -1.5d
-			subtitle: "An Even More Useful Backpack"
-			description: ["You can upgrade your backpack easily with additional materials. Once upgraded, your backpack will be able to store many more items, so do it soon!"]
+			subtitle: "Sophisticated Backpacks Upgrade"
+			description: ["You can craft the upgrade base from Sophisticated Backpacks and modify it in a variety of ways to upgrade your backpack! Sophisticated Backpacks have many upgrades such as storage upgrades, magnet upgrades, auto-smelting upgrades, and many more!"]
 			dependencies: ["3F3B126F16EE4EE4"]
 			id: "710FB82CD97500AD"
 			tasks: [{
 				id: "7C411909B04A965D"
 				type: "item"
-				item: "usefulbackpacks:backpack_medium"
+				item: "sophisticatedbackpacks:upgrade_base"
 			}]
 			rewards: [{
 				id: "799E01032AA7EF9F"
 				type: "command"
 				title: "1000 EXP"
 				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 1000"
+				command: "/mine_and_slash give exp @p 1000"
 				player_command: false
 			}]
 		}
@@ -123,14 +123,14 @@
 					type: "command"
 					title: "1000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1000"
+					command: "/mine_and_slash give exp @p 1000"
 					player_command: false
 				}
 			]
 		}
 		{
 			title: "The Material Pouch"
-			x: 3.0d
+			x: 0.0d
 			y: -4.5d
 			subtitle: "Materials Galore"
 			description: ["The Material Pouch from Mine and Slash does as the name implies - it stores crafting materials! You can find these materials from killing mobs, and use them to upgrade your equipment."]
@@ -146,13 +146,13 @@
 				type: "command"
 				title: "1000 EXP"
 				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 1000"
+				command: "/mine_and_slash give exp @p 1000"
 				player_command: false
 			}]
 		}
 		{
 			title: "More Space Please!"
-			x: 1.5d
+			x: 3.0d
 			y: -4.5d
 			subtitle: "Space Upgrade"
 			description: [
@@ -172,13 +172,13 @@
 				type: "command"
 				title: "1000 EXP"
 				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 1000"
+				command: "/mine_and_slash give exp @p 1000"
 				player_command: false
 			}]
 		}
 		{
 			title: "Common Rarity? No Thanks"
-			x: 0.0d
+			x: 1.5d
 			y: -4.5d
 			subtitle: "Salvage Upgrade"
 			description: [
@@ -198,7 +198,7 @@
 				type: "command"
 				title: "1000 EXP"
 				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 1000"
+				command: "/mine_and_slash give exp @p 1000"
 				player_command: false
 			}]
 		}
@@ -227,7 +227,7 @@
 					type: "command"
 					title: "1000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1000"
+					command: "/mine_and_slash give exp @p 1000"
 					player_command: false
 				}
 			]
@@ -383,6 +383,31 @@
 				id: "247964E5F55FF72A"
 				type: "item"
 				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			title: "Stack It Up!"
+			x: 4.5d
+			y: -3.0d
+			subtitle: "Sophisticated Backpacks Upgrade"
+			description: ["Upgrade your Sophisticated Backpack with a stack upgrade to hold even more items! Check out the JEI for all the available backpack upgrades."]
+			dependencies: [
+				"5C31958A75103A68"
+				"710FB82CD97500AD"
+			]
+			id: "15BDB973CACD14DD"
+			tasks: [{
+				id: "5D2C6454501CA511"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+			rewards: [{
+				id: "5BA93065206199C7"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 1000"
+				player_command: false
 			}]
 		}
 	]

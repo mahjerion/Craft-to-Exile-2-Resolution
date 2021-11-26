@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "itemRegistryName": "stack_upgrade_tier_3",
+      "type": "sophisticatedbackpacks:item_enabled"
+    }
+  ],
+  "pattern": [
+    "DMD",
+    "DSD",
+    "DMD"
+  ],
+  "key": {
+    "S": {
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
+    },
+    "D": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "M": {
+      "item": "mmorpg:mat/condensed_salvage/c3"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:stack_upgrade_tier_3"
+  }
+}

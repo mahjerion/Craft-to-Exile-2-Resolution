@@ -7,11 +7,11 @@
   "drop_gems": true,
   "drop_currency": true,
   "drop_lvl_rewards": true,
-  "extra_item_favor_cost": 1.0,
+  "extra_item_favor_cost": 3.0,
   "extra_items_per_boss": 0,
   "extra_items_per_chest": 0,
   "can_salvage_loot": true,
-  "exp_multi": 1.0,
+  "exp_multi": 1.15,
   "favor_drain_per_item": 1.0,
   "text_format": "aqua",
   "excludedRarities": []

@@ -31,7 +31,7 @@
 					type: "command"
 					title: "1000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1000"
+					command: "/mine_and_slash give exp @p 1000"
 					player_command: false
 				}
 			]
@@ -71,7 +71,7 @@
 						Count: 1b
 						tag: {
 							ingredient: {
-								tier: 1
+								tier: 0
 								id: "red_coral"
 							}
 						}
@@ -86,7 +86,7 @@
 						Count: 1b
 						tag: {
 							ingredient: {
-								tier: 1
+								tier: 0
 								id: "ectoplasm"
 							}
 						}
@@ -98,7 +98,7 @@
 					type: "command"
 					title: "1000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1000"
+					command: "/mine_and_slash give exp @p 1000"
 					player_command: false
 				}
 			]

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "itemRegistryName": "stack_upgrade_tier_2",
+      "type": "sophisticatedbackpacks:item_enabled"
+    }
+  ],
+  "pattern": [
+    "GMG",
+    "GSG",
+    "GMG"
+  ],
+  "key": {
+    "S": {
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+    },
+    "G": {
+      "tag": "forge:storage_blocks/gold"
+    },
+    "M": {
+      "item": "mmorpg:mat/condensed_salvage/c2"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
+  }
+}

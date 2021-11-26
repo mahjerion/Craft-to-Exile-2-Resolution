@@ -17,6 +17,8 @@
 				"Welcome to Minecolonies, the ultimate time sink. Minecolonies is a mod that turns your game into a sim city. Hire citizens to perform menial tasks for you, such as building, farming, mining, and more! Expand your colony to unlock new buildings such as the university, which will allow you to research skills for your colonists. But beware for barbarian and pirate raids..."
 				""
 				"Start by crafting a Supply Camp. You can place the camp down by using it. You can choose which style your camp will be, but choose wisely as some woods are harder to come by than others..."
+				""
+				"Note that you can only start Minecolonies in the Overworld. If you're on a server and need a place to train, consider going to the Overworld Mirror Dimension!"
 			]
 			id: "48776686795B6C41"
 			tasks: [{
@@ -37,7 +39,7 @@
 					type: "command"
 					title: "1000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1000"
+					command: "/mine_and_slash give exp @p 1000"
 					player_command: false
 				}
 			]
@@ -78,7 +80,7 @@
 					type: "command"
 					title: "1000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1000"
+					command: "/mine_and_slash give exp @p 1000"
 					player_command: false
 				}
 			]
@@ -114,44 +116,7 @@
 					type: "command"
 					title: "1000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1000"
-					player_command: false
-				}
-			]
-		}
-		{
-			title: "The Void Dimension"
-			x: 0.0d
-			y: -1.5d
-			subtitle: "But Really, It's For Minecolonies"
-			description: [
-				"The Void Dimension is meant to be a one-stop shop for all your home requirements. There are two ways to reach this dimension. You can craft the Void Dimension portal block, OR you can use FTB Islands to generate your very own island in the dimension. Doing so will automatically claim the area (if on a server) and teleport you to the dimension!"
-				""
-				"If you ever want to leave, you'll need to craft the portal block. Luckily it's very cheap and easy to make. If you want to return, you can use FTB Islands to teleport back home to your island."
-				""
-				"Use the island as a pitstop for your nomadic adventures, and Minecolonies!"
-			]
-			dependencies: ["48776686795B6C41"]
-			id: "12135045F73ECE77"
-			tasks: [{
-				id: "3624CE040FF2653A"
-				type: "dimension"
-				title: "Visit The Void Dimension"
-				icon: "javd:portal_block"
-				dimension: "javd:void"
-			}]
-			rewards: [
-				{
-					id: "0279F1B40BBEAA80"
-					type: "item"
-					item: "javd:portal_block"
-				}
-				{
-					id: "35DD5E15F48F8129"
-					type: "command"
-					title: "1000 EXP"
-					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1000"
+					command: "/mine_and_slash give exp @p 1000"
 					player_command: false
 				}
 			]
@@ -180,7 +145,7 @@
 				type: "command"
 				title: "1000 EXP"
 				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 1000"
+				command: "/mine_and_slash give exp @p 1000"
 				player_command: false
 			}]
 		}

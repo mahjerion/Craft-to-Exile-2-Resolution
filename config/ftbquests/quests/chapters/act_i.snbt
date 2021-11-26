@@ -29,7 +29,7 @@
 				type: "command"
 				title: "500 EXP"
 				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 500"
+				command: "/mine_and_slash give exp @p 500"
 				player_command: false
 			}]
 		}
@@ -86,7 +86,7 @@
 							stat_soul: {
 								rar: "common"
 								slot: "sword"
-								tier: 1
+								tier: 0
 								uniq: ""
 							}
 						}
@@ -98,7 +98,7 @@
 					type: "command"
 					title: "750 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 750"
+					command: "/mine_and_slash give exp @p 750"
 					player_command: false
 				}
 			]
@@ -154,7 +154,7 @@
 							stat_soul: {
 								rar: "common"
 								slot: "spear"
-								tier: 1
+								tier: 0
 								uniq: ""
 							}
 						}
@@ -166,7 +166,7 @@
 					type: "command"
 					title: "1000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1000"
+					command: "/mine_and_slash give exp @p 1000"
 					player_command: false
 				}
 			]
@@ -219,7 +219,7 @@
 					type: "command"
 					title: "750 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 750"
+					command: "/mine_and_slash give exp @p 750"
 					player_command: false
 				}
 			]
@@ -257,13 +257,13 @@
 				type: "command"
 				title: "2000 EXP"
 				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 2000"
+				command: "/mine_and_slash give exp @p 2000"
 				player_command: false
 			}]
 		}
 		{
 			title: "Overworld Terror"
-			x: 6.0d
+			x: 7.5d
 			y: 0.0d
 			shape: "square"
 			subtitle: "Meet Your Fight"
@@ -313,7 +313,7 @@
 					type: "command"
 					title: "15000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 15000"
+					command: "/mine_and_slash give exp @p 15000"
 					player_command: false
 				}
 			]
@@ -344,7 +344,7 @@
 						Count: 1b
 						tag: {
 							ingredient: {
-								tier: 1
+								tier: 0
 								id: "fire_stone"
 							}
 						}
@@ -366,7 +366,7 @@
 					type: "command"
 					title: "1250 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1250"
+					command: "/mine_and_slash give exp @p 1250"
 					player_command: false
 				}
 			]
@@ -399,7 +399,7 @@
 						Count: 1b
 						tag: {
 							ingredient: {
-								tier: 1
+								tier: 0
 								id: "ender_crystal"
 							}
 						}
@@ -421,7 +421,7 @@
 					type: "command"
 					title: "1000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1000"
+					command: "/mine_and_slash give exp @p 1000"
 					player_command: false
 				}
 			]
@@ -448,7 +448,7 @@
 						Count: 1b
 						tag: {
 							ingredient: {
-								tier: 1
+								tier: 0
 								id: "crystal_beryl"
 							}
 						}
@@ -470,7 +470,7 @@
 					type: "command"
 					title: "1250 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 1250"
+					command: "/mine_and_slash give exp @p 1250"
 					player_command: false
 				}
 			]
@@ -504,7 +504,7 @@
 						Count: 1b
 						tag: {
 							ingredient: {
-								tier: 1
+								tier: 0
 								id: "ender_heart"
 							}
 						}
@@ -518,7 +518,7 @@
 						Count: 1b
 						tag: {
 							ingredient: {
-								tier: 1
+								tier: 0
 								id: "bone_figurine"
 							}
 						}
@@ -529,15 +529,15 @@
 					type: "command"
 					title: "2500 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 2500"
+					command: "/mine_and_slash give exp @p 2500"
 					player_command: false
 				}
 			]
 		}
 		{
 			title: "Bee A Bee"
-			x: 6.0d
-			y: -1.5d
+			x: 7.5d
+			y: -3.0d
 			shape: "hexagon"
 			subtitle: "The Bumblezone"
 			description: [
@@ -568,7 +568,7 @@
 					type: "command"
 					title: "10000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 10000"
+					command: "/mine_and_slash give exp @p 10000"
 					player_command: false
 				}
 			]
@@ -597,13 +597,13 @@
 				type: "command"
 				title: "1500 EXP"
 				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 1500"
+				command: "/mine_and_slash give exp @p 1500"
 				player_command: false
 			}]
 		}
 		{
 			title: "Frost Behemoth"
-			x: 6.0d
+			x: 7.5d
 			y: 1.5d
 			subtitle: "Mowzie's Mobs"
 			description: [
@@ -651,14 +651,14 @@
 					type: "command"
 					title: "11000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 11000"
+					command: "/mine_and_slash give exp @p 11000"
 					player_command: false
 				}
 			]
 		}
 		{
 			title: "Training Arc II"
-			x: 7.5d
+			x: 9.0d
 			y: 0.0d
 			subtitle: "Double Double, Toil and Trouble!"
 			description: ["If you ever find yourself having trouble locating mobs, you can try finding dungeons instead. Dungeons in Craft to Exile 2 contain INSTANCED loot and nearly indestructible spawners. You can leave dungeon the way you found them, and let your friends enjoy them!"]
@@ -692,15 +692,15 @@
 					type: "command"
 					title: "10500 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 10500"
+					command: "/mine_and_slash give exp @p 10500"
 					player_command: false
 				}
 			]
 		}
 		{
 			title: "Honey Manifestation"
-			x: 6.0d
-			y: -3.0d
+			x: 7.5d
+			y: -4.5d
 			subtitle: "Honey Slimes"
 			description: ["In The Bumblelzone, you'll find a variety of new mobs. The Honey Slime is a mob that can be found near the sugar water of the dimension, towards the bottom."]
 			dependencies: ["666AF4DCE3684923"]
@@ -723,7 +723,7 @@
 					type: "command"
 					title: "8000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 8000"
+					command: "/mine_and_slash give exp @p 8000"
 					player_command: false
 				}
 			]
@@ -731,7 +731,7 @@
 		{
 			title: "Illager Invasion"
 			x: 9.0d
-			y: 0.0d
+			y: 3.0d
 			subtitle: "Illagers Arc"
 			description: [
 				"Illagers have been significantly diversified in Craft to Exile. Thanks to Illagers+ there are many different types of Illagers. Be careful of Illager raids that will attack nearby villages!"
@@ -794,7 +794,7 @@
 					type: "command"
 					title: "11000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 11000"
+					command: "/mine_and_slash give exp @p 11000"
 					player_command: false
 				}
 			]
@@ -848,15 +848,15 @@
 					type: "command"
 					title: "2500 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 2500"
+					command: "/mine_and_slash give exp @p 2500"
 					player_command: false
 				}
 			]
 		}
 		{
 			title: "Outpost Snipers"
-			x: 9.0d
-			y: -1.5d
+			x: 10.5d
+			y: 1.5d
 			subtitle: "Illagers+"
 			description: ["Found in Illager structures, these archers will usually line the walls and fire at nearby players."]
 			dependencies: ["3D476743C3E83650"]
@@ -914,7 +914,7 @@
 					type: "command"
 					title: "11500 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 11500"
+					command: "/mine_and_slash give exp @p 11500"
 					player_command: false
 				}
 			]
@@ -922,7 +922,7 @@
 		{
 			title: "The Big Ones"
 			x: 9.0d
-			y: 1.5d
+			y: 4.5d
 			subtitle: "Illagers+"
 			description: [
 				"Illagers+ adds a whole bunch of new Illagers."
@@ -989,7 +989,7 @@
 					type: "command"
 					title: "12000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 12000"
+					command: "/mine_and_slash give exp @p 12000"
 					player_command: false
 				}
 			]
@@ -997,7 +997,7 @@
 		{
 			title: "Song of Strength"
 			x: 10.5d
-			y: -1.5d
+			y: 3.0d
 			subtitle: "Illagers+"
 			description: ["Enchanters empower nearby Illagers by providing them with a short-duration strength boost. Simultaneously, nearby players will receive slowness, so be sure to get rid of these mobs first!"]
 			dependencies: ["3D476743C3E83650"]
@@ -1026,7 +1026,7 @@
 					type: "command"
 					title: "12000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 12000"
+					command: "/mine_and_slash give exp @p 12000"
 					player_command: false
 				}
 			]
@@ -1034,7 +1034,7 @@
 		{
 			title: "Assist Me!"
 			x: 10.5d
-			y: 0.0d
+			y: 4.5d
 			subtitle: "Illagers+"
 			description: ["The Illager General is not necessarily strong in combat, but is able to place support columns that spawn in Pillagers. The General is definitely a mob to kill-on-sight!"]
 			dependencies: ["3D476743C3E83650"]
@@ -1069,7 +1069,7 @@
 					type: "command"
 					title: "13000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 13000"
+					command: "/mine_and_slash give exp @p 13000"
 					player_command: false
 				}
 			]
@@ -1077,7 +1077,7 @@
 		{
 			title: "Illager Ruler"
 			x: 12.0d
-			y: 0.0d
+			y: 4.5d
 			subtitle: "Illagers+"
 			description: ["The Illager King is the big bad boss of all Illagers. You can find them in the castles. But be warned, as they're hardly ever alone..."]
 			dependencies: ["575127BAA843A504"]
@@ -1111,14 +1111,14 @@
 					type: "command"
 					title: "15000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 15000"
+					command: "/mine_and_slash give exp @p 15000"
 					player_command: false
 				}
 			]
 		}
 		{
 			title: "Opening The Nether"
-			x: 13.5d
+			x: 10.5d
 			y: 0.0d
 			shape: "square"
 			subtitle: "Meet Your Fight"
@@ -1129,7 +1129,7 @@
 				""
 				"WIP: This will unlock the gamestage that allows you to access The Nether."
 			]
-			dependencies: ["2BC9DB029A989EFF"]
+			dependencies: ["6E7160B616122AB1"]
 			id: "0A6D366726F10DF3"
 			tasks: [
 				{
@@ -1156,15 +1156,15 @@
 					type: "command"
 					title: "25000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 25000"
+					command: "/mine_and_slash give exp @p 25000"
 					player_command: false
 				}
 			]
 		}
 		{
 			title: "Animal Farm II"
-			x: 7.5d
-			y: 1.5d
+			x: 9.0d
+			y: -1.5d
 			subtitle: "Better Animals Plus"
 			description: [
 				"Better Animals Plus is a mod that adds plenty of new animals in the Overworld. It's not the only mod that does this though!"
@@ -1214,14 +1214,14 @@
 					type: "command"
 					title: "10000 EXP"
 					icon: "minecraft:book"
-					command: "/age_of_exile give exp @p 10000"
+					command: "/mine_and_slash give exp @p 10000"
 					player_command: false
 				}
 			]
 		}
 		{
 			title: "Nether Regions"
-			x: 15.0d
+			x: 12.0d
 			y: 0.0d
 			subtitle: "Act II - Prelude"
 			description: [
@@ -1245,8 +1245,92 @@
 				type: "command"
 				title: "17500 EXP"
 				icon: "minecraft:book"
-				command: "/age_of_exile give exp @p 17500"
+				command: "/mine_and_slash give exp @p 17500"
 				player_command: false
+			}]
+		}
+		{
+			title: "A Place To Train"
+			x: 6.0d
+			y: 1.5d
+			subtitle: "Overworld Mirror"
+			description: [
+				"Looking for a place to train? Are you on a server filled with claimed dungeons?"
+				""
+				"Consider going to the Overworld Mirror Dimension - a dimension where dungeons can't be claimed! This zone is almost identical to the Overworld (except for a few missing biomes), and contains the same dungeons!"
+				""
+				"To craft the portal to this dimension, assemble Stone Bricks in a 5x5 square on the ground, leaving a 3x3 hole in the center. Fill the hole with Poppy plants, and then crouch and right-click the plants while holding Bonemeal!"
+			]
+			dependencies: ["642936300B74F77E"]
+			id: "3A4256305D4B21B2"
+			tasks: [{
+				id: "65A6B765DFB1023F"
+				type: "dimension"
+				title: "Visit The Overworld Mirror"
+				icon: "minecraft:grass_block"
+				dimension: "overworldmirror:overworld"
+			}]
+			rewards: [{
+				id: "722BADA50AA19C25"
+				type: "command"
+				title: "1500 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 1500"
+				player_command: false
+			}]
+		}
+		{
+			title: "Conquering Land"
+			x: 6.0d
+			y: -1.5d
+			subtitle: "FLAN (Claiming System)"
+			description: [
+				"If you're on a server, you may be interested in claiming a piece of land. To claim land you will need to use the FLAN mod's high versatile claiming system."
+				""
+				"To start, you will need a Golden Hoe. Using the Golden Hoe, you can right-click two blocks to define the square that you would like to claim. Note that you can only claim in the Overworld dimension! The square you claim must be a minimum of 64 blocks total."
+				""
+				"To begin with (unless configured), you start with 512 available claim blocks, and earn 1 additional block every 30 seconds, up to a maximum of 10240 blocks. You may have 3 separate claims at once, which share the max allowed claim blocks (eg. you cannot have two 8000 block claims as this surpasses the maximum of 10240 blocks."
+				""
+				"To modify permissions or add players to the group, you must use the /flan command. You can use the /flan menu command to access the basic GUI, but some functionality may be lacking when compared to using commands."
+			]
+			dependencies: ["642936300B74F77E"]
+			id: "0CE25F8B70183761"
+			tasks: [{
+				id: "35CEED47478DC533"
+				type: "item"
+				item: {
+					id: "minecraft:golden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BAE8AEE9F4025DE"
+				type: "command"
+				title: "500 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 500"
+				player_command: false
+			}]
+		}
+		{
+			title: "No Soul? No Problem!"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Mine and Slash"
+			description: [
+				"If you find that you're unable to find gear souls, you can always craft the cheap Common Gear Soul Stone. This item will provide you with a \"general\" Common Soul. These souls can be used on any gear and will automatically turn them into a Mine and Slash item with common rarity."
+				""
+				""
+			]
+			dependencies: ["76A7F1F0CA824DB4"]
+			id: "02358C0069B90D93"
+			tasks: [{
+				id: "5A296231C64A7BF3"
+				type: "item"
+				item: "mmorpg:common_soul_produce"
 			}]
 		}
 	]

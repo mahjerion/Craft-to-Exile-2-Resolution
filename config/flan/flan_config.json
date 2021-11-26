@@ -7,7 +7,9 @@
   "minClaimsize": 64,
   "defaultClaimDepth": 10,
   "maxClaims": 3,
-  "blacklistedWorlds": ["minecraft:overworld"],
+  "blacklistedWorlds": [
+    "minecraft:overworld"
+  ],
   "worldWhitelist": true,
   "claimingItem": "minecraft:golden_hoe",
   "inspectionItem": "minecraft:stick",
