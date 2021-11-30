@@ -77,6 +77,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed towers exploding when they shouldn't be from World of Exile on servers.
 - Divine Mission cooldown should work properly now.
 - Fixed Stat Souls with the wrong image for custom weapon types.
+- Fixed ServerConfig Updater not working.
 
 ## [0.1.2] - 2021-11-08
 
