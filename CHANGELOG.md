@@ -33,13 +33,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added quests explaining Divine Missions.
 - Added quests explaining the upgrade system.
 - Chests should now contain some loot from Mine and Slash. Village chest also contain loot from Mine and Slash, but it's not as good.
-- Favor has been reenabled and reconfigured so that you no longer receive any "penalties" for having no favor, only bonuses at higher favor counts.
+- Favor is currently still disabled as Lootr chests are not working with the system. The change below is for later when it's fixed and I can reenable Favor.
+- Favor has reconfigured so that you no longer receive any "penalties" for having no favor, only bonuses at higher favor counts.
 - You now start the game with a quest book as well. The hotkey still exists, but this will be helpful for new players who don't know there's a hotkey.
 - Improved the animations of Epic Fight mod, thanks to asanginxst for the awesome resource pack and for letting me use it!
+- You no longer can see the Favor and Difficulty Scaling GUI in the Mine and Slash hub. This will hold true for as long as they're disabled.
 
 ### Mod Updates
 - Updated to Forge 36.2.19.
-- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin, Apotheosis, Fast Workbench, Fast Furnace, Controlling, DungeonCrawl, Create Additions, Drippy Loading Screen, AI Improvements, Placebo, Meet Your Fight, Lootr, FTB Teams, Dungeons Arise, Create, Architectuary, Cosmetic Armor Reworked, JEITweaker.
+- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin, Apotheosis, Fast Workbench, Fast Furnace, Controlling, DungeonCrawl, Create Additions, Drippy Loading Screen, AI Improvements, Placebo, Meet Your Fight, Lootr, FTB Teams, Dungeons Arise, Create, Architectuary, Cosmetic Armor Reworked, JEITweaker, World of Exile, Divine Missions.
 - Re-added BetterEnd Reforked.
 - Added Chocolate Fix.
 - Added Sophisticated Backpacks.
@@ -70,6 +72,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added some missing localization for essences and upgrade stones.
 - Fixed a broken unique: Manald Heal ring.
 - Fixed Productive Bees looking for non-existent Mine and Slash blocks.
+- Fixed towers exploding when they shouldn't be from World of Exile on servers.
+- Divine Mission cooldown should work properly now.
+- Fixed Stat Souls with the wrong image for custom weapon types.
 
 ## [0.1.2] - 2021-11-08
 

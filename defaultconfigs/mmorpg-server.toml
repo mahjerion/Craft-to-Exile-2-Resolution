@@ -1,7 +1,7 @@
 
 #General Configs
 [general]
-	enable_favor = true
+	enable_favor = false
 	all_players_are_allied = false
 	start_items = false
 	scale_mob_to_nearby_player_lvl = false
