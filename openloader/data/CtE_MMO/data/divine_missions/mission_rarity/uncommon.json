@@ -1,0 +1,10 @@
+{
+  "weight": 1000,
+  "id": "uncommon",
+  "min_tasks": 2,
+  "max_tasks": 2,
+  "rank": 1,
+  "format": "blue",
+  "reward_multi": 1.1,
+  "diff_multi": 1.25
+}

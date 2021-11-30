@@ -274,6 +274,19 @@
           "name": "minecraft:gold_nugget"
         }
       ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/mns_loot"
+        }
+      ]
     }
   ]
 }

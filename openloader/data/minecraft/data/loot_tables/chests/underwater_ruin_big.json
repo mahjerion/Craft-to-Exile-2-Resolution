@@ -108,6 +108,19 @@
           "name": "minecraft:map"
         }
       ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/mns_loot"
+        }
+      ]
     }
   ]
 }

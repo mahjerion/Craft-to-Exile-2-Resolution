@@ -28,15 +28,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added some more menu items like the Akliz/Wiki (no wiki yet tho) links, etc.
 - Added some quests for Sophisticated Backpacks, FLAN, and Overworld Mirror dimension.
 - Added a quest showing the new Common Gear Soul Stone.
-- XX Added a quest showing some of the Mine and Slash currencies.
-- XX Added a quest explaining Identification in Mine and Slash.
-- XX Added quests explaining Divine Missions.
-- XX Chests should now contain some loot from Mine and Slash.
+- Added a quest showing some of the Mine and Slash currencies/runes/gems + instability system.
+- Added a quest explaining Identification in Mine and Slash.
+- Added quests explaining Divine Missions.
+- Added quests explaining the upgrade system.
+- Chests should now contain some loot from Mine and Slash. Village chest also contain loot from Mine and Slash, but it's not as good.
 - Favor has been reenabled and reconfigured so that you no longer receive any "penalties" for having no favor, only bonuses at higher favor counts.
+- You now start the game with a quest book as well. The hotkey still exists, but this will be helpful for new players who don't know there's a hotkey.
+- Improved the animations of Epic Fight mod, thanks to asanginxst for the awesome resource pack and for letting me use it!
 
 ### Mod Updates
 - Updated to Forge 36.2.19.
-- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin, Apotheosis, Fast Workbench, Fast Furnace, Controlling, DungeonCrawl, Create Additions, Drippy Loading Screen, AI Improvements, Placebo, Meet Your Fight, Lootr, FTB Teams, Dungeons Arise, Create, Architectuary.
+- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin, Apotheosis, Fast Workbench, Fast Furnace, Controlling, DungeonCrawl, Create Additions, Drippy Loading Screen, AI Improvements, Placebo, Meet Your Fight, Lootr, FTB Teams, Dungeons Arise, Create, Architectuary, Cosmetic Armor Reworked, JEITweaker.
 - Re-added BetterEnd Reforked.
 - Added Chocolate Fix.
 - Added Sophisticated Backpacks.
@@ -44,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added FLAN.
 - Added Temporary Spawners.
 - Added Falling Leaves.
+- Added Welcome Message (server-only).
 - Removed Just Another Void Dimension.
 - Removed FTB Team Islands - not really what I wanted. Couldn't configure certain aspects.
 - Removed FTB Ranks.
@@ -61,6 +65,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favor should now be properly disabled.
 - Gear compatibility with Mine and Slash should now properly work on servers.
 - Fixing M&S Gem localization in creative tab.
+- Command outputs on join from CraftTweaker are now hidden even if you have cheats on or are OP.
+- Fixed Divine Missions uncommon colour to blue.
+- Added some missing localization for essences and upgrade stones.
+- Fixed a broken unique: Manald Heal ring.
+- Fixed Productive Bees looking for non-existent Mine and Slash blocks.
 
 ## [0.1.2] - 2021-11-08
 

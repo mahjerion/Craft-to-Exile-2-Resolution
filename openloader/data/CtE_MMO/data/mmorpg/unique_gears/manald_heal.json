@@ -19,13 +19,13 @@
       "max": 15.0,
       "stat": "mana_regen",
       "type": "percent"
-    }
+    },
     {
       "min": 5.0,
       "max": 15.0,
       "stat": "energy_regen",
       "type": "percent"
-    },
+    }
   ],
   "base_stats": [],
   "rarity": "unique",

@@ -1332,6 +1332,306 @@
 				type: "item"
 				item: "mmorpg:common_soul_produce"
 			}]
+			rewards: [{
+				id: "033E45858CC0D863"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 1000"
+				player_command: false
+			}]
+		}
+		{
+			title: "Party Play"
+			x: 3.0d
+			y: -3.0d
+			subtitle: "Teaming Up!"
+			description: [
+				"In this modpack, you can team up using 3 different commands."
+				""
+				"/mine_and_slash teams will allow you to create Mine and Slash parties where EXP is shared."
+				""
+				"/team is the vanilla command that allows you to turn off friendly fire."
+				""
+				"/ftbteams is the command for FTB Teams and can be used to share quest progression!"
+			]
+			dependencies: ["0908A7A57B7F31F8"]
+			id: "2C8FF0B41D95C9DC"
+			tasks: [{
+				id: "08F8C7A4AE7BBEBE"
+				type: "item"
+				item: "telepass:diamond_telepass"
+			}]
+			rewards: [{
+				id: "1A6943ACDC415F62"
+				type: "command"
+				title: "2000 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 2000"
+				player_command: false
+			}]
+		}
+		{
+			title: "Identification, Please!"
+			x: 1.5d
+			y: -3.0d
+			subtitle: "Mine and Slash"
+			description: ["Sometimes, you will find unidentified souls. You can identify all the souls in your inventory using the Identification Tome!"]
+			dependencies: ["02358C0069B90D93"]
+			id: "08520D7A1B1FE5CE"
+			tasks: [{
+				id: "378FD5C84F6FE31D"
+				type: "item"
+				item: "mmorpg:identify_tome"
+			}]
+			rewards: [
+				{
+					id: "79A940604934B034"
+					type: "item"
+					item: "mmorpg:identify_tome"
+					count: 2
+				}
+				{
+					id: "3F98A3C8C06D91A3"
+					type: "command"
+					title: "1500 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 1500"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Bounty Hunter"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "Divine Missions"
+			description: [
+				"Divine Missions is a mod that adds a random questing system, similar to Bountiful (also included in the pack). By crafting and placing a Shrine, players can receive randomized missions which can be completed to provide rewards."
+				""
+				"Missions fall under different \"Aspects\", which are deities of the land. Each Aspect requests different things and rewards you appropriately."
+				""
+				"By completing missions, you advance your reputation with the Aspect, earning you the right to more advanced missiosn and better rewards. Note that upon taking the mission, you will lose a small amount of reputation. Upon completion, the mission will reward you with more reputation than you've lost."
+				""
+				"Also note that upon placing the Shrine down, you will not receive any missions immediately. Missions are refreshed every 20 minutes or so."
+			]
+			dependencies: ["4F9241AA3A4EFA6A"]
+			id: "080EBEF46961D2A5"
+			tasks: [{
+				id: "0173E197FE6FC034"
+				type: "item"
+				item: "divine_missions:shrine"
+			}]
+			rewards: [
+				{
+					id: "2742196A61A1083A"
+					type: "random"
+					table_id: 632659628021122583L
+				}
+				{
+					id: "398FF2D0B4A1704F"
+					type: "command"
+					title: "1250 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 1250"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Gear Improvement"
+			x: 3.0d
+			y: 4.5d
+			subtitle: "Mine and Slash Upgrades"
+			description: [
+				"Throughout the game, you may come across orbs from Mine and Slash also denoted as \"currencies\". Currencies can be used on equipment with Mine and Slash stats to improve their stats. There are many currencies to be found throughout the game!"
+				""
+				"Be careful though, as using too many currencies on your equipment increases the likelihood of the equipment breaking upon the next currency. Instability increases with each currency - the amount is denoted on the currency. A higher Instability means a higher break chance!"
+				""
+				"Additionally, you may find Gems of differing quality. These can be inserted into gear with sockets by applying them directly. You can also combine three Gems of the same quality for a chance to upgrade them to the next quality."
+				""
+				"More sockets can be unlocked by upgrading your gear. Gear receive new sockets at +4 and +8 upgrades. See the next quest for details on how to upgrade your equipment!"
+			]
+			dependencies: ["320BCB7037563477"]
+			id: "0AE54D79D3EB4DB6"
+			tasks: [{
+				id: "134A01EC531C3E61"
+				type: "item"
+				item: "mmorpg:currency/orb_of_transmutation"
+			}]
+			rewards: [
+				{
+					id: "6D558650DE3AC85C"
+					type: "item"
+					item: "mmorpg:gems/azurite/0"
+				}
+				{
+					id: "6784F0E954E1F7E9"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Gem Recovery"
+			x: 4.5d
+			y: 6.0d
+			subtitle: "Mine and Slash Gems"
+			description: ["Regretting your socketing choice? You can remove Gems using the Gem Socket Extractor Tool!"]
+			dependencies: ["0AE54D79D3EB4DB6"]
+			id: "595DE2BA7F205B52"
+			tasks: [{
+				id: "53FCDE5C65CBC676"
+				type: "item"
+				item: "mmorpg:socket_extractor"
+			}]
+			rewards: [{
+				id: "696CA4DB648070F0"
+				type: "command"
+				title: "1250 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 1250"
+				player_command: false
+			}]
+		}
+		{
+			title: "The Other Upgrade Stones"
+			x: 6.0d
+			y: 4.5d
+			subtitle: "Mine and Slash Upgrades"
+			description: [
+				"Mine and Slash uncommon and rare essences can be combined to create uncommon and rare Upgrade Stones, respectively. You can do so by holding 9 of them in your hand and then right-clicking with them. They are not combined in a crafting table!"
+				""
+				"These Upgrade Stones can be used on equipment to increase the rarity and add an additional stat."
+				""
+				"The Uncommon Upgrade Stone can be used on uncommon items of at least +4 to upgrade them to rare items, while the Rare Upgrade Stone can be used on rare items of at least +8 to upgrade them to epic items!"
+			]
+			dependencies: ["3E7EBC85F8096DA6"]
+			id: "2C92F41BE4AF3DB0"
+			tasks: [{
+				id: "414FAF77D43B152E"
+				type: "item"
+				item: {
+					id: "mmorpg:rarity/essence/base"
+					Count: 1b
+					tag: {
+						CustomModelData: 2
+						rar: "uncommon"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "178E0505F6D00C5A"
+					type: "item"
+					item: {
+						id: "mmorpg:rarity/upgrade_stone/base"
+						Count: 1b
+						tag: {
+							CustomModelData: 2
+							rar: "uncommon"
+						}
+					}
+				}
+				{
+					id: "5550D2D593BC19DA"
+					type: "command"
+					title: "2500 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 2500"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Gear Improvement II"
+			x: 4.5d
+			y: 4.5d
+			subtitle: "Mine and Slash Upgrades"
+			description: [
+				"Throughout Craft to Exile, you may find Source of Strength stones. 9 of these can be combines to create a Magical Upgrade Stone. Similarly, you can combine 9 Magical Upgrade Stones to a Extraordinary Upgrade Stone, etc."
+				""
+				"You may have noticed under your gear tooltips, \"Upgrades\" followed by a few empty stars. These stars denote how many upgrade attempts you have available for that piece of equipment. You can use Upgrade Stones for a chance to upgrade your equipment. However, upon a failed attempt, the star will still be used up. As a result, with Magical Upgrade Stones, the max upgrades you can earn for your equipment is limited to the number of stars (3 stars = max of +3, etc.). If you want to upgrade your item further, you can use stronger Upgrade Stones. However, these stones have a higher chance of failure, and will penalize you upon a failed attempt. For example, with the Supreme Upgrade Stone, an item with 3 stars could potentially get +9 (+3 from each stone)!"
+				""
+				"Upon reaching +4 and +8, your item will gain an additional socket."
+			]
+			dependencies: ["0AE54D79D3EB4DB6"]
+			id: "3E7EBC85F8096DA6"
+			tasks: [{
+				id: "40C3C873884C1A1F"
+				type: "item"
+				item: "mmorpg:source_of_strength"
+			}]
+			rewards: [
+				{
+					id: "4783EFF24B7541A2"
+					type: "item"
+					item: "mmorpg:currency/plus_one_upgrade"
+					count: 3
+				}
+				{
+					id: "7FBAA54827E838AB"
+					type: "command"
+					title: "1500 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 1500"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Okay, But What About Runes?"
+			x: 3.0d
+			y: 6.0d
+			subtitle: "Mine and Slash Runewords"
+			description: [
+				"In Resolution, the Runeword system has been completely overhauled. You no longer socket Runes into sockets on items. Instead, they are used BEFORE applying Gear Souls to an item."
+				""
+				"To create a Runeword, you must access the Runeword Station after placing the block. Then put in the piece of equipment in the center. You will see what Runewords are available on the left-hand side. You then place all the required runes in the correct order in the station, and hit create. Note that you must have all the Runes, you can't just craft an item with Runes that don't create a Runeword!"
+				""
+				"With this new system, Runewords are essentially guaranteed Uniques. Try crafting a Rhyme shield using the reward items from this quest!"
+			]
+			dependencies: ["0AE54D79D3EB4DB6"]
+			id: "5A78B87DDC7DF5E5"
+			tasks: [{
+				id: "6CD567A5F42DB142"
+				type: "item"
+				item: "mmorpg:runeword_station"
+			}]
+			rewards: [
+				{
+					id: "5C235BB37F85294D"
+					type: "item"
+					item: "mmorpg:runes/cen"
+				}
+				{
+					id: "3E72645712314F55"
+					type: "item"
+					item: "mmorpg:runes/ita"
+				}
+				{
+					id: "7ADBD5FBA5C0954D"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "540F203562685334"
+					type: "command"
+					title: "1500 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 1500"
+					player_command: false
+				}
+			]
 		}
 	]
 }

@@ -173,6 +173,19 @@
           "name": "minecraft:book"
         }
       ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/mns_loot"
+        }
+      ]
     }
   ]
 }
