@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Team command should be enabled by default now when playing on servers.
 - Witches can now spawn in the Exile towers.
 - With the addition of Temporary Spawners, Anti Mob Farm penalties have been reduced immensely. They still exist, but not even close to what it used to be before.
-- Added some more menu items like the Akliz/Wiki (no wiki yet tho) links, etc.
+- Added some more menu items like the Akliz/Wiki/Patreon links, etc.
 - Added some quests for Sophisticated Backpacks, FLAN, and Overworld Mirror dimension.
 - Added a quest showing the new Common Gear Soul Stone.
 - Added a quest showing some of the Mine and Slash currencies/runes/gems + instability system.
