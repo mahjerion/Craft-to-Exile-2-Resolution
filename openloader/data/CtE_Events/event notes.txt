@@ -1,0 +1,7 @@
+Christmas:
+- Disable recipes when not December. Won't remove blocks, just disabled recipes.
+- On Dec. 1st, /cspirit startDailyGiftEvent
+- On Dec. 31st, /cspirit stopDailyGiftEvent
+- Disable freezing over in config/ChistmasSprit/ChristmasSpirit.toml
+- Disable custom resources in openloader/resources
+- Change FancyMenu title back to original after event.

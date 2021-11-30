@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "cspirit:cookie_cutter_snowman"}
+  ],
+  "result": {
+    "item": "minecraft:iron_ingot",
+    "count": 8
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

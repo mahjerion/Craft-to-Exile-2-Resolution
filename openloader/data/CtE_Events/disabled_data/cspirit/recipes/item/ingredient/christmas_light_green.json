@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:lime_stained_glass"},
+    {"item": "minecraft:torch"}
+  ],
+  "result": {
+    "item": "cspirit:christmas_light_green",
+    "count": 4
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "cspirit:peppermint_candy_red"},
+    {"item": "cspirit:food_dye_blue"}
+  ],
+  "result": {
+    "item": "cspirit:peppermint_candy_blue",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

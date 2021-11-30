@@ -376,5 +376,82 @@
     "rarityIndex": 2,
     "minDay": 15,
     "maxDay": 25
+  },
+  "LesserHealthPotionFirst": {
+    "stackStr": "mmorpg:alchemy/potion/health/0",
+    "maxAmount": 2,
+    "rarityIndex": 1,
+    "minDay": 0,
+    "maxDay": 15
+  },
+  "LesserManaPotionFirst": {
+    "stackStr": "mmorpg:alchemy/potion/mana/0",
+    "maxAmount": 2,
+    "rarityIndex": 1,
+    "minDay": 0,
+    "maxDay": 15
+  },
+  "LesserHealthPotionSecond": {
+    "stackStr": "mmorpg:alchemy/potion/health/0",
+    "maxAmount": 2,
+    "rarityIndex": 0,
+    "minDay": 16,
+    "maxDay": 32
+  },
+  "LesserManaPotionSecond": {
+    "stackStr": "mmorpg:alchemy/potion/mana/0",
+    "maxAmount": 2,
+    "rarityIndex": 0,
+    "minDay": 16,
+    "maxDay": 32
+  },
+  "GreaterHealthPotion": {
+    "stackStr": "mmorpg:alchemy/potion/health/4",
+    "maxAmount": 3,
+    "rarityIndex": 4,
+    "minDay": 16,
+    "maxDay": 32
+  },
+  "GreaterManaPotion": {
+    "stackStr": "mmorpg:alchemy/potion/mana/4",
+    "maxAmount": 3,
+    "rarityIndex": 4,
+    "minDay": 16,
+    "maxDay": 32
+  },
+  "MagicalUpgradeStone": {
+    "stackStr": "mmorpg:currency/plus_one_upgrade",
+    "maxAmount": 2,
+    "rarityIndex": 3,
+    "minDay": 0,
+    "maxDay": 10
+  },
+  "ExtraordinaryUpgradeStone": {
+    "stackStr": "mmorpg:currency/plus_two_upgrade",
+    "maxAmount": 2,
+    "rarityIndex": 3,
+    "minDay": 11,
+    "maxDay": 20
+  },
+  "SupremeUpgradeStone": {
+    "stackStr": "mmorpg:currency/plus_three_upgrade",
+    "maxAmount": 2,
+    "rarityIndex": 3,
+    "minDay": 21,
+    "maxDay": 25
+  },
+  "OrbOfInfinity": {
+    "stackStr": "mmorpg:currency/orb_of_infinity",
+    "maxAmount": 1,
+    "rarityIndex": 3,
+    "minDay": 21,
+    "maxDay": 25
+  },
+  "IDTomes": {
+    "stackStr": "mmorpg:identify_tome",
+    "maxAmount": 4,
+    "rarityIndex": 1,
+    "minDay": 0,
+    "maxDay": 20
   }
 }

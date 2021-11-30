@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "cspirit:mug_milk"},
+    {"item": "cspirit:chocolate_bar"}
+  ],
+  "result": {
+    "item": "cspirit:mug_hot_chocolate",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

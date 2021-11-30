@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "SSS",
+    "LLL"
+  ],
+  "key":
+  {
+    "S":
+    {
+      "item": "minecraft:string"
+    },
+    "L":
+    {
+      "item": "cspirit:christmas_light_blue"
+    }
+  },
+  "result":
+  {
+    "item": "cspirit:christmas_lights_blue",
+    "count": 4
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

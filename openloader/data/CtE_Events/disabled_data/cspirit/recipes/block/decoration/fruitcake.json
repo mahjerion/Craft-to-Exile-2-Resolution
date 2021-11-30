@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:cake"},
+    {"item": "minecraft:apple"},
+    {"item": "minecraft:melon_slice"},
+    {"item": "minecraft:sweet_berries"}
+  ],
+  "result": {
+    "item": "cspirit:fruitcake",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

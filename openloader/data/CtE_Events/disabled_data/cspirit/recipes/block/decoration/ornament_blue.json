@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "I",
+    "G",
+    "D"
+  ],
+  "key":
+  {
+    "I":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "G":
+    {
+      "item": "minecraft:glass"
+    },
+    "D":
+    {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result":
+  {
+    "item": "cspirit:ornament_blue",
+    "count": 4
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

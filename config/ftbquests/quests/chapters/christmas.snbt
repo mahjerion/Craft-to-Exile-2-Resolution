@@ -1,0 +1,479 @@
+{
+	id: "252DA8FB881ED3B0"
+	group: "0E169C1A0FA8768D"
+	order_index: 0
+	filename: "christmas"
+	title: "Christmas"
+	icon: {
+		id: "cspirit:christmas_hat"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "On The First Day..."
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Christmas Spirit"
+			description: [
+				"Christmas Spirit is a mod that adds Christmas-themed blocks to decorate with! These blocks are available to craft only during the month of December."
+				""
+				"During the month of December, receive Santa Presents every day for logging in for a chance at some Christmas-themed items. For players not on the official server, this can be enabled with \"/cspirit startDailyGiftEvent\" to start the daily gift event, and stopped with \"/cspirit stopDailyGiftEvent\"."
+				""
+				"Craft the Christmas Tree and place it to gain stacks of Holiday Spirit when near it. You can also gain Holiday Spirit by eating holiday baked goods! When opening gifts with stacks of Holiday Spirit, your gift will have a greater chance of being rare!"
+				""
+				"However, with good comes bad... By killing a player that isn't on the Naughty List, or killing some passive mobs such as villagers, you will gain the Naughty Effect. 5 stacks of the Naughty Effect will put you on the Naughty List!!! If you're on the Naughty List, you'll only receive Lumps of Coal from your Santa Presents. Don't fret! By eating a Santa Cookie, you can remove the Naughty Effect!"
+			]
+			id: "6185165778F154AD"
+			tasks: [{
+				id: "018612B39E0BBC36"
+				type: "item"
+				item: "cspirit:christmas_tree"
+			}]
+			rewards: [
+				{
+					id: "201A8CB1127A14AD"
+					type: "item"
+					item: "cspirit:ornament_blue"
+				}
+				{
+					id: "16C8F897FDA31D5E"
+					type: "command"
+					title: "2000 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 2000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Holiday Topper"
+			x: 0.0d
+			y: -7.5d
+			subtitle: "Christmas Spirit"
+			description: [
+				"You can add ornaments to your Christmas Tree. The tree can hold 3 ornaments and 1 star!"
+				""
+				"A fully decorated tree will give 2 stacks of Holiday Spirit instead of 1!"
+			]
+			dependencies: ["433D95324C99B3BB"]
+			id: "10BE8AAFE27453F5"
+			tasks: [
+				{
+					id: "361E2DEB575E1486"
+					type: "item"
+					item: "cspirit:star"
+				}
+				{
+					id: "199078CF32792B4C"
+					type: "item"
+					item: "cspirit:mistletoe"
+				}
+			]
+			rewards: [
+				{
+					id: "388F83AEF821815D"
+					type: "item"
+					item: "cspirit:christmas_light_red"
+				}
+				{
+					id: "5C50CFD51142C358"
+					type: "item"
+					item: "cspirit:christmas_light_green"
+				}
+				{
+					id: "365FB90E0FE41A19"
+					type: "item"
+					item: "cspirit:christmas_light_blue"
+				}
+				{
+					id: "37347DA50463C722"
+					type: "command"
+					title: "2500 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 2500"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Light It Up!"
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Christmas Spirit"
+			description: ["There are also plenty of other decorative blocks introduced by Christmas Spirit!"]
+			dependencies: ["6185165778F154AD"]
+			id: "0B6F34D9B72ED6CE"
+			tasks: [{
+				id: "2B295AA1804C5301"
+				type: "item"
+				item: "cspirit:christmas_lights_multicolor"
+			}]
+			rewards: [{
+				id: "3191C30522C7721B"
+				type: "command"
+				title: "2000 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 2000"
+				player_command: false
+			}]
+		}
+		{
+			title: "Catching The Uncatchable"
+			x: 1.5d
+			y: -3.0d
+			subtitle: "Christmas Spirit"
+			description: [
+				"Christmas Spirit introduces a bunch of new fun Christmas-themed foods. Eat these baked goods to gain Holiday Spirit!"
+				""
+				"Cookie Cutters can be used to shape your cookie dough into different baked goods!"
+			]
+			dependencies: ["3936A525170BA557"]
+			id: "776DA12F15E191A8"
+			tasks: [{
+				id: "356C6F8759D2D917"
+				type: "item"
+				item: "cspirit:cookie_cutter_man"
+			}]
+			rewards: [
+				{
+					id: "48F0C86D47BCA8D4"
+					type: "item"
+					item: "cspirit:gingerbread_sheet"
+					count: 3
+				}
+				{
+					id: "63799CE7A54D1AC3"
+					type: "command"
+					title: "2000 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 2000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "The Gingerbread Man"
+			x: 1.5d
+			y: -4.5d
+			subtitle: "Christmas Spirit"
+			description: ["The Gingerbread Man is one of the many available baked goods!"]
+			dependencies: ["776DA12F15E191A8"]
+			id: "7985E46E78502D04"
+			tasks: [{
+				id: "53292DC45327FB18"
+				type: "item"
+				item: "cspirit:gingerbread_cookie_man"
+			}]
+			rewards: [
+				{
+					id: "1DB64473D0C9791D"
+					type: "item"
+					item: "cspirit:sugar_cookie_santa"
+				}
+				{
+					id: "759F10E445CBB8AD"
+					type: "command"
+					title: "2000 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 2000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Winter Wonderland"
+			x: -3.0d
+			y: -1.5d
+			subtitle: "Christmas Spirit"
+			description: ["Ain't this a spiffy block? Christmas Spirit blocks are only available to craft during the month of December, so get crafting!"]
+			dependencies: ["0B6F34D9B72ED6CE"]
+			id: "692BF3E17322E728"
+			tasks: [
+				{
+					id: "0E768D8FF710DE37"
+					type: "item"
+					item: "cspirit:snow_globe"
+				}
+				{
+					id: "55B71ADA93C11374"
+					type: "item"
+					item: "cspirit:snowy_path"
+					count: 4L
+				}
+				{
+					id: "2E31F5841608A9C9"
+					type: "item"
+					item: "cspirit:candy_cane_block_red"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "57468D184E30AE57"
+				type: "command"
+				title: "2000 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 2000"
+				player_command: false
+			}]
+		}
+		{
+			title: "Let It Snow!"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Happy Holidays!"
+			description: [
+				"With Christmas Spirit active, the entire world is transformed to be cold. This can be disabled in the config folder in your modpack if you're hosting a server or playing on your own."
+				""
+				"Additionally, the mod adds Christmas-themed music, gives Pigs hats, and more aesthetic changes. If you don't like these client-side changes, you can remove the Christmas resource pack located under openloader/resources."
+			]
+			dependencies: ["6185165778F154AD"]
+			id: "3305B3ECB178BE23"
+			tasks: [{
+				id: "64D83D695B60E5F3"
+				type: "item"
+				item: "minecraft:snowball"
+				count: 16L
+			}]
+		}
+		{
+			title: "The Sweet Stuff"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "Christmas Spirit"
+			description: [
+				"Christmas Spirit introduces a bunch of new fun Christmas-themed foods. Eat these baked goods to gain Holiday Spirit!"
+				""
+				"To start, you'll need some of that sweet Sugar Cookie Dough!"
+			]
+			dependencies: ["6185165778F154AD"]
+			id: "37A7DB35C275411A"
+			tasks: [{
+				id: "1BFD6F31C7868D76"
+				type: "item"
+				item: "cspirit:sugar_cookie_dough"
+			}]
+			rewards: [{
+				id: "74E402FB9F8F07E9"
+				type: "command"
+				title: "2000 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 2000"
+				player_command: false
+			}]
+		}
+		{
+			title: "Holiday Cheer"
+			x: 3.0d
+			y: -1.5d
+			subtitle: "Christmas Spirit"
+			description: ["Turn the Sugar Cookie Dough into sheets to be used with Cookie Cutters!"]
+			dependencies: ["37A7DB35C275411A"]
+			id: "3936A525170BA557"
+			tasks: [{
+				id: "1A235B4D4F9D79A9"
+				type: "item"
+				item: "cspirit:sugar_cookie_sheet"
+			}]
+			rewards: [
+				{
+					id: "32118D3899673FBA"
+					type: "item"
+					item: "cspirit:sugar_cookie_circle"
+					count: 4
+				}
+				{
+					id: "2C563B9D52433C70"
+					type: "command"
+					title: "2000 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 2000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Removing The Naught"
+			x: -1.5d
+			y: -3.0d
+			subtitle: "Mowzie's Mobs"
+			description: ["Frostmaws have been rumored to terrorize local folk during the Holidays!"]
+			dependencies: ["0B6F34D9B72ED6CE"]
+			id: "5BB782BE8ABE66BA"
+			tasks: [{
+				id: "753166CD8E76B8C4"
+				type: "kill"
+				icon: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0EAD14CD036D01D3"
+					type: "item"
+					item: "environmental:ice_lantern"
+				}
+				{
+					id: "7816280FC92F18E9"
+					type: "item"
+					item: {
+						id: "cspirit:christmas_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F5AF58A34F2F6B2"
+					type: "command"
+					title: "5000 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 5000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Jack Frost Is Coming"
+			x: -1.5d
+			y: -4.5d
+			subtitle: "Christmas Spirit"
+			description: [
+				"Jack Frost will have a chance to appear at midnight when it's snowing. He will fall from the sky at night and ascend back at dusk."
+				""
+				"Be careful, Jack Frost will attack players who are NOT on the Naughty List, but will be neutral to players who are naughty."
+				""
+				"If a player gives him 5 Lumps of Coal, he will give a Frostbourne Ingot in return. This ingot can be used to craft Naughty Items."
+			]
+			dependencies: ["5BB782BE8ABE66BA"]
+			id: "48CC03A6C3702FA5"
+			tasks: [{
+				id: "0C593954517D9676"
+				type: "kill"
+				icon: {
+					id: "cspirit:frost_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "cspirit:jack_frost"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5A67A6C5B5931A92"
+					type: "item"
+					item: "cspirit:frost_ingot"
+					count: 3
+				}
+				{
+					id: "6D177BEFAB772BA9"
+					type: "command"
+					title: "5000 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 5000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Ornaments And Decorations"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Christmas Spirit"
+			description: ["Decorate your tree and your home!"]
+			dependencies: ["6185165778F154AD"]
+			id: "30B6202FD0A3F7BB"
+			tasks: [
+				{
+					id: "18FE3C21EE106F62"
+					type: "item"
+					item: "cspirit:ornament_green"
+				}
+				{
+					id: "213423049644CBA0"
+					type: "item"
+					item: "cspirit:garland"
+				}
+			]
+			rewards: [{
+				id: "28D8DB65B829FACE"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 1000"
+				player_command: false
+			}]
+		}
+		{
+			title: "Ornaments And Decorations II"
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Christmas Spirit"
+			description: ["Decorate your tree and your home!"]
+			dependencies: ["30B6202FD0A3F7BB"]
+			id: "433D95324C99B3BB"
+			tasks: [
+				{
+					id: "2FAC820931FC62CD"
+					type: "item"
+					item: "cspirit:ornament_red"
+				}
+				{
+					id: "0A8F021221690367"
+					type: "item"
+					item: "cspirit:reef"
+				}
+			]
+			rewards: [{
+				id: "7ED2E42D1A71C85B"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 1000"
+				player_command: false
+			}]
+		}
+		{
+			title: "The Joy Of Giving"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "Christmas Spirit"
+			description: ["You can craft Unpackaged Presents to be placed on the ground. By interacting with them, you can place items in them and set who the gift belongs to! What a great way to spread holiday cheer."]
+			dependencies: ["3305B3ECB178BE23"]
+			id: "0AB74A444C780549"
+			tasks: [{
+				id: "6B5197AFA7F7BD42"
+				type: "item"
+				item: "cspirit:present_unwrapped"
+			}]
+			rewards: [
+				{
+					id: "27847BAA26BC761B"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "7E5B9F0D16191DB7"
+					type: "command"
+					title: "1000 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 1000"
+					player_command: false
+				}
+			]
+		}
+	]
+}

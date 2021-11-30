@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "cspirit:flour"},
+    {"item": "cspirit:flour"},
+    {"item": "minecraft:sugar"},
+    {"item": "minecraft:egg"}
+  ],
+  "result": {
+    "item": "cspirit:sugar_cookie_dough",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

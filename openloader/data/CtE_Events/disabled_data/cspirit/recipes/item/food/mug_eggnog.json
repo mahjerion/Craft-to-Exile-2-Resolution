@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "cspirit:mug_milk"},
+    {"item": "minecraft:egg"},
+    {"item": "minecraft:sugar"}
+  ],
+  "result": {
+    "item": "cspirit:mug_eggnog",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "cspirit:flour"},
+    {"item": "cspirit:flour"},
+    {"item": "cspirit:ginger_ground"},
+    {"item": "minecraft:egg"}
+  ],
+  "result": {
+    "item": "cspirit:gingerbread_dough",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

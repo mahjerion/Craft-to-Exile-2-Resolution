@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:white_wool"},
+    {"item": "minecraft:white_wool"},
+    {"item": "minecraft:lime_dye"}
+  ],
+  "result": {
+    "item": "cspirit:stocking_green",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

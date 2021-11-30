@@ -2,5 +2,6 @@
 	chapter_groups: [
 		{ id: "63F22A0DBD292CDC", title: "Story" }
 		{ id: "18BCB208814EFED7", title: "Homestead" }
+		{ id: "0E169C1A0FA8768D", title: "Events" }
 	]
 }

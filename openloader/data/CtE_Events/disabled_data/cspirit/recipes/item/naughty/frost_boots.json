@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "F F",
+    "F F"
+  ],
+  "key":
+  {
+    "F":
+    {
+      "item": "cspirit:frost_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "cspirit:frost_boots",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

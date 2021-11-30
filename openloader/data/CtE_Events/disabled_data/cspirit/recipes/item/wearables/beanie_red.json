@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:leather_helmet"},
+    {"item": "minecraft:red_dye"},
+    {"item": "minecraft:string"}
+  ],
+  "result": {
+    "item": "cspirit:beanie_red",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

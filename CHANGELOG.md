@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - You will need to reset your world for this update (but not necessarily your characters).
 - Xaero's Update Alert: if you choose to not reset your world for whatever reason, back up your Xaero's Waypoints and WorldMap folders!
-- Merry Holidays! I've added Christmas Spirit - a mod that adds Christmas themed blocks to the pack. For players on the official server, receive a little gift everyday (can be enabled on your own worlds, too)!
+- Merry Holidays! I've added Christmas Spirit - a mod that adds Christmas themed blocks to the pack. For players on the official server, receive a little gift everyday (can be enabled on your own worlds, too - just follow quest line to learn how)! The gifts will ramp up in rarity as you get closer towards the end of the month.
 - Minecolonies now must be in the Overworld again. We're going back to the original Overworld + Overworld Mirror combo.
 - Claims have been changed. You now use FLAN for claims rather than FTB Chunks. Type /flan to view the commands. At present, you start with 512 claim blocks. Claims must be at least 64 blocks. Every few seconds you play, you'll earn 1 block, up to a maximum of ~10000 blocks. After 30 days of inactivity, if your claim is under a certain size (around 2000 blocks), it will be deleted.
 - Sophisticated Backpacks has replaced Useful Backpacks. These backpacks can be upgraded and use components from other parts of the pack.

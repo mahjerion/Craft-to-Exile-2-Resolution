@@ -173,6 +173,12 @@ mods.jei.JEI.hideItem(<item:botania:flight_tiara>);
 //Bountiful
 mods.jei.JEI.hideItem(<item:bountiful:bounty>);
 
+//Christmas Spirit
+mods.jei.JEI.hideItem(<item:cspirit:candy_cane_cannon>);
+mods.jei.JEI.hideItem(<item:cspirit:spawn_egg_jack_frost>);
+mods.jei.JEI.hideItem(<item:cspirit:spawn_egg_reindeer>);
+mods.jei.JEI.hideItem(<item:cspirit:sleigh>);
+
 //Curios
 mods.jei.JEI.hideItem(<item:curios:ring>);
 mods.jei.JEI.hideItem(<item:curios:amulet>);
