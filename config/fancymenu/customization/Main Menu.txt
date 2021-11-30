@@ -178,7 +178,7 @@ customization {
   action = addbutton
   y = -31
   backgroundnormal = config\fancymenu\images\wiki.png
-  value = https://github.com/mahjerion/Craft-to-Exile-Harmony/wiki
+  value = https://github.com/mahjerion/Craft-to-Exile-2-Resolution/wiki
   height = 30
 }
 
