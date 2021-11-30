@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " F ",
+    "FCF",
+    " F "
+  ],
+  "key":
+  {
+    "F":
+    {
+      "item": "cspirit:frost_ingot"
+    },
+    "C":
+    {
+      "item": "minecraft:crossbow"
+    }
+  },
+  "result":
+  {
+    "item": "cspirit:candy_cane_cannon",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

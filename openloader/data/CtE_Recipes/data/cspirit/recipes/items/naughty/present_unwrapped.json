@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "PSP",
+    "PCP",
+    "PPP"
+  ],
+  "key":
+  {
+    "P":
+    {
+      "item": "minecraft:paper"
+    },
+    "S":
+    {
+      "item": "minecraft:string"
+    },
+    "C":
+    {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result":
+  {
+    "item": "cspirit:present_unwrapped",
+    "count": 1
+  }
+}
