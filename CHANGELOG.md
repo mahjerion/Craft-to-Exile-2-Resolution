@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2021-12-01
+
 ### Updates
 - You will need to reset your world for this update (but not necessarily your characters).
 - Xaero's Update Alert: if you choose to not reset your world for whatever reason, back up your Xaero's Waypoints and WorldMap folders!
