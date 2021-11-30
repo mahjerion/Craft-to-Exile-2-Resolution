@@ -39,7 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Favor is currently still disabled as Lootr chests are not working with the system. The change below is for later when it's fixed and I can reenable Favor.
 - Favor has reconfigured so that you no longer receive any "penalties" for having no favor, only bonuses at higher favor counts.
 - You now start the game with a quest book as well. The hotkey still exists, but this will be helpful for new players who don't know there's a hotkey.
-- Improved the animations of Epic Fight mod, thanks to asanginxst for the awesome resource pack and for letting me use it!
+- Improved the animations of Epic Fight mod, thanks to asanginxst for the awesome resource pack!
 - You no longer can see the Favor and Difficulty Scaling GUI in the Mine and Slash hub. This will hold true for as long as they're disabled.
 
 ### Mod Updates
