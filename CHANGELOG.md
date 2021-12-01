@@ -44,7 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mod Updates
 - Updated to Forge 36.2.19.
-- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin, Apotheosis, Fast Workbench, Fast Furnace, Controlling, DungeonCrawl, Create Additions, Drippy Loading Screen, AI Improvements, Placebo, Meet Your Fight, Lootr, FTB Teams, Dungeons Arise, Create, Architectuary, Cosmetic Armor Reworked, JEITweaker, World of Exile, Divine Missions.
+- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin, Apotheosis, Fast Workbench, Fast Furnace, Controlling, DungeonCrawl, Create Additions, Drippy Loading Screen, AI Improvements, Placebo, Meet Your Fight, Lootr, FTB Teams, Dungeons Arise, Create, Architectuary, Cosmetic Armor Reworked, JEITweaker, World of Exile, Divine Missions, Atum.
 - Re-added BetterEnd Reforked.
 - Added Chocolate Fix.
 - Added Sophisticated Backpacks.
