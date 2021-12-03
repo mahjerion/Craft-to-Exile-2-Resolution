@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added more objectives and rewards to Bountiful to incorporate some of the other mods - especially Mine and Slash.
 - Improved some of the Mine and Slash localization.
 - Mine and Slash Profession level stat bonuses have been changed. Instead of all Professions provided bonuses to health/mana every 10 levels, they have all been diversified. Weapon Crafting provides bonuses to energy/attack speed, Armor Crafting provides bonuses to health regen/armor, Cooking provides bonuses to health/increased food buff effect, Alchemy provides bonuses to mana/increased healing, Inscribing provides bonuses to energy regen/cdr, Jewelry Crafting provides bonuses to mana regen/magic_find.
+- Increased mob damage at low levels.
 
 ### Mod Updates
 - Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash. Sophisticated Backpacks.
