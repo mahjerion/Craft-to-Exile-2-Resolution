@@ -10,14 +10,14 @@
   "weapon_offhand_stat_util": 15,
   "style": "melee",
   "implicit_stats": [
-    {
-      "min": 4.0,
-      "max": 10.0,
-      "stat": "critical_damage",
-      "type": "FLAT"
-    }
   ],
   "base_stats": [
+    {
+      "min": 6.0,
+      "max": 15.0,
+      "stat": "critical_damage",
+      "type": "FLAT"
+    },
     {
       "min": 2.5,
       "max": 5.0,

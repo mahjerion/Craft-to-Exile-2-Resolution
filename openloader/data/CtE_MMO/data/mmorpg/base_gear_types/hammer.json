@@ -10,14 +10,14 @@
   "weapon_offhand_stat_util": 0,
   "style": "melee",
   "implicit_stats": [
-    {
-      "min": 3.0,
-      "max": 6.0,
-      "stat": "armor_penetration",
-      "type": "FLAT"
-    }
   ],
   "base_stats": [
+    {
+      "min": 3.0,
+      "max": 7.0,
+      "stat": "armor_penetration",
+      "type": "FLAT"
+    },
     {
       "min": 2.5,
       "max": 5.0,

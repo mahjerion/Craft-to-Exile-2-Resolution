@@ -10,12 +10,6 @@
   "weapon_offhand_stat_util": 0,
   "style": "magic",
   "implicit_stats": [
-    {
-      "min": 3.0,
-      "max": 6.0,
-      "stat": "spell_power",
-      "type": "FLAT"
-    }
   ],
   "base_stats": [
     {
@@ -25,8 +19,8 @@
       "type": "FLAT"
     },
     {
-      "min": 3.0,
-      "max": 5.0,
+      "min": 7.0,
+      "max": 13.0,
       "stat": "spell_power",
       "type": "FLAT"
     }

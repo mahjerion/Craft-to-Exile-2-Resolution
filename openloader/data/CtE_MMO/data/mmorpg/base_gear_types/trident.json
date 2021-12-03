@@ -10,14 +10,14 @@
   "weapon_offhand_stat_util": 0,
   "style": "magic",
   "implicit_stats": [
+  ],
+  "base_stats": [
     {
       "min": 4.0,
       "max": 8.0,
       "stat": "elemental_resist",
       "type": "FLAT"
-    }
-  ],
-  "base_stats": [
+    },
     {
       "min": 2.5,
       "max": 5.0,

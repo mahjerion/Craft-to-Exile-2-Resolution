@@ -10,14 +10,14 @@
   "weapon_offhand_stat_util": 0,
   "style": "magic",
   "implicit_stats": [
+  ],
+  "base_stats": [
     {
       "min": 5.0,
       "max": 10.0,
       "stat": "increase_healing",
       "type": "FLAT"
-    }
-  ],
-  "base_stats": [
+    },
     {
       "min": 1.8,
       "max": 3.6,
@@ -25,8 +25,8 @@
       "type": "FLAT"
     },
     {
-      "min": 3.0,
-      "max": 5.0,
+      "min": 5.0,
+      "max": 7.0,
       "stat": "spell_power",
       "type": "FLAT"
     }

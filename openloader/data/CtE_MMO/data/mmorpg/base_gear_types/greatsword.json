@@ -10,14 +10,14 @@
   "weapon_offhand_stat_util": 0,
   "style": "melee",
   "implicit_stats": [
+  ],
+  "base_stats": [
     {
       "min": 3.0,
       "max": 6.0,
       "stat": "armor",
       "type": "FLAT"
-    }
-  ],
-  "base_stats": [
+    },
     {
       "min": 2.5,
       "max": 5.0,

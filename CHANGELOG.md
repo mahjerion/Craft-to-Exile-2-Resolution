@@ -16,9 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Opening Chests provide 25 Favor instead of 20.
 - Added more objectives and rewards to Bountiful to incorporate some of the other mods - especially Mine and Slash.
 - Improved some of the Mine and Slash localization.
+- Mine and Slash Profession level stat bonuses have been changed. Instead of all Professions provided bonuses to health/mana every 10 levels, they have all been diversified. Weapon Crafting provides bonuses to energy/attack speed, Armor Crafting provides bonuses to health regen/armor, Cooking provides bonuses to health/increased food buff effect, Alchemy provides bonuses to mana/increased healing, Inscribing provides bonuses to energy regen/cdr, Jewelry Crafting provides bonuses to mana regen/magic_find.
 
 ### Mod Updates
-- Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash.
+- Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash. Sophisticated Backpacks.
 - Added Better Fps - Render Distance - renders in a circle rather than a square which should improve FPS by quite a bit. Shouldn't break anything... hopefully.
 - Since Temporary Spawners unbreakable spawner config doesn't work the way I thought it did, added Unbreakable Spawner.
 
@@ -30,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disabled Apotheosis bounties on Bountiful.
 - Lootr chests now provide Favor and also count towards Divine Missions.
 - Fixed World of Exile tower chests missing localization.
+- Fixed tridents not having appropriate stats.
 
 ## [0.2.0] - 2021-12-01
 

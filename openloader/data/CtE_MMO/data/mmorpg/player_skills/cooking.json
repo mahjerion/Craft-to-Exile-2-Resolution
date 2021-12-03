@@ -1,0 +1,153 @@
+{
+  "type_enum": "COOKING",
+  "id": "cooking",
+  "exp_per_action": 0,
+  "order": 0,
+  "dropTables": [],
+  "stat_rewards": [
+    {
+      "lvl_req": 5,
+      "stats": [
+        {
+          "v1": 1.0,
+          "stat": "bonus_exp",
+          "type": "FLAT",
+          "scale_to_lvl": false
+        }
+      ]
+    },
+    {
+      "lvl_req": 15,
+      "stats": [
+        {
+          "v1": 1.0,
+          "stat": "increased_quantity",
+          "type": "FLAT",
+          "scale_to_lvl": false
+        }
+      ]
+    },
+    {
+      "lvl_req": 25,
+      "stats": [
+        {
+          "v1": 1.0,
+          "stat": "magic_find",
+          "type": "FLAT",
+          "scale_to_lvl": false
+        }
+      ]
+    },
+    {
+      "lvl_req": 35,
+      "stats": [
+        {
+          "v1": 1.0,
+          "stat": "bonus_exp",
+          "type": "FLAT",
+          "scale_to_lvl": false
+        }
+      ]
+    },
+    {
+      "lvl_req": 45,
+      "stats": [
+        {
+          "v1": 2.0,
+          "stat": "increased_quantity",
+          "type": "FLAT",
+          "scale_to_lvl": false
+        }
+      ]
+    },
+    {
+      "lvl_req": 10,
+      "stats": [
+        {
+          "v1": 3.0,
+          "stat": "health",
+          "type": "FLAT",
+          "scale_to_lvl": false
+        },
+        {
+          "v1": 3.0,
+          "stat": "inc_effect_of_food_buff_on_you",
+          "type": "PERCENT",
+          "scale_to_lvl": false
+        }
+      ]
+    },
+    {
+      "lvl_req": 20,
+      "stats": [
+        {
+          "v1": 3.0,
+          "stat": "health",
+          "type": "FLAT",
+          "scale_to_lvl": false
+        },
+        {
+          "v1": 3.0,
+          "stat": "inc_effect_of_food_buff_on_you",
+          "type": "PERCENT",
+          "scale_to_lvl": false
+        }
+      ]
+    },
+    {
+      "lvl_req": 30,
+      "stats": [
+        {
+          "v1": 3.0,
+          "stat": "health",
+          "type": "FLAT",
+          "scale_to_lvl": false
+        },
+        {
+          "v1": 3.0,
+          "stat": "inc_effect_of_food_buff_on_you",
+          "type": "PERCENT",
+          "scale_to_lvl": false
+        }
+      ]
+    },
+    {
+      "lvl_req": 40,
+      "stats": [
+        {
+          "v1": 3.0,
+          "stat": "health",
+          "type": "FLAT",
+          "scale_to_lvl": false
+        },
+        {
+          "v1": 3.0,
+          "stat": "inc_effect_of_food_buff_on_you",
+          "type": "PERCENT",
+          "scale_to_lvl": false
+        }
+      ]
+    },
+    {
+      "lvl_req": 50,
+      "stats": [
+        {
+          "v1": 8.0,
+          "stat": "health",
+          "type": "FLAT",
+          "scale_to_lvl": false
+        },
+        {
+          "v1": 8.0,
+          "stat": "inc_effect_of_food_buff_on_you",
+          "type": "PERCENT",
+          "scale_to_lvl": false
+        }
+      ]
+    }
+  ],
+  "mastery_stat_reward": [],
+  "block_break_exp": [],
+  "item_craft_exp": [],
+  "item_smelt_exp": []
+}
