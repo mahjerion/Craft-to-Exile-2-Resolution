@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased starting Favor to 250 from 200.
 - Opening Chests provide 25 Favor instead of 20.
 - Added more objectives and rewards to Bountiful to incorporate some of the other mods - especially Mine and Slash.
+- Improved some of the Mine and Slash localization.
 
 ### Mod Updates
 - Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash.
