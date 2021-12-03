@@ -11,15 +11,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased power of common quality items. Also slightly adjusted max upgrades, dust per salvage, etc. across the board.
 - Readjusted weapon damage and gave each weapon type a new implicit stat to distinguish them from each other. Eg. staves give more spell damage, scepters give heal power, etc.
 - Reduced the spell damage penalty of the shield.
+- Re-enabled Favor system. There is no penalty for having 0 Favor, only benefits for having higher Favor.
+- Increased starting Favor to 250 from 200.
+- Opening Chests provide 25 Favor instead of 20.
+- Added more objectives and rewards to Bountiful to incorporate some of the other mods - especially Mine and Slash.
 
 ### Mod Updates
 - Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash.
+- Added Better Fps - Render Distance - renders in a circle rather than a square which should improve FPS by quite a bit. Shouldn't break anything... hopefully.
 - Since Temporary Spawners unbreakable spawner config doesn't work the way I thought it did, added Unbreakable Spawner.
 
 ### Fixes
 - Fixed Mine and Slash loot not appearing in chests.
 - Properly removed Variable Spawner Hardness.
 - Mine and Slash gems and runes should actually drop now.
+- Actually fixed drops not appearing at 0 Favor...
+- Disabled Apotheosis bounties on Bountiful.
+- Lootr chests now provide Favor and also count towards Divine Missions.
+- Fixed World of Exile tower chests missing localization.
 
 ## [0.2.0] - 2021-12-01
 

@@ -1,0 +1,25 @@
+{
+  "modsRequired": ["mmorpg"],
+  "content": [
+    {
+      "type": "item",
+      "content": "mmorpg:craft_tools/armor_craft",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5000,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:craft_tools/jewel_craft",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5000,
+      "weight": 250
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "modsRequired": ["mmorpg"],
+  "content": [
+    {
+      "type": "item",
+      "content": "mmorpg:identify_tome",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1500,
+      "weight": 500
+    }
+  ]
+}

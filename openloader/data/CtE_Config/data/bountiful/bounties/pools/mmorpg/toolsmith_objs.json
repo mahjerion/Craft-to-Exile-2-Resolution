@@ -1,0 +1,25 @@
+{
+  "modsRequired": ["mmorpg"],
+  "content": [
+    {
+      "type": "item",
+      "content": "immersiveengineering:ingot_steel",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 2000,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:craft_tools/wep_craft",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5000,
+      "weight": 250
+    }
+  ]
+}

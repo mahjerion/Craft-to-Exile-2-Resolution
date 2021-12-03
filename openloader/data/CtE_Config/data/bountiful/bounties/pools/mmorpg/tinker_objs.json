@@ -1,0 +1,125 @@
+{
+  "modsRequired": ["mmorpg"],
+  "content": [
+    {
+      "type": "item",
+      "content": "create:wrench",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4500,
+      "weight": 100
+    },
+    {
+      "type": "item",
+      "content": "create:cogwheel",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 2500,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "create:shaft",
+      "amountRange": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 1000,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "create:copper_ingot",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "create:brass_ingot",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000,
+      "weight": 750
+    },
+    {
+      "type": "item",
+      "content": "create:copper_sheet",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1500,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "create:iron_sheet",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1250,
+      "weight": 600
+    },
+    {
+      "type": "item",
+      "content": "create:brass_sheet",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1750,
+      "weight": 400
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:hammer",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:plate_lead",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3500,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:plate_uranium",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 6000,
+      "weight": 50
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:wire_steel",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 3500,
+      "weight": 250
+    }
+  ]
+}

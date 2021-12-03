@@ -1,0 +1,185 @@
+{
+  "modsRequired": ["mmorpg"],
+  "content": [
+    {
+      "type": "item",
+      "content": "minecraft:stone_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 450,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:iron_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "minecraft:diamond_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 15000,
+      "weight": 20
+    },
+    {
+      "type": "item",
+      "content": "minecraft:steel_sword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7500,
+      "weight": 20
+    },
+    {
+      "type": "item",
+      "content": "minecraft:steel_axe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7500,
+      "weight": 20
+    },
+    {
+      "type": "item",
+      "content": "minecraft:steel_shovel",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2500,
+      "weight": 20
+    },
+    {
+      "type": "item",
+      "content": "minecraft:steel_pickaxe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7500,
+      "weight": 20
+    },
+    {
+      "type": "item",
+      "content": "minecraft:steel_hoe",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5000,
+      "weight": 30
+    },
+    {
+      "type": "item",
+      "content": "epicfight:stone_greatsword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1200,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "epicfight:iron_greatsword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8000,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "epicfight:diamond_greatsword",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 40000,
+      "weight": 20
+    },
+    {
+      "type": "item",
+      "content": "epicfight:stone_spear",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 500,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "epicfight:iron_spear",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3500,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "epicfight:diamond_spear",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 16000,
+      "weight": 20
+    },
+    {
+      "type": "item",
+      "content": "epicfight:iron_dagger",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1500,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "epicfight:diamond_dagger",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7500,
+      "weight": 20
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:weapon/staff/iron",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:weapon/staff/diamond",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 15000,
+      "weight": 20
+    }
+  ]
+}

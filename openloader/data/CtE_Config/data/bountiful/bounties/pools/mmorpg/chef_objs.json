@@ -1,0 +1,25 @@
+{
+  "modsRequired": ["mmorpg"],
+  "content": [
+    {
+      "type": "item",
+      "content": "mmorpg:craft_tools/cooking",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5000,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:craft_tools/alchemy",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5000,
+      "weight": 250
+    }
+  ]
+}

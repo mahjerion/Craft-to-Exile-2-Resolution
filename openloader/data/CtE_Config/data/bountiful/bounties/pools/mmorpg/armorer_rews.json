@@ -1,0 +1,45 @@
+{
+  "modsRequired": ["mmorpg"],
+  "content": [
+    {
+      "type": "item",
+      "content": "mmorpg:jewelry/ring/iron",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4500,
+      "weight": 300
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:jewelry/ring/diamond",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 15000,
+      "weight": 50
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:jewelry/necklace/iron",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8500,
+      "weight": 150
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:jewelry/necklace/diamond",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 27500,
+      "weight": 25
+    }
+  ]
+}

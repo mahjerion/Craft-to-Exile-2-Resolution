@@ -1,7 +1,7 @@
 
 #General Configs
 [general]
-	enable_favor = false
+	enable_favor = true
 	all_players_are_allied = false
 	start_items = false
 	scale_mob_to_nearby_player_lvl = false
@@ -9,11 +9,11 @@
 	require_team_for_dungeons = true
 	dont_sync_ambient_mob_data = true
 	#Range: 0 ~ 100000
-	starting_favor = 200
+	starting_favor = 250
 	#Range: 0 ~ 20
 	max_uniques_worn = 20
 	#Range: 0.0 ~ 1000.0
-	favor_per_chest = 20.0
+	favor_per_chest = 25.0
 	#Set this to 0 if there is a way to create spawners in the modpack.
 	#Range: 0.0 ~ 1000.0
 	favor_per_spawner_destroyed = 0.0
