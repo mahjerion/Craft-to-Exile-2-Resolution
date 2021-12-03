@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Increased power of common quality items. Also slightly adjusted max upgrades, dust per salvage, etc. across the board.
+- Readjusted weapon damage and gave each weapon type a new implicit stat to distinguish them from each other. Eg. staves give more spell damage, scepters give heal power, etc.
+- Reduced the spell damage penalty of the shield.
+
+### Mod Updates
+- Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash.
+- Since Temporary Spawners unbreakable spawner config doesn't work the way I thought it did, added Unbreakable Spawner.
+
+### Fixes
+- Fixed Mine and Slash loot not appearing in chests.
+- Properly removed Variable Spawner Hardness.
+- Mine and Slash gems and runes should actually drop now.
+
 ## [0.2.0] - 2021-12-01
 
 ### Updates

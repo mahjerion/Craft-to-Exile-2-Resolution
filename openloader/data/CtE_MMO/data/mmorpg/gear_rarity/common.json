@@ -20,7 +20,7 @@
   },
   "base_stat_percents": {
     "min": 0,
-    "max": 75
+    "max": 100
   },
   "dust_per_sal": {
     "min": 1,

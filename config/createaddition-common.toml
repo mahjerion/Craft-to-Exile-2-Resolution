@@ -105,9 +105,6 @@
 	#The energy cost of turning Chromatic Compound into Overcharged Alloy.
 	#Range: > 1
 	overcharging_energy_cost = 16777216
-	#The chance that a AE2 Certus Quartz will be turned into Charged Certus Quartz for every tick.
-	#Range: 0.0 ~ 1.0
-	certus_quartz_charge_chance = 0.96
 	#The relative speed of the Furnace Engine when powered by a Furnace Burner.
 	#Range: 0.0 ~ 100.0
 	furnace_burner_engine_speed = 1.0
@@ -147,4 +144,7 @@
 	#Tesla Coil fire interval (in ticks).
 	#Range: > 0
 	tesla_coil_fire_cooldown = 20
+	#The chance that a AE2 Certus Quartz will be turned into Charged Certus Quartz for every tick.
+	#Range: 0.0 ~ 1.0
+	certus_quartz_charge_chance = 0.96
 

@@ -9,10 +9,17 @@
   "weight": 750,
   "weapon_offhand_stat_util": 25,
   "style": "melee",
-  "implicit_stats": [],
+  "implicit_stats": [
+    {
+      "min": 2.0,
+      "max": 5.0,
+      "stat": "critical_hit",
+      "type": "FLAT"
+    }
+  ],
   "base_stats": [
     {
-      "min": 0.8,
+      "min": 1.2,
       "max": 2.4,
       "stat": "physical_weapon_damage",
       "type": "FLAT"

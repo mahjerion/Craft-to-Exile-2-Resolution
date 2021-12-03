@@ -9,17 +9,24 @@
   "weight": 750,
   "weapon_offhand_stat_util": 0,
   "style": "melee",
-  "implicit_stats": [],
+  "implicit_stats": [
+    {
+      "min": 3.0,
+      "max": 5.0,
+      "stat": "move_speed",
+      "type": "FLAT"
+    }
+  ],
   "base_stats": [
     {
-      "min": 1.0,
-      "max": 3.25,
+      "min": 1.8,
+      "max": 3.6,
       "stat": "physical_weapon_damage",
       "type": "FLAT"
     },
     {
-      "min": 2.0,
-      "max": 4.0,
+      "min": 3.0,
+      "max": 5.0,
       "stat": "spell_power",
       "type": "FLAT"
     }

@@ -51,6 +51,15 @@
         "#savanna"
       ],
       "health": 15.0
+    },
+    "termite": {
+      "spawn": true,
+      "rate": 2,
+      "biomes": [
+        "#savanna"
+      ],
+      "health": 6.0,
+      "maxCount": 3
     }
   },
   "generation": {
