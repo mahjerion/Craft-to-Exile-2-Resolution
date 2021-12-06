@@ -2,7 +2,7 @@
   "weight": 1000,
   "id": "nether_fortress_waves",
   "format": "",
-  "dungeon_type": "waves",
+  "dungeon_type": "wave_based",
   "dungeon_group": "nether",
   "structure_file": "infinite_dungeons:dungeons/nether_fortress",
   "spawns": [

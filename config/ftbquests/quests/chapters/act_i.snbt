@@ -283,7 +283,7 @@
 				{
 					id: "0A1BBD38695D6330"
 					type: "kill"
-					icon: "aquaculture:fish_bones"
+					icon: "meetyourfight:mossy_tooth"
 					entity: "meetyourfight:swampjaw"
 					value: 1L
 				}
@@ -1140,7 +1140,7 @@
 				{
 					id: "796EFC3F8B0314D6"
 					type: "kill"
-					icon: "meetyourfight:haunted_bell"
+					icon: "meetyourfight:phantoplasm"
 					entity: "meetyourfight:bellringer"
 					value: 1L
 				}
@@ -1632,6 +1632,88 @@
 					player_command: false
 				}
 			]
+		}
+		{
+			title: "Instanced Dungeons"
+			x: 6.0d
+			y: 3.0d
+			subtitle: "Infinite Dungeons"
+			description: [
+				"Around the Overworld, you will find large towers filled with creatures and loot. Earn a Silver Key to unlock the Radiant Chest at the top of the tower for awesome items! Looking for something a little more challenging? Try Infinite Dungeon's instanced dungeons!"
+				""
+				"Find a Skeletal Key, Void Key, or Nether Key, and use it. A menu will appear which allows you to choose the difficulty and dungeon you would like to conquer. Succeed and gain coins that can be used at the end of the dungeon (in the dungeon shop). The better you do, the greater the reward!"
+				""
+				"There are currently 3 types of dungeons: Slaughter, Clean-Up, and Waves dungeons."
+			]
+			dependencies: ["3A4256305D4B21B2"]
+			id: "267CE19BA6FA92F7"
+			tasks: [{
+				id: "67862BA2809C1D4F"
+				type: "item"
+				item: "world_of_exile:silver_key"
+			}]
+			rewards: [
+				{
+					id: "173453DE168DF2F3"
+					type: "item"
+					item: "infinite_dungeons:skeletal_key"
+				}
+				{
+					id: "2834B7BFB080ED2C"
+					type: "item"
+					item: "infinite_dungeons:nether_key"
+				}
+				{
+					id: "0A46D5F0A76E418F"
+					type: "item"
+					item: "infinite_dungeons:void_key"
+				}
+				{
+					id: "540371DD8AF9A870"
+					type: "command"
+					title: "1500 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 1500"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Finding Your Way"
+			x: 10.5d
+			y: -1.5d
+			subtitle: "Compasses"
+			description: ["If you're finding it difficult to locate specific biomes or structures, then the Nature's or Explorer's Compass is exactly what you need! These nifty compasses can be used to locate exact biomes and structures. Just craft them and use them!"]
+			dependencies: ["4741BEB66DC84B6E"]
+			id: "0D3612310A792B25"
+			tasks: [
+				{
+					id: "260664126EE4EE0B"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "26B27CD085213913"
+					type: "item"
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "7E5EAF9E8F3455E4"
+				type: "command"
+				title: "10000 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 10000"
+				player_command: false
+			}]
 		}
 	]
 }

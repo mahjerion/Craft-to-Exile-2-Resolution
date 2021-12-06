@@ -2,7 +2,7 @@
   "weight": 1000,
   "id": "imbued_tree_cave_waves",
   "format": "",
-  "dungeon_type": "waves",
+  "dungeon_type": "wave_based",
   "dungeon_group": "void",
   "structure_file": "infinite_dungeons:dungeons/imbued_tree_cave",
   "spawns": [

@@ -9,18 +9,27 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
+			x: -1.5d
 			y: 0.0d
 			dependencies: ["3DAFD456907D35E5"]
 			hide: true
 			id: "1BB590C100DF5E29"
-			tasks: [{
-				id: "700ABCA9F1D699DD"
-				type: "kill"
-				icon: "minecraft:porkchop"
-				entity: "minecraft:piglin"
-				value: 4L
-			}]
+			tasks: [
+				{
+					id: "700ABCA9F1D699DD"
+					type: "kill"
+					icon: "minecraft:porkchop"
+					entity: "minecraft:piglin"
+					value: 4L
+				}
+				{
+					id: "4DAE06AEDC79AF31"
+					type: "kill"
+					icon: "infernalexp:raw_hogchop"
+					entity: "minecraft:hoglin"
+					value: 2L
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -34,6 +43,231 @@
 				entity: "minecraft:blaze"
 				value: 4L
 			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			id: "1CA425BE87F0D294"
+			tasks: [{
+				id: "713D05F12725F233"
+				type: "kill"
+				icon: "minecraft:ghast_tear"
+				entity: "minecraft:ghast"
+				value: 2L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "7259137668109ED7"
+			tasks: [{
+				id: "4B23EFE9EEA426D8"
+				type: "item"
+				item: {
+					id: "infernalexp:glowsilk_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "32A7C742E7739CFD"
+			tasks: [{
+				id: "6354A5D9AEF920AB"
+				type: "kill"
+				icon: "minecraft:cooked_porkchop"
+				entity: "minecraft:zoglin"
+				value: 2L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "6B6AE5DBC96F4D4E"
+			tasks: [{
+				id: "1D6E7ED1088A74E2"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				count: 8L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			id: "43DC731D7F4FC741"
+			tasks: [{
+				id: "09CD4EE1D876CB72"
+				type: "item"
+				item: "betternether:nether_ruby"
+				count: 8L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			id: "187C0D189DB4F61A"
+			tasks: [{
+				id: "59AB28C52B80CB97"
+				type: "item"
+				item: "betternether:cincinnasite_ingot"
+				count: 8L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			id: "65BEF60B0B2BF0AA"
+			tasks: [{
+				id: "76EBCB9304D19DA3"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_sword_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			id: "2E886EC41F6806A4"
+			tasks: [{
+				id: "77A27BE6804A2AC4"
+				type: "item"
+				item: "minecraft:respawn_anchor"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "4476B88FCE13635B"
+			tasks: [{
+				id: "6EF71008B5685D3D"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither_skeleton"
+				value: 8L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "3E72290C29FBB404"
+			tasks: [{
+				id: "60D170F2A1FD9F79"
+				type: "kill"
+				icon: "minecraft:wither_rose"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			id: "46E9AD7242094A26"
+			tasks: [{
+				id: "760217969BE14FA4"
+				type: "kill"
+				icon: "mowziesmobs:naga_fang"
+				entity: "betternether:naga"
+				value: 3L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			id: "49B02015D27674A4"
+			tasks: [
+				{
+					id: "78A3860FED70A0D5"
+					type: "item"
+					item: "betternether:cincinnasite_forge"
+				}
+				{
+					id: "6AC656EDC7A7F6EF"
+					type: "item"
+					item: "betternether:nether_brewing_stand"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			id: "5E9242A1AA49E79C"
+			tasks: [{
+				id: "6A776D0C5A163E96"
+				type: "kill"
+				icon: "botania:quartz_blaze"
+				entity: "outvoted:wildfire"
+				value: 1L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			id: "5C9CB9F8F6E481BE"
+			tasks: [{
+				id: "6014B2134A28A66D"
+				type: "kill"
+				icon: "infernalexp:ascus_bomb"
+				entity: "infernalexp:shroomloin"
+				value: 3L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "46B6670977937C4B"
+			tasks: [{
+				id: "022FE6DA1C5CDC73"
+				type: "kill"
+				icon: {
+					id: "minecraft:netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "infernalexp:blackstone_dwarf"
+				value: 4L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "20181D9196980BFF"
+			tasks: [{
+				id: "618C874D71A85391"
+				type: "kill"
+				icon: "minecraft:basalt"
+				entity: "infernalexp:basalt_giant"
+				value: 1L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			id: "65452B0DCDEC698A"
+			tasks: [
+				{
+					id: "6F3DFB8B007DE599"
+					type: "kill"
+					icon: "meetyourfight:fortunes_favor"
+					entity: "meetyourfight:dame_fortuna"
+					value: 1L
+				}
+				{
+					id: "4355655B93C91B78"
+					type: "item"
+					item: "meetyourfight:devils_ante"
+				}
+			]
 		}
 	]
 }

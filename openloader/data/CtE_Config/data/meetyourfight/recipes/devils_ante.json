@@ -6,7 +6,7 @@
 		"NIN"
 	],
 	"key": {
-		"D": { "tag": "forge:gems/diamond" },
+		"D": { "item": "minecraft:nether_star" },
 		"I": { "tag": "forge:ingots/gold" },
 		"N": { "tag": "forge:netherrack" }
 	},

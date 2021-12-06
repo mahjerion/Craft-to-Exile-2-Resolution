@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Xaero's Update Alert: if you choose to not reset your world for whatever reason, back up your Xaero's Waypoints and WorldMap folders!
 - Instanced dungeons are finally here! Infinite Dungeons, from the author of Mine and Slash introduces instanced dungeons, similar to maps. Explore and conquer these dungeons for fantastic loot! Find keys from hostile mobs and use them to enter a dungeon. Before entering, choose the difficulty of the dungeon - defeat the mobs quickly to gain better rewards and dungeon-specific currency to be used at the end of the dungeon!
-- XX Infinite Dungeons rewards include Mine and Slash items.
+- Infinite Dungeons rewards include Mine and Slash items.
 - Introducing Mercenaries - find Mercenary Leaders in villages and hire your very own mercenary for emeralds/diamonds. Equip your mercenary with gear to power them up. Make sure to continue paying them, or they may leave you! (Still in early stages, may be tweaked or removed)
 - Increased power of common quality items. Also slightly adjusted max upgrades, dust per salvage, etc. across the board.
 - Readjusted weapon damage and gave each weapon type a new implicit stat to distinguish them from each other. Eg. staves give more spell damage, scepters give heal power, etc.
@@ -24,6 +24,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased mob damage at low levels.
 - Reduced drop chance of Holy Water from Illager Centers drastically.
 - Chests in Illagers Plus structures can generate Mine and Slash loot.
+- Added a quest for the compass items.
+- Added a quest showing Infinite Dungeons.
+- Changed recipe of Haunted Bell to make it possible to craft before reaching The Nether.
+- Changed the recipe of Devil's Ante to require a Nether Star.
+- Hand of Ender can no longer pick-pocket other players' chests.
+- Changed icons of Swampjaw and Bellringer to make more sense.
 
 ### Mod Updates
 - Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash, Sophisticated Backpacks, Botania, Ender Mail, Farmer's Delight, JEITweaker, Library of Exile, Minecolonies, Xaero's World Map.
