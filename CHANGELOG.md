@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Xaero's Update Alert: if you choose to not reset your world for whatever reason, back up your Xaero's Waypoints and WorldMap folders!
+- Instanced dungeons are finally here! Infinite Dungeons, from the author of Mine and Slash introduces instanced dungeons, similar to maps. Explore and conquer these dungeons for fantastic loot! Find keys from hostile mobs and use them to enter a dungeon. Before entering, choose the difficulty of the dungeon - defeat the mobs quickly to gain better rewards and dungeon-specific currency to be used at the end of the dungeon!
+- XX Infinite Dungeons rewards include Mine and Slash items.
+- Introducing Mercenaries - find Mercenary Leaders in villages and hire your very own mercenary for emeralds/diamonds. Equip your mercenary with gear to power them up. Make sure to continue paying them, or they may leave you! (Still in early stages, may be tweaked or removed)
 - Increased power of common quality items. Also slightly adjusted max upgrades, dust per salvage, etc. across the board.
 - Readjusted weapon damage and gave each weapon type a new implicit stat to distinguish them from each other. Eg. staves give more spell damage, scepters give heal power, etc.
 - Reduced the spell damage penalty of the shield.
@@ -18,9 +22,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved some of the Mine and Slash localization.
 - Mine and Slash Profession level stat bonuses have been changed. Instead of all Professions provided bonuses to health/mana every 10 levels, they have all been diversified. Weapon Crafting provides bonuses to energy/attack speed, Armor Crafting provides bonuses to health regen/armor, Cooking provides bonuses to health/increased food buff effect, Alchemy provides bonuses to mana/increased healing, Inscribing provides bonuses to energy regen/cdr, Jewelry Crafting provides bonuses to mana regen/magic_find.
 - Increased mob damage at low levels.
+- Reduced drop chance of Holy Water from Illager Centers drastically.
+- Chests in Illagers Plus structures can generate Mine and Slash loot.
 
 ### Mod Updates
-- Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash. Sophisticated Backpacks.
+- Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash, Sophisticated Backpacks, Botania, Ender Mail, Farmer's Delight, JEITweaker, Library of Exile, Minecolonies, Xaero's World Map.
+- Added Infinite Dungeons.
+- Added Mercenaries.
 - Added Better Fps - Render Distance - renders in a circle rather than a square which should improve FPS by quite a bit. Shouldn't break anything... hopefully.
 - Since Temporary Spawners unbreakable spawner config doesn't work the way I thought it did, added Unbreakable Spawner.
 
@@ -28,11 +36,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed Mine and Slash loot not appearing in chests.
 - Properly removed Variable Spawner Hardness.
 - Mine and Slash gems and runes should actually drop now.
+- Fixed Mine and Slash currency not dropping.
 - Actually fixed drops not appearing at 0 Favor...
 - Disabled Apotheosis bounties on Bountiful.
 - Lootr chests now provide Favor and also count towards Divine Missions.
 - Fixed World of Exile tower chests missing localization.
 - Fixed tridents not having appropriate stats.
+- Added missing Mossy Skeleton localization.
 
 ## [0.2.0] - 2021-12-01
 

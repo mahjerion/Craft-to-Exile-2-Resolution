@@ -1,0 +1,70 @@
+{
+  "weight": 1000,
+  "id": "nether_fortress",
+  "format": "",
+  "dungeon_type": "slaughter",
+  "dungeon_group": "nether",
+  "structure_file": "infinite_dungeons:dungeons/nether_fortress",
+  "spawns": [
+    {
+      "entity_id": "minecraft:blaze",
+      "weight": 200,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "minecraft:magma_cube",
+      "weight": 100,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "minecraft:wither_skeleton",
+      "weight": 500,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "minecraft:zombified_piglin",
+      "weight": 500,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "outvoted:wildfire",
+      "weight": 25,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    }
+  ],
+  "shop_list": "nether_fortress",
+  "score_configs": {
+    "GOLD": {
+      "score": "GOLD",
+      "loot_table": "minecraft:chests/end_city_treasure",
+      "reward_time_seconds": 180,
+      "loot_multi": 3.0
+    },
+    "SILVER": {
+      "score": "SILVER",
+      "loot_table": "minecraft:chests/underwater_ruin_big",
+      "reward_time_seconds": 300,
+      "loot_multi": 2.0
+    },
+    "BRONZE": {
+      "score": "BRONZE",
+      "loot_table": "minecraft:chests/village/village_plains_house",
+      "reward_time_seconds": 1500,
+      "loot_multi": 1.0
+    }
+  },
+  "slaughter_config": {
+    "modifier_every_x_mobs": 25,
+    "total_mobs": 150,
+    "max_mobs_at_once": 30,
+    "horde_chance": 5,
+    "horde_multi": 3.0,
+    "spawn_mobs_every_x_sec": 15,
+    "mobs_per_spawn": 5
+  }
+}

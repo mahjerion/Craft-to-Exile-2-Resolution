@@ -1,0 +1,151 @@
+{
+  "weight": 1000,
+  "id": "rune_pack",
+  "format": "gold",
+  "rewards": [
+    {
+      "reward": {
+        "value": "mmorpg:runes/yun",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/ven",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/nos",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/mos",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/ita",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/cen",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/fey",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/dos",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/ano",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/toq",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/oru",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/wir",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/eno",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/har",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    },
+    {
+      "reward": {
+        "value": "mmorpg:runes/xer",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 10
+    }
+  ],
+  "jackpot": {
+    "reward": {
+      "value": "mmorpg:currency/orb_of_infinity",
+      "data": "",
+      "type": "ITEM",
+      "count": 1
+    },
+    "weight": 10
+  }
+}

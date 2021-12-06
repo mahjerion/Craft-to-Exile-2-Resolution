@@ -1,0 +1,73 @@
+{
+  "weight": 1000,
+  "id": "abandoned_prison_waves",
+  "format": "",
+  "dungeon_type": "wave_based",
+  "dungeon_group": "skeletal",
+  "structure_file": "infinite_dungeons:dungeons/abandoned_prison",
+  "spawns": [
+    {
+      "entity_id": "minecraft:pillager",
+      "weight": 300,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "minecraft:evoker",
+      "weight": 25,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "illagers_plus:archer",
+      "weight": 100,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "illagers_plus:berserker",
+      "weight": 100,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "illagers_plus:enchanter",
+      "weight": 25,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "minecraft:witch",
+      "weight": 50,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    }
+  ],
+  "shop_list": "abandoned_prison",
+  "score_configs": {
+    "GOLD": {
+      "score": "GOLD",
+      "loot_table": "minecraft:chests/end_city_treasure",
+      "reward_time_seconds": 180,
+      "loot_multi": 3.0
+    },
+    "SILVER": {
+      "score": "SILVER",
+      "loot_table": "minecraft:chests/underwater_ruin_big",
+      "reward_time_seconds": 300,
+      "loot_multi": 2.0
+    },
+    "BRONZE": {
+      "score": "BRONZE",
+      "loot_table": "minecraft:chests/village/village_plains_house",
+      "reward_time_seconds": 1500,
+      "loot_multi": 1.0
+    }
+  },
+  "wave_config": {
+    "total_waves": 5,
+    "mobs_per_wave": 3,
+    "extra_mobs_per_each_wave": 2,
+    "between_wave_cooldown_seconds": 5
+  }
+}

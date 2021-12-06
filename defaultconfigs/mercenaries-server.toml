@@ -1,0 +1,44 @@
+
+#Mercenaries server side settings
+[server]
+	#How many ticks for a mercenary to consume 1 unit of food (a full bar is 20 units). Use a value of 2147483647 to disable food requirement
+	#Range: > 1
+	foodDecayRate = 4800
+	#How many ticks for a mercenary to consume 1 unit of money (a full bar is 20 units). Use a value of 2147483647 to disable payment requirement
+	#Range: > 1
+	getMoneyDecayRate = 4800
+	#How many mercenaries you can have hired at once
+	#Range: > 0
+	maxMercs = 1
+	#How many money units is an emerald worth
+	#Range: > 0
+	emeraldValue = 4
+	#How many money units is a diamond worth
+	#Range: > 0
+	diamondValue = 19
+	#When there are no targets, how many blocks should you walk away before your mercenaries start following
+	#Range: > 1
+	idleFollowDistance = 10
+	#When there are targets, how many blocks should you walk away before your mercenaries start following
+	#Range: > 1
+	fightingFollowDistance = 15
+	#how many blocks should you walk away before your mercenaries teleport to you
+	#Range: > 1
+	teleportDistance = 20
+	#how many emeralds should your first mercenary cost. this will be scaled up for subsequent hires
+	#Range: > 0
+	basePrice = 20
+	#how quickly should the price of mercenaries scale up. base price will be mulitplied by currentlyOwned^priceScaleFactor
+	#Range: 1.0 ~ 2.147483647E9
+	priceScaleFactor = 2.0
+	#UNUSED. ticks between a mercenary using any artifacts (in addition to their normal cool down)
+	#Range: > 1
+	artifactCooldown = 100
+	#UNUSED. ticks it takes the mercenary to use an artifact
+	#Range: > 1
+	artifactUseTime = 30
+	#when a mercenary abandons you, should it take the equipment you gave with it. if false, the equipment will be dropped on the ground where it last was
+	takeGearOnAbandon = true
+	#the resource location of the item used to pay for new mercenaries
+	hirePaymentItem = "minecraft:emerald"
+

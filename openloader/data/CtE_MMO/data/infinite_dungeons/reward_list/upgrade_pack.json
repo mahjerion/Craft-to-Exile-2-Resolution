@@ -1,0 +1,52 @@
+{
+  "weight": 1000,
+  "id": "upgrade_pack",
+  "format": "aqua",
+  "rewards": [
+    {
+      "reward": {
+        "value": "mmorpg:source_of_strength",
+        "data": "",
+        "type": "ITEM",
+        "count": 5
+      },
+      "weight": 24000
+    },
+    {
+      "reward": {
+        "value": "mmorpg:currency/plus_one_upgrade",
+        "data": "",
+        "type": "ITEM",
+        "count": 5
+      },
+      "weight": 12000
+    },
+    {
+      "reward": {
+        "value": "mmorpg:currency/plus_two_upgrade",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 6000
+    },
+    {
+      "reward": {
+        "value": "mmorpg:currency/plus_three_upgrade",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 3000
+    }
+  ],
+  "jackpot": {
+    "reward": {
+      "value": "mmorpg:currency/orb_of_infinity",
+      "data": "",
+      "type": "ITEM",
+      "count": 3
+    },
+    "weight": 1500
+  }
+}

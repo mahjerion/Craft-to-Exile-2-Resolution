@@ -1,0 +1,43 @@
+{
+  "weight": 1000,
+  "id": "totem_of_undying_pack",
+  "format": "green",
+  "rewards": [
+    {
+      "reward": {
+        "value": "minecraft:ghast_tear",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 150
+    },
+    {
+      "reward": {
+        "value": "minecraft:glistering_melon_slice",
+        "data": "",
+        "type": "ITEM",
+        "count": 9
+      },
+      "weight": 250
+    },
+    {
+      "reward": {
+        "value": "minecraft:apple",
+        "data": "",
+        "type": "ITEM",
+        "count": 16
+      },
+      "weight": 500
+    }
+  ],
+  "jackpot": {
+    "reward": {
+      "value": "minecraft:totem_of_undying",
+      "data": "",
+      "type": "ITEM",
+      "count": 1
+    },
+    "weight": 50
+  }
+}

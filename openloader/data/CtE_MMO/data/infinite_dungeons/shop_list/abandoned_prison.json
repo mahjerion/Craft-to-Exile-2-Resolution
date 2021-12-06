@@ -1,0 +1,230 @@
+{
+  "weight": 1000,
+  "id": "abandoned_prison",
+  "shop_entries": [
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 10
+      },
+      "reward": {
+        "value": "mmorpg:common_soul_produce",
+        "data": "",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_0",
+      "max_uses": 1
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 10
+      },
+      "reward": {
+        "value": "mmorpg:alchemy/potion/health/0",
+        "data": "",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_1",
+      "max_uses": 3
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 10
+      },
+      "reward": {
+        "value": "mmorpg:alchemy/potion/mana/0",
+        "data": "",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_1",
+      "max_uses": 3
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 15
+      },
+      "reward": {
+        "value": "mmorpg:alchemy/potion/health/1",
+        "data": "",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_3",
+      "max_uses": 3
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 15
+      },
+      "reward": {
+        "value": "mmorpg:alchemy/potion/mana/1",
+        "data": "",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_3",
+      "max_uses": 3
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 20
+      },
+      "reward": {
+        "value": "mmorpg:alchemy/potion/health/2",
+        "data": "",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_5",
+      "max_uses": 1
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 20
+      },
+      "reward": {
+        "value": "mmorpg:alchemy/potion/mana/2",
+        "data": "",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_5",
+      "max_uses": 1
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 10
+      },
+      "reward": {
+        "value": "minecraft:iron_ingot",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "difficulty": "diff_0",
+      "max_uses": 9
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 25
+      },
+      "reward": {
+        "value": "minecraft:gold_ingot",
+        "data": "",
+        "type": "ITEM",
+        "count": 9
+      },
+      "difficulty": "diff_1",
+      "max_uses": 3
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 15
+      },
+      "reward": {
+        "value": "minecraft:leather",
+        "data": "",
+        "type": "ITEM",
+        "count": 9
+      },
+      "difficulty": "diff_2",
+      "max_uses": 3
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 20
+      },
+      "reward": {
+        "value": "minecraft:diamond",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "difficulty": "diff_3",
+      "max_uses": 1
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 25
+      },
+      "reward": {
+        "value": "minecraft:ghast_tear",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "difficulty": "diff_4",
+      "max_uses": 3
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 10
+      },
+      "reward": {
+        "value": "minecraft:ender_pearl",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "difficulty": "diff_5",
+      "max_uses": 3
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 25
+      },
+      "reward": {
+        "value": "infinite_dungeons:reward_crate",
+        "data": "{reward_list:\"god_apple_pack\"}",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_2",
+      "max_uses": 1
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 25
+      },
+      "reward": {
+        "value": "infinite_dungeons:reward_crate",
+        "data": "{reward_list:\"rune_pack\"}",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_4",
+      "max_uses": 1
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 25
+      },
+      "reward": {
+        "value": "infinite_dungeons:reward_crate",
+        "data": "{reward_list:\"upgrade_pack\"}",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_5",
+      "max_uses": 1
+    }
+  ]
+}

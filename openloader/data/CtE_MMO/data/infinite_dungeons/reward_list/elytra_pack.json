@@ -1,0 +1,43 @@
+{
+  "weight": 1000,
+  "id": "elytra_pack",
+  "format": "green",
+  "rewards": [
+    {
+      "reward": {
+        "value": "minecraft:ender_pearl",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 100
+    },
+    {
+      "reward": {
+        "value": "minecraft:book",
+        "data": "",
+        "type": "ITEM",
+        "count": 9
+      },
+      "weight": 250
+    },
+    {
+      "reward": {
+        "value": "minecraft:leather",
+        "data": "",
+        "type": "ITEM",
+        "count": 8
+      },
+      "weight": 500
+    }
+  ],
+  "jackpot": {
+    "reward": {
+      "value": "minecraft:elytra",
+      "data": "",
+      "type": "ITEM",
+      "count": 1
+    },
+    "weight": 25
+  }
+}

@@ -17,7 +17,7 @@
 
 #Vanilla item overrides
 [overrides]
-	#Should items inside the tag 'farmersdelight:comfort_foods' grant 5 minutes of Comfort when eaten? (defaults to vanilla SoupItems)
+	#Should items inside the tag 'farmersdelight:comfort_foods' grant 2 minutes of Comfort when eaten? (defaults to vanilla SoupItems)
 	comfortFoodTagEffect = true
 	#Should Rabbit Stew grant users the jumping prowess of a rabbit when eaten?
 	rabbitStewJumpBoost = true

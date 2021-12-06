@@ -1,0 +1,64 @@
+{
+  "weight": 1000,
+  "id": "diamond_lich_crypt",
+  "format": "",
+  "dungeon_type": "clean_up",
+  "dungeon_group": "skeletal",
+  "structure_file": "infinite_dungeons:dungeons/diamond_lich_crypt",
+  "spawns": [
+    {
+      "entity_id": "minecraft:skeleton",
+      "weight": 1000,
+      "spawn_only_after_wave": 0,
+      "modifiers": [
+        "50_chance_melee_skeleton"
+      ]
+    },
+    {
+      "entity_id": "minecraft:stray",
+      "weight": 200,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "minecraft:witch",
+      "weight": 125,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    },
+    {
+      "entity_id": "valhesia_structures:mossy_skeleton",
+      "weight": 25,
+      "spawn_only_after_wave": 0,
+      "modifiers": []
+    }
+  ],
+  "shop_list": "diamond_lich_crypt",
+  "score_configs": {
+    "GOLD": {
+      "score": "GOLD",
+      "loot_table": "minecraft:chests/end_city_treasure",
+      "reward_time_seconds": 180,
+      "loot_multi": 3.0
+    },
+    "SILVER": {
+      "score": "SILVER",
+      "loot_table": "minecraft:chests/underwater_ruin_big",
+      "reward_time_seconds": 300,
+      "loot_multi": 2.0
+    },
+    "BRONZE": {
+      "score": "BRONZE",
+      "loot_table": "minecraft:chests/village/village_plains_house",
+      "reward_time_seconds": 1500,
+      "loot_multi": 1.0
+    }
+  },
+  "clean_up_config": {
+    "fail_if_goes_longer_than_x_seconds": 180,
+    "modifier_every_x_seconds": 25,
+    "kill_count_to_finish": 150,
+    "mobs_spawn_when_less_than_x_mobs_alive": 5,
+    "mobs_per_spawn": 3
+  }
+}

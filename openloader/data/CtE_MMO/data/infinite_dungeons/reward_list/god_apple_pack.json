@@ -1,0 +1,43 @@
+{
+  "weight": 1000,
+  "id": "god_apple_pack",
+  "format": "gold",
+  "rewards": [
+    {
+      "reward": {
+        "value": "minecraft:gold_ingot",
+        "data": "",
+        "type": "ITEM",
+        "count": 3
+      },
+      "weight": 250
+    },
+    {
+      "reward": {
+        "value": "minecraft:gold_nugget",
+        "data": "",
+        "type": "ITEM",
+        "count": 9
+      },
+      "weight": 500
+    },
+    {
+      "reward": {
+        "value": "minecraft:golden_apple",
+        "data": "",
+        "type": "ITEM",
+        "count": 1
+      },
+      "weight": 200
+    }
+  ],
+  "jackpot": {
+    "reward": {
+      "value": "minecraft:enchanted_golden_apple",
+      "data": "",
+      "type": "ITEM",
+      "count": 1
+    },
+    "weight": 25
+  }
+}
