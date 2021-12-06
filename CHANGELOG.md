@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.2.1] - 2021-12-06
 
+### Known Issues
+- Placing an ornament on a Christmas tree on a server causes client crashes. Don't do this for now.
+
 ### Updates
 - Xaero's Update Alert: if you choose to not reset your world for whatever reason, back up your Xaero's Waypoints and WorldMap folders!
 - Instanced dungeons are finally here! Infinite Dungeons, from the author of Mine and Slash introduces instanced dungeons, similar to maps. Explore and conquer these dungeons for fantastic loot! Find keys from hostile mobs and use them to enter a dungeon. Before entering, choose the difficulty of the dungeon - defeat the mobs quickly to gain better rewards and dungeon-specific currency to be used at the end of the dungeon!
@@ -34,7 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed icons of Swampjaw and Bellringer to make more sense.
 
 ### Mod Updates
-- Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash, Sophisticated Backpacks, Botania, Ender Mail, Farmer's Delight, JEITweaker, Library of Exile, Minecolonies, Xaero's World Map.
+- Updated Lootr, Performant, Outvoted, Create Additions, Limited Chunks, JER, CraftTweaker, Mine and Slash, Sophisticated Backpacks, Botania, Ender Mail, Farmer's Delight, JEITweaker, Library of Exile, Minecolonies, Xaero's World Map, Christmas Spirit.
 - Added Infinite Dungeons.
 - Added Mercenaries.
 - Added Better Fps - Render Distance - renders in a circle rather than a square which should improve FPS by quite a bit. Shouldn't break anything... hopefully.
@@ -51,6 +54,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed World of Exile tower chests missing localization.
 - Fixed tridents not having appropriate stats.
 - Added missing Mossy Skeleton localization.
+- Issue where players were unable to open their presents after placing them down (due to Teams prefixes) should be resolved.
 
 ## [0.2.0] - 2021-12-01
 
