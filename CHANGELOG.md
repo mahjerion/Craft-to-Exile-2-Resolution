@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Increased player starting energy from 20 to 30 at level 1.
+- Increased player starting mana and energy regen from 2 to 3 at level 1.
+- Infernal Expansion mobs deal fire damage and have a chance to burn.
+- Reduced EXP gain from Nether Fireflies and End Slimes.
+- Increased mob difficulty at higher levels.
+- Reduced drop rate of most MnS items.
+- Reduced drop rate of dungeon keys.
+
+### Mod Updates
+- Updated Outvoted, Infinite Dungeons, Autumnity.
+
+### Fixes
+- Dungeon crash should be fixed.
+
 ## [0.2.1] - 2021-12-06
 
 ### Known Issues

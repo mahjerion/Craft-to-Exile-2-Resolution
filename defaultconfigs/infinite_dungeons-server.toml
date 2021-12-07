@@ -3,5 +3,5 @@
 [general]
 	#Minutes it takes to get a new mission
 	#Range: 0.0 ~ 100.0
-	KEY_DROP_CHANCE = 0.5
+	KEY_DROP_CHANCE = 0.4
 

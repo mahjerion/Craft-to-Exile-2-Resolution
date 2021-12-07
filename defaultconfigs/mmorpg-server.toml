@@ -34,23 +34,23 @@
 	#Range: 0.0 ~ 1.0
 	min_loot_chance = 0.05
 	#Range: 0.0 ~ 1000.0
-	extra_mob_stats_per_lvl = 0.02
+	extra_mob_stats_per_lvl = 0.03
 	#Range: 0.0 ~ 1000.0
 	vanilla_mob_dmg_as_exile_dmg = 0.75
 	#Range: 0.0 ~ 1000.0
-	vanilla_mob_dmg_as_exile_dmg_at_max_lvl = 1.0
+	vanilla_mob_dmg_as_exile_dmg_at_max_lvl = 1.25
 	#Range: 0.0 ~ 1000.0
 	pvp_dmg_multi = 0.5
 	#Range: 0.0 ~ 1000.0
-	gear_drop_rate = 10.0
+	gear_drop_rate = 7.0
 	#Range: 0.0 ~ 1000.0
-	gem_drop_rate = 0.7
+	gem_drop_rate = 0.4
 	#Range: 0.0 ~ 1000.0
-	ingredient_drop_rate = 7.0
+	ingredient_drop_rate = 4.0
 	#Range: 0.0 ~ 1000.0
-	rune_drop_rate = 0.1
+	rune_drop_rate = 0.04
 	#Range: 0.0 ~ 1000.0
-	currency_drop_rate = 0.3
+	currency_drop_rate = 0.16
 	#Range: -1000.0 ~ 1000.0
 	DIFFICULTY_PER_SECOND = 0.0
 	#Range: -1000.0 ~ 1000.0
