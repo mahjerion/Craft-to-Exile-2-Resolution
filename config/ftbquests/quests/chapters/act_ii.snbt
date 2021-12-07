@@ -30,6 +30,24 @@
 					value: 2L
 				}
 			]
+			rewards: [{
+				id: "7929F524262EB1D0"
+				type: "item"
+				item: {
+					id: "mmorpg:custom_crate"
+					Count: 1b
+					tag: {
+						rarity_gear_crate: {
+							set_to_player_lvl: 0b
+							rar: "rare"
+							tier: 1
+						}
+						display: {
+							Name: "{\"text\":\"Rare Crate (Tier 1)\"}"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
@@ -45,8 +63,9 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 3.0d
 			y: 1.5d
+			dependencies: ["4BD5AAD4EE869928"]
 			id: "1CA425BE87F0D294"
 			tasks: [{
 				id: "713D05F12725F233"
@@ -58,7 +77,11 @@
 		}
 		{
 			x: 1.5d
-			y: -1.5d
+			y: 3.0d
+			dependencies: [
+				"46B6670977937C4B"
+				"15ABBCB19EA46DA8"
+			]
 			id: "7259137668109ED7"
 			tasks: [{
 				id: "4B23EFE9EEA426D8"
@@ -74,7 +97,8 @@
 		}
 		{
 			x: 0.0d
-			y: 1.5d
+			y: -1.5d
+			dependencies: ["1BB590C100DF5E29"]
 			id: "32A7C742E7739CFD"
 			tasks: [{
 				id: "6354A5D9AEF920AB"
@@ -85,8 +109,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.0d
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["46B6670977937C4B"]
 			id: "6B6AE5DBC96F4D4E"
 			tasks: [{
 				id: "1D6E7ED1088A74E2"
@@ -97,7 +122,8 @@
 		}
 		{
 			x: 3.0d
-			y: -4.5d
+			y: 6.0d
+			dependencies: ["6B6AE5DBC96F4D4E"]
 			id: "43DC731D7F4FC741"
 			tasks: [{
 				id: "09CD4EE1D876CB72"
@@ -107,8 +133,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -6.0d
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["6B6AE5DBC96F4D4E"]
 			id: "187C0D189DB4F61A"
 			tasks: [{
 				id: "59AB28C52B80CB97"
@@ -118,8 +145,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -6.0d
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["187C0D189DB4F61A"]
 			id: "65BEF60B0B2BF0AA"
 			tasks: [{
 				id: "76EBCB9304D19DA3"
@@ -135,7 +163,8 @@
 		}
 		{
 			x: -1.5d
-			y: 3.0d
+			y: 1.5d
+			dependencies: ["1BB590C100DF5E29"]
 			id: "2E886EC41F6806A4"
 			tasks: [{
 				id: "77A27BE6804A2AC4"
@@ -146,6 +175,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
+			dependencies: ["4BD5AAD4EE869928"]
 			id: "4476B88FCE13635B"
 			tasks: [{
 				id: "6EF71008B5685D3D"
@@ -154,10 +184,17 @@
 				entity: "minecraft:wither_skeleton"
 				value: 8L
 			}]
+			rewards: [{
+				id: "6902B2DDE8272F62"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
 		}
 		{
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
+			shape: "square"
+			dependencies: ["4476B88FCE13635B"]
 			id: "3E72290C29FBB404"
 			tasks: [{
 				id: "60D170F2A1FD9F79"
@@ -168,8 +205,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 3.0d
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["3E72290C29FBB404"]
 			id: "46E9AD7242094A26"
 			tasks: [{
 				id: "760217969BE14FA4"
@@ -180,8 +218,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -4.5d
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["187C0D189DB4F61A"]
 			id: "49B02015D27674A4"
 			tasks: [
 				{
@@ -199,6 +238,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
+			dependencies: ["4BD5AAD4EE869928"]
 			id: "5E9242A1AA49E79C"
 			tasks: [{
 				id: "6A776D0C5A163E96"
@@ -211,6 +251,7 @@
 		{
 			x: 4.5d
 			y: -1.5d
+			dependencies: ["3E72290C29FBB404"]
 			id: "5C9CB9F8F6E481BE"
 			tasks: [{
 				id: "6014B2134A28A66D"
@@ -222,7 +263,8 @@
 		}
 		{
 			x: 0.0d
-			y: -1.5d
+			y: 4.5d
+			dependencies: ["1B109AD16B403502"]
 			id: "46B6670977937C4B"
 			tasks: [{
 				id: "022FE6DA1C5CDC73"
@@ -239,8 +281,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["3E72290C29FBB404"]
 			id: "20181D9196980BFF"
 			tasks: [{
 				id: "618C874D71A85391"
@@ -251,8 +294,10 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 6.0d
 			y: 0.0d
+			shape: "square"
+			dependencies: ["3E72290C29FBB404"]
 			id: "65452B0DCDEC698A"
 			tasks: [
 				{
@@ -268,6 +313,81 @@
 					item: "meetyourfight:devils_ante"
 				}
 			]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["43DC731D7F4FC741"]
+			id: "0AB172075E77497D"
+			tasks: [{
+				id: "3F26C9C1B814E8ED"
+				type: "item"
+				item: {
+					id: "betternether:nether_ruby_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "The Beginning Of The End"
+			x: 7.5d
+			y: 0.0d
+			subtitle: "Act III - Prelude"
+			dependencies: ["65452B0DCDEC698A"]
+			id: "0AE9D8AC080C9E53"
+			tasks: [{
+				id: "6E0AA26974D633F7"
+				type: "dimension"
+				title: "Visit The End"
+				icon: "minecraft:end_portal_frame"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["6B6AE5DBC96F4D4E"]
+			id: "43718EA7D66EEDFE"
+			tasks: [{
+				id: "4347E60D1D063CDC"
+				type: "item"
+				item: {
+					id: "betterendforge:netherite_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["3DAFD456907D35E5"]
+			hide: true
+			id: "1B109AD16B403502"
+			tasks: [{
+				id: "779E91B25A3919E7"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 16L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["1BB590C100DF5E29"]
+			id: "15ABBCB19EA46DA8"
+			tasks: [{
+				id: "61FA645F2937EC37"
+				type: "kill"
+				icon: "infernalexp:glowsilk"
+				entity: "infernalexp:glowsilk_moth"
+				value: 3L
+			}]
 		}
 	]
 }

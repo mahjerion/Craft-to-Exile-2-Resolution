@@ -91,7 +91,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 5.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -407,6 +407,12 @@
         {
           "type": "loot_table",
           "name": "minecraft:chests/mns_loot"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
         }
       ]
     }

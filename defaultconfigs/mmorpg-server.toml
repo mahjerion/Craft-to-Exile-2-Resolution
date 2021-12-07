@@ -13,7 +13,7 @@
 	#Range: 0 ~ 20
 	max_uniques_worn = 20
 	#Range: 0.0 ~ 1000.0
-	favor_per_chest = 25.0
+	favor_per_chest = 10.0
 	#Set this to 0 if there is a way to create spawners in the modpack.
 	#Range: 0.0 ~ 1000.0
 	favor_per_spawner_destroyed = 0.0

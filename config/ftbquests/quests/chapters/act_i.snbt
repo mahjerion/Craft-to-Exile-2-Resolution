@@ -252,14 +252,34 @@
 					value: 1L
 				}
 			]
-			rewards: [{
-				id: "47FFAE91F737604B"
-				type: "command"
-				title: "2000 EXP"
-				icon: "minecraft:book"
-				command: "/mine_and_slash give exp @p 2000"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "6C5BAFAA905D5FEC"
+					type: "item"
+					item: {
+						id: "mmorpg:custom_crate"
+						Count: 1b
+						tag: {
+							rarity_gear_crate: {
+								set_to_player_lvl: 0b
+								rar: "uncommon"
+								tier: 0
+							}
+							display: {
+								Name: "{\"text\":\"Uncommon Crate (Tier 0)\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "6D4D8423FFEA0AF7"
+					type: "command"
+					title: "2000 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 2000"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Overworld Terror"
@@ -684,8 +704,20 @@
 				{
 					id: "5D7BF961A8E534F4"
 					type: "item"
-					item: "minecraft:bread"
-					count: 4
+					item: {
+						id: "mmorpg:custom_crate"
+						Count: 1b
+						tag: {
+							rarity_gear_crate: {
+								set_to_player_lvl: 0b
+								rar: "rare"
+								tier: 1
+							}
+							display: {
+								Name: "{\"text\":\"Rare Crate (Tier 1)\"}"
+							}
+						}
+					}
 				}
 				{
 					id: "4B6C5D7D97EB2EB8"
@@ -886,7 +918,7 @@
 							stat_soul: {
 								rar: "rare"
 								slot: "bow"
-								tier: 0
+								tier: 1
 								uniq: ""
 							}
 						}
@@ -903,7 +935,7 @@
 							stat_soul: {
 								rar: "rare"
 								slot: "crossbow"
-								tier: 0
+								tier: 1
 								uniq: ""
 							}
 						}
@@ -978,7 +1010,7 @@
 							stat_soul: {
 								rar: "rare"
 								slot: "staff"
-								tier: 0
+								tier: 1
 								uniq: ""
 							}
 						}
@@ -1019,6 +1051,7 @@
 				{
 					id: "79B7EEBF99E50AB8"
 					type: "random"
+					title: "Random Tier 1 Rare Jewelry Soul"
 					table_id: 5753307161579157777L
 				}
 				{
@@ -1058,7 +1091,7 @@
 							stat_soul: {
 								rar: "rare"
 								slot: "shield"
-								tier: 0
+								tier: 1
 								uniq: ""
 							}
 						}
@@ -1099,11 +1132,13 @@
 				{
 					id: "29748C5DDB0F7BEB"
 					type: "random"
+					title: "Random Tier 1 Rare Armor Soul"
 					table_id: 748618356147835886L
 				}
 				{
 					id: "0562CE88CE756534"
 					type: "random"
+					title: "Random Tier 1 Rare Jewelry Soul"
 					table_id: 5753307161579157777L
 				}
 				{
@@ -1149,6 +1184,7 @@
 				{
 					id: "29B3919BAF9F9A81"
 					type: "random"
+					title: "Random Tier 2 Rare Soul"
 					table_id: 5939922219038205091L
 				}
 				{
@@ -1463,10 +1499,37 @@
 				{
 					id: "6D558650DE3AC85C"
 					type: "item"
-					item: "mmorpg:gems/azurite/0"
+					item: {
+						id: "mmorpg:loot_crate/default"
+						Count: 1b
+						tag: {
+							CustomModelData: 1
+							loot_crate: {
+								tier: 0
+								type: 1
+							}
+						}
+					}
+					count: 2
 				}
 				{
-					id: "6784F0E954E1F7E9"
+					id: "1D33C4189D77467B"
+					type: "item"
+					item: {
+						id: "mmorpg:loot_crate/default"
+						Count: 1b
+						tag: {
+							CustomModelData: 3
+							loot_crate: {
+								tier: 0
+								type: 5
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "10AF08DD86D5A417"
 					type: "command"
 					title: "1000 EXP"
 					icon: "minecraft:book"

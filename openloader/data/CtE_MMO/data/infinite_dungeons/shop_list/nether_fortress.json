@@ -1,6 +1,8 @@
 {
   "weight": 1000,
   "id": "nether_fortress",
+  "for_layout_id": "nether_fortress",
+  "priority": 1,
   "shop_entries": [
     {
       "cost": {
@@ -93,7 +95,7 @@
       },
       "reward": {
         "value": "infinite_dungeons:reward_crate",
-        "data": "{reward_list:\"rune_pack\"}",
+        "data": "{reward_list:\"gem_box\"}",
         "type": "ITEM",
         "count": 1
       },

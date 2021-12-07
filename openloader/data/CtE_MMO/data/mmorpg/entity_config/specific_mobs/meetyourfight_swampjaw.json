@@ -9,8 +9,8 @@
 		  "type": "percent"
 		},
 		{
-		  "min": 25.0,
-		  "max": 25.0,
+		  "min": 33.0,
+		  "max": 33.0,
 		  "stat": "elemental_resist",
 		  "type": "flat"
 		},
@@ -26,7 +26,7 @@
   "exp_multi": 1.25,
   "min_lvl": 10,
   "max_lvl": 10,
-  "dmg_multi": 1.2,
-  "hp_multi": 1.2,
+  "dmg_multi": 1.25,
+  "hp_multi": 2.5,
   "stat_multi": 1.0
 }

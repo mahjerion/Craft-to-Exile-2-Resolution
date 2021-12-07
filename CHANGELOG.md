@@ -7,20 +7,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.2] - 2021-12-07
+
+### Known Issues
+- Placing an ornament on a Christmas tree on a server causes client crashes. Don't do this for now.
+
 ### Updates
 - Increased player starting energy from 20 to 30 at level 1.
 - Increased player starting mana and energy regen from 2 to 3 at level 1.
 - Infernal Expansion mobs deal fire damage and have a chance to burn.
 - Reduced EXP gain from Nether Fireflies and End Slimes.
+- Reduced or removed EXP gain from some passive End and Nether mobs.
+- Reduced EXP from Silverfish slightly.
 - Increased mob difficulty at higher levels.
 - Reduced drop rate of most MnS items.
 - Reduced drop rate of dungeon keys.
+- Infinite Dungeons now scale to player level.
+- Infinite Dungeons can only be activated in the Overworld now.
+- Reduced chest loot in Illagers Plus structures.
+- Reduced Mine and Slash chest loot everywhere.
+- Reduced Favor gain per chest.
+- GREATLY reduced diamond and emerald drops from some chests.
+- Reworked Infinite Dungeons loot.
+- Increased Swampjaw and Bellringer difficulty.
+- Changed Rune Pack shop item to use crates.
+- Reduced physical damage of staff. Also reduced spell damage of staff very slightly.
+- Setup Act II quest line (no rewards yet).
 
 ### Mod Updates
-- Updated Outvoted, Infinite Dungeons, Autumnity.
+- Updated Outvoted, Infinite Dungeons, Autumnity, Mine and Slash, Library of Exile, Performant, FTB Library.
+- Removed Mercenaries.
 
 ### Fixes
 - Dungeon crash should be fixed.
+- Nether Dungeon no longer has an empty space.
+- Identify Tome reroll bug has been fixed.
+- Fixed fish from Upgrade Aquatic giving EXP and loot.
+- Fixed some of the quest rewards giving the wrong tier.
+- Spells not scaling correctly fixed?
 
 ## [0.2.1] - 2021-12-06
 
@@ -108,7 +132,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mod Updates
 - Updated to Forge 36.2.19.
-- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin, Apotheosis, Fast Workbench, Fast Furnace, Controlling, DungeonCrawl, Create Additions, Drippy Loading Screen, AI Improvements, Placebo, Meet Your Fight, Lootr, FTB Teams, Dungeons Arise, Create, Architectuary, Cosmetic Armor Reworked, JEITweaker, World of Exile, Divine Missions, Atum.
+- Updated The Bumblezone, Veinmining, Botania, Caelus API, Chat Heads, Cloth Config API, Collective, Corpse Complex, CraftTweaker, Curious Elytra, Epic Fight, FancyMenu, FTB Library, GeckoLib, Infernal Expansion, JEI, Minecolonies, Mine and Slash, Performant, Polymorph, Upgrade Aquatic, World of Exile, Xaero's, SuperMartijn642's Core Lib, Repurposed Structures, Kotlin, Apotheosis, FastWorkbench, FastFurnace, Controlling, DungeonCrawl, Create Additions, Drippy Loading Screen, AI Improvements, Placebo, Meet Your Fight, Lootr, FTB Teams, Dungeons Arise, Create, Architectuary, Cosmetic Armor Reworked, JEITweaker, World of Exile, Divine Missions, Atum.
 - Re-added BetterEnd Reforked.
 - Added Chocolate Fix.
 - Added Sophisticated Backpacks.

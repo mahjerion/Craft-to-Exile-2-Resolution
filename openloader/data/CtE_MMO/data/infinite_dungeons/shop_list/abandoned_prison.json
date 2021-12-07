@@ -1,6 +1,8 @@
 {
   "weight": 1000,
   "id": "abandoned_prison",
+  "for_layout_id": "abandoned_prison",
+  "priority": 1,
   "shop_entries": [
     {
       "cost": {
@@ -89,20 +91,6 @@
     {
       "cost": {
         "item_id": "infinite_dungeons:skeletal_coin",
-        "count": 10
-      },
-      "reward": {
-        "value": "minecraft:ender_pearl",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "difficulty": "diff_5",
-      "max_uses": 3
-    },
-    {
-      "cost": {
-        "item_id": "infinite_dungeons:skeletal_coin",
         "count": 25
       },
       "reward": {
@@ -116,12 +104,26 @@
     },
     {
       "cost": {
+        "item_id": "infinite_dungeons:nether_coin",
+        "count": 25
+      },
+      "reward": {
+        "value": "infinite_dungeons:reward_crate",
+        "data": "{reward_list:\"gem_box\"}",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_4",
+      "max_uses": 1
+    },
+    {
+      "cost": {
         "item_id": "infinite_dungeons:skeletal_coin",
         "count": 25
       },
       "reward": {
         "value": "infinite_dungeons:reward_crate",
-        "data": "{reward_list:\"upgrade_pack\"}",
+        "data": "{reward_list:\"gear_crate\"}",
         "type": "ITEM",
         "count": 1
       },

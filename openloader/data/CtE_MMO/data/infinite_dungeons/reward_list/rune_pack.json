@@ -5,147 +5,39 @@
   "rewards": [
     {
       "reward": {
-        "value": "mmorpg:runes/yun",
-        "data": "",
+        "value": "mmorpg:loot_crate/default",
+        "data": "{CustomModelData:2,loot_crate:{tier:2,type:2}}",
         "type": "ITEM",
-        "count": 3
+        "count": 1
       },
-      "weight": 10
+      "weight": 250
     },
     {
       "reward": {
-        "value": "mmorpg:runes/ven",
-        "data": "",
+        "value": "mmorpg:loot_crate/default",
+        "data": "{CustomModelData:2,loot_crate:{tier:1,type:2}}",
         "type": "ITEM",
-        "count": 3
+        "count": 1
       },
-      "weight": 10
+      "weight": 500
     },
     {
       "reward": {
-        "value": "mmorpg:runes/nos",
-        "data": "",
+        "value": "mmorpg:loot_crate/default",
+        "data": "{CustomModelData:2,loot_crate:{tier:0,type:2}}",
         "type": "ITEM",
-        "count": 3
+        "count": 1
       },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/mos",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/ita",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/cen",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/fey",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/dos",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/ano",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/toq",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/oru",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/wir",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/eno",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/har",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
-    },
-    {
-      "reward": {
-        "value": "mmorpg:runes/xer",
-        "data": "",
-        "type": "ITEM",
-        "count": 3
-      },
-      "weight": 10
+      "weight": 1000
     }
   ],
   "jackpot": {
     "reward": {
-      "value": "mmorpg:currency/orb_of_infinity",
-      "data": "",
+      "value": "mmorpg:loot_crate/default",
+      "data": "{CustomModelData:2,loot_crate:{tier:4,type:2}}",
       "type": "ITEM",
       "count": 1
     },
-    "weight": 10
+    "weight": 25
   }
 }

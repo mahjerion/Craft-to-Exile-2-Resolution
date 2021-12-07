@@ -106,6 +106,12 @@
           "type": "loot_table",
           "name": "minecraft:chests/mns_loot"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
       ]
     }
   ]

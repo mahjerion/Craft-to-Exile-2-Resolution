@@ -124,13 +124,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 5.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -139,13 +139,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 5.0,
+                "max": 2.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -154,12 +154,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 2,
           "name": "minecraft:golden_apple"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 2,
           "name": "minecraft:enchanted_golden_apple"
         }
       ],
@@ -178,6 +178,12 @@
         {
           "type": "loot_table",
           "name": "minecraft:chests/mns_loot"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.75
         }
       ]
     }

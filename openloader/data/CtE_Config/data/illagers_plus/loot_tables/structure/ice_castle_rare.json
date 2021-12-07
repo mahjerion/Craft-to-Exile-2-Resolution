@@ -40,13 +40,13 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 10.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
@@ -200,7 +200,7 @@
     {
       "rolls": {
         "min": 1.0,
-        "max": 3.0,
+        "max": 1.0,
         "type": "minecraft:uniform"
       },
       "entries": [

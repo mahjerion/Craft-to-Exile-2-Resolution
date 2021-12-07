@@ -1,6 +1,8 @@
 {
   "weight": 1000,
   "id": "undead_graveyard",
+  "for_layout_id": "undead_graveyard",
+  "priority": 1,
   "shop_entries": [
     {
       "cost": {
@@ -97,7 +99,7 @@
         "type": "ITEM",
         "count": 3
       },
-      "difficulty": "diff_5",
+      "difficulty": "diff_4",
       "max_uses": 3
     },
     {
@@ -108,6 +110,20 @@
       "reward": {
         "value": "infinite_dungeons:reward_crate",
         "data": "{reward_list:\"rune_pack\"}",
+        "type": "ITEM",
+        "count": 1
+      },
+      "difficulty": "diff_4",
+      "max_uses": 1
+    },
+    {
+      "cost": {
+        "item_id": "infinite_dungeons:skeletal_coin",
+        "count": 25
+      },
+      "reward": {
+        "value": "infinite_dungeons:reward_crate",
+        "data": "{reward_list:\"gear_crate\"}",
         "type": "ITEM",
         "count": 1
       },

@@ -429,5 +429,15 @@
 				item: "aquaculture:brown_shrooma"
 			}]
 		}
+		{
+			x: -4.5d
+			y: 10.5d
+			id: "51CDAA7C6FB0C2C3"
+			tasks: [{
+				id: "6A7A0316F465E85E"
+				type: "item"
+				item: "betterendforge:end_fish_raw"
+			}]
+		}
 	]
 }

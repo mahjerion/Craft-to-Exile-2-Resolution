@@ -1,6 +1,8 @@
 {
   "weight": 1000,
   "id": "imbued_tree_cave",
+  "for_layout_id": "imbued_tree_cave",
+  "priority": 1,
   "shop_entries": [
     {
       "cost": {
@@ -93,7 +95,7 @@
       },
       "reward": {
         "value": "infinite_dungeons:reward_crate",
-        "data": "{reward_list:\"rune_pack\"}",
+        "data": "{reward_list:\"gear_crate\"}",
         "type": "ITEM",
         "count": 1
       },

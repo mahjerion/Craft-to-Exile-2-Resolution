@@ -13,14 +13,14 @@
   ],
   "base_stats": [
     {
-      "min": 2.0,
-      "max": 4.0,
+      "min": 1.2,
+      "max": 2.4,
       "stat": "physical_weapon_damage",
       "type": "FLAT"
     },
     {
-      "min": 7.0,
-      "max": 13.0,
+      "min": 6.0,
+      "max": 11.0,
       "stat": "spell_power",
       "type": "FLAT"
     }
