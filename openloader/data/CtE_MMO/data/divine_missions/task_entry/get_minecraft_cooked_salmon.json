@@ -1,0 +1,12 @@
+{
+  "weight": 200,
+  "id": "get_minecraft_cooked_salmon",
+  "task_type": "bring_item",
+  "data": "minecraft:cooked_salmon",
+  "min": 2,
+  "max": 5,
+  "seconds": 180,
+  "worths": {
+    "default": 50
+  }
+}

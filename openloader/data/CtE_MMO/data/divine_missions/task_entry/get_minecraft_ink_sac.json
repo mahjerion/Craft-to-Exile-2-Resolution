@@ -1,0 +1,12 @@
+{
+  "weight": 500,
+  "id": "get_minecraft_ink_sac",
+  "task_type": "bring_item",
+  "data": "minecraft:ink_sac",
+  "min": 2,
+  "max": 6,
+  "seconds": 180,
+  "worths": {
+    "default": 50
+  }
+}

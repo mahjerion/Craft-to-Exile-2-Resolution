@@ -1,0 +1,12 @@
+{
+  "weight": 1000,
+  "id": "kill_zombie",
+  "task_type": "specific_mob_kill",
+  "data": "minecraft:zombie",
+  "min": 4,
+  "max": 10,
+  "seconds": 300,
+  "worths": {
+    "default": 50
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "weight": 200,
+  "id": "get_minecraft_carrot",
+  "task_type": "bring_item",
+  "data": "minecraft:carrot",
+  "min": 4,
+  "max": 12,
+  "seconds": 180,
+  "worths": {
+    "default": 15
+  }
+}

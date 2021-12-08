@@ -1,0 +1,12 @@
+{
+  "weight": 200,
+  "id": "get_minecraft_cooked_cod",
+  "task_type": "bring_item",
+  "data": "minecraft:cooked_cod",
+  "min": 2,
+  "max": 5,
+  "seconds": 180,
+  "worths": {
+    "default": 25
+  }
+}

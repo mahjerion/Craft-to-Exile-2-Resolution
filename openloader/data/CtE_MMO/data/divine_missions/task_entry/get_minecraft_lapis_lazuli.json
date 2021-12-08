@@ -1,0 +1,12 @@
+{
+  "weight": 500,
+  "id": "get_minecraft_lapis_lazuli",
+  "task_type": "bring_item",
+  "data": "minecraft:lapis_lazuli",
+  "min": 5,
+  "max": 15,
+  "seconds": 180,
+  "worths": {
+    "default": 50
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "weight": 500,
+  "id": "kill_zombified_piglin",
+  "task_type": "specific_mob_kill",
+  "data": "minecraft:zombified_piglin",
+  "min": 2,
+  "max": 6,
+  "seconds": 360,
+  "worths": {
+    "default": 50
+  }
+}

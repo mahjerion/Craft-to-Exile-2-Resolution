@@ -1,0 +1,12 @@
+{
+  "weight": 500,
+  "id": "get_minecraft_bread",
+  "task_type": "bring_item",
+  "data": "minecraft:bread",
+  "min": 5,
+  "max": 15,
+  "seconds": 180,
+  "worths": {
+    "default": 20
+  }
+}

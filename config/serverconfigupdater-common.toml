@@ -2,7 +2,7 @@
 ["Add New Version"]
 	#Version Number. VersionNumbers are simple Integers. Use a number larger than the last version.
 	#Range: > 0
-	newVersion = 8
+	newVersion = 9
 	#ModID's of the ServerConfigs that will be deleted when a world with a version lower than this version is loaded the first time. Comma Separated list. (ServerConfig without -server.toml)
 	toDelete = "antimobgriefing,betteranimalsplus,bountiful,castle_in_the_sky,corpsecomplex,create,curios,dimdungeons,dynamictrees,globalxp,immersiveengineering,minecolonies,mining_dimension,overworldmirror,productivebees,solpotato,telepass,toolbelt,veinmining,storage_overhaul,mmorpg,divine_missions,world_of_exile,temporary_spawners,infinite_dungeons"
 

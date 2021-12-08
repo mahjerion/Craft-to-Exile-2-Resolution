@@ -1,0 +1,12 @@
+{
+  "weight": 100,
+  "id": "get_minecraft_turtle_egg",
+  "task_type": "bring_item",
+  "data": "minecraft:turtle_egg",
+  "min": 2,
+  "max": 5,
+  "seconds": 180,
+  "worths": {
+    "default": 100
+  }
+}

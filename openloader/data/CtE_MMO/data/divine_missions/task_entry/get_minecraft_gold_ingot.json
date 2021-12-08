@@ -1,0 +1,12 @@
+{
+  "weight": 900,
+  "id": "get_minecraft_gold_ingot",
+  "task_type": "bring_item",
+  "data": "minecraft:gold_ingot",
+  "min": 2,
+  "max": 5,
+  "seconds": 180,
+  "worths": {
+    "default": 150
+  }
+}

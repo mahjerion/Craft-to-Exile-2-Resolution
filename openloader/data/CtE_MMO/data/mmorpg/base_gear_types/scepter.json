@@ -19,8 +19,8 @@
       "type": "FLAT"
     },
     {
-      "min": 1.8,
-      "max": 3.6,
+      "min": 3.0,
+      "max": 5.0,
       "stat": "physical_weapon_damage",
       "type": "FLAT"
     },

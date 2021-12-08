@@ -1,0 +1,12 @@
+{
+  "weight": 1000,
+  "id": "kill_pillager",
+  "task_type": "specific_mob_kill",
+  "data": "minecraft:pillager",
+  "min": 2,
+  "max": 6,
+  "seconds": 600,
+  "worths": {
+    "default": 50
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "weight": 100,
+  "id": "get_minecraft_pumpkin",
+  "task_type": "bring_item",
+  "data": "minecraft:pumpkin",
+  "min": 3,
+  "max": 9,
+  "seconds": 180,
+  "worths": {
+    "default": 50
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "weight": 3000,
+  "id": "loot_lots_of_chests",
+  "task_type": "loot_chest",
+  "data": "",
+  "min": 2,
+  "max": 6,
+  "seconds": 1200,
+  "worths": {
+    "default": 400,
+    "aoe": 400
+  }
+}

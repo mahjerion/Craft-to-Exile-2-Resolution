@@ -1,0 +1,12 @@
+{
+  "weight": 50,
+  "id": "get_minecraft_totem_of_undying",
+  "task_type": "bring_item",
+  "data": "minecraft:totem_of_undying",
+  "min": 1,
+  "max": 1,
+  "seconds": 180,
+  "worths": {
+    "default": 1000
+  }
+}

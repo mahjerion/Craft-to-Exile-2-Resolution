@@ -1,0 +1,12 @@
+{
+  "weight": 1000,
+  "id": "kill_spider",
+  "task_type": "specific_mob_kill",
+  "data": "minecraft:spider",
+  "min": 2,
+  "max": 6,
+  "seconds": 300,
+  "worths": {
+    "default": 100
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "weight": 500,
+  "id": "get_minecraft_baked_potato",
+  "task_type": "bring_item",
+  "data": "minecraft:baked_potato",
+  "min": 4,
+  "max": 14,
+  "seconds": 180,
+  "worths": {
+    "default": 25
+  }
+}

@@ -2,7 +2,7 @@
   "id": "player",
   "base_stats": [
     {
-      "v1": 10.0,
+      "v1": 30.0,
       "stat": "energy",
       "type": "FLAT",
       "scale_to_lvl": false
@@ -74,7 +74,7 @@
       "scale_to_lvl": false
     },
     {
-      "v1": 2.0,
+      "v1": 4.0,
       "stat": "energy_regen",
       "type": "FLAT",
       "scale_to_lvl": false

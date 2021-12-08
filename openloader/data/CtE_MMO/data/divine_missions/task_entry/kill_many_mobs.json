@@ -1,0 +1,13 @@
+{
+  "weight": 2000,
+  "id": "kill_many_mobs",
+  "task_type": "any_mob_kill",
+  "data": "",
+  "min": 15,
+  "max": 30,
+  "seconds": 300,
+  "worths": {
+    "default": 30,
+    "aoe": 30
+  }
+}

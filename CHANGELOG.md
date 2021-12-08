@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.3] - 2021-12-08
+
+### Known Issues
+- Placing an ornament on a Christmas tree on a server causes client crashes. Don't do this for now.
+
+### Updates
+- You no longer do the full amount of Vanilla damage. Most damage comes from Mine and Slash sources again (similar to Dissonance). This could be a pretty hefty nerf to melee early game (which I understand is struggling a bit already). Changes below should help melee early game. This also means that damage enchantments such as Sharpness, Bane of Arthropods, etc. are much less effective (but they still work a bit).
+- Increased physical damage values of weapons.
+- Increased starting energy and energy regen values drastically.
+- Increased the time for completion for Divine Missions.
+
+### Mod Updates
+- Updated Mine and Slash, Infinite Dungeons, Performant.
+
 ## [0.2.2] - 2021-12-07
 
 ### Known Issues

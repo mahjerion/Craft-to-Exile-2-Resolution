@@ -1,0 +1,12 @@
+{
+  "weight": 750,
+  "id": "get_minecraft_diamond",
+  "task_type": "bring_item",
+  "data": "minecraft:diamond",
+  "min": 1,
+  "max": 3,
+  "seconds": 300,
+  "worths": {
+    "default": 500
+  }
+}

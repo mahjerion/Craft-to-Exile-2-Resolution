@@ -1,0 +1,12 @@
+{
+  "weight": 500,
+  "id": "get_minecraft_melon_slice",
+  "task_type": "bring_item",
+  "data": "minecraft:melon_slice",
+  "min": 20,
+  "max": 60,
+  "seconds": 180,
+  "worths": {
+    "default": 10
+  }
+}

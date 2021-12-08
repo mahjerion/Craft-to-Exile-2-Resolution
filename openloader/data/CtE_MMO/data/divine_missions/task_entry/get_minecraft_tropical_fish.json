@@ -1,0 +1,12 @@
+{
+  "weight": 200,
+  "id": "get_minecraft_tropical_fish",
+  "task_type": "bring_item",
+  "data": "minecraft:tropical_fish",
+  "min": 2,
+  "max": 5,
+  "seconds": 180,
+  "worths": {
+    "default": 25
+  }
+}

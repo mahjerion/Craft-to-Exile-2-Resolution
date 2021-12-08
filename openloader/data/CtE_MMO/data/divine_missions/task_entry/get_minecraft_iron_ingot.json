@@ -1,0 +1,12 @@
+{
+  "weight": 1000,
+  "id": "get_minecraft_iron_ingot",
+  "task_type": "bring_item",
+  "data": "minecraft:iron_ingot",
+  "min": 4,
+  "max": 8,
+  "seconds": 180,
+  "worths": {
+    "default": 100
+  }
+}

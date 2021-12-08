@@ -13,8 +13,8 @@
   ],
   "base_stats": [
     {
-      "min": 1.2,
-      "max": 2.4,
+      "min": 2.0,
+      "max": 3.0,
       "stat": "physical_weapon_damage",
       "type": "FLAT"
     },

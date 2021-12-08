@@ -1,0 +1,12 @@
+{
+  "weight": 50,
+  "id": "get_minecraft_nautilus_shell",
+  "task_type": "bring_item",
+  "data": "minecraft:nautilus_shell",
+  "min": 1,
+  "max": 1,
+  "seconds": 180,
+  "worths": {
+    "default": 100
+  }
+}

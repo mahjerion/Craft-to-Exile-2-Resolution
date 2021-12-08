@@ -1,0 +1,12 @@
+{
+  "weight": 500,
+  "id": "kill_slime",
+  "task_type": "specific_mob_kill",
+  "data": "minecraft:slime",
+  "min": 3,
+  "max": 6,
+  "seconds": 300,
+  "worths": {
+    "default": 50
+  }
+}
