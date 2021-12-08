@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.3] - 2021-12-08
+## [0.2.2b] - 2021-12-08
 
 ### Known Issues
 - Placing an ornament on a Christmas tree on a server causes client crashes. Don't do this for now.
