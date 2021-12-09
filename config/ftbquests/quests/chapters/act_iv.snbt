@@ -1,10 +1,11 @@
 {
 	id: "78F9D5242FCC3D91"
 	group: "63F22A0DBD292CDC"
-	order_index: 3
+	order_index: 4
 	filename: "act_iv"
-	title: "Act IV"
+	title: "Act V"
 	icon: "atum:scarab"
+	subtitle: ["Lv. 46-50"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

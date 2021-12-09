@@ -5,6 +5,7 @@
 	filename: "act_i"
 	title: "Act I"
 	icon: "biomesoplenty:origin_grass_block"
+	subtitle: ["Lv. 1-20"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -228,7 +229,7 @@
 			title: "Training Arc"
 			x: 4.5d
 			y: 0.0d
-			subtitle: "Gain Merit!"
+			subtitle: "The Crux"
 			description: [
 				"Test your newfound skills against some familiar mobs! Killing mobs will grant you experience. Check out the Mine and Slash hub for information on how much experience is required until the next level up."
 				""
@@ -592,34 +593,6 @@
 					player_command: false
 				}
 			]
-		}
-		{
-			title: "Wait For Me!"
-			x: 3.0d
-			y: -1.5d
-			subtitle: "Telepass"
-			description: [
-				"If you're looking to teleport to a friend, look no further. The craftable Telepasses can be given to a friend. Then, your friend will be able to use the Telepass to teleport back to you!"
-				""
-				"The Gold Telepass has only 3 uses, while the Diamond Telepass has a whopping 30 uses!"
-				""
-				"For more transportation methods, you can check out the Transportation quest tab under Homestead."
-			]
-			dependencies: ["4F9241AA3A4EFA6A"]
-			id: "0908A7A57B7F31F8"
-			tasks: [{
-				id: "6F513A9ED8020251"
-				type: "item"
-				item: "telepass:gold_telepass"
-			}]
-			rewards: [{
-				id: "3C1C05ECC6D9F0B1"
-				type: "command"
-				title: "1500 EXP"
-				icon: "minecraft:book"
-				command: "/mine_and_slash give exp @p 1500"
-				player_command: false
-			}]
 		}
 		{
 			title: "Frost Behemoth"
@@ -1319,6 +1292,7 @@
 			title: "Conquering Land"
 			x: 6.0d
 			y: -1.5d
+			shape: "heart"
 			subtitle: "FLAN (Claiming System)"
 			description: [
 				"If you're on a server, you may be interested in claiming a piece of land. To claim land you will need to use the FLAN mod's high versatile claiming system."
@@ -1378,36 +1352,6 @@
 			}]
 		}
 		{
-			title: "Party Play"
-			x: 3.0d
-			y: -3.0d
-			subtitle: "Teaming Up!"
-			description: [
-				"In this modpack, you can team up using 3 different commands."
-				""
-				"/mine_and_slash teams will allow you to create Mine and Slash parties where EXP is shared."
-				""
-				"/team is the vanilla command that allows you to turn off friendly fire."
-				""
-				"/ftbteams is the command for FTB Teams and can be used to share quest progression!"
-			]
-			dependencies: ["0908A7A57B7F31F8"]
-			id: "2C8FF0B41D95C9DC"
-			tasks: [{
-				id: "08F8C7A4AE7BBEBE"
-				type: "item"
-				item: "telepass:diamond_telepass"
-			}]
-			rewards: [{
-				id: "1A6943ACDC415F62"
-				type: "command"
-				title: "2000 EXP"
-				icon: "minecraft:book"
-				command: "/mine_and_slash give exp @p 2000"
-				player_command: false
-			}]
-		}
-		{
 			title: "Identification, Please!"
 			x: 1.5d
 			y: -3.0d
@@ -1440,7 +1384,7 @@
 		{
 			title: "Bounty Hunter"
 			x: 3.0d
-			y: 1.5d
+			y: -1.5d
 			subtitle: "Divine Missions"
 			description: [
 				"Divine Missions is a mod that adds a random questing system, similar to Bountiful (also included in the pack). By crafting and placing a Shrine, players can receive randomized missions which can be completed to provide rewards."
@@ -1742,41 +1686,82 @@
 			]
 		}
 		{
-			title: "Finding Your Way"
-			x: 10.5d
-			y: -1.5d
-			subtitle: "Compasses"
-			description: ["If you're finding it difficult to locate specific biomes or structures, then the Nature's or Explorer's Compass is exactly what you need! These nifty compasses can be used to locate exact biomes and structures. Just craft them and use them!"]
-			dependencies: ["4741BEB66DC84B6E"]
-			id: "0D3612310A792B25"
-			tasks: [
-				{
-					id: "260664126EE4EE0B"
-					type: "item"
-					item: {
-						id: "naturescompass:naturescompass"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "26B27CD085213913"
-					type: "item"
-					item: {
-						id: "explorerscompass:explorerscompass"
-						Count: 1b
-						tag: { }
-					}
-				}
+			title: "Party It Up"
+			x: 3.0d
+			y: 1.5d
+			shape: "heart"
+			subtitle: "Party System"
+			description: [
+				"In Craft to Exile 2, it's possible to party up with other players to share EXP and quest progress! There are 3 different party systems that need to be used:"
+				""
+				"\"/mine_and_slash teams\" - to create a Mine and Slash party that will enable EXP sharing."
+				""
+				"\"/ftbteams party\" - to create a party that will enable quest sharing."
+				""
+				"\"/team\" - the vanilla team command that once joined, can be used to turn off friendly fire."
 			]
+			dependencies: ["76A7F1F0CA824DB4"]
+			id: "558C37DDAFEF8151"
+			tasks: [{
+				id: "0EA60F3EDE219F2E"
+				type: "item"
+				item: {
+					id: "mmorpg:weapon/staff/iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 			rewards: [{
-				id: "7E5EAF9E8F3455E4"
+				id: "699B0DF74DBA9B35"
 				type: "command"
-				title: "10000 EXP"
+				title: "100 EXP"
 				icon: "minecraft:book"
-				command: "/mine_and_slash give exp @p 10000"
+				command: "/mine_and_slash give exp @p 100"
 				player_command: false
 			}]
+		}
+		{
+			title: "Mistakes Were Made"
+			x: 10.5d
+			y: -3.0d
+			subtitle: "Mine and Slash Reset System"
+			description: ["Made a mistake in your build? No worries - reset potions are cheap and easy to make. Simply craft them and drink them to reset your points!"]
+			dependencies: ["4741BEB66DC84B6E"]
+			id: "6F43D36CB26FE00F"
+			tasks: [
+				{
+					id: "6E7994CCE3A0E807"
+					type: "item"
+					item: "mmorpg:potions/reset_spells"
+				}
+				{
+					id: "5B06E5B05F69ACF2"
+					type: "item"
+					item: "mmorpg:potions/reset_stats"
+				}
+			]
+			rewards: [
+				{
+					id: "3BE1906CFB922ED4"
+					type: "item"
+					item: "mmorpg:potions/reset_spells"
+				}
+				{
+					id: "13DC56AC8D2A96F0"
+					type: "item"
+					item: "mmorpg:potions/reset_stats"
+				}
+				{
+					id: "219DE99DF38AF3A2"
+					type: "command"
+					title: "8000 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 8000"
+					player_command: false
+				}
+			]
 		}
 	]
 }

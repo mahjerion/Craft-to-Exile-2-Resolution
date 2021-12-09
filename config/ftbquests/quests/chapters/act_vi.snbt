@@ -5,6 +5,7 @@
 	filename: "act_vi"
 	title: "Act VI"
 	icon: "twilightforest:twilight_portal_miniature_structure"
+	subtitle: ["Lv. 51-60"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

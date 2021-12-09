@@ -12,7 +12,7 @@
   "extra_items_per_chest": 0,
   "can_salvage_loot": true,
   "exp_multi": 1.05,
-  "favor_drain_per_item": 1.0,
+  "favor_drain_per_item": 5.0,
   "text_format": "yellow",
   "excludedRarities": []
 }

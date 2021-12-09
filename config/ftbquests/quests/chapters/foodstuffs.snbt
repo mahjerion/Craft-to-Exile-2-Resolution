@@ -38,8 +38,8 @@
 		}
 		{
 			title: "Performance Enhancing"
-			x: 0.0d
-			y: -1.5d
+			x: 1.5d
+			y: 0.0d
 			subtitle: "Mine and Slash Professions"
 			description: [
 				"Mine and Slash comes with its own set of professions such as Cooking, Alchemy, Weapon Crafting, and more. Using the appopriate tool (such as the Cook's Pot), you can open the crafting menu and craft items to provide bonuses. To craft an item, you will need crafting materials. Some materials will be usable in multiple professions."
@@ -104,164 +104,14 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 1.5d
-			id: "71D96C5ECB8E9EBF"
-			tasks: [{
-				id: "48BBDD2A3D8C0554"
-				type: "item"
-				item: "minecraft:tropical_fish"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 1.5d
-			id: "7ADF0F2EAC315220"
-			tasks: [{
-				id: "051036614E0B8568"
-				type: "item"
-				item: "minecraft:pufferfish"
-			}]
-		}
-		{
-			x: -4.5d
-			y: 1.5d
-			id: "2031DF6396E5F27A"
-			tasks: [{
-				id: "35F25EBAE54092FA"
-				type: "item"
-				item: "minecraft:cod"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 1.5d
-			id: "6EAEEBEB9AD0F724"
-			tasks: [{
-				id: "398F32EA343CFC7E"
-				type: "item"
-				item: "minecraft:salmon"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 1.5d
-			id: "02B667E62337361E"
-			tasks: [{
-				id: "76F5BFF311A60E90"
-				type: "item"
-				item: "aquaculture:atlantic_cod"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 1.5d
-			id: "2FAE54C7C32AA003"
-			tasks: [{
-				id: "34422A761CD1C107"
-				type: "item"
-				item: "aquaculture:atlantic_halibut"
-			}]
-		}
-		{
-			x: -4.5d
-			y: 3.0d
-			id: "734A3AFDE99E5AE2"
-			tasks: [{
-				id: "2C4317EA9D30CF1F"
-				type: "item"
-				item: "aquaculture:atlantic_herring"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 3.0d
-			id: "379C0D116860151D"
-			tasks: [{
-				id: "4CFCCE8432015E17"
-				type: "item"
-				item: "aquaculture:blackfish"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 3.0d
-			id: "324DA59BA647D160"
-			tasks: [{
-				id: "06284666597A178A"
-				type: "item"
-				item: "aquaculture:bluegill"
-			}]
-		}
-		{
 			x: 1.5d
-			y: 3.0d
-			id: "4678BA087D9FEDCD"
+			y: 1.5d
+			id: "6F003E668D80CAA0"
 			tasks: [{
-				id: "68E5C573E6A72C4C"
-				type: "item"
-				item: "aquaculture:boulti"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 3.0d
-			id: "12C2A51A306DD825"
-			tasks: [{
-				id: "2B512B5E4B1434A9"
-				type: "item"
-				item: "aquaculture:brown_trout"
-			}]
-		}
-		{
-			x: -4.5d
-			y: 4.5d
-			id: "549437C01C4A535D"
-			tasks: [{
-				id: "297790F2F016114A"
-				type: "item"
-				item: "aquaculture:capitaine"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 4.5d
-			id: "44ADE4E92AE1094F"
-			tasks: [{
-				id: "4E6EABB31DDF19B5"
-				type: "item"
-				item: "aquaculture:carp"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 4.5d
-			id: "7A3C0238325BF51D"
-			tasks: [{
-				id: "5F950A5F02205AA2"
-				type: "item"
-				item: "aquaculture:catfish"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 4.5d
-			id: "033D6E09FDA55808"
-			tasks: [{
-				id: "68AD98B1EA139B06"
-				type: "item"
-				item: "aquaculture:gar"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 4.5d
-			id: "129492A9BCA9A2BE"
-			tasks: [{
-				id: "054757C6B4D9B4D9"
+				id: "11268D20672B2B86"
 				type: "item"
 				item: {
-					id: "aquaculture:minnow"
+					id: "minecraft:fishing_rod"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -271,172 +121,177 @@
 		}
 		{
 			x: 3.0d
-			y: 4.5d
-			id: "5E2CEEA1B7D72B1C"
-			tasks: [{
-				id: "7A3B478E659E1AF1"
-				type: "item"
-				item: "aquaculture:muskellunge"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 4.5d
-			id: "3FE5EF6E5F0AD01E"
-			tasks: [{
-				id: "20614ED31A5B2A5E"
-				type: "item"
-				item: "aquaculture:pacific_halibut"
-			}]
-		}
-		{
-			x: -4.5d
-			y: 6.0d
-			id: "5AEC02BB46361ED0"
-			tasks: [{
-				id: "397A4C16B126CC38"
-				type: "item"
-				item: "aquaculture:perch"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 6.0d
-			id: "4D60D3166023FC7B"
-			tasks: [{
-				id: "68879A279BA5FA9C"
-				type: "item"
-				item: "aquaculture:pink_salmon"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 6.0d
-			id: "7BA7DA445C4105F2"
-			tasks: [{
-				id: "23E6CFC776652C75"
-				type: "item"
-				item: "aquaculture:piranha"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 6.0d
-			id: "5D0CF9DE2273FCE5"
-			tasks: [{
-				id: "1B1C6C0A89E1A0B8"
-				type: "item"
-				item: "aquaculture:pollock"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 6.0d
-			id: "16086B2CA12C679D"
-			tasks: [{
-				id: "24789B7C2E281904"
-				type: "item"
-				item: "aquaculture:rainbow_trout"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 6.0d
-			id: "1D408E0C218C1E8E"
-			tasks: [{
-				id: "503C5547089B48F8"
-				type: "item"
-				item: "aquaculture:red_grouper"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 6.0d
-			id: "579ED9B7973EA386"
-			tasks: [{
-				id: "3C21157CCBAE3658"
-				type: "item"
-				item: "aquaculture:red_shrooma"
-			}]
-		}
-		{
-			x: 1.5d
 			y: 1.5d
-			id: "28B7D0CAFC980633"
+			id: "06A03666640082C5"
 			tasks: [{
-				id: "647F55758E9CDCE8"
+				id: "34099796E138C6B0"
 				type: "item"
-				item: "aquaculture:arapaima"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 3.0d
-			id: "466BEE198767385C"
-			tasks: [{
-				id: "73B7368ED28388EB"
-				type: "item"
-				item: "aquaculture:bayad"
-			}]
-		}
-		{
-			x: -4.5d
-			y: 7.5d
-			id: "62B6A851AB9C3BB3"
-			tasks: [{
-				id: "46538A75D32362E1"
-				type: "item"
-				item: "aquaculture:smallmouth_bass"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 7.5d
-			id: "3323DCE2F1ACF221"
-			tasks: [{
-				id: "0E2633046FB6ADD6"
-				type: "item"
-				item: "aquaculture:synodontis"
-			}]
-		}
-		{
-			x: -1.5d
-			y: 7.5d
-			id: "481199F12247777D"
-			tasks: [{
-				id: "3047C62EF7902E93"
-				type: "item"
-				item: "aquaculture:tambaqui"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 7.5d
-			id: "1CB60022643DF936"
-			tasks: [{
-				id: "4D9C16C0CA120A30"
-				type: "item"
-				item: "aquaculture:tuna"
+				item: "aquaculture:tackle_box"
 			}]
 		}
 		{
 			x: 3.0d
 			y: 3.0d
-			id: "6EF4C66EE8BCAB65"
+			id: "63E773560FD31B4C"
 			tasks: [{
-				id: "62ABBBFABE645C53"
+				id: "440B1A8049BE2C62"
 				type: "item"
-				item: "aquaculture:brown_shrooma"
+				item: "aquaculture:fishing_line"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			id: "1C273D9DE0F6DB43"
+			tasks: [{
+				id: "0AE9DCC849AA3F14"
+				type: "item"
+				item: "aquaculture:iron_hook"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			id: "5760777B4DF1943E"
+			tasks: [{
+				id: "4CB7A53186D16924"
+				type: "item"
+				item: {
+					id: "aquaculture:iron_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			id: "32508C9B7E68CFBB"
+			tasks: [{
+				id: "14371148EEA81DA0"
+				type: "item"
+				item: "aquaculture:neptunium_ingot"
+				count: 9L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			id: "3EF7C085055818A9"
+			tasks: [{
+				id: "107EDF2E4860DC44"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			id: "40F47080B20FF3B3"
+			tasks: [
+				{
+					id: "298D1063648596D2"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "15D94528493FC1DC"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "073A446EDA41A6AC"
+			tasks: [{
+				id: "012D830EB384A11E"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 16L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			id: "2DB597776D58F92E"
+			tasks: [{
+				id: "3AA8D370FD02035D"
+				type: "item"
+				item: "farmingforblockheads:market"
 			}]
 		}
 		{
 			x: -4.5d
-			y: 10.5d
-			id: "51CDAA7C6FB0C2C3"
+			y: -1.5d
+			id: "6518C1CB92263104"
+			tasks: [
+				{
+					id: "39C32221D6EFD9D9"
+					type: "item"
+					item: "farmingforblockheads:green_fertilizer"
+				}
+				{
+					id: "2BD32FA9A6D4E197"
+					type: "item"
+					item: "farmingforblockheads:red_fertilizer"
+				}
+				{
+					id: "27752301934FA399"
+					type: "item"
+					item: "farmingforblockheads:yellow_fertilizer"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "448E328178051348"
 			tasks: [{
-				id: "6A7A0316F465E85E"
+				id: "7E9B5730D087D92E"
 				type: "item"
-				item: "betterendforge:end_fish_raw"
+				item: "farmingforblockheads:feeding_trough"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			id: "4DAC094FCEFD9F9F"
+			tasks: [{
+				id: "12AE8B69FF31AD2F"
+				type: "item"
+				item: "farmingforblockheads:chicken_nest"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "7B0C2764337F1C66"
+			tasks: [{
+				id: "6D4DD12FB282AAAA"
+				type: "item"
+				item: "minecraft:milk_bucket"
 			}]
 		}
 	]

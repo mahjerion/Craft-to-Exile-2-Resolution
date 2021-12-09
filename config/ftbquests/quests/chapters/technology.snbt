@@ -11,6 +11,7 @@
 		{
 			x: 0.0d
 			y: -1.0d
+			subtitle: "Create"
 			id: "4A2AACA5332D6A18"
 			tasks: [
 				{
@@ -38,6 +39,7 @@
 		{
 			x: 0.0d
 			y: 1.0d
+			subtitle: "Botania"
 			id: "172A111CF4672D5A"
 			tasks: [{
 				id: "145F3F829B90D457"
@@ -55,6 +57,58 @@
 				icon: "minecraft:book"
 				command: "/mine_and_slash give exp @p 1000"
 				player_command: false
+			}]
+		}
+		{
+			title: "Apotheosis Enchantment System"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Apotheosis"
+			description: [
+				"Apotheosis brings about an overhaul to the enchantment system. There is now a new system for enchanting that uses three stats, instead of the original single stat system. Some stats are the same (Eterna is the already existing Enchanting Power). Eterna is the stat that controls what level your enchanting table is at. Quanta determines how much flux is in your enchanting process. When you begin an enchantment process, after spending your experience, your Quanta level will work behind the scenes to change your enchantment level. This is not always beneficial, as is capable of both increasing and decreasing the actual enchanting level. Arcana determines how hard it is to get rare enchantments. At 0%, the base rules for enchantment rarity apply, but as your Arcana increases, rare enchantments will become more common, and common enchantments will become quite rare."
+				""
+				"It also brings about a lot of new enchantments - check out the wiki for more details!"
+				""
+				"Note: some damage enchantments are less effective due to Mine and Slash's damage system. Be warned!"
+			]
+			id: "532ED246670159F7"
+			tasks: [{
+				id: "01F94D34F1CC94A6"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+		}
+		{
+			title: "Under The Sea"
+			x: 1.5d
+			y: -3.0d
+			subtitle: "Apotheosis"
+			description: ["Each type of booksheld can provide benefits to certain enchanting stats. The stats for various items can be seen in their tooltips, and can be searched in JEI via the search term \"Enchanting Stats\"."]
+			dependencies: ["532ED246670159F7"]
+			id: "706F218EAF366EA3"
+			tasks: [{
+				id: "2DBAB69EC3710F43"
+				type: "item"
+				item: "apotheosis:seashelf"
+				count: 4L
+			}]
+		}
+		{
+			title: "Volunteering As Tribute"
+			x: 3.0d
+			y: -3.0d
+			subtitle: "Apotheosis"
+			description: [
+				"The Altar of the Sea is a block with allows you to recycle worthless enchanted items. To begin, you need four enchanted items and a fair amount of experience. Then, you place one enchanted item on each pillar (target the pillar and right click it while holding the item). Once all four pillars hold an item, the Altar will begin to drain experience from nearby players."
+				""
+				"The amount of experience required is based on the levels an rarities of the provided enchantments. Once the experience has been drained, all four items will be consumed, and a newly created enchanted book will be created."
+			]
+			dependencies: ["706F218EAF366EA3"]
+			id: "70EFD9FAC612C573"
+			tasks: [{
+				id: "5FF5E9460431C1C4"
+				type: "item"
+				item: "apotheosis:prismatic_altar"
 			}]
 		}
 	]

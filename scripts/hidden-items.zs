@@ -403,6 +403,9 @@ mods.jei.JEI.hideItem(<item:productivebees:comb_prudentium>);
 mods.jei.JEI.hideItem(<item:productivebees:comb_vibranium>);
 mods.jei.JEI.hideItem(<item:productivebees:comb_imperium>);
 
+///Simple Storage Network
+mods.jei.JEI.hideItem(<item:storagenetwork:collector_remote>);
+
 ///Structure Gel
 mods.jei.JEI.hideItem(<item:structure_gel:cyan_gel>);
 mods.jei.JEI.hideItem(<item:structure_gel:blue_gel>);

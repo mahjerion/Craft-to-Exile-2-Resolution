@@ -5,6 +5,7 @@
 	filename: "act_iii"
 	title: "Act III"
 	icon: "minecraft:ender_eye"
+	subtitle: ["Lv. 31-35"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

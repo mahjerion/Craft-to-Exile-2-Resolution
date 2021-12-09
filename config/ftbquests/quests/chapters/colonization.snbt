@@ -149,5 +149,356 @@
 				player_command: false
 			}]
 		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Simple Shops"
+			dependencies: ["48776686795B6C41"]
+			id: "213F330BCE957E4D"
+			tasks: [{
+				id: "01154AD510B5DBA5"
+				type: "item"
+				item: "simpleshops:simple_shop"
+			}]
+			rewards: [{
+				id: "1411CF83250A1842"
+				type: "command"
+				title: "1000 EXP"
+				icon: "minecraft:book"
+				command: "/mine_and_slash give exp @p 1000"
+				player_command: false
+			}]
+		}
+		{
+			title: "Guardians Of The Village"
+			x: 4.5d
+			y: -1.5d
+			id: "0C1A9EB5F2941592"
+			tasks: [{
+				id: "15D0D5C651173456"
+				type: "item"
+				item: "minecolonies:blockhutguardtower"
+			}]
+		}
+		{
+			title: "Barbarian Raid"
+			x: 4.5d
+			y: -3.0d
+			id: "72DEFEB1D9E41106"
+			tasks: [
+				{
+					id: "3CFAA35401FE5571"
+					type: "kill"
+					icon: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecolonies:chiefbarbarian"
+					value: 1L
+				}
+				{
+					id: "5DC7778D1F105AA0"
+					type: "kill"
+					icon: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecolonies:barbarian"
+					value: 12L
+				}
+			]
+		}
+		{
+			title: "I'm A Lumberjack!"
+			x: 6.0d
+			y: 1.5d
+			id: "0AE88719DEB950AE"
+			tasks: [{
+				id: "38AAE3FA840ADB15"
+				type: "item"
+				item: "minecolonies:blockhutlumberjack"
+			}]
+		}
+		{
+			title: "It's All MINE!"
+			x: 6.0d
+			y: -1.5d
+			id: "681A528691D939DE"
+			tasks: [{
+				id: "1481A8E7AC7C219F"
+				type: "item"
+				item: "minecolonies:blockhutminer"
+			}]
+		}
+		{
+			title: "Population Density"
+			x: 7.5d
+			y: -1.5d
+			id: "18A6E42E4B4817F8"
+			tasks: [{
+				id: "12D553F947DD70B4"
+				type: "item"
+				item: "minecolonies:blockhutcitizen"
+			}]
+		}
+		{
+			title: "Fishing For Goodies"
+			x: 4.5d
+			y: 1.5d
+			id: "0345A8A4FC42DD42"
+			tasks: [{
+				id: "24AB90D041D1C8BB"
+				type: "item"
+				item: "minecolonies:blockhutfisherman"
+			}]
+		}
+		{
+			title: "Central Hub"
+			x: 4.5d
+			y: 0.0d
+			id: "7735ED77BAB2FA55"
+			tasks: [{
+				id: "7B2BDBF973ADC67B"
+				type: "item"
+				item: "minecolonies:blockhuttavern"
+			}]
+		}
+		{
+			title: "Farming Simulator"
+			x: 4.5d
+			y: 3.0d
+			id: "2F1AA9B24BD14417"
+			tasks: [{
+				id: "4C123ED4D396C1EB"
+				type: "item"
+				item: "minecolonies:blockhutfarmer"
+			}]
+		}
+		{
+			title: "Hearty Nourishment"
+			x: 6.0d
+			y: 3.0d
+			id: "738F82DC4C92C0A8"
+			tasks: [{
+				id: "22F639CBEE1B1134"
+				type: "item"
+				item: "minecolonies:blockhutcook"
+			}]
+		}
+		{
+			title: "Stashing The Goods"
+			x: 7.5d
+			y: 0.0d
+			id: "4401B06C8211D0B9"
+			tasks: [{
+				id: "5D4DEFB9F49FB482"
+				type: "item"
+				item: "minecolonies:blockhutwarehouse"
+			}]
+		}
+		{
+			title: "Runner Up!"
+			x: 7.5d
+			y: 1.5d
+			id: "37D0D0A123599266"
+			tasks: [{
+				id: "3A8D97B831E1E7A3"
+				type: "item"
+				item: "minecolonies:blockhutdeliveryman"
+			}]
+		}
+		{
+			title: "Further Education"
+			x: 9.0d
+			y: 0.0d
+			id: "39F6825A6A1B5685"
+			tasks: [{
+				id: "1E805B867925E8CA"
+				type: "item"
+				item: "minecolonies:blockhutuniversity"
+			}]
+		}
+		{
+			title: "Getting Schooled"
+			x: 10.5d
+			y: 1.5d
+			id: "7D76080AA75F4BE8"
+			tasks: [{
+				id: "5BEA443AF7A2A757"
+				type: "item"
+				item: "minecolonies:blockhutschool"
+			}]
+		}
+		{
+			title: "Having Fun Isn't Hard"
+			x: 12.0d
+			y: 1.5d
+			id: "079347BAC858D239"
+			tasks: [{
+				id: "27CE31591863EC2A"
+				type: "item"
+				item: "minecolonies:blockhutlibrary"
+			}]
+		}
+		{
+			title: "Treating The Ill"
+			x: 10.5d
+			y: 0.0d
+			id: "63D5B89A33006A24"
+			tasks: [{
+				id: "65DAF1607B0D0981"
+				type: "item"
+				item: "minecolonies:blockhuthospital"
+			}]
+		}
+		{
+			title: "Copper Ore + Tin Ore = Copper Bar"
+			x: 9.0d
+			y: -4.5d
+			id: "7DCCE1431C6B99D7"
+			tasks: [{
+				id: "384BFFBD3A64412E"
+				type: "item"
+				item: "minecolonies:blockhutsmeltery"
+			}]
+		}
+		{
+			title: "Jagged Teeth"
+			x: 9.0d
+			y: 4.5d
+			id: "2474FC96E2B9CE1B"
+			tasks: [{
+				id: "1575FDBB6C0E8079"
+				type: "item"
+				item: "minecolonies:blockhutsawmill"
+			}]
+		}
+		{
+			title: "Running Out Of Stone?"
+			x: 10.5d
+			y: -4.5d
+			id: "539F922AE45377FF"
+			tasks: [{
+				id: "74D5C1E8EB2B4598"
+				type: "item"
+				item: "minecolonies:blockhutstonesmeltery"
+			}]
+		}
+		{
+			title: "99 Smithing"
+			x: 9.0d
+			y: -6.0d
+			id: "68DABED5A834BAF7"
+			tasks: [{
+				id: "6A6B34FB1B1C81E7"
+				type: "item"
+				item: "minecolonies:blockhutblacksmith"
+			}]
+		}
+		{
+			title: "Stonecrafter"
+			x: 9.0d
+			y: -7.5d
+			id: "65169E5524F22DC9"
+			tasks: [{
+				id: "17C9DBEADFD9CC84"
+				type: "item"
+				item: "minecolonies:blockhutstonemason"
+			}]
+		}
+		{
+			title: "At Your Command!"
+			x: 10.5d
+			y: -1.5d
+			id: "2B94BC95E6F56514"
+			tasks: [{
+				id: "1682343700A21AB6"
+				type: "item"
+				item: "minecolonies:blockhutbarracks"
+			}]
+		}
+		{
+			title: "Flint, Stick, Feather"
+			x: 9.0d
+			y: 6.0d
+			id: "48178DDD832B3DB4"
+			tasks: [{
+				id: "06C115639A2B7ECE"
+				type: "item"
+				item: "minecolonies:blockhutfletcher"
+			}]
+		}
+		{
+			title: "Ready, Aim, Fire!"
+			x: 12.0d
+			y: -1.5d
+			id: "7ADBF5BCA3793ECF"
+			tasks: [{
+				id: "2B1A4E6E79E6D927"
+				type: "item"
+				item: "minecolonies:blockhutarchery"
+			}]
+		}
+		{
+			title: "Rest In Peace"
+			x: 12.0d
+			y: 0.0d
+			id: "20EAE9C26F3F9318"
+			tasks: [{
+				id: "6844B0B951B1228D"
+				type: "item"
+				item: "minecolonies:blockhutgraveyard"
+			}]
+		}
+		{
+			title: "The Engineer"
+			x: 10.5d
+			y: -6.0d
+			id: "0764BB97C0CCBEB7"
+			tasks: [{
+				id: "2ACCD5B89230A901"
+				type: "item"
+				item: "minecolonies:blockhutmechanic"
+			}]
+		}
+		{
+			title: "Efficient Farming"
+			x: 12.0d
+			y: 3.0d
+			id: "24D168DC9B1F47F9"
+			tasks: [{
+				id: "2EA4782F7859F645"
+				type: "item"
+				item: "minecolonies:blockhutplantation"
+			}]
+		}
+		{
+			title: "Reduce, Reuse, Recycle"
+			x: 10.5d
+			y: 3.0d
+			id: "4D17733F35164149"
+			tasks: [{
+				id: "2C14A521F8E11326"
+				type: "item"
+				item: "minecolonies:blockhutcomposter"
+			}]
+		}
+		{
+			title: "The Sifter"
+			x: 12.0d
+			y: 4.5d
+			id: "22514F6291284E87"
+			tasks: [{
+				id: "3CAF7F60B037CC74"
+				type: "item"
+				item: "minecolonies:blockhutsifter"
+			}]
+		}
 	]
 }

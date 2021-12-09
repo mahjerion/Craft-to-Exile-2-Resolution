@@ -7,6 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Known Issues
+- Placing an ornament on a Christmas tree on a server causes client crashes. Don't do this for now.
+
+### Updates
+- Added some more introductory quests to Act I such as how to party (not the rave kind), etc.
+- Added some enchantment-specific quests to the Technology quest line.
+- Added quests to the Foodstuffs quest line (unfinished).
+- Added quests to the Transportation quest line (unfinished).
+- Added some more quests to the Minecolonies quest line (unfinished).
+- Moved the fishing quests in Foodstuffs to a new quest section called Collectibles.
+- Reduced spawner cooldown from 15 minutes to 10 minutes.
+- Locked Wither and Ender Dragon boss levels.
+- Reduced level of Wither and Dame Fortuna to fit the quest line more.
+- Increased level of Ender Dragon.
+- You can no longer light up the room with spawners.
+- Switched Atum and Blue Skies act progression.
+- Increased Favor drain per item at higher Favor.
+- Waystones can now only generate (on their own) in the Overworld and Overworld Mirror dimensions.
+
+### Mod Updates
+- Updated Architectuary, Mine and Slash, Temporary Spawners, Sophisticated Backpacks, Konkrete, FancyMenu, Atmospheric.
+- Added Harder Spawners.
+
+### Fixes
+- Spawners not coming off cooldown should be fixed.
+- Disabled Simple Storage Network's Network Collector Remote.
+
 ## [0.2.2b] - 2021-12-08
 
 ### Known Issues

@@ -5,6 +5,7 @@
 	filename: "act_ii"
 	title: "Act II"
 	icon: "minecraft:nether_star"
+	subtitle: ["Lv. 21-30"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -51,8 +52,8 @@
 		}
 		{
 			x: 1.5d
-			y: 0.0d
-			dependencies: ["1BB590C100DF5E29"]
+			y: -1.5d
+			dependencies: ["4476B88FCE13635B"]
 			id: "4BD5AAD4EE869928"
 			tasks: [{
 				id: "58770D7E2D690C36"
@@ -63,9 +64,9 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 1.5d
 			y: 1.5d
-			dependencies: ["4BD5AAD4EE869928"]
+			dependencies: ["4476B88FCE13635B"]
 			id: "1CA425BE87F0D294"
 			tasks: [{
 				id: "713D05F12725F233"
@@ -173,9 +174,9 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 1.5d
 			y: 0.0d
-			dependencies: ["4BD5AAD4EE869928"]
+			dependencies: ["1BB590C100DF5E29"]
 			id: "4476B88FCE13635B"
 			tasks: [{
 				id: "6EF71008B5685D3D"
@@ -236,8 +237,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -1.5d
+			x: 1.5d
+			y: -3.0d
 			dependencies: ["4BD5AAD4EE869928"]
 			id: "5E9242A1AA49E79C"
 			tasks: [{
@@ -282,7 +283,7 @@
 		}
 		{
 			x: 6.0d
-			y: 1.5d
+			y: -1.5d
 			dependencies: ["3E72290C29FBB404"]
 			id: "20181D9196980BFF"
 			tasks: [{

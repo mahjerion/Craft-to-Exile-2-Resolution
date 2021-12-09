@@ -235,6 +235,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
+			subtitle: "Storage Overhaul"
 			dependencies: ["28348820E2AAFAAB"]
 			id: "145C9D56AE81763C"
 			tasks: [{
@@ -246,6 +247,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
+			subtitle: "Storage Overhaul"
 			dependencies: ["145C9D56AE81763C"]
 			id: "4096A218A2A616EB"
 			tasks: [{
@@ -257,6 +259,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
+			subtitle: "Storage Overhaul"
 			dependencies: ["4096A218A2A616EB"]
 			id: "67AE4E630B695F67"
 			tasks: [{
@@ -268,6 +271,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
+			subtitle: "Storage Overhaul"
 			dependencies: ["67AE4E630B695F67"]
 			id: "2490E82E032504C9"
 			tasks: [{
@@ -279,6 +283,7 @@
 		{
 			x: 1.5d
 			y: 3.0d
+			subtitle: "Storage Overhaul"
 			dependencies: ["145C9D56AE81763C"]
 			id: "1FB3AF920A1BB79A"
 			tasks: [{
@@ -290,6 +295,7 @@
 		{
 			x: 3.0d
 			y: 3.0d
+			subtitle: "Storage Overhaul"
 			dependencies: ["1FB3AF920A1BB79A"]
 			id: "07CF4D9FA1B904C2"
 			tasks: [{
@@ -301,6 +307,7 @@
 		{
 			x: 4.5d
 			y: 4.5d
+			subtitle: "Storage Overhaul"
 			dependencies: ["07CF4D9FA1B904C2"]
 			id: "4D21A09EB417D218"
 			tasks: [{
@@ -312,6 +319,7 @@
 		{
 			x: 6.0d
 			y: 4.5d
+			subtitle: "Storage Overhaul"
 			dependencies: ["4D21A09EB417D218"]
 			id: "6A3D395B517F6D49"
 			tasks: [{
@@ -323,6 +331,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
+			subtitle: "Storage Drawers"
 			dependencies: [
 				"07CF4D9FA1B904C2"
 				"4096A218A2A616EB"
@@ -337,6 +346,7 @@
 		{
 			x: 6.0d
 			y: 3.0d
+			subtitle: "Storage Drawers"
 			dependencies: ["5BEBF7495973EA24"]
 			id: "12BB3835931F2EEC"
 			tasks: [{
@@ -348,6 +358,7 @@
 		{
 			x: 7.5d
 			y: 4.5d
+			subtitle: "Storage Drawers"
 			dependencies: ["12BB3835931F2EEC"]
 			id: "38B0C0A5F1F19FBF"
 			tasks: [
@@ -366,6 +377,7 @@
 		{
 			x: 6.0d
 			y: 1.5d
+			subtitle: "Storage Drawers"
 			dependencies: ["5BEBF7495973EA24"]
 			id: "7DCBC17B1DE8CDE4"
 			tasks: [{
@@ -377,6 +389,7 @@
 		{
 			x: 7.5d
 			y: 1.5d
+			subtitle: "Storage Drawers"
 			dependencies: ["12BB3835931F2EEC"]
 			id: "37EDCBEF0D9E0904"
 			tasks: [{
