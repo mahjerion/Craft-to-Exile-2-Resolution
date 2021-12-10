@@ -60,11 +60,11 @@
   },
   "slaughter_config": {
     "modifier_every_x_mobs": 25,
-    "total_mobs": 150,
-    "max_mobs_at_once": 30,
+    "total_mobs": 75,
+    "max_mobs_at_once": 18,
     "horde_chance": 5,
     "horde_multi": 3.0,
     "spawn_mobs_every_x_sec": 15,
-    "mobs_per_spawn": 5
+    "mobs_per_spawn": 6
   }
 }

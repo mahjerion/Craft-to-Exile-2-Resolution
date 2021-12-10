@@ -57,8 +57,8 @@
   "clean_up_config": {
     "fail_if_goes_longer_than_x_seconds": 180,
     "modifier_every_x_seconds": 25,
-    "kill_count_to_finish": 150,
-    "mobs_spawn_when_less_than_x_mobs_alive": 5,
-    "mobs_per_spawn": 3
+    "kill_count_to_finish": 50,
+    "mobs_spawn_when_less_than_x_mobs_alive": 3,
+    "mobs_per_spawn": 5
   }
 }

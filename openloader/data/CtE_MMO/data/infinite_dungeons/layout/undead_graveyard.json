@@ -64,6 +64,6 @@
     "total_waves": 5,
     "mobs_per_wave": 3,
     "extra_mobs_per_each_wave": 2,
-    "between_wave_cooldown_seconds": 5
+    "between_wave_cooldown_seconds": 10
   }
 }
