@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Spaced out spawn waves and reduced spawn count in Infinite Dungeons (makes them a little easier).
+
+## [0.2.3] - 2021-12-10
+
 ### Known Issues
 - Placing an ornament on a Christmas tree on a server causes client crashes. Don't do this for now.
 
@@ -26,11 +31,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased Favor drain per item at higher Favor.
 - Waystones can now only generate (on their own) in the Overworld and Overworld Mirror dimensions.
 - Infinite Dungeons difficulties scale with your level as well, higher levels generally require better equipment. The difficulty will show the recommended avergage item level.
-- XX Spaced out spawn waves and reduced spawn count in Infinite Dungeons (makes them a little easier).
 - New Tier 5 gear at level 100.
 
 ### Mod Updates
-- Updated Architectuary, Mine and Slash, Temporary Spawners, Sophisticated Backpacks, Konkrete, FancyMenu, Atmospheric, Infinite Dungeons, CraftTweaker.
+- Updated to Forge 36.2.20 to patch a vulnerability. Please update to this version ASAP.
+- Updated Architectuary, Mine and Slash, Temporary Spawners, Sophisticated Backpacks, Konkrete, FancyMenu, Atmospheric, Infinite Dungeons, CraftTweaker, Library of Exile, Drippy Loading Screen, Performant.
 - Added Harder Spawners.
 
 ### Fixes
