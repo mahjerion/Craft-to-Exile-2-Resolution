@@ -25,9 +25,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Switched Atum and Blue Skies act progression.
 - Increased Favor drain per item at higher Favor.
 - Waystones can now only generate (on their own) in the Overworld and Overworld Mirror dimensions.
+- Infinite Dungeons difficulties scale with your level as well, higher levels generally require better equipment. The difficulty will show the recommended avergage item level.
+- XX Spaced out spawn waves and reduced spawn count in Infinite Dungeons (makes them a little easier).
+- New Tier 5 gear at level 100.
 
 ### Mod Updates
-- Updated Architectuary, Mine and Slash, Temporary Spawners, Sophisticated Backpacks, Konkrete, FancyMenu, Atmospheric.
+- Updated Architectuary, Mine and Slash, Temporary Spawners, Sophisticated Backpacks, Konkrete, FancyMenu, Atmospheric, Infinite Dungeons, CraftTweaker.
 - Added Harder Spawners.
 
 ### Fixes
