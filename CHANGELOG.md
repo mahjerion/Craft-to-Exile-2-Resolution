@@ -9,9 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - Spaced out spawn waves and reduced spawn count in Infinite Dungeons (makes them a little easier).
+- Added Sophisticated Backpacks to entity culling whitelist.
 
 ### Mod Updates
-- Updated Flywheel.
+- Updated Flywheel, Farmer's Delight.
 
 ## [0.2.3] - 2021-12-10
 

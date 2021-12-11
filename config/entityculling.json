@@ -5,7 +5,8 @@
     "create:rope_pulley",
     "minecraft:beacon",
     "create:hose_pulley",
-    "betterend:eternal_pedestal"
+    "betterend:eternal_pedestal",
+    "sophisticatedbackpacks:backpack"
   ],
   "tracingDistance": 128,
   "debugMode": false,
