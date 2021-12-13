@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mod Updates
 - Updated Flywheel, Farmer's Delight, Upgrade Aquatic, Savage and Ravage, Architectuary, Cloth Config API, Infinite Dungeons, Mine and Slash, Repurposed Structures, Xaero's, Lootr, Simple Magnets, JEI.
 - Added FastSuit.
-- Downgraded Fast Workbench.
+- Downgraded FastWorkbench, FastFurnace, Polymorph.
 
 ### Fixes
 - Infinite Dungeon being "infinite" has been fixed.
