@@ -21,6 +21,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced cooldown of Divine Missions by about 33%.
 - Reduced time to complete kill and loot missions.
 - Reduced damage of Vindicators.
+- Increased damage and experience gained from Phantoms.
+- Increased damage of Shulkers, reduced their health.
 
 ### Mod Updates
 - Updated Flywheel, Farmer's Delight, Upgrade Aquatic, Savage and Ravage, Architectuary, Cloth Config API, Infinite Dungeons, Mine and Slash, Repurposed Structures, Xaero's, Lootr, Simple Magnets, JEI.
