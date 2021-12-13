@@ -1,0 +1,34 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "tag": "forge:honeycombs/copper"
+    },
+    "outputs": [
+        {
+            "item": {
+                "tag": "forge:dusts/copper"
+            },
+            "chance": 90
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        },
+        {
+            "fluid": {
+                "fluid": "productivebees:honey"
+            },
+            "amount": 50
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:dusts/copper"
+            }
+        }
+    ]
+}

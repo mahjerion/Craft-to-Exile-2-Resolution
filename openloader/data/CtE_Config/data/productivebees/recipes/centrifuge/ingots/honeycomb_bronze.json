@@ -1,0 +1,38 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "tag": "forge:honeycombs/bronze"
+    },
+    "outputs": [
+        {
+            "item": {
+                "tag": "forge:ingots/bronze"
+            },
+            "chance": 90
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        },
+        {
+            "fluid": {
+                "fluid": "productivebees:honey"
+            },
+            "amount": 50
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:ingots/bronze"
+            }
+        },
+        {
+            "type": "forge:tag_empty",
+            "tag": "forge:dusts/bronze"
+        }
+    ]
+}

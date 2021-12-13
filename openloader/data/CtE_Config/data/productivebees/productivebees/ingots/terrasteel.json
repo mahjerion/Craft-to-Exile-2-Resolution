@@ -2,11 +2,13 @@
     "primaryColor": "#49cc1d",
     "secondaryColor": "#804f40",
     "createComb": false,
+    "description": "productivebees.ingredient.description.only_spawnegg",
     "flowerTag": "forge:storage_blocks/terrasteel",
+    "selfbreed": false,
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "botania"
+            "modid": "powah"
         }
     ]
 }

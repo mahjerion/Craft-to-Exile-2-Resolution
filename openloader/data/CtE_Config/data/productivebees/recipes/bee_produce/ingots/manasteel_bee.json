@@ -1,0 +1,27 @@
+{
+    "type": "productivebees:advanced_beehive",
+    "ingredient": "productivebees:manasteel",
+    "results": [
+        {
+            "item": {
+                "tag": "forge:honeycombs/manasteel"
+            }
+        },
+        {
+            "item": {
+                "tag": "forge:pollen"
+            },
+            "chance": 5
+        }
+    ],
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:manasteel"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "powah"
+        }
+    ]
+}

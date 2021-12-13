@@ -1,0 +1,25 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "tag": "forge:honeycombs/tea"
+    },
+    "outputs": [
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        },
+        {
+            "fluid": {
+                "fluid": "create:tea"
+            },
+            "amount": 250
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ]
+}

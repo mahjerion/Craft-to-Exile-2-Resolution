@@ -26,10 +26,7 @@
     "min": 2,
     "max": 3
   },
-  "upgrades": {
-    "min": 2,
-    "max": 4
-  },
+  "upgrades": 3,
   "item_tier": 2,
   "item_tier_power": 1.5,
   "item_value_multi": 1.5,

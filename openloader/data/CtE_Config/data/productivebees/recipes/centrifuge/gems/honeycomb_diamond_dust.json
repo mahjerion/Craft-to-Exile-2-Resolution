@@ -1,0 +1,28 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "tag": "forge:honeycombs/diamond"
+    },
+    "outputs": [
+        {
+            "item": {
+                "tag": "forge:dusts/diamond"
+            },
+            "chance": 50
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:dusts/diamond"
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "tag": "forge:honeycombs/fluorite"
+    },
+    "outputs": [
+        {
+            "item": {
+                "tag": "forge:gems/fluorite"
+            }
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:gems/fluorite"
+            }
+        }
+    ]
+}

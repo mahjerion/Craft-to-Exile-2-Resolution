@@ -137,7 +137,7 @@
       },
       "reward": {
         "value": "infinite_dungeons:reward_crate",
-        "data": "{reward_list:\"upgrade_pack\"}",
+        "data": "{reward_list:\"upgrade_box\"}",
         "type": "ITEM",
         "count": 1
       },

@@ -1,0 +1,38 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "tag": "forge:honeycombs/constantan"
+    },
+    "outputs": [
+        {
+            "item": {
+                "tag": "forge:ingots/constantan"
+            },
+            "chance": 90
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        },
+        {
+            "fluid": {
+                "fluid": "productivebees:honey"
+            },
+            "amount": 50
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:ingots/constantan"
+            }
+        },
+        {
+            "type": "forge:tag_empty",
+            "tag": "forge:dusts/constantan"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "tag": "forge:honeycombs/slimy"
+    },
+    "outputs": [
+        {
+            "item": {
+                "item": "minecraft:slime_ball"
+            },
+            "chance": 50
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        }
+    ]
+}

@@ -9,10 +9,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - Spaced out spawn waves and reduced spawn count in Infinite Dungeons (makes them a little easier).
+- Orb of Empty Sockets has been removed (useless item).
+- New Ice Spell: Chill Explosion!
+- Upgrading item mechanic has changed. XX Quests has been updated to reflect this.
+- Having higher HP reduces the environmental damage you take (fire, poison, fall).
+- Further reduced EXP from End Slimes.
+- Removed EXP from End Dragonfly.
 - Added Sophisticated Backpacks to entity culling whitelist.
+- Disabled Botania Elementium, Terrasteel, and Manasteel bees.
+- XX Reduced efficiency of Productive Bees by a LOT.
 
 ### Mod Updates
-- Updated Flywheel, Farmer's Delight.
+- Updated Flywheel, Farmer's Delight, Upgrade Aquatic, Savage and Ravage, Architectuary, Cloth Config API, Infinite Dungeons, Mine and Slash, Repurposed Structures, Xaero's, Lootr, Simple Magnets, JEI.
+- Added FastSuit.
+- Downgraded Fast Workbench.
+
+### Fixes
+- Infinite Dungeon being "infinite" has been fixed.
+- Fixed duplication bug with inventory.
 
 ## [0.2.3] - 2021-12-10
 
