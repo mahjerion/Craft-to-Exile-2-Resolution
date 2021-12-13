@@ -5,7 +5,7 @@
   "data": "minecraft:wither_skeleton",
   "min": 2,
   "max": 6,
-  "seconds": 360,
+  "seconds": 300,
   "worths": {
     "default": 100
   }

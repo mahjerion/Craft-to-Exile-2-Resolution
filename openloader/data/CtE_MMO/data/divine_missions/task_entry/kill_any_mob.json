@@ -5,7 +5,7 @@
   "data": "",
   "min": 6,
   "max": 20,
-  "seconds": 180,
+  "seconds": 120,
   "worths": {
     "default": 40,
     "aoe": 40

@@ -5,7 +5,7 @@
   "data": "minecraft:spider",
   "min": 2,
   "max": 6,
-  "seconds": 300,
+  "seconds": 240,
   "worths": {
     "default": 100
   }

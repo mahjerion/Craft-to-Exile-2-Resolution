@@ -5,7 +5,7 @@
   "data": "minecraft:phantom",
   "min": 1,
   "max": 3,
-  "seconds": 1200,
+  "seconds": 900,
   "worths": {
     "default": 150
   }

@@ -5,7 +5,7 @@
   "data": "minecraft:slime",
   "min": 3,
   "max": 6,
-  "seconds": 300,
+  "seconds": 240,
   "worths": {
     "default": 50
   }

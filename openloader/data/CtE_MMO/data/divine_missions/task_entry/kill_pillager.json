@@ -5,7 +5,7 @@
   "data": "minecraft:pillager",
   "min": 2,
   "max": 6,
-  "seconds": 600,
+  "seconds": 360,
   "worths": {
     "default": 50
   }

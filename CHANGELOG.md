@@ -18,6 +18,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Sophisticated Backpacks to entity culling whitelist.
 - Disabled Botania Elementium, Terrasteel, and Manasteel bees.
 - XX Reduced efficiency of Productive Bees by a LOT.
+- Reduced cooldown of Divine Missions by about 33%.
+- Reduced time to complete kill and loot missions.
+- Reduced damage of Vindicators.
 
 ### Mod Updates
 - Updated Flywheel, Farmer's Delight, Upgrade Aquatic, Savage and Ravage, Architectuary, Cloth Config API, Infinite Dungeons, Mine and Slash, Repurposed Structures, Xaero's, Lootr, Simple Magnets, JEI.

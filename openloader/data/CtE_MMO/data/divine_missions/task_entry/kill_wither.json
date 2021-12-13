@@ -5,7 +5,7 @@
   "data": "minecraft:wither",
   "min": 1,
   "max": 1,
-  "seconds": 1200,
+  "seconds": 900,
   "worths": {
     "default": 2000
   }

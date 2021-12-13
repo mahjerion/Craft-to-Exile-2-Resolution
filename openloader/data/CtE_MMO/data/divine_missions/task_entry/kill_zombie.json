@@ -5,7 +5,7 @@
   "data": "minecraft:zombie",
   "min": 4,
   "max": 10,
-  "seconds": 300,
+  "seconds": 240,
   "worths": {
     "default": 50
   }

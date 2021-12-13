@@ -3,7 +3,7 @@
 [general]
 	#Minutes it takes to get a new mission
 	#Range: 1 ~ 100000
-	gain_mission_cooldown_minutes = 20
+	gain_mission_cooldown_minutes = 15
 	#0 means every x minutes while 0.5 means every x-x/2 to x+x/2 minutes, (random time variation)
 	#Range: 0.0 ~ 1.0
 	cd_refresh_time_variation = 0.5
