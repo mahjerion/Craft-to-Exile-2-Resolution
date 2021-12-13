@@ -11,12 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Spaced out spawn waves and reduced spawn count in Infinite Dungeons (makes them a little easier).
 - Orb of Empty Sockets has been removed (useless item).
 - New Ice Spell: Chill Explosion!
-- Upgrading item mechanic has changed. XX Quests has been updated to reflect this.
+- Upgrading item mechanic has changed. Quests has been updated to reflect this.
 - Having higher HP reduces the environmental damage you take (fire, poison, fall).
 - Further reduced EXP from End Slimes.
 - Removed EXP from End Dragonfly and Cubozoa.
 - Added Sophisticated Backpacks to entity culling whitelist.
-- Disabled Botania Elementium, Terrasteel, and Manasteel bees.
+- Disabled Botania Elementium and Terrasteel bees.
 - XX Reduced efficiency of Productive Bees by a LOT.
 - Reduced cooldown of Divine Missions by about 33%.
 - Reduced time to complete kill and loot missions.

@@ -1561,7 +1561,13 @@
 			description: [
 				"Throughout Craft to Exile, you may find Source of Strength stones. 9 of these can be combines to create a Magical Upgrade Stone. Similarly, you can combine 9 Magical Upgrade Stones to a Extraordinary Upgrade Stone, etc."
 				""
-				"You may have noticed under your gear tooltips, \"Upgrades\" followed by a few empty stars. These stars denote how many upgrade attempts you have available for that piece of equipment. You can use Upgrade Stones for a chance to upgrade your equipment. However, upon a failed attempt, the star will still be used up. As a result, with Magical Upgrade Stones, the max upgrades you can earn for your equipment is limited to the number of stars (3 stars = max of +3, etc.). If you want to upgrade your item further, you can use stronger Upgrade Stones. However, these stones have a higher chance of failure, and will penalize you upon a failed attempt. For example, with the Supreme Upgrade Stone, an item with 3 stars could potentially get +9 (+3 from each stone)!"
+				"You may have noticed under your gear tooltips, \"Upgrades\" followed by a few empty (gray) stars. These stars denote how many upgrade attempts you have available for that piece of equipment. You can use Upgrade Stones for a chance to upgrade your equipment. There are 3 types of Upgrade Stones: Magical, Supreme, and Extraordinary."
+				""
+				"Magical Upgrade Stones must be used on \"gray\" or empty stars, and have a 10% chance of failure. You will not be penalized if you fail with these stones, except for losing the stone itself. A successful upgrade will grant your item +1 and turn one of the gray upgrade stars green."
+				""
+				"Supreme Upgrade Stones must be used on green upgrade stars and have a 20% chance of failure. A failed Supreme upgrade will cause you to lose all upgrade progress, setting you back at empty stars. A success will grant your item an additional +2 and turn one of the green stars blue."
+				""
+				"Finally, Extraordinary Upgrade Stones require a blue upgrade star, and have a 30% chance of completely breaking your item. Upon a success however, your item will gain an additional +3!"
 				""
 				"Upon reaching +4 and +8, your item will gain an additional socket."
 			]
@@ -1759,6 +1765,45 @@
 					title: "8000 EXP"
 					icon: "minecraft:book"
 					command: "/mine_and_slash give exp @p 8000"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Protective Scrolls"
+			x: 6.0d
+			y: 6.0d
+			subtitle: "Mine and Slash Protection Scrolls"
+			description: [
+				"If you're worried about losing your upgrade progress, or even your equipment, you can protect your gear from the negative effects of failure using the Protection Scrolls."
+				""
+				"At the expense of adding Instability, Epic Protection Scrolls will prevent your item from losing its upgrade progress, whereas Legendary Protection Scrolls will prevent your gear from breaking from upgrades!"
+			]
+			dependencies: ["3E7EBC85F8096DA6"]
+			id: "39CCC1668144CEDC"
+			tasks: [{
+				id: "69D554CF4CC58777"
+				type: "item"
+				item: "mmorpg:currency/plus_two_upgrade"
+			}]
+			rewards: [
+				{
+					id: "1CD28113CE84CB61"
+					type: "item"
+					item: "mmorpg:currency/epic_safe_scroll"
+					count: 3
+				}
+				{
+					id: "53E5CC3E4203E8A7"
+					type: "item"
+					item: "mmorpg:currency/legendary_safe_scroll"
+				}
+				{
+					id: "01E2A7CBAFDECEC4"
+					type: "command"
+					title: "2500 EXP"
+					icon: "minecraft:book"
+					command: "/mine_and_slash give exp @p 2500"
 					player_command: false
 				}
 			]

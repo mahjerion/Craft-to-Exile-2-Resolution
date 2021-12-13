@@ -14,7 +14,7 @@
     "conditions": [
         {
             "type": "forge:mod_loaded",
-            "modid": "powah"
+            "modid": "botania"
         },
         {
             "type": "productivebees:bee_exists",
