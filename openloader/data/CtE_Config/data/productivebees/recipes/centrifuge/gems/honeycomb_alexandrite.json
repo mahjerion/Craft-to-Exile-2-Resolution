@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/alexandrite"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

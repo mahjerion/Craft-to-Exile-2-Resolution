@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/turquoise"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

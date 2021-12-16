@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/onyx"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

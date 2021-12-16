@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/peridot"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

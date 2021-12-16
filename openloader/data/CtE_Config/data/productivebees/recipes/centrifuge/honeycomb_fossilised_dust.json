@@ -7,7 +7,8 @@
         {
             "item": {
                 "tag": "forge:dusts/coal"
-            }
+            },
+            "chance": 20
         },
         {
             "item": {

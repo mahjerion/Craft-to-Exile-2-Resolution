@@ -8,14 +8,15 @@
             "item": {
                 "item": "minecraft:snowball"
             },
-            "min": 4,
-            "max": 4
+            "min": 2,
+            "max": 4,
+            "chance": 50
         },
         {
             "item": {
                 "item": "minecraft:ice"
             },
-            "chance": 40
+            "chance": 10
         }
     ]
 }

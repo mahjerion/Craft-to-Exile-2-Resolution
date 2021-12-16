@@ -13,7 +13,8 @@
             "fluid": {
                 "fluid": "integrateddynamics:menril_resin"
             },
-            "amount": 250
+            "amount": 50,
+            "chance": 50
         }
     ],
     "conditions": [

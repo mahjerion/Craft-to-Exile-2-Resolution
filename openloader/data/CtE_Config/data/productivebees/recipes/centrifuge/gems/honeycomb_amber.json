@@ -7,7 +7,8 @@
         {
             "item": {
                 "tag": "forge:gems/amber"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

@@ -10,7 +10,7 @@
             },
             "min": 1,
             "max": 2,
-            "chance": 40
+            "chance": 5
         },
         {
             "item": {

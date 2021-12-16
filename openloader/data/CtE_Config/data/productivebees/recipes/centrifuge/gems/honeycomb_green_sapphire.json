@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/green_sapphire"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

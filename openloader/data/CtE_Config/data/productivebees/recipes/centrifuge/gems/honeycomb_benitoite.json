@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/benitoite"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

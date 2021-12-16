@@ -173,6 +173,8 @@
 			title: "Guardians Of The Village"
 			x: 4.5d
 			y: -1.5d
+			subtitle: "Defend Your Base"
+			dependencies: ["7735ED77BAB2FA55"]
 			id: "0C1A9EB5F2941592"
 			tasks: [{
 				id: "15D0D5C651173456"
@@ -184,6 +186,8 @@
 			title: "Barbarian Raid"
 			x: 4.5d
 			y: -3.0d
+			subtitle: "Sound The Horn!"
+			dependencies: ["0C1A9EB5F2941592"]
 			id: "72DEFEB1D9E41106"
 			tasks: [
 				{
@@ -218,6 +222,8 @@
 			title: "I'm A Lumberjack!"
 			x: 6.0d
 			y: 1.5d
+			subtitle: "Treefelling"
+			dependencies: ["7735ED77BAB2FA55"]
 			id: "0AE88719DEB950AE"
 			tasks: [{
 				id: "38AAE3FA840ADB15"
@@ -229,6 +235,8 @@
 			title: "It's All MINE!"
 			x: 6.0d
 			y: -1.5d
+			subtitle: "Rocks And Stuff"
+			dependencies: ["7735ED77BAB2FA55"]
 			id: "681A528691D939DE"
 			tasks: [{
 				id: "1481A8E7AC7C219F"
@@ -240,6 +248,8 @@
 			title: "Population Density"
 			x: 7.5d
 			y: -1.5d
+			subtitle: "Housing"
+			dependencies: ["4401B06C8211D0B9"]
 			id: "18A6E42E4B4817F8"
 			tasks: [{
 				id: "12D553F947DD70B4"
@@ -251,6 +261,8 @@
 			title: "Fishing For Goodies"
 			x: 4.5d
 			y: 1.5d
+			subtitle: "Nourishment For Citizens"
+			dependencies: ["7735ED77BAB2FA55"]
 			id: "0345A8A4FC42DD42"
 			tasks: [{
 				id: "24AB90D041D1C8BB"
@@ -262,6 +274,8 @@
 			title: "Central Hub"
 			x: 4.5d
 			y: 0.0d
+			subtitle: "The Tavern"
+			dependencies: ["6FAFD7A84BFEB342"]
 			id: "7735ED77BAB2FA55"
 			tasks: [{
 				id: "7B2BDBF973ADC67B"
@@ -273,6 +287,8 @@
 			title: "Farming Simulator"
 			x: 4.5d
 			y: 3.0d
+			subtitle: "Agriculture"
+			dependencies: ["0345A8A4FC42DD42"]
 			id: "2F1AA9B24BD14417"
 			tasks: [{
 				id: "4C123ED4D396C1EB"
@@ -284,6 +300,8 @@
 			title: "Hearty Nourishment"
 			x: 6.0d
 			y: 3.0d
+			subtitle: "A Place To Eat"
+			dependencies: ["0345A8A4FC42DD42"]
 			id: "738F82DC4C92C0A8"
 			tasks: [{
 				id: "22F639CBEE1B1134"
@@ -295,6 +313,12 @@
 			title: "Stashing The Goods"
 			x: 7.5d
 			y: 0.0d
+			subtitle: "Colonies Storage"
+			min_required_dependencies: 1
+			dependencies: [
+				"681A528691D939DE"
+				"0AE88719DEB950AE"
+			]
 			id: "4401B06C8211D0B9"
 			tasks: [{
 				id: "5D4DEFB9F49FB482"
@@ -306,6 +330,8 @@
 			title: "Runner Up!"
 			x: 7.5d
 			y: 1.5d
+			subtitle: "Transporting Goods"
+			dependencies: ["4401B06C8211D0B9"]
 			id: "37D0D0A123599266"
 			tasks: [{
 				id: "3A8D97B831E1E7A3"
@@ -317,6 +343,8 @@
 			title: "Further Education"
 			x: 9.0d
 			y: 0.0d
+			subtitle: "Degrees And Diplomas"
+			dependencies: ["4401B06C8211D0B9"]
 			id: "39F6825A6A1B5685"
 			tasks: [{
 				id: "1E805B867925E8CA"
@@ -328,6 +356,9 @@
 			title: "Getting Schooled"
 			x: 10.5d
 			y: 1.5d
+			subtitle: "Education II"
+			description: [""]
+			dependencies: ["39F6825A6A1B5685"]
 			id: "7D76080AA75F4BE8"
 			tasks: [{
 				id: "5BEA443AF7A2A757"
@@ -339,6 +370,8 @@
 			title: "Having Fun Isn't Hard"
 			x: 12.0d
 			y: 1.5d
+			subtitle: "When You've Got A Library Card"
+			dependencies: ["7D76080AA75F4BE8"]
 			id: "079347BAC858D239"
 			tasks: [{
 				id: "27CE31591863EC2A"
@@ -350,6 +383,8 @@
 			title: "Treating The Ill"
 			x: 10.5d
 			y: 0.0d
+			subtitle: "I Need A Medic!"
+			dependencies: ["39F6825A6A1B5685"]
 			id: "63D5B89A33006A24"
 			tasks: [{
 				id: "65DAF1607B0D0981"
@@ -361,6 +396,11 @@
 			title: "Copper Ore + Tin Ore = Copper Bar"
 			x: 9.0d
 			y: -4.5d
+			subtitle: "The Smeltery"
+			dependencies: [
+				"681A528691D939DE"
+				"39F6825A6A1B5685"
+			]
 			id: "7DCCE1431C6B99D7"
 			tasks: [{
 				id: "384BFFBD3A64412E"
@@ -372,6 +412,10 @@
 			title: "Jagged Teeth"
 			x: 9.0d
 			y: 4.5d
+			dependencies: [
+				"0AE88719DEB950AE"
+				"39F6825A6A1B5685"
+			]
 			id: "2474FC96E2B9CE1B"
 			tasks: [{
 				id: "1575FDBB6C0E8079"
@@ -383,6 +427,8 @@
 			title: "Running Out Of Stone?"
 			x: 10.5d
 			y: -4.5d
+			subtitle: "Stone Work"
+			dependencies: ["7DCCE1431C6B99D7"]
 			id: "539F922AE45377FF"
 			tasks: [{
 				id: "74D5C1E8EB2B4598"
@@ -394,6 +440,8 @@
 			title: "99 Smithing"
 			x: 9.0d
 			y: -6.0d
+			subtitle: "Blacksmithing"
+			dependencies: ["7DCCE1431C6B99D7"]
 			id: "68DABED5A834BAF7"
 			tasks: [{
 				id: "6A6B34FB1B1C81E7"
@@ -405,6 +453,8 @@
 			title: "Stonecrafter"
 			x: 9.0d
 			y: -7.5d
+			subtitle: "Intricate Designs"
+			dependencies: ["68DABED5A834BAF7"]
 			id: "65169E5524F22DC9"
 			tasks: [{
 				id: "17C9DBEADFD9CC84"
@@ -416,6 +466,8 @@
 			title: "At Your Command!"
 			x: 10.5d
 			y: -1.5d
+			subtitle: "Building Your Army"
+			dependencies: ["39F6825A6A1B5685"]
 			id: "2B94BC95E6F56514"
 			tasks: [{
 				id: "1682343700A21AB6"
@@ -427,6 +479,7 @@
 			title: "Flint, Stick, Feather"
 			x: 9.0d
 			y: 6.0d
+			dependencies: ["2474FC96E2B9CE1B"]
 			id: "48178DDD832B3DB4"
 			tasks: [{
 				id: "06C115639A2B7ECE"
@@ -438,6 +491,8 @@
 			title: "Ready, Aim, Fire!"
 			x: 12.0d
 			y: -1.5d
+			subtitle: "Ranged Fighters"
+			dependencies: ["2B94BC95E6F56514"]
 			id: "7ADBF5BCA3793ECF"
 			tasks: [{
 				id: "2B1A4E6E79E6D927"
@@ -449,6 +504,8 @@
 			title: "Rest In Peace"
 			x: 12.0d
 			y: 0.0d
+			subtitle: "Burying The Dead"
+			dependencies: ["63D5B89A33006A24"]
 			id: "20EAE9C26F3F9318"
 			tasks: [{
 				id: "6844B0B951B1228D"
@@ -460,6 +517,8 @@
 			title: "The Engineer"
 			x: 10.5d
 			y: -6.0d
+			subtitle: "Technology"
+			dependencies: ["68DABED5A834BAF7"]
 			id: "0764BB97C0CCBEB7"
 			tasks: [{
 				id: "2ACCD5B89230A901"
@@ -471,6 +530,8 @@
 			title: "Efficient Farming"
 			x: 12.0d
 			y: 3.0d
+			subtitle: "Agriculture II"
+			dependencies: ["4D17733F35164149"]
 			id: "24D168DC9B1F47F9"
 			tasks: [{
 				id: "2EA4782F7859F645"
@@ -482,6 +543,8 @@
 			title: "Reduce, Reuse, Recycle"
 			x: 10.5d
 			y: 3.0d
+			subtitle: "The Composter"
+			dependencies: ["39F6825A6A1B5685"]
 			id: "4D17733F35164149"
 			tasks: [{
 				id: "2C14A521F8E11326"
@@ -493,6 +556,9 @@
 			title: "The Sifter"
 			x: 12.0d
 			y: 4.5d
+			subtitle: "Digging For Treasure"
+			description: [""]
+			dependencies: ["4D17733F35164149"]
 			id: "22514F6291284E87"
 			tasks: [{
 				id: "3CAF7F60B037CC74"

@@ -8,7 +8,7 @@
             "item": {
                 "item": "minecraft:ender_pearl"
             },
-            "chance": 40
+            "chance": 5
         },
         {
             "item": {
@@ -19,7 +19,8 @@
             "fluid": {
                 "fluid": "integrateddynamics:liquid_chorus"
             },
-            "amount": 50
+            "amount": 10,
+            "chance": 50
         }
     ],
     "conditions": [

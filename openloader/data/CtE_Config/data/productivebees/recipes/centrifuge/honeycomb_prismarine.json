@@ -14,13 +14,13 @@
             "item": {
                 "item": "minecraft:prismarine_shard"
             },
-            "chance": 20
+            "chance": 15
         },
         {
             "item": {
                 "item": "minecraft:prismarine_crystals"
             },
-            "chance": 5
+            "chance": 3
         },
         {
             "item": {

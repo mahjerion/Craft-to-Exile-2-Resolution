@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/cats_eye"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

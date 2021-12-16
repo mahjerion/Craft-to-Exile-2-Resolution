@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/pearl"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

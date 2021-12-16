@@ -8,9 +8,9 @@
             "item": {
                 "tag": "forge:dusts/lapis_lazuli"
             },
-            "min": 3,
-            "max": 7,
-            "chance": 100
+            "min": 1,
+            "max": 4,
+            "chance": 80
         },
         {
             "item": {

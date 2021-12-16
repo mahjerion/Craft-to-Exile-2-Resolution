@@ -13,21 +13,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New Ice Spell: Chill Explosion!
 - Upgrading item mechanic has changed. Quests has been updated to reflect this.
 - Having higher HP reduces the environmental damage you take (fire, poison, fall).
+- Powered Centrifuges are now a bit slower than previously.
+- More honey is consumed per tick in centrifuges.
+- Create ores are now prioritized over IE with bees.
 - Further reduced EXP from End Slimes.
 - Removed EXP from End Dragonfly and Cubozoa.
 - Added Sophisticated Backpacks to entity culling whitelist.
 - Disabled Botania Elementium and Terrasteel bees.
-- XX Reduced efficiency of Productive Bees by a LOT.
+- Reduced efficiency of Productive Bees by a LOT - will probably see some more tweaking afterwards.
 - Reduced cooldown of Divine Missions by about 33%.
 - Reduced time to complete kill and loot missions.
 - Reduced damage of Vindicators.
 - Increased damage and experience gained from Phantoms.
 - Increased damage of Shulkers, reduced their health.
+- Some new tea foods have been introduced!
+- Finished linking some of the previously unlinked quests.
+- Removed Sleighs from the gift list.
 
 ### Mod Updates
-- Updated Flywheel, Farmer's Delight, Upgrade Aquatic, Savage and Ravage, Architectuary, Cloth Config API, Infinite Dungeons, Mine and Slash, Repurposed Structures, Xaero's, Lootr, Simple Magnets, JEI.
+- Updated Flywheel, Farmer's Delight, Upgrade Aquatic, Savage and Ravage, Architectuary, Cloth Config API, Infinite Dungeons, Mine and Slash, Repurposed Structures, Xaero's, Lootr, Simple Magnets, JEI, Minecolonies, Global XP, CraftTweaker, Polymorph, FastWorkbench.
+- Added Farmer's Respite.
 - Added FastSuit.
-- Downgraded FastWorkbench, FastFurnace, Polymorph.
 
 ### Fixes
 - Infinite Dungeon being "infinite" has been fixed.

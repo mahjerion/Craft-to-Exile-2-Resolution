@@ -7,7 +7,8 @@
         {
             "item": {
                 "item": "minecraft:coal"
-            }
+            },
+            "chance": 10
         },
         {
             "item": {

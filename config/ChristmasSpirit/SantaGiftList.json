@@ -146,13 +146,6 @@
     "minDay": 0,
     "maxDay": 10
   },
-  "Sleigh": {
-    "stackStr": "cspirit:sleigh",
-    "maxAmount": 1,
-    "rarityIndex": 3,
-    "minDay": 10,
-    "maxDay": 20
-  },
   "DiscWishBackground": {
     "stackStr": "cspirit:disc_wishbackground",
     "maxAmount": 1,

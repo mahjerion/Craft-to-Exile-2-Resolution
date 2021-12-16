@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/kyanite"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

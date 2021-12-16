@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/tektite"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

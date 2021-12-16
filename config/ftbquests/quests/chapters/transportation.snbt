@@ -21,6 +21,7 @@
 				""
 				"For more transportation methods, you can check out the Transportation quest tab under Homestead."
 			]
+			dependencies: ["274D44FAD87D4504"]
 			id: "0908A7A57B7F31F8"
 			tasks: [{
 				id: "6F513A9ED8020251"
@@ -76,6 +77,7 @@
 			x: 1.5d
 			y: 1.5d
 			subtitle: "Waystones"
+			dependencies: ["0D3612310A792B25"]
 			id: "35FF5E62303540DB"
 			tasks: [{
 				id: "31D676833892AF1D"
@@ -87,6 +89,7 @@
 			x: 3.0d
 			y: 1.5d
 			subtitle: "Waystones"
+			dependencies: ["35FF5E62303540DB"]
 			id: "44668093639A057B"
 			tasks: [{
 				id: "2DFD6C5B8C233939"
@@ -98,6 +101,7 @@
 			x: 6.0d
 			y: 3.0d
 			subtitle: "Waystones"
+			dependencies: ["4078F50F0248391A"]
 			id: "102F6E53C8C2D208"
 			tasks: [{
 				id: "3003133D13F0FB8F"
@@ -111,6 +115,7 @@
 			y: 3.0d
 			shape: "heart"
 			subtitle: "Waystones"
+			dependencies: ["35FF5E62303540DB"]
 			id: "53E59DB16BAB6537"
 			tasks: [{
 				id: "6508CE3B5663C7AD"
@@ -122,6 +127,7 @@
 			x: 4.5d
 			y: 1.5d
 			subtitle: "Waystones"
+			dependencies: ["44668093639A057B"]
 			id: "4078F50F0248391A"
 			tasks: [{
 				id: "2D00965D33C30745"
@@ -139,6 +145,7 @@
 			x: 4.5d
 			y: 3.0d
 			subtitle: "Waystones"
+			dependencies: ["4078F50F0248391A"]
 			id: "5C6807E28F2294B3"
 			tasks: [{
 				id: "15442FE71CA91431"
@@ -150,6 +157,7 @@
 			x: 7.5d
 			y: 1.5d
 			subtitle: "Waystones"
+			dependencies: ["4078F50F0248391A"]
 			id: "17CB5F3D3DA12A8E"
 			tasks: [{
 				id: "374091FC0A8CD681"
@@ -163,6 +171,7 @@
 			y: 3.0d
 			shape: "heart"
 			subtitle: "Ender Mail"
+			dependencies: ["274D44FAD87D4504"]
 			id: "08A3E5F6EA7A6CE2"
 			tasks: [
 				{
@@ -191,6 +200,7 @@
 			x: 1.5d
 			y: -1.5d
 			subtitle: "Dude! Where's My Horse?"
+			dependencies: ["0D3612310A792B25"]
 			id: "325EB010C51C75D6"
 			tasks: [{
 				id: "26EB8577F14714AA"
@@ -207,6 +217,7 @@
 			x: 3.0d
 			y: -3.0d
 			subtitle: "Pandora's Creatures"
+			dependencies: ["325EB010C51C75D6"]
 			id: "55406D2628EE4BA1"
 			tasks: [{
 				id: "459F541A06F051AB"
@@ -219,6 +230,7 @@
 			x: 4.5d
 			y: -3.0d
 			subtitle: "Pandora's Creatures"
+			dependencies: ["55406D2628EE4BA1"]
 			id: "4CD4527299268BCF"
 			tasks: [{
 				id: "2A9C89EE0C734A2E"
@@ -227,11 +239,12 @@
 			}]
 		}
 		{
-			title: "Shared Experience"
+			title: "Stored Experience"
 			x: -1.5d
 			y: 1.5d
 			shape: "heart"
 			subtitle: "Global XP"
+			dependencies: ["0D3612310A792B25"]
 			id: "274D44FAD87D4504"
 			tasks: [{
 				id: "50A30F5A4C6A4438"
@@ -245,6 +258,7 @@
 			y: 4.5d
 			shape: "heart"
 			subtitle: "Ender Mail"
+			dependencies: ["08A3E5F6EA7A6CE2"]
 			id: "50F10BF016A809E9"
 			tasks: [{
 				id: "7971B7FABC09AE5B"
@@ -257,6 +271,7 @@
 			x: -1.5d
 			y: -1.5d
 			subtitle: "Speedy Ladders"
+			dependencies: ["0D3612310A792B25"]
 			id: "62A624B5BCFC12E8"
 			tasks: [{
 				id: "0E1364B27206571A"

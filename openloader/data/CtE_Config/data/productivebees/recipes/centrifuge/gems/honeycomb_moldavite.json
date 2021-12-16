@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/moldavite"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

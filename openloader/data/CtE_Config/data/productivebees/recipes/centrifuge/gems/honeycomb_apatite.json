@@ -7,7 +7,8 @@
         {
             "item": {
                 "tag": "forge:gems/apatite"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

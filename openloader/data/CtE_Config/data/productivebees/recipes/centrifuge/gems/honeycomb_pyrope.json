@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/pyrope"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

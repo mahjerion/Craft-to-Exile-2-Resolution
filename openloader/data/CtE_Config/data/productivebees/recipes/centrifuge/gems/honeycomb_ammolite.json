@@ -8,7 +8,8 @@
         {
             "item": {
                 "tag": "forge:gems/ammolite"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {

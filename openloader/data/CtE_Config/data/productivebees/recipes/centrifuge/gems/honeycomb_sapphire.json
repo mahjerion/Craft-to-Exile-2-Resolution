@@ -7,7 +7,8 @@
         {
             "item": {
                 "tag": "forge:gems/sapphire"
-            }
+            },
+            "chance": 5
         },
         {
             "item": {
