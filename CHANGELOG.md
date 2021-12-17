@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.4] - 2021-12-17
+
+### Known Issues
+- Placing an ornament on a Christmas tree on a server causes client crashes. Don't do this for now.
+
 ### Updates
 - Spaced out spawn waves and reduced spawn count in Infinite Dungeons (makes them a little easier).
 - Orb of Empty Sockets has been removed (useless item).
@@ -14,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Upgrading item mechanic has changed. Quests has been updated to reflect this.
 - Having higher HP reduces the environmental damage you take (fire, poison, fall).
 - Powered Centrifuges are now a bit slower than previously.
-- More honey is consumed per tick in centrifuges.
+- More honey is consumed per tick in generators.
 - Create ores are now prioritized over IE with bees.
 - Further reduced EXP from End Slimes.
 - Removed EXP from End Dragonfly and Cubozoa.
@@ -31,9 +36,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed Sleighs from the gift list.
 
 ### Mod Updates
-- Updated Flywheel, Farmer's Delight, Upgrade Aquatic, Savage and Ravage, Architectuary, Cloth Config API, Infinite Dungeons, Mine and Slash, Repurposed Structures, Xaero's, Lootr, Simple Magnets, JEI, Minecolonies, Global XP, CraftTweaker, Polymorph, FastWorkbench.
+- Updated Flywheel, Farmer's Delight, Upgrade Aquatic, Savage and Ravage, Architectuary, Cloth Config API, Infinite Dungeons, Mine and Slash, Repurposed Structures, Xaero's, Lootr, Simple Magnets, JEI, Minecolonies, Global XP, CraftTweaker, Polymorph, FastWorkbench, Veinmining.
 - Added Farmer's Respite.
-- Added FastSuit.
+- Added FastSuite.
 
 ### Fixes
 - Infinite Dungeon being "infinite" has been fixed.
