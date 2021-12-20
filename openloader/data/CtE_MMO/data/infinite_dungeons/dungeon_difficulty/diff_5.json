@@ -1,0 +1,11 @@
+{
+  "weight": 1000,
+  "id": "diff_5",
+  "format": "",
+  "tier": 5,
+  "mns_lvl_req": 0.6,
+  "mns_ilvl_req": 10,
+  "mob_hp_multi": 2.5,
+  "mob_dmg_multi": 2.5,
+  "coin_drop_multi": 2.5
+}

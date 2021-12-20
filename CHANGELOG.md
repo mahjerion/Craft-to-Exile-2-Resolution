@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Updated recommended item levels for dungeons.
+- XX Productive Bees has been made less effective when using the Create mixer - an oversight on my part.
+- Disabled Coffee for now. It's too good.
+
+### Mod Updates
+- Updated Chat Heads, Farmer's Delight, Architectuary, Xaero's, Storage Drawers, Immersive Engineering.
+
 ## [0.2.4] - 2021-12-17
 
 ### Known Issues

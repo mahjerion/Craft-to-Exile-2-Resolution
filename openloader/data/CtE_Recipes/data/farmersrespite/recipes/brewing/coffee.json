@@ -1,0 +1,23 @@
+{
+  "type": "farmersrespite:brewing",
+  "ingredients": [
+    {
+      "item": "farmersrespite:coffee_beans"
+    },
+    {
+      "item": "farmersrespite:coffee_beans"
+    }
+  ],
+  "result": {
+    "item": "farmersrespite:coffee"
+  },
+  "experience": 0.35,
+  "brewingtime": 300,
+  "needWater": true,
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}
