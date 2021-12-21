@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - XX Updated Epic Fight quest to explain armor weight penalties.
 
 ### Mod Updates
-- Updated Chat Heads, Farmer's Delight, Architectuary, Xaero's, Storage Drawers, Immersive Engineering.
+- Updated Chat Heads, Farmer's Delight, Architectuary, Xaero's, Storage Drawers, Immersive Engineering, Polymorph.
 
 ## [0.2.4] - 2021-12-17
 
