@@ -13,7 +13,7 @@
 					stat_soul: {
 						rar: "rare"
 						slot: "helmet"
-						tier: 0
+						tier: 1
 						uniq: ""
 					}
 				}
@@ -28,7 +28,7 @@
 					stat_soul: {
 						rar: "rare"
 						slot: "chest"
-						tier: 0
+						tier: 1
 						uniq: ""
 					}
 				}
@@ -43,7 +43,7 @@
 					stat_soul: {
 						rar: "rare"
 						slot: "pants"
-						tier: 0
+						tier: 1
 						uniq: ""
 					}
 				}
@@ -58,7 +58,7 @@
 					stat_soul: {
 						rar: "rare"
 						slot: "boots"
-						tier: 0
+						tier: 1
 						uniq: ""
 					}
 				}

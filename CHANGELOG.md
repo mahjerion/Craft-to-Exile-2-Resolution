@@ -12,9 +12,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - XX Productive Bees has been made less effective when using the Create mixer - an oversight on my part.
 - Disabled Coffee for now. It's too good.
 - XX Updated Epic Fight quest to explain armor weight penalties.
+- XX Updated the party quest to explain how to turn off friendly fire.
 
 ### Mod Updates
-- Updated Chat Heads, Farmer's Delight, Architectuary, Xaero's, Storage Drawers, Immersive Engineering, Polymorph.
+- Updated Chat Heads, Farmer's Delight, Architectuary, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests.
+
+### Fixes
+- Fixed an issue where some tier 1 rewards were actually tier 0 rewards in Act I.
 
 ## [0.2.4] - 2021-12-17
 
