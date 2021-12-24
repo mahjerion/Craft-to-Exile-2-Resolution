@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - XX Updated the party quest to explain how to turn off friendly fire.
 
 ### Mod Updates
-- Updated Chat Heads, Farmer's Delight, Architectuary, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests.
+- Updated Chat Heads, Farmer's Delight, Architectuary, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr.
 
 ### Fixes
 - Fixed an issue where some tier 1 rewards were actually tier 0 rewards in Act I.
