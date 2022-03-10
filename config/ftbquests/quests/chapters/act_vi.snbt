@@ -8,5 +8,876 @@
 	subtitle: ["Lv. 51-60"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	images: [
+		{
+			x: 6.5d
+			y: -12.0d
+			width: 8.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "souls_cte_additions:textures/6.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "souls_cte_additions:textures/1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "souls_cte_additions:textures/2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "souls_cte_additions:textures/3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.0d
+			y: -12.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "souls_cte_additions:textures/ur-ghast.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "souls_cte_additions:textures/7.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "souls_cte_additions:textures/5.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -11.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "souls_cte_additions:textures/4.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Enter the mysterious magical woodlands; the Twilight Forest."
+			description: [
+				"Before you even explore the Twilight Forest, you need to get there. This is the first step in exploring a magical world."
+				""
+				"  "
+				"To make a portal to the Twilight Forest, make a 2x2 shallow pool (4 squares) of water in a grassy area, and surround it entirely with natural stuff (anything considered a \"plant\" or \"leaves\").  Then throw a diamond into the water pool, and witness something awesome."
+			]
+			id: "69AD137EC8B50D7B"
+			tasks: [{
+				id: "525058960DE9CAE3"
+				type: "dimension"
+				title: "Enter the Twilight"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:twilightforest"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			subtitle: "Craft a Magic Map Focus."
+			description: ["Craft the Magic Map Focus with a Raven Feather, Glowstone Dust, and Torchberries."]
+			id: "0CD19DCDCE29A1FD"
+			tasks: [{
+				id: "57AB8AFB652F52D7"
+				type: "advancement"
+				advancement: "twilightforest:magic_map_focus"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			subtitle: "Craft the Magic Map."
+			id: "3757579453B5F858"
+			tasks: [{
+				id: "6C0D53F7320B963B"
+				type: "advancement"
+				advancement: "twilightforest:magic_map"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			subtitle: "Eat ALL of the Food exclusive to the Twilight Forest."
+			description: ["Eat Raw or Cooked Venison, Raw or Cooked Meef, Experiment 115, Hydra Chop, Maze Wafer and Meef Stroganoff."]
+			id: "21B12686AB88200B"
+			tasks: [{
+				id: "416A6E8C14BFABB2"
+				type: "advancement"
+				advancement: "twilightforest:twilight_dinner"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			subtitle: "Defeat a spider in a Hedge Maze."
+			description: ["Slay a Hedge Spider or a Swarm Spider while in a Hedge Maze."]
+			id: "2D3C82FCFF8C1E1D"
+			tasks: [{
+				id: "5C5DE9BA9F3EC436"
+				type: "advancement"
+				advancement: "twilightforest:hedge"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "Slay a creature (passive, hostile, boss)"
+			description: ["Hunt some of the local wildlife."]
+			id: "547B58617E6D2000"
+			tasks: [{
+				id: "4956D62EAB9E9130"
+				type: "advancement"
+				advancement: "twilightforest:twilight_hunter"
+				criterion: ""
+			}]
+		}
+		{
+			title: "[Challenge] Consummate Baaahs"
+			x: -6.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "Give the Questing Ram what it is missing."
+			id: "353159B843DF570B"
+			tasks: [{
+				id: "55EE68B84135EE9E"
+				type: "advancement"
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Slay the Naga and obtain a Naga Scale"
+			description: ["Slay the Naga in its forest courtyard and obtain a Naga Scale to overcome the barrier magic surrounding the Lich's tower."]
+			id: "18B8BE4AF3A11CC9"
+			tasks: [{
+				id: "7DEEED32E083D988"
+				type: "advancement"
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Slay the Twilight Litch!"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Slay the Lich and obtain one of the four Scepters"
+			description: ["Slay the Twilight Lich at top of his tower and retrieve a Scepter to clear poisonous mosquitoes from the Swamp, see through blinding darkness of the Dark Forest's curse, and resist the Snowy Forest's chill."]
+			hide_dependency_lines: true
+			dependencies: ["18B8BE4AF3A11CC9"]
+			dependency_requirement: "all_started"
+			id: "3A73BF3DC0BF117B"
+			tasks: [{
+				id: "5ADFEDB6CE1CF349"
+				type: "advancement"
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			subtitle: "Craft both Naga Scale chest and leg armor."
+			description: ["Slay the Naga then craft Naga Scale Tunic and Naga Scale Leggings."]
+			hide_dependency_lines: true
+			dependencies: ["18B8BE4AF3A11CC9"]
+			id: "16BACDDC4F5AFF33"
+			tasks: [
+				{
+					id: "1D97BDB70FDFA5A4"
+					type: "advancement"
+					advancement: "twilightforest:naga_armors"
+					criterion: ""
+				}
+				{
+					id: "098749E4C2F2038F"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "6D37DC9BE3109F54"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			subtitle: "Craft a Maze Map."
+			description: ["Craft the Maze Map after obtaining the focus from the labyrinth."]
+			id: "3033B62832845C86"
+			tasks: [{
+				id: "529A81182ABE78AF"
+				type: "advancement"
+				advancement: "twilightforest:maze_map"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			subtitle: "Craft the Maze/Ore map"
+			id: "1054B9A1845F03D5"
+			tasks: [{
+				id: "3C11427E0F4EF994"
+				type: "advancement"
+				advancement: "twilightforest:ore_map"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			subtitle: "Successfully unlock the Goblin Knight Stronghold"
+			description: ["Claim your title by placing a trophy on the pedestal in the dark forest ruins."]
+			hide_dependency_lines: true
+			dependencies: ["3A73BF3DC0BF117B"]
+			id: "6EF77F08CBDFE110"
+			tasks: [{
+				id: "7E49573C4C45B934"
+				type: "advancement"
+				advancement: "twilightforest:progress_trophy_pedestal"
+				criterion: ""
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			subtitle: "Slay at least one Knight Phantom"
+			description: ["Settle the restless phantoms in the Knight's Tomb and the carminite tower's devices will obey you."]
+			hide_dependency_lines: true
+			dependencies: ["6EF77F08CBDFE110"]
+			id: "6C58D6573DEAA3DC"
+			tasks: [{
+				id: "4986B07870B69434"
+				type: "advancement"
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			subtitle: "Slay the Alpha Yeti and obtain Alpha Yeti Fur"
+			description: ["Line your garments with the soft fur from the Alpha Yeti, keeping you safe from the Glacier's cold."]
+			hide_dependency_lines: true
+			dependencies: ["3A73BF3DC0BF117B"]
+			id: "28322C86DB407DFF"
+			tasks: [{
+				id: "25075E69D4443010"
+				type: "advancement"
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			subtitle: "Defeat the Snow Queen atop the Aurora Palace."
+			description: ["Slay the Snow Queen and obtain the Snow Queen Trophy"]
+			hide_dependency_lines: true
+			dependencies: ["28322C86DB407DFF"]
+			id: "66D4849CDD714711"
+			tasks: [{
+				id: "3A4D40247131189E"
+				type: "advancement"
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			subtitle: "Slay the Minoshroom and eat some Meef Stroganoff"
+			description: ["The meat and mushroom stew pleasantly warms you, enough so you feel you're acclimatised enough to venture into the Fire Swamp."]
+			hide_dependency_lines: true
+			dependencies: ["3A73BF3DC0BF117B"]
+			id: "302BB9F8928A38D8"
+			tasks: [{
+				id: "3B61713B699E825C"
+				type: "advancement"
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Slay the Hydra!"
+			x: 6.5d
+			y: -9.5d
+			subtitle: "Slay the Hydra and obtain Fiery Blood"
+			description: ["Defeat the mighty Hydra and empower yourself."]
+			id: "72A16597840C2935"
+			tasks: [{
+				id: "2355BFDD3D415CD6"
+				type: "advancement"
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			subtitle: "Obtain a Mazebreaker."
+			description: ["Find the Mazebreaker pickaxe in the secret labyrinth vault."]
+			id: "569C541BD41DB644"
+			tasks: [{
+				id: "70907701C3E2456C"
+				type: "advancement"
+				advancement: "twilightforest:mazebreaker"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: -9.5d
+			subtitle: "Use a Ghast Trap"
+			description: ["Slay the Ghastlings around a Ghast Trap and activate to wrench the Ur-Ghast from the sky!"]
+			id: "19690F093638E2F3"
+			tasks: [{
+				id: "584ECADE2C4F713B"
+				type: "advancement"
+				advancement: "twilightforest:ghast_trap"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: -10.5d
+			subtitle: "Touch the fiery red tears of the Ur-Ghast."
+			description: ["Slay the Ur-Ghast and obtain Fiery Tears"]
+			id: "234BEEA241EAA1F2"
+			tasks: [{
+				id: "3D55248BF435E122"
+				type: "advancement"
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.5d
+			subtitle: "Chow down on some overpowered hydra meat when your food bar is empty."
+			description: ["Eat a Hydra Chop while hunger is down to 0"]
+			id: "3F159F38FCCA943C"
+			tasks: [{
+				id: "19D60EE0BA466370"
+				type: "advancement"
+				advancement: "twilightforest:hydra_chop"
+				criterion: ""
+			}]
+		}
+		{
+			title: "[Challenge] By our powers combined!"
+			x: -6.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Acquire all four scepters of power."
+			description: ["Obtain a Scepter of Twilight, Scepter of Life Draining, Zombie Scepter, and Scepter of Fortification."]
+			id: "47DE48D8BA99E142"
+			tasks: [{
+				id: "35B725D247AD7FE8"
+				type: "advancement"
+				advancement: "twilightforest:lich_scepters"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -15.5d
+			subtitle: "Slay a Hydra, Ur-Ghast and Snow Queen"
+			description: ["Slay the Hydra, Ur-Ghast, and Snow Queen to clear the acid rain and embolden yourself for the Highlands."]
+			hide_dependency_lines: true
+			dependencies: [
+				"72A16597840C2935"
+				"66D4849CDD714711"
+				"234BEEA241EAA1F2"
+			]
+			id: "16D8696C47EDC7F0"
+			tasks: [{
+				id: "1229C32BE2E59087"
+				type: "advancement"
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -16.5d
+			subtitle: "Slay a troll and obtain their beans!"
+			description: ["In the highlands, there are caves that contain trolls, find one and \"negotiate\" for some beans!"]
+			id: "03FA4B54BE1B5A6E"
+			tasks: [{
+				id: "19D59AAD81FC8586"
+				type: "advancement"
+				advancement: "twilightforest:troll"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -17.5d
+			subtitle: "Plant and climb a beanstalk"
+			description: ["After \"trading\" for beans from the highland trolls, plant them in the glowing soil below a large cloud!"]
+			id: "08A8BA03B324B14A"
+			tasks: [{
+				id: "2A5E3D266EC3C227"
+				type: "advancement"
+				advancement: "twilightforest:beanstalk"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -18.5d
+			subtitle: "Slay a giant, obtain a giant's pickaxe"
+			description: [
+				"In the clouds rests giants, waiting for you. Obtain a giant's pickaxe and return to the troll caves."
+				"The giant's obsidian vault awaits you."
+			]
+			id: "407D98588AB8AD7E"
+			tasks: [{
+				id: "5D693FBB331A3F8F"
+				type: "advancement"
+				advancement: "twilightforest:giants"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -19.5d
+			subtitle: "Obtain a Lamp of Cinders"
+			description: ["Find the Lamp of Cinders in the troll caves, and you can burn away the thorn barriers."]
+			id: "3A796783C3CE581E"
+			tasks: [{
+				id: "025FF57040D601F8"
+				type: "advancement"
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+			}]
+		}
+		{
+			title: "WIP - Not sure if obtainable legitimately"
+			x: -1.0d
+			y: -21.0d
+			shape: "gear"
+			subtitle: "WIP - Not sure if obtainable legitimately"
+			description: ["The wiki says no, my memory says yes. Idk."]
+			id: "256D9137DC37B0F4"
+			tasks: [{
+				id: "13DB57B90E38EE95"
+				type: "advancement"
+				advancement: "twilightforest:progress_thorns"
+				criterion: ""
+			}]
+		}
+		{
+			title: "WIP - Not sure if obtainable legitimately"
+			x: 1.0d
+			y: -21.0d
+			shape: "gear"
+			subtitle: "WIP - Not sure if obtainable legitimately"
+			description: ["The wiki says no, my memory says yes. Idk."]
+			id: "6C4C29F170615845"
+			tasks: [{
+				id: "00F3F1723DE08C69"
+				type: "advancement"
+				advancement: "twilightforest:progress_castle"
+				criterion: ""
+			}]
+		}
+		{
+			title: "All fired up!"
+			x: 7.5d
+			y: -9.5d
+			subtitle: "Wield a fiery tool or weapon while wearing at least one piece of fiery armor."
+			description: [
+				"To complete the advancement, craft a Fiery Sword or Fiery Pickaxe while wearing any piece of Fiery Armor."
+				" "
+				"But to fully complete the task, all pieces of armor are to be made."
+			]
+			id: "45A4AB570344BDD9"
+			tasks: [
+				{
+					id: "7422F1BCD9789DFE"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "205EEE7D8B63AEB9"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "131B163DB721D35C"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BB64EA8482155F0"
+					type: "advancement"
+					advancement: "twilightforest:fiery_set"
+					criterion: ""
+				}
+				{
+					id: "6BB9985C63AA92B3"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			subtitle: "Defeat a Redcap Goblin in a small Hollow Hill."
+			description: ["Slay a Redcap Goblin while in a small Hollow Hill."]
+			id: "6F4934C37571D8BE"
+			tasks: [{
+				id: "065824C01D649B41"
+				type: "advancement"
+				advancement: "twilightforest:hill1"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			subtitle: "Defeat a Redcap Sapper in a medium Hollow Hill."
+			description: ["Slay a Redcap Sapper while in a medium Hollow Hill."]
+			id: "1B8AE9C49C5C5E3B"
+			tasks: [{
+				id: "24DC7F582DDF3FB0"
+				type: "advancement"
+				advancement: "twilightforest:hill2"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Defeat a Twilight Wraith in a large Hollow Hill."
+			description: ["Slay a Twilight Wraith while in a large Hollow Hill."]
+			id: "2C708BBD5B5A9D09"
+			tasks: [{
+				id: "39C9805016CFAFE9"
+				type: "advancement"
+				advancement: "twilightforest:hill3"
+				criterion: ""
+			}]
+		}
+		{
+			title: "[Challenge] Eat and Bake!"
+			x: -7.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "Make some progress with experiment 115!"
+			description: ["Have a full block of Experiment 115 with Redstone sprinkles then eat 115 pieces of Experiment 115."]
+			id: "722B7B4579622837"
+			tasks: [
+				{
+					id: "1F5F5CE7755F3971"
+					type: "advancement"
+					advancement: "twilightforest:experiment_115_115"
+					criterion: ""
+				}
+				{
+					id: "5502DF70090FF6DC"
+					type: "advancement"
+					advancement: "twilightforest:experiment_115"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "Ice Arsenal"
+			x: 0.0d
+			y: -11.0d
+			subtitle: "Dude, chill out..."
+			description: [
+				"The items above can be found in the Ice Queen's tower. Multiple towers may need to be explored to complete this task."
+				""
+				"Ice bombs can also be found when facing any type of yeti."
+			]
+			id: "0F41E6A567683DF4"
+			tasks: [
+				{
+					id: "500DDEBA116812E3"
+					type: "item"
+					item: {
+						id: "twilightforest:ice_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39776C5867AA542F"
+					type: "item"
+					item: {
+						id: "twilightforest:ice_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7DF074AD80724FE5"
+					type: "item"
+					item: "twilightforest:ice_bomb"
+				}
+			]
+		}
+		{
+			title: "[Challenge] One hit wonder"
+			x: -5.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "Hope you made good use of that."
+			description: ["Use and break a Glass Sword (Rewarded a Glass Sword on completion)"]
+			id: "0C0873C5F13DF202"
+			tasks: [{
+				id: "525E11FB471596B3"
+				type: "advancement"
+				advancement: "twilightforest:break_glass_sword"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Dethrone the kobolds!"
+			x: -7.0d
+			y: 2.0d
+			shape: "square"
+			subtitle: "Those wanna-be bosses."
+			description: [
+				"A bit of an inside joke with the 115 team, they made one of the Kobolds a placeholder boss for the final tower, literally naming it: \"the final boss\""
+				"  "
+				"Cut them down before they even have the chance to sit atop the castle!"
+			]
+			id: "036B7304FD5118D8"
+			tasks: [{
+				id: "7755695CD3D2E96C"
+				type: "kill"
+				title: "Slay the bastards..."
+				entity: "twilightforest:kobold"
+				value: 1000L
+			}]
+		}
+		{
+			title: "Nice and warm."
+			x: -1.5d
+			y: -6.0d
+			subtitle: "Craft a full set of yeti gear."
+			description: ["This armor is very helpful when fighting the Ice Queen, which is your next fight!"]
+			id: "4441ABBCBD4938E8"
+			tasks: [
+				{
+					id: "0DB5E913765029D9"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "60F9486F3E729118"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "586AC1FA7726ECB2"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "370DFAF417B2956C"
+					type: "item"
+					item: {
+						id: "twilightforest:yeti_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "minecraft:protection"
+								}
+								{
+									lvl: 4s
+									id: "minecraft:feather_falling"
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Ingots of true metal"
+			x: -6.0d
+			y: 2.0d
+			shape: "square"
+			subtitle: "Find some of every kind of the Twilight metals!"
+			description: ["Used to make strong gear! Stock up while you can."]
+			id: "3CEB8093D0228C32"
+			tasks: [
+				{
+					id: "7CA00D36EADE7F78"
+					type: "item"
+					item: "twilightforest:fiery_ingot"
+					count: 64L
+				}
+				{
+					id: "2B1B58909B168366"
+					type: "item"
+					item: "twilightforest:ironwood_ingot"
+					count: 64L
+				}
+				{
+					id: "35CBF40CEEA4ABA9"
+					type: "item"
+					item: "twilightforest:steeleaf_ingot"
+					count: 64L
+				}
+				{
+					id: "3C8E5CF88F280DB2"
+					type: "item"
+					item: "twilightforest:knightmetal_ingot"
+					count: 64L
+				}
+			]
+		}
+	]
 }
