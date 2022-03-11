@@ -13,12 +13,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disabled Coffee for now. It's too good.
 - XX Updated Epic Fight quest to explain armor weight penalties.
 - XX Updated the party quest to explain how to turn off friendly fire.
+- Bandit spawn rates have changed a bit in Atum.
+- Some dungeons (Dungeon Crawl) are a bit easier now.
+- Performance improvements regarding entity culling!
 
 ### Mod Updates
-- Updated Chat Heads, Farmer's Delight, Architectuary, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr.
+- Updated Chat Heads, Farmer's Delight, Architectuary, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr, Better Animals Plus, Cloth Config API, Collective, Create, Drippy Loading Screen, Enhanced Celestials, Entity Culling, Environmental, FancyMenu, GeckoLib, JEI, Konkrete, Minecolonies, Mowzie's Mobs, Simple Magnets, Sophisticated Backpacks, Structurize, SuperMartijn642 Corelib, Twilight Forest, Valhesia Core.
 
 ### Fixes
 - Fixed an issue where some tier 1 rewards were actually tier 0 rewards in Act I.
+- Blood moon compat with Create has been fixed.
+- Environmental crash has been resolved.
+- An item dupe issue with Storage Drawers has been fixed.
+- Some Lootr bugs have been resolved!
+- Entity stutter (visually) has been reduced.
+- Some Productive Bees crashes have been resolved regarding expansion boxes and honey fluid (2 separate crashes).
 
 ## [0.2.4] - 2021-12-17
 
