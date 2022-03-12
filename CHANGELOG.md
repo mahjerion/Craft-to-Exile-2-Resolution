@@ -18,7 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Performance improvements regarding entity culling!
 
 ### Mod Updates
-- Updated Chat Heads, Farmer's Delight, Architectury, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr, Better Animals Plus, Cloth Config API, Collective, Create, Drippy Loading Screen, Enhanced Celestials, Entity Culling, Environmental, FancyMenu, GeckoLib, JEI, Konkrete, MineColonies, Mowzie's Mobs, Simple Magnets, Sophisticated Backpacks, Structurize, SuperMartijn642 Corelib, Twilight Forest, Valhesia Core, AppleSkin, Aquaculture 2, Clumps, Dynamic Trees, Kotlin for Forge, 
+- Updated Chat Heads, Farmer's Delight, Architectury, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr, Better Animals Plus, Cloth Config API, Collective, Create, Drippy Loading Screen, Enhanced Celestials, Entity Culling, Environmental, FancyMenu, GeckoLib, JEI, Konkrete, MineColonies, Mowzie's Mobs, Simple Magnets, Sophisticated Backpacks, Structurize, SuperMartijn642 Corelib, Twilight Forest, Valhesia Core, AppleSkin, Aquaculture 2, Clumps, Dynamic Trees, Kotlin for Forge, ReAuth, Serene Seasons, Simple Storage Network.
+- Updated Forge version to 36.2.30.
 
 ### Fixes
 - Fixed an issue where some tier 1 rewards were actually tier 0 rewards in Act I.
