@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:sugar"},
+    {"item": "minecraft:lime_dye"},
+    {"item": "minecraft:sugar"},
+    {"item": "minecraft:lime_dye"},
+    {"item": "minecraft:sugar"},
+    {"item": "minecraft:lime_dye"}
+  ],
+  "result": {
+    "item": "cspirit:food_dye_green",
+    "count": 3
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

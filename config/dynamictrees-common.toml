@@ -24,3 +24,8 @@
 	#If enabled, fruit production rates will be multiplied based on the current season (requires serene seasons).
 	enableSeasonalFruitProductionFactor = true
 
+#Miscellaneous Settings
+[misc]
+	#If enabled, dirt bucket recipes will be automatically generated.
+	generateDirtBucketRecipes = true
+

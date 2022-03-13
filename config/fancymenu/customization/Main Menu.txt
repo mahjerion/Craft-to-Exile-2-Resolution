@@ -102,7 +102,7 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/images/title-christmas.png
+  path = config/fancymenu/images/title.png
   orientation = mid-centered
   x = -220
   width = 443

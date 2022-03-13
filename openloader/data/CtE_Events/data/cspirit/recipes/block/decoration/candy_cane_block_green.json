@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "CC",
+    "CC"
+  ],
+  "key":
+  {
+    "C":
+    {
+      "item": "cspirit:peppermint_candy_green"
+    }
+  },
+  "result":
+  {
+    "item": "cspirit:candy_cane_block_green",
+    "count": 4
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

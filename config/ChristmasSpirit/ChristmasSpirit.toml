@@ -3,7 +3,7 @@
 	#Freeze World
 	#(Only needed on servers)
 	#Causes all biomes to snow. (excluding oceans)
-	freezeWorld = true
+	freezeWorld = false
 	#Freeze Oceans
 	#(Only needed on servers)
 	#Causes all oceans to freeze as well.

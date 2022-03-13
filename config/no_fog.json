@@ -1,0 +1,13 @@
+{
+  "globalToggles": {
+    "skyFog": "DEFAULT",
+    "terrainFog": "DEFAULT",
+    "thickFog": "DEFAULT",
+    "waterFog": "DEFAULT",
+    "lavaFog": "DEFAULT",
+    "powderSnowFog": "DEFAULT",
+    "blindnessFog": "DEFAULT"
+  },
+  "dimensionToggles": {},
+  "biomeToggles": {}
+}

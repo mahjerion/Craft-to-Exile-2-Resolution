@@ -1,4 +1,4 @@
-#Enables logging the too large packets causing disconnects. , default = true
+#Enables logging too large packets causing disconnects. , default = true
 displayTooLargePackets = true
 
 ["Load balancing settings"]
@@ -80,6 +80,8 @@ displayTooLargePackets = true
 	excludedRenderHidingMobs = []
 	#Should entities with glowing effect always be rendered?. default = true
 	alwaysglow = true
+	#List of entities excluded from multithreaded movement. format :  ["minecraft:zombie", "minecraft:creeper"]
+	excludedThreadedMovement = []
 
 ["Entity AI Settings"]
 	#Sets the tick interval in which non-running AI tasks are rechecked. Vanilla default is 1(starting with 1.13+), this mods suggested default is 4(as it was in vanilla 1.12)
@@ -118,16 +120,16 @@ displayTooLargePackets = true
 ["Utility settings, debugging and other"]
 	#List of mobs disallowed from spawning: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
 	forbiddenMobs = []
-	#Set the max login timeout during connection in ticks. 20 ticks = 1 sec, default = 120 seconds
+	#Set the disconnect timeout while loggging in, in ticks. 20 ticks = 1 sec, default = 120 seconds
 	#Range: 600 ~ 20000
 	logintimeout = 2400
-	#Set the watchdog timeout for the integrated server in miliseconds, -1 Disables it. 1 second = 1000 miliseconds, default = 180000
+	#Set the watchdog timeout for the integrated server in miliseconds, -1 Disables it. 1 second = 1000 miliseconds, default = 180000(3 minutes)
 	#Range: -1 ~ 500000
 	singlePlayerWatchDogTimeout = 180000
 	#Set the amount of items at which too many stacked items report their position. Default = 100 items
 	#Range: 2 ~ 1000
 	maxItems = 100
-	#Set the ingame disconnect timeout for disconnecting players. Default = 60sec
+	#Set the disconnect timeout while playing. Default = 60sec
 	#Range: 15 ~ 400
 	disconnectTimeout = 60
 	#Set the maximum allowed amount of same sounds playing at the same time. Lowers e.g. lag of flowing water and other cases where a sound is repeated a lot at once. Default = 10
@@ -137,6 +139,6 @@ displayTooLargePackets = true
 	disableConfigReload = false
 	#Enable printing of world/chunk saves for debugging purposes, those normally happen every 5minutes. default = false
 	printWorldSaves = false
-	#Enable various debugging error logs, like chunkloading etc. , default = false
+	#Enable additional debug logging, default = false
 	debugOptionsEnabled = false
 

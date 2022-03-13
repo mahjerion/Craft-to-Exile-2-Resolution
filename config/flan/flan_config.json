@@ -1,12 +1,16 @@
 {
   "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
-  "configVersion": 3,
+  "configVersion": 4,
+  "lang": "en_us",
   "startingBlocks": 512,
   "maxClaimBlocks": 10240,
   "ticksForNextBlock": 600,
   "minClaimsize": 64,
   "defaultClaimDepth": 10,
   "maxClaims": 3,
+  "defaultClaimName": "",
+  "defaultEnterMessage": "",
+  "defaultLeaveMessage": "",
   "blacklistedWorlds": [
     "minecraft:overworld"
   ],
@@ -15,8 +19,14 @@
   "inspectionItem": "minecraft:stick",
   "claimDisplayTime": 1000,
   "permissionLevel": 2,
-  "sellPrice": -1,
-  "buyPrice": -1,
+  "buySellHandler": {
+    "buyType": "MONEY",
+    "sellType": "MONEY",
+    "buyValue": -1.0,
+    "sellValue": -1.0,
+    "ingredient": []
+  },
+  "maxBuyBlocks": -1,
   "lenientBlockEntityCheck": false,
   "breakBlockBlacklist": [
     "universal_graves:grave"
@@ -36,6 +46,11 @@
   "entityTagIgnore": [
     "graves.marker"
   ],
+  "customItemPermission": [
+    "appliedenergistics2:nether_quartz_wrench-INTERACTBLOCK",
+    "appliedenergistics2:certus_quartz_wrench-INTERACTBLOCK"
+  ],
+  "customBlockPermission": [],
   "dropTicks": 6000,
   "inactivityTimeDays": 30,
   "inactivityBlocksMax": 2048,

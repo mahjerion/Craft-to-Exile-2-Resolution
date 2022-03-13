@@ -2,13 +2,16 @@
 #Range: 1 ~ 20
 leafSize = 4
 #modifies how long it takes for the leaves to disappear
-#Range: 100 ~ 2000
+#Values over 2000 are not recommend
+#Range: > 100
 leafLifespan = 200
 #modifies the amount of leaves that are spawning
-#Range: 0 ~ 10000
+#Values over 10000 are not recommend
+#Range: > 0
 leafSpawnRate = 10
 #modifier the amount of leaves are spawning from conifer trees
-#Range: 0 ~ 10000
+#Values over 10000 are not recommend
+#Range: > 0
 coniferLeafSpawnRate = 2
 #whether player placed blocks should also drop leaves
 dropFromPlayerPlacedBlocks = true

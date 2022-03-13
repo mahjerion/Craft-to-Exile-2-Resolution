@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:water_bucket"},
+    {"item": "cspirit:peppermint_leaf"},
+    {"item": "cspirit:food_dye_red"},
+    {"item": "minecraft:sugar"},
+    {"item": "minecraft:sugar"}
+  ],
+  "result": {
+    "item": "cspirit:peppermint_candy_mix",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

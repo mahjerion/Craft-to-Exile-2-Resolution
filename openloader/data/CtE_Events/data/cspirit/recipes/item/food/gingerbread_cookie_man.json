@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "cspirit:icing"},
+    {"item": "cspirit:gingerbread_sheet"},
+    {"item": "cspirit:cookie_cutter_man"}
+  ],
+  "result": {
+    "item": "cspirit:gingerbread_cookie_man",
+    "count": 1
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}
