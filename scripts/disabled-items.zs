@@ -3,7 +3,7 @@ import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 
 //Epic Fight
-mods.jei.JEI.hideItem(<item:epicfight:knuckle>);
+//mods.jei.JEI.hideItem(<item:epicfight:knuckle>);
 
 //Immersive Engineering
 mods.jei.JEI.hideItem(<item:immersiveengineering:gunpart_barrel>);

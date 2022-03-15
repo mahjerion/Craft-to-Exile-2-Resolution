@@ -6,7 +6,7 @@
 	render_death_stats = true
 	render_item_rarity_background = true
 	show_durability = true
-	render_mob_hp_gui = false
+	render_mob_hp_gui = true
 	only_render_mob_looked_at = false
 	render_floating_damage = true
 	#Range: 0.0 ~ 1.0

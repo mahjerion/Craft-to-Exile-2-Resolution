@@ -8,18 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Removed Epic Fight. Sob sob. I tried very hard to get this mod to work with Mine and Slash. I tried to refactor some code just to get the two systems to work, but the more I worked on it the more I realized how much time it would take. I decided it's not really worth the time to get the systems to work and have removed Epic Fight for now. I may revisit this in the future or look for alternative combat systems I know some exist out there)!
 - Updated recommended item levels for dungeons.
 - XX Productive Bees has been made less effective when using the Create mixer - an oversight on my part.
 - Disabled Coffee for now. It's too good.
-- XX Updated Epic Fight quest to explain armor weight penalties.
-- XX Updated the party quest to explain how to turn off friendly fire.
 - Bandit spawn rates have changed a bit in Atum.
 - Some dungeons (Dungeon Crawl) are a bit easier now.
 - Performance improvements regarding entity culling!
+- Turned off the holiday assets/event. You can no longer get the holiday items.
 
 ### Mod Updates
-- Updated Chat Heads, Farmer's Delight, Architectury, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr, Better Animals Plus, Cloth Config API, Collective, Create, Drippy Loading Screen, Enhanced Celestials, Entity Culling, Environmental, FancyMenu, GeckoLib, JEI, Konkrete, MineColonies, Mowzie's Mobs, Simple Magnets, Sophisticated Backpacks, Structurize, SuperMartijn642 Corelib, Twilight Forest, Valhesia Core, AppleSkin, Aquaculture 2, Clumps, Dynamic Trees, Kotlin for Forge, ReAuth, Serene Seasons, Simple Storage Network.
 - Updated Forge version to 36.2.30.
+- Updated Chat Heads, Farmer's Delight, Architectury, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr, Better Animals Plus, Cloth Config API, Collective, Create, Drippy Loading Screen, Enhanced Celestials, Entity Culling, Environmental, FancyMenu, GeckoLib, JEI, Konkrete, MineColonies, Mowzie's Mobs, Simple Magnets, Sophisticated Backpacks, Structurize, SuperMartijn642 Corelib, Twilight Forest, Valhesia Core, AppleSkin, Aquaculture 2, Clumps, Dynamic Trees, Kotlin for Forge, ReAuth, Serene Seasons, Simple Storage Network.
+- Removed Epic Fight.
 
 ### Fixes
 - Fixed an issue where some tier 1 rewards were actually tier 0 rewards in Act I.
@@ -30,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Entity stutter (visually) has been reduced.
 - Some Productive Bees crashes have been resolved regarding expansion boxes and honey fluid (2 separate crashes).
 - Aquaculture 2 rare crash has been resolved.
+- Mob health bars with level and affixes properly render above them now.
 
 ## [0.2.4] - 2021-12-17
 
