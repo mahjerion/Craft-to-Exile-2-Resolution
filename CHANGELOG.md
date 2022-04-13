@@ -8,7 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
-- Removed Epic Fight. Sob sob. I tried very hard to get this mod to work with Mine and Slash. I tried to refactor some code just to get the two systems to work, but the more I worked on it the more I realized how much time it would take. I decided it's not really worth the time to get the systems to work and have removed Epic Fight for now. I may revisit this in the future or look for alternative combat systems I know some exist out there)!
+- Removed Epic Fight. Sob sob. I tried very hard to get this mod to work with Mine and Slash. I tried to refactor some code just to get the two systems to work, but the more I worked on it the more I realized how much time it would take. I decided it's not really worth the time to get the systems to work and have removed Epic Fight for now. I may revisit this in the future or look for alternative combat systems - I know some exist out there)!
+- Explore the new Feywild biomes, meet the fae, and trade with dwarves thanks to Feywild!
+- Check out the new ocean content - merfolk, villages, you name it!
+- Scattered across the Overworld are new goblins and new dungeon structures thanks to Goblins & Dungeons and Dungeons Enhanced!
 - Updated recommended item levels for dungeons.
 - XX Productive Bees has been made less effective when using the Create mixer - an oversight on my part.
 - Disabled Coffee for now. It's too good.
@@ -18,8 +21,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Turned off the holiday assets/event. You can no longer get the holiday items.
 
 ### Mod Updates
-- Updated Forge version to 36.2.30.
-- Updated Chat Heads, Farmer's Delight, Architectury, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr, Better Animals Plus, Cloth Config API, Collective, Create, Drippy Loading Screen, Enhanced Celestials, Entity Culling, Environmental, FancyMenu, GeckoLib, JEI, Konkrete, MineColonies, Mowzie's Mobs, Simple Magnets, Sophisticated Backpacks, Structurize, SuperMartijn642 Corelib, Twilight Forest, Valhesia Core, AppleSkin, Aquaculture 2, Clumps, Dynamic Trees, Kotlin for Forge, ReAuth, Serene Seasons, Simple Storage Network, Tool Belt, Simple Shops.
+- Updated Forge version to 36.2.34.
+- Updated Chat Heads, Farmer's Delight, Architectury, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr, Better Animals Plus, Cloth Config API, Collective, Create, Drippy Loading Screen, Enhanced Celestials, Entity Culling, Environmental, FancyMenu, GeckoLib, JEI, Konkrete, MineColonies, Mowzie's Mobs, Simple Magnets, Sophisticated Backpacks, Structurize, SuperMartijn642 Corelib, Twilight Forest, Valhesia Core, AppleSkin, Aquaculture 2, Clumps, Dynamic Trees, Kotlin for Forge, ReAuth, Serene Seasons, Simple Storage Network, Tool Belt, Simple Shops, Attribute Fix, Better Third Person, Biomes O' Plenty, Bookshelf, Corpse Complex, Cosmetic Armor Reworked, Enchantment Descriptions, Endergetic, Game Stages, Tips, WAWLA.
+- Added Feywild.
+- Added Dungeons Enhanced.
+- Added Better Animations Collection.
+- Added NoCube's Sea Dwellers.
+- Added Better Advancements.
+- Added Not Enough Animations.
+- Added Goblins & Dungeons.
+- Added Visual Workbench.
 - Removed Epic Fight.
 
 ### Fixes
