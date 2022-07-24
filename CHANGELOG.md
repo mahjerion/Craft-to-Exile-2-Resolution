@@ -7,22 +7,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2022-XX-XX
+
 ### Updates
+- XX All quests have been added for release. That covers Acts I - V, and most of the technology/storage/homestead/etc. quests.
+- XX The talent tree has been reintroduced with a new mechanic! Notable passives fall under one of three categories: offense, defense, and utility. You may only have one of each type of notable passive!
+- XX Spells have been overhauled to follow a class-based system. You may only choose one class at a time. The classes are: Fighter, Elementalist, Hunter, Minstrel. More details can be found below under the Classes header. With this new class-based system, it makes it easier for me to introduce new classes and spells in the future.
 - Removed Epic Fight. Sob sob. I tried very hard to get this mod to work with Mine and Slash. I tried to refactor some code just to get the two systems to work, but the more I worked on it the more I realized how much time it would take. I decided it's not really worth the time to get the systems to work and have removed Epic Fight for now. I may revisit this in the future or look for alternative combat systems - I know some exist out there)!
 - Explore the new Feywild biomes, meet the fae, and trade with dwarves thanks to Feywild!
 - Check out the new ocean content - merfolk, villages, you name it!
 - Scattered across the Overworld are new goblins and new dungeon structures thanks to Goblins & Dungeons and Dungeons Enhanced!
 - Updated recommended item levels for dungeons.
-- XX Productive Bees has been made less effective when using the Create mixer - an oversight on my part.
 - Disabled Coffee for now. It's too good.
 - Bandit spawn rates have changed a bit in Atum.
 - Some dungeons (Dungeon Crawl) are a bit easier now.
+- XX Productive Bees has been made less effective when using the Create mixer - an oversight on my part.
 - Performance improvements regarding entity culling!
-- Turned off the holiday assets/event. You can no longer get the holiday items.
+- Various other performance improvements.
+
+### Classes
+Fighter: The fighter is a class that can fulfill two roles: damage or tank. Use martial skills such as Heavy Swing and Whirlwind to accrue short-lasting combo stacks. For each combo stack, your damage is increased! Alternatively, protect your allies using Taunt abilities, supporting Totems, or shouts to buff yourself and your allies.
+
+Elementalist: If you desire destructive power, then the elementalist is for you. Spew forth Fireballs and Meteors to annihilate your enemies, and strengthen your weapons or you blood with fiery energy. Fire spells apply stacks of Fiery Rage to yourself, further increasing spell damage. Alternatively, keep your enemies at bay with chilling spells such as Frost Nova and Ice Storm, or support your allies with frost-based healing spells and buffs. Frost spells apply stacks of Soothing Air to yourself and nearby allies, increasing health and mana regeneration.
+
+Hunter: Strike your prey at the opportune time as a hunter. Lay traps and stay mobile to outmaneuver your enemies, then strike with powerful skills such as Explosive Arrow, Piercing Arrow, and Arrow Storm. As a hunter, you can tip your arrows with poison or fire. Doing so converts your attacks and skills to that element.
+
+Minstrel: Support your allies with song as a minstrel. As a minstrel, your songs will change the tides of battle. Play music to heal, encourage, and buff your allies, or sing a song that will leave your foes stunned (in awe?) and unable to act. The minstrel's songs will work in a wide area and generally apply long-term effects to the targets.
 
 ### Mod Updates
-- Updated Forge version to 36.2.34.
-- Updated Chat Heads, Farmer's Delight, Architectury, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr, Better Animals Plus, Cloth Config API, Collective, Create, Drippy Loading Screen, Enhanced Celestials, Entity Culling, Environmental, FancyMenu, GeckoLib, JEI, Konkrete, MineColonies, Mowzie's Mobs, Simple Magnets, Sophisticated Backpacks, Structurize, SuperMartijn642 Corelib, Twilight Forest, Valhesia Core, AppleSkin, Aquaculture 2, Clumps, Dynamic Trees, Kotlin for Forge, ReAuth, Serene Seasons, Simple Storage Network, Tool Belt, Simple Shops, Attribute Fix, Better Third Person, Biomes O' Plenty, Bookshelf, Corpse Complex, Cosmetic Armor Reworked, Enchantment Descriptions, Endergetic, Game Stages, Tips, WAWLA.
+- Updated Forge version to 36.2.39.
+- Updated AI Improvements, Apotheosis, Architectury, Atum, Better Fps, Biomes O' Plenty, Cloth Config API, Collective, CraftTweaker, Curios API, Drippy Loading Screen, Dungeon Crawl, Dungeon's Enhanced, Enchantment Descriptions, Endergetic, Entity Culling, FancyMenu, Farming for Blockheads, Farmer's Delight, Feywild, GeckoLib, Global XP, Immersive Cooking, Immersive Engineering, Infernal Expansion, Jade, Konkrete, Login Protection, Lootr, Minecolonies, Mowzie's Mobs, NoCube's Sea Dwellers, Patchouli, Performant, Placebo, Productive Bees, ReAuth, Simple Magnets, Simple Storage Network, Sophisticated Backpacks, Storage Drawers, Structurize, SuperMartijn642's API mods, Tips, U Team Core, Xaero's.
+- Added Auudio.
+- Added Puzzles Lib.
 - Added Feywild.
 - Added Dungeons Enhanced.
 - Added Better Animations Collection.
@@ -32,8 +48,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Goblins & Dungeons.
 - Added Visual Workbench.
 - Removed Epic Fight.
+- Removed Blue Skies.
 
 ### Fixes
+- Some crashes with Meet Your Fight bosses should be resolved now.
 - Fixed an issue where some tier 1 rewards were actually tier 0 rewards in Act I.
 - Blood moon compat with Create has been fixed.
 - Environmental crash has been resolved.
@@ -43,6 +61,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Some Productive Bees crashes have been resolved regarding expansion boxes and honey fluid (2 separate crashes).
 - Aquaculture 2 rare crash has been resolved.
 - Mob health bars with level and affixes properly render above them now.
+
+## [0.2.5]
+
+### Mod Updates
+- Updated Chat Heads, Farmer's Delight, Architectury, Xaero's, Storage Drawers, Immersive Engineering, Polymorph, Performant, Productive Bees, CraftTweaker, FLAN, FTB Quests, Vein Mining, Lootr, Better Animals Plus, Cloth Config API, Collective, Create, Drippy Loading Screen, Enhanced Celestials, Entity Culling, Environmental, FancyMenu, GeckoLib, JEI, Konkrete, MineColonies, Mowzie's Mobs, Simple Magnets, Sophisticated Backpacks, Structurize, SuperMartijn642 Corelib, Twilight Forest, Valhesia Core, AppleSkin, Aquaculture 2, Clumps, Dynamic Trees, Kotlin for Forge, ReAuth, Serene Seasons, Simple Storage Network, Tool Belt, Simple Shops, Attribute Fix, Better Third Person, Biomes O' Plenty, Bookshelf, Corpse Complex, Cosmetic Armor Reworked, Enchantment Descriptions, Endergetic, Game Stages, Tips, WAWLA.
 
 ## [0.2.4] - 2021-12-17
 
