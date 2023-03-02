@@ -73,7 +73,7 @@
 		# Dimensions the dungeons should spawn in.
 		# Entries need to use the full dimension name ( eg. minecraft:overworld ) and have to be comma-separated.
 		#
-		"Dimension Whitelist" = "minecraft:overworld, overworldmirror:overworld, blue_skies:everdawn, blue_skies:everbright"
+		"Dimension Whitelist" = "overworldmirror:overworld"
 
 ["Dungeon Settings"]
 	#----------------------------------------------------------------------------------------------------+

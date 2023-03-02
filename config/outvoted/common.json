@@ -28,7 +28,7 @@
         "minecraft:badlands"
       ],
       "health": 20.0,
-      "stealEnchants": true,
+      "stealEnchants": false,
       "capEnchants": true,
       "maxEnchants": 5
     },

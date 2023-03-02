@@ -15,6 +15,9 @@
 	#The minimum forestness that non-forest-like biomes can have. 0 = is not at all a forest, 1 = may as well be a forest. Can be fractional.
 	#Range: 0.0 ~ 1.0
 	seedMinForestness = 0.0
+	#The rate at which seeds drop from leaves.
+	#Range: 0.0 ~ 64.0
+	leavesSeedDropRate = 1.0
 
 #Tree Settings
 [trees]
@@ -80,20 +83,17 @@
 	minRadiusForStrip = 6
 	#If enabled, stripping a branch will decrease its radius by one
 	enableStripRadiusReduction = true
-	#If enabled, an apple fruit can be bone mealed.
-	canBoneMealApple = false
 	#If enabled, dynamic sapling blocks will drop their seed when broken.
 	dynamicSaplingDrops = true
+	#Sets the default for whether or not fruit growing from dynamic trees can be bone-mealed. Note that this is a default; it can be overridden by the individual fruit.
+	canBoneMealFruit = false
+	#Sets the default for whether or not pods growing from dynamic trees can be bone-mealed. Note that this is a default; it can be overridden by the individual pod.
+	canBoneMealPods = true
 
 #World Generation Settings
 [world]
 	#Randomly generate podzol under select trees like spruce.
 	podzolGen = true
-
-#Miscellaneous Settings
-[misc]
-	#If enabled, dirt bucket recipes will be automatically generated.
-	generateDirtBucketRecipes = true
 
 #Debug Settings
 [debug]

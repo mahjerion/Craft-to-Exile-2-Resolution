@@ -36,9 +36,9 @@
 		["Load balancing settings"."Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e".g]
 
 			["Load balancing settings"."Event load balancing settings, events mostly cause lag during world/server/entity/player ticks,usually showing up in profilings under e".g." WorldTickEventPre/Post"]
-				#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tile entities on world ticks. default: false
+				#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tile entities on world ticks. default = false
 				eventLoadBalancing = false
-				#Mean tick time at which event load balancing takes effect, 1000 / mean tick time = TPS. default: 55
+				#Mean tick time at which event load balancing takes effect, 1000 / mean tick time = TPS. default = 55
 				#Range: 1 ~ 200
 				meanTickEvent = 60
 				#Enables debug log output for lagging event subscribers, default = false
@@ -69,7 +69,7 @@
 			multiEntities = true
 			#List of entities excluded from multithreaded movement. format :  ["minecraft:zombie", "minecraft:creeper"]
 			excludedThreadedMovement = []
-			#Disables block changes notifying all entity paths in the world, to possibly adjust their paths, disable with IE, incompat, default = true
+			#Disables block changes notifying all entity paths in the world, to possibly adjust their paths, disable with Immersive Engineering, incompat, default = true
 			disableNotifyOnBlockChange = true
 			#Slower updating of armor stands, default = true
 			slowArmorStands = true

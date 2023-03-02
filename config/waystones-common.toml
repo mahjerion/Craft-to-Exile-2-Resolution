@@ -11,12 +11,12 @@
 		#Set to true if waystones should be added to the generation of villages. Some villages may still spawn without a waystone.
 		spawnInVillages = true
 		#Ensures that pretty much every village will have a waystone, by spawning it as early as possible. In addition, this means waystones will generally be located in the center of the village.
-		forceSpawnInVillages = false
+		forceSpawnInVillages = true
 
 		[common.villagegen.worldgen]
 			#Approximate chunk distance between waystones generated freely in world generation. Set to 0 to disable generation.
 			#Range: > 0
-			worldGenFrequency = 25
+			worldGenFrequency = 0
 			#Set to 'DEFAULT' to only generate the normally textured waystones. Set to 'MOSSY' or 'SANDY' to generate all as that variant. Set to 'BIOME' to make the style depend on the biome it is generated in.
 			#Allowed Values: DEFAULT, MOSSY, SANDY, BIOME
 			worldGenStyle = "BIOME"

@@ -14,7 +14,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld, overworldmirror:overworld, blue_skies:everdawn, blue_skies:everbright"
+	valid_dimensions = "minecraft:overworld, overworldmirror:overworld"
 
 [leviathan]
 	#Percent chance of generating in an allowed chunk.
@@ -96,7 +96,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld, overworldmirror:overworld"
+	valid_dimensions = "overworldmirror:overworld"
 
 [soul_prison]
 	#The average distance between structures of this type, measured in chunks.
@@ -115,7 +115,7 @@
 ["quark compat"]
 	#Percent chance for monster boxes from Quark to generate in the buried dungeon
 	#Range: 0 ~ 100
-	bigger_dungeon_monster_box_chance = 35
+	bigger_dungeon_monster_box_chance = 0
 
 ["waystones compat"]
 	#Percent chance for a waystone from Waystones to generate on top of the tower

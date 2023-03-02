@@ -18,7 +18,7 @@
 		# Set this to false to prevent any Nether-related blocks from spawning in dungeons.
 		# This option may be useful for some modpack creators.
 		# Default: true
-		"Enable Nether Blocks in Dungeons" = true
+		"Enable Nether Blocks in Dungeons" = false
 
 	###########################################################################################################
 	## Spider Dungeon settings.

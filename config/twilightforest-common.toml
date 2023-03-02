@@ -1,7 +1,7 @@
 #Should TF Compatibility load? Turn off if TF's Compatibility is causing crashes or if not desired.
 doCompat = true
 #The dimension you can always travel to the Twilight Forest from, as well as the dimension you will return to. Defaults to the overworld. (domain:regname).
-originDimension = "minecraft:overworld"
+originDimension = "atum:atum"
 #Allow portals to the Twilight Forest to be made outside of the 'origin' dimension. May be considered an exploit.
 allowPortalsInOtherDimensions = false
 #Allow portals only for admins (Operators). This severely reduces the range in which the mod usually scans for valid portal conditions, and it scans near ops only.

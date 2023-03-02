@@ -52,12 +52,12 @@
 	[server.globalWaystones]
 		#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 		#Range: 0.0 ~ Infinity
-		globalWaystonesXpCostMultiplier = 1.0
+		globalWaystonesXpCostMultiplier = 0.0
 		#The multiplier applied to the cooldown when teleporting to a global waystone via inventory button or warp stone.
 		#Range: 0.0 ~ Infinity
 		globalWaystoneCooldownMultiplier = 1.0
 		#Set to false to allow non-creative players to make waystones globally activated for all players.
-		globalWaystoneRequiresCreative = false
+		globalWaystoneRequiresCreative = true
 
 	#These options apply to teleporting using the Warp Stone item.
 	[server.warpStone]

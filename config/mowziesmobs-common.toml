@@ -19,7 +19,7 @@
 
 	[tools_and_abilities.wrought_helm]
 		#Set to true for the Wrought Helm to have limited durability.
-		breakable = false
+		breakable = true
 
 		[tools_and_abilities.wrought_helm.armor_config]
 			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
@@ -31,7 +31,7 @@
 
 	[tools_and_abilities.axe_of_a_thousand_metals]
 		#Set to true for the Axe of a Thousand Metals to have limited durability.
-		breakable = false
+		breakable = true
 
 		[tools_and_abilities.axe_of_a_thousand_metals.tool_config]
 			#Tool attack damage
@@ -43,7 +43,7 @@
 
 	[tools_and_abilities.sol_visage]
 		#Set to true for the Sol Visage to have limited durability.
-		breakable = false
+		breakable = true
 
 		[tools_and_abilities.sol_visage.armor_config]
 			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
@@ -59,7 +59,7 @@
 		attack_multiplier = 1.0
 		#Set to true for the ice crystal to have limited durability.
 		#Prevents regeneration in inventory.
-		breakable = false
+		breakable = true
 		#Ice crystal durability
 		#Range: > 1
 		durability = 600
@@ -135,7 +135,7 @@
 		#Disable/enable frostmaws healing while asleep
 		heals_out_of_battle = true
 		#Allow players to steal frostmaws' ice crystals (only using specific means!)
-		stealable_ice_crystal = true
+		stealable_ice_crystal = false
 
 		[mobs.frostmaw.biome_config]
 			#Each entry is a combination of allowed biome types.
@@ -161,7 +161,7 @@
 			#Range: > -1
 			generation_separation = 8
 			#Names of dimensions this mob/structure can generate in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "overworldmirror:dimension"]
 			#Maximum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
 			height_max = 100.0
@@ -215,7 +215,7 @@
 			#Range: > -1
 			generation_separation = 8
 			#Names of dimensions this mob/structure can generate in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "overworldmirror:dimension"]
 			#Maximum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
 			height_max = 100.0
@@ -263,7 +263,7 @@
 			#Range: > -1
 			generation_separation = 5
 			#Names of dimensions this mob/structure can generate in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "overworldmirror:dimension"]
 			#Maximum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
 			height_max = 55.0
@@ -311,7 +311,7 @@
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "overworldmirror:dimension"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
@@ -369,7 +369,7 @@
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "overworldmirror:dimension"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
@@ -430,7 +430,7 @@
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "overworldmirror:dimension"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
@@ -488,7 +488,7 @@
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "overworldmirror:dimension"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
@@ -546,7 +546,7 @@
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "overworldmirror:dimension"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.

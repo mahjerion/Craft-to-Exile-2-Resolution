@@ -1,0 +1,5 @@
+
+[server]
+	#Commands that will never be run by the mod. This is to prevent abuse.
+	invalid_commands = ["/ban", "/ban-ip", "/deop", "/forceload", "/op", "/pardon", "/pardon-ip", "/save-off", "/setidletimeout", "/setworldspawn", "/stop", "/whitelist", "/flashnpcs"]
+

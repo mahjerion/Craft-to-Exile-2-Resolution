@@ -4,7 +4,7 @@
 	#Use a different color for every player
 	name_based = true
 	#Show seconds
-	show_seconds = true
+	show_seconds = false
 	#Show timestamp before text. (false: show after)
 	show_before = true
 	#24 hour or 12 hour format. (true: 24, false: 12)

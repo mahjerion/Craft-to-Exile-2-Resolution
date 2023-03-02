@@ -1,0 +1,32 @@
+
+[general]
+	#The weight of Ogres in vanilla's spawn rate. Default is 2
+	#Range: 1 ~ 300
+	"Ogre Spawn Weight" = 2
+	#The farthest two Large Goblin Camps can spawn from eachother. Keep this value higher than the min. Default is 100
+	#Range: 1 ~ 300
+	"Large Goblin Camp Max Distance" = 100
+	#The closest two Large Goblin Camps can spawn from eachother. Keep this value lower than the max. Default is 50
+	#Range: 1 ~ 300
+	"Large Goblin Camp Min Distance" = 50
+	#The farthest two Medium Goblin Camps can spawn from eachother. Keep this value higher than the min. Default is 100
+	#Range: 1 ~ 300
+	"Medium Goblin Camp Max Distance" = 100
+	#The closest two Medium Goblin Camps can spawn from eachother. Keep this value lower than the max. Default is 50
+	#Range: 1 ~ 300
+	"Medium Goblin Camp Min Distance" = 50
+	#The farthest two Small Goblin Camps can spawn from eachother. Keep this value higher than the min. Default is 100
+	#Range: 1 ~ 300
+	"Small Goblin Camp Max Distance" = 100
+	#The closest two Small Goblin Camps can spawn from eachother. Keep this value lower than the max. Default is 50
+	#Range: 1 ~ 300
+	"Small Goblin Camp Min Distance" = 50
+	#The farthest two Ruined Keeps can spawn from eachother. Keep this value higher than the min. Default is 100
+	#Range: 1 ~ 300
+	"Ruined Keep Max Distance" = 100
+	#The closest two Ruined Keeps can spawn from eachother. Keep this value lower than the max. Default is 50
+	#Range: 1 ~ 300
+	"Ruined Keep Min Distance" = 50
+	#Even I don't know what it does. Default is false
+	"Super Secret Settings" = false
+

@@ -20,4 +20,12 @@ store_until_previous_level = false
 #As such, setting this to 0 will disable adding XP to the block, and setting to -1 will make the XP Block ignore this setting.
 #Range: > -1
 storing_amount = -1
+#The percentage of XP that the XP Block will give back, as a sort of cost of using it.
+#Example: If this config value is set to 0.75, and an XP Block has 100 XP stored, attempting to retrieve these 100 XP will give back 75 XP.
+#Note: This will not be 100% accurate, as Minecraft's XP does not use decimals.
+#Range: 0.0 ~ 1.0
+retrieval_percentage = 1.0
+#Setting this to true will remove XP from the block in XP orb form. This is useful if you want to use XP from the block for tools enchanted with Mending.
+#These XP orbs will not be picked back up by the XP Block, if "pickupXP" is true.
+retrieve_xp_orbs = false
 

@@ -14,7 +14,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Desert Temple"]
 	#The average distance between structures of this type, measured in chunks.
@@ -31,7 +31,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Desert Tomb"]
 	#The average distance between structures of this type, measured in chunks.
@@ -48,7 +48,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Druid Circle"]
 	#The average distance between structures of this type, measured in chunks.
@@ -65,7 +65,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Dungeon Variant"]
 	#The average distance between structures of this type, measured in chunks.
@@ -82,7 +82,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = false
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Elders Temple"]
 	#The average distance between structures of this type, measured in chunks.
@@ -99,7 +99,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "overworldmirror:dimension"
 
 ["Fishing Ship"]
 	#The average distance between structures of this type, measured in chunks.
@@ -116,7 +116,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Flying Dutchman"]
 	#The average distance between structures of this type, measured in chunks.
@@ -133,7 +133,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Hay Storage"]
 	#The average distance between structures of this type, measured in chunks.
@@ -150,7 +150,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Ice Pit"]
 	#The average distance between structures of this type, measured in chunks.
@@ -167,7 +167,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Jungle Monument"]
 	#The average distance between structures of this type, measured in chunks.
@@ -184,7 +184,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Large Dungeon"]
 	#The average distance between structures of this type, measured in chunks.
@@ -201,7 +201,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "overworldmirror:dimension"
 
 ["Miners House"]
 	#The average distance between structures of this type, measured in chunks.
@@ -218,7 +218,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Monster Maze"]
 	#The average distance between structures of this type, measured in chunks.
@@ -235,7 +235,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "overworldmirror:dimension"
 
 ["Mushroom House"]
 	#The average distance between structures of this type, measured in chunks.
@@ -252,7 +252,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Pillager Camp"]
 	#The average distance between structures of this type, measured in chunks.
@@ -269,7 +269,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "overworldmirror:dimension"
 
 ["Pirate Ship"]
 	#The average distance between structures of this type, measured in chunks.
@@ -286,7 +286,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Ruined Building"]
 	#The average distance between structures of this type, measured in chunks.
@@ -303,7 +303,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Sunken Shrine"]
 	#The average distance between structures of this type, measured in chunks.
@@ -320,7 +320,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "overworldmirror:dimension"
 
 [Stables]
 	#The average distance between structures of this type, measured in chunks.
@@ -337,7 +337,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Tall Witch Hut"]
 	#The average distance between structures of this type, measured in chunks.
@@ -354,7 +354,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Tower of the Undead"]
 	#The average distance between structures of this type, measured in chunks.
@@ -371,7 +371,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "overworldmirror:dimension"
 
 ["Tree House"]
 	#The average distance between structures of this type, measured in chunks.
@@ -388,7 +388,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Watch Tower"]
 	#The average distance between structures of this type, measured in chunks.
@@ -405,7 +405,7 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "minecraft:overworld, overworldmirror:dimension"
 
 ["Witch Tower"]
 	#The average distance between structures of this type, measured in chunks.
@@ -422,5 +422,5 @@
 	#How the biomes list should be used. true = whitelist, false = blacklist.
 	is_whitelist = true
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	valid_dimensions = "overworldmirror:dimension"
 
