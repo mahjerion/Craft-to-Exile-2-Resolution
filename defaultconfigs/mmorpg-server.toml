@@ -22,7 +22,7 @@
 	#Range: 0.0 ~ 1000.0
 	regen_hunger_cost = 10.0
 	#Range: 0.0 ~ 1.0
-	death_exp_penalty = 0.25
+	death_exp_penalty = 0.0
 	#Range: 0.0 ~ 1000.0
 	exp_gain_multi = 1.0
 	#Range: 0.0 ~ 1000.0

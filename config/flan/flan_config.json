@@ -41,7 +41,8 @@
     "shop-activated"
   ],
   "ignoredEntities": [
-    "corpse:corpse"
+    "corpse:corpse",
+    "customnpcs:customnpc"
   ],
   "entityTagIgnore": [
     "graves.marker"
